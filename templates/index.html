@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Brief</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #f0f4f8;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #1a1a2e;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a6cbd, #0d3b6e);
+      color: white;
+      padding: 24px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 14px;
+      margin-top: 6px;
+      opacity: 0.8;
+    }
+
+    .outer {
+      max-width: 1200px;
+      margin: 32px auto;
+      padding: 0 16px;
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      background: white;
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      position: sticky;
+      top: 20px;
+    }
+
+    .sidebar .title {
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .sidebar p {
+      font-size: 14px;
+      color: #555;
+      line-height: 2;
+    }
+
+    .sidebar hr {
+      margin: 14px 0;
+      border: none;
+      border-top: 1px solid #eee;
+    }
+
+    .main { flex: 1; }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      transition: transform 0.2s;
+    }
+
+    .card:hover { transform: translateY(-3px); }
+
+    .card img {
+      width: 100%;
+      height: 500px;
+      object-fit: contain;
+      background: #f0f4f8;
+    }
+
+    .card-body { padding: 16px 20px 20px; }
+
+    .category-tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: #e8f0fe;
+      color: #1a6cbd;
+      margin-bottom: 10px;
+    }
+
+    .card-body h2 {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.6;
+      margin-bottom: 8px;
+      color: #1a1a2e;
+    }
+
+    .card-body p {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .read-more {
+      display: inline-block;
+      font-size: 13px;
+      color: white;
+      background: #1a6cbd;
+      padding: 7px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .read-more:hover { background: #0d3b6e; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Global Brief</h1>
+    <p>世界のいまを、3行で。</p>
+  </header>
+
+  <div class="outer">
+
+    <div class="sidebar">
+      <p class="title">💡 使い方</p>
+      <p>
+        📖 <strong>単語を調べる</strong><br>
+        気になる単語を<br>ダブルクリックすると<br>意味を検索できます
+      </p>
+      <hr>
+      <p>
+        🔗 <strong>元記事を読む</strong><br>
+        ボタンを押すと<br>詳しい記事が<br>開きます
+      </p>
+    </div>
+
+    <div class="main">
+      {% for item in news %}
+      <div class="card">
+        {% if item.image %}
+        <img src="{{ item.image }}" alt="">
+        {% endif %}
+        <div class="card-body">
+          <span class="category-tag">{{ item.category }}</span>
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.content }}</p>
+          <a class="read-more" href="{{ item.url }}" target="_blank">元記事を読む →</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="width: 200px; flex-shrink: 0;"></div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Global Brief</p>
+  </footer>
+
+  <div id="tooltip" style="
+    display:none;
+    position:fixed;
+    background:#1a6cbd;
+    color:white;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:13px;
+    cursor:pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index:9999;
+  ">🔍 この単語を調べる</div>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+    let selectedWord = '';
+
+    document.addEventListener('mouseup', function(e) {
+      const selection = window.getSelection().toString().trim();
+      if (selection.length > 0 && selection.length < 20) {
+        selectedWord = selection;
+        tooltip.style.display = 'block';
+        tooltip.style.left = e.pageX + 'px';
+        tooltip.style.top = (e.pageY - 50) + 'px';
+      } else {
+        tooltip.style.display = 'none';
+      }
+    });
+
+    tooltip.addEventListener('click', function() {
+      window.open('https://www.google.com/search?q=' + encodeURIComponent(selectedWord + ' とは'), '_blank');
+      tooltip.style.display = 'none';
+    });
+  </script>
+
+</body>
+</html>
