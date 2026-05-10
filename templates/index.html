@@ -131,6 +131,36 @@
 
     .read-more:hover { background: #0d3b6e; }
 
+    #loading-overlay {
+      position: fixed;
+      inset: 0;
+      background: #f0f4f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+    }
+
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 5px solid #d0e0f0;
+      border-top-color: #1a6cbd;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    #loading-overlay p {
+      color: #555;
+      font-size: 14px;
+    }
+
     footer {
       text-align: center;
       padding: 24px;
@@ -159,6 +189,11 @@
 </head>
 <body>
 
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <p>ニュースを取得中...</p>
+  </div>
+
   <header>
     <h1>Global Brief</h1>
     <p>世界のいまを、3行で。</p>
@@ -180,6 +215,17 @@
     </div>
 
     <div class="main">
+      {% if error %}
+      <div style="background:#fff3f3; border:1px solid #f5c6cb; border-radius:14px; padding:20px 24px; margin-bottom:20px; color:#842029;">
+        ⚠️ ニュースの取得に失敗しました。しばらく待ってからページを再読み込みしてください。
+        {% if news %}（以下は前回取得したニュースです）{% endif %}
+      </div>
+      {% endif %}
+      {% if not news and not error %}
+      <div style="background:white; border-radius:14px; padding:40px; text-align:center; color:#999; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+        📭 現在表示できるニュースがありません。
+      </div>
+      {% endif %}
       {% for item in news %}
       <div class="card">
         {% if item.image %}
@@ -217,6 +263,10 @@
   ">🔍 この単語を調べる</div>
 
   <script>
+    window.addEventListener('load', function() {
+      document.getElementById('loading-overlay').style.display = 'none';
+    });
+
     const tooltip = document.getElementById('tooltip');
     let selectedWord = '';
 
