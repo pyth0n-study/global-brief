@@ -1,5 +1,5 @@
 flask
 requests
 python-dotenv
-google-generativeai
+anthropic
 gunicorn
