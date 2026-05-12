@@ -17,8 +17,12 @@ https://global-brief-00i2.onrender.com
 ## 🛠️ 使用技術
 Python / Flask / HTML / CSS / JavaScript / NewsAPI / Claude API / Render
 
-## 📖 学んだこと
-- FlaskによるWebアプリ開発
-- Claude CodeによるAI駆動開発
-- GitHubでのバージョン管理
-- Renderでのデプロイ
+## 🤖 開発スタイル
+Claude Codeを活用したAI駆動開発を実践。AIへの指示出しと出力の検証を繰り返しながら開発しました。
+
+## 🔧 今後の改善点
+- [ ] 、スマートフォンでの語彙検索機能の対応（現在はPC版のみ）
+- [ ] 表示記事数の拡充（現在は最大10件）
+- [ ] カテゴリフィルター機能の追加
+- [ ] いいね・コメント機能の実装（ユーザーの反応が見えることで記事への関心を高めるため）
+- [ ] AI要約の精度向上
