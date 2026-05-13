@@ -229,7 +229,7 @@
       {% for item in news %}
       <div class="card">
         {% if item.image %}
-        <img src="{{ item.image }}" alt="">
+        <img src="{{ item.image }}" alt="" onerror="this.closest('.card').style.display='none'">
         {% endif %}
         <div class="card-body">
           <span class="category-tag">{{ item.category }}</span>

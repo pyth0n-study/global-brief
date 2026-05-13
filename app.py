@@ -82,7 +82,8 @@ def fetch_news():
 
     news = []
     for article in data.get("articles", []):
-        if not article.get("urlToImage"):
+        image_url = article.get("urlToImage") or ""
+        if not image_url or "[Removed]" in image_url or image_url.startswith("http") is False:
             continue
         if any(word in article["title"].lower() for word in 除外ワード):
             continue
@@ -95,7 +96,7 @@ def fetch_news():
             "title": title,
             "content": cache[title],
             "url": article["url"],
-            "image": article.get("urlToImage", ""),
+            "image": image_url,
         })
     return news
 
