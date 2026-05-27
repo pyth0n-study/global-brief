@@ -210,9 +210,11 @@ def fetch_news():
 
     news = []
     for article in data.get("articles", []):
-        if any(word in article["title"].lower() for word in 除外ワード):
+        title = article.get("title") or ""
+        if not title:          # タイトルがNullの記事はスキップ
             continue
-        title = article["title"]
+        if any(word in title.lower() for word in 除外ワード):
+            continue
         source_name = article.get("source", {}).get("name") or "不明"
         article_url = article["url"]
         url_hash = hashlib.md5(article_url.encode()).hexdigest()
