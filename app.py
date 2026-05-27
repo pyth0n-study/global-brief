@@ -8,8 +8,9 @@ import sqlite3
 import hashlib
 
 load_dotenv()
-API_KEY = os.environ.get("NEWS_API_KEY")
-CLAUDE_KEY = os.environ.get("CLAUDE_API_KEY")
+API_KEY       = os.environ.get("NEWS_API_KEY")
+CLAUDE_KEY    = os.environ.get("CLAUDE_API_KEY")
+UNSPLASH_KEY  = os.environ.get("UNSPLASH_ACCESS_KEY")
 
 client = anthropic.Anthropic(api_key=CLAUDE_KEY)
 
@@ -29,6 +30,56 @@ CATEGORY_COLORS = {
     "🏛️ 政治":       "linear-gradient(135deg, #6a1b9a, #8e24aa)",
     "🌍 国際":        "linear-gradient(135deg, #00695c, #00897b)",
 }
+
+# Unsplash: カテゴリ→検索キーワード
+CATEGORY_KEYWORDS = {
+    "🔴 紛争・戦争": "war conflict military",
+    "🌱 環境・SDGs": "nature environment climate",
+    "💰 経済":        "economy finance business",
+    "🏛️ 政治":       "politics government",
+    "🌍 国際":        "world city global",
+}
+
+# Unsplash画像キャッシュ（カテゴリ単位・1時間）
+_img_cache      = {}  # category → (url, photographer_name, photographer_link)
+_img_cache_time = {}
+IMAGE_CACHE_TTL = 3600
+
+
+def get_category_image(category):
+    """Unsplash APIからカテゴリに合った著作権フリー画像を取得。
+    キーが未設定またはAPI障害時は (None, None, None) を返す。"""
+    if not UNSPLASH_KEY:
+        return None, None, None
+
+    now = time.time()
+    if category in _img_cache and now - _img_cache_time.get(category, 0) < IMAGE_CACHE_TTL:
+        return _img_cache[category]
+
+    keyword = CATEGORY_KEYWORDS.get(category, "world news")
+    try:
+        res = requests.get(
+            "https://api.unsplash.com/photos/random",
+            params={
+                "query":       keyword,
+                "orientation": "landscape",
+                "client_id":   UNSPLASH_KEY,
+            },
+            timeout=5,
+        )
+        if res.status_code == 200:
+            data   = res.json()
+            result = (
+                data["urls"]["small"],          # 400px幅・軽量
+                data["user"]["name"],           # 撮影者名（表示義務）
+                data["user"]["links"]["html"],  # 撮影者ページ（リンク義務）
+            )
+            _img_cache[category]      = result
+            _img_cache_time[category] = now
+            return result
+    except Exception:
+        pass
+    return None, None, None
 
 
 def get_db():
@@ -173,14 +224,18 @@ def fetch_news():
         if summary is None:
             continue
         category = get_category(title)
+        img_url, photo_by, photo_link = get_category_image(category)
         news.append({
-            "category": category,
+            "category":     category,
             "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
-            "title": title,
-            "content": summary,
-            "url": article_url,
-            "source": source_name,
-            "url_hash": url_hash,
+            "title":        title,
+            "content":      summary,
+            "url":          article_url,
+            "source":       source_name,
+            "url_hash":     url_hash,
+            "image":        img_url,    # Unsplash画像URL（None = 絵文字バナーで表示）
+            "photo_by":     photo_by,   # 撮影者名
+            "photo_link":   photo_link, # 撮影者プロフィールURL
         })
     return news
 

@@ -117,6 +117,47 @@
       user-select: none;
     }
 
+    /* Unsplash写真サムネイル */
+    .card-thumb {
+      width: 100%;
+      height: 160px;
+      overflow: hidden;
+      position: relative;
+      background: #e0e8f0;
+    }
+
+    .card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .card:hover .card-thumb img {
+      transform: scale(1.03);
+    }
+
+    /* Unsplash利用規約必須：撮影者クレジット */
+    .photo-credit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: rgba(0,0,0,0.45);
+      color: rgba(255,255,255,0.9);
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 4px 0 0 0;
+      line-height: 1.6;
+    }
+
+    .photo-credit a {
+      color: rgba(255,255,255,0.85);
+      text-decoration: none;
+    }
+
+    .photo-credit a:hover { text-decoration: underline; }
+
     .card-body { padding: 16px 20px 20px; }
 
     .card-meta {
@@ -520,8 +561,9 @@
       }
 
       /* カード */
-      .card-banner {
-        height: 90px;
+      .card-banner,
+      .card-thumb {
+        height: 120px;
         font-size: 44px;
       }
 
@@ -777,10 +819,27 @@
       {% endif %}
       {% for item in news %}
       <div class="card">
-        <!-- カテゴリ別カラーバナー（外部画像不使用・著作権フリー） -->
+        {% if item.image %}
+        <!-- Unsplash著作権フリー写真 -->
+        <!-- data属性にフォールバック情報を持たせてJinja2/JS間のクォート衝突を回避 -->
+        <div class="card-thumb"
+             data-bg="{{ item.banner_color }}"
+             data-emoji="{{ item.category.split(' ')[0] }}">
+          <img src="{{ item.image }}" alt="{{ item.category }}" loading="lazy"
+               onerror="thumbFallback(this)">
+          <div class="photo-credit">
+            Photo by
+            <a href="{{ item.photo_link }}?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">{{ item.photo_by }}</a>
+            on
+            <a href="https://unsplash.com?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>
+          </div>
+        </div>
+        {% else %}
+        <!-- Unsplashキー未設定時のフォールバック -->
         <div class="card-banner" style="background: {{ item.banner_color }};">
           {{ item.category.split(' ')[0] }}
         </div>
+        {% endif %}
 
         <div class="card-body">
           <div class="card-meta">
@@ -882,6 +941,17 @@
   ">🔍 この単語を調べる</div>
 
   <script>
+    // ── 画像フォールバック ──────────────────────────────────
+    // onerror内でJinja2テンプレートを直接使うとクォートが衝突するため
+    // data属性経由で受け取り、JSで絵文字バナーに差し替える
+    function thumbFallback(img) {
+      const wrap  = img.closest('.card-thumb');
+      const bg    = wrap.dataset.bg;
+      const emoji = wrap.dataset.emoji;
+      wrap.outerHTML =
+        `<div class="card-banner" style="background:${bg}">${emoji}</div>`;
+    }
+
     // ── サイドバートグル（モバイル用） ──────────────────────
     function toggleSidebar() {
       const content = document.getElementById('sidebar-content');
