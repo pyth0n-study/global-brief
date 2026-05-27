@@ -6,6 +6,8 @@ import os
 import time
 import sqlite3
 import hashlib
+import html as _html
+import re
 
 load_dotenv()
 API_KEY       = os.environ.get("NEWS_API_KEY")
@@ -15,7 +17,14 @@ UNSPLASH_KEY  = os.environ.get("UNSPLASH_ACCESS_KEY")
 client = anthropic.Anthropic(api_key=CLAUDE_KEY)
 
 app = Flask(__name__)
-cache = {}
+
+# httpx/httpcore の詳細ログが日本語テキストをASCII出力しようとしてクラッシュするのを防ぐ
+import logging
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
+
+cache         = {}   # title → summary text
+keyword_cache = {}   # title → unsplash keywords
 
 news_cache = []
 news_cache_time = 0
@@ -40,28 +49,39 @@ CATEGORY_KEYWORDS = {
     "🌍 国際":        "world city global",
 }
 
-# Unsplash画像キャッシュ（カテゴリ単位・1時間）
-_img_cache      = {}  # category → (url, photographer_name, photographer_link)
-_img_cache_time = {}
-IMAGE_CACHE_TTL = 3600
+# Unsplash画像キャッシュ（記事単位・サーバー起動中保持）
+_img_cache = {}  # url_hash → (url, photographer_name, photographer_link)
 
 
-def get_category_image(category):
-    """Unsplash APIからカテゴリに合った著作権フリー画像を取得。
+def clean_text(text: str) -> str:
+    """NewsAPIのテキストからノイズを除去する。
+    - HTMLエンティティをデコード（&amp; → & など）
+    - [+1234 chars] のような切り捨て表記を除去
+    - 末尾の省略記号を除去
+    """
+    if not text:
+        return ""
+    text = _html.unescape(text)                          # &amp; &quot; &#39; などをデコード
+    text = re.sub(r'\[[\+\d\s]*chars?\]', '', text)     # [+1234 chars] を除去
+    text = re.sub(r'\.{3,}\s*$', '', text)              # 末尾の「...」を除去
+    text = re.sub(r'\s{2,}', ' ', text)                 # 連続スペースを正規化
+    return text.strip()
+
+
+def get_article_image(keywords, url_hash):
+    """記事ごとのキーワードでUnsplash画像を取得・キャッシュ。
     キーが未設定またはAPI障害時は (None, None, None) を返す。"""
     if not UNSPLASH_KEY:
         return None, None, None
 
-    now = time.time()
-    if category in _img_cache and now - _img_cache_time.get(category, 0) < IMAGE_CACHE_TTL:
-        return _img_cache[category]
+    if url_hash in _img_cache:
+        return _img_cache[url_hash]
 
-    keyword = CATEGORY_KEYWORDS.get(category, "world news")
     try:
         res = requests.get(
             "https://api.unsplash.com/photos/random",
             params={
-                "query":       keyword,
+                "query":       keywords,
                 "orientation": "landscape",
                 "client_id":   UNSPLASH_KEY,
             },
@@ -70,12 +90,11 @@ def get_category_image(category):
         if res.status_code == 200:
             data   = res.json()
             result = (
-                data["urls"]["small"],          # 400px幅・軽量
+                data["urls"]["regular"],        # 1080px幅・高画質
                 data["user"]["name"],           # 撮影者名（表示義務）
                 data["user"]["links"]["html"],  # 撮影者ページ（リンク義務）
             )
-            _img_cache[category]      = result
-            _img_cache_time[category] = now
+            _img_cache[url_hash] = result
             return result
     except Exception:
         pass
@@ -134,44 +153,73 @@ def get_category(title):
         return "🌍 国際"
 
 
+SYSTEM_PROMPT = (
+    "あなたは世界のニュースをわかりやすく伝える大学生です。\n"
+    "商品PR・セール・求人・プレスリリースなど報道価値のない内容なら「SKIP」とだけ返してください。\n"
+    "それ以外のニュースは以下の形式で返してください：\n\n"
+    "1行目〜3行目：クラスの友達にLINEで教えるイメージでタメ口の3行要約\n"
+    "4行目：KEYWORDS: [この記事の内容に合う英語キーワードを2〜3語]\n\n"
+    "【口調のルール】\n"
+    "・「〜だよ」「〜なんだ」「〜みたい」「〜らしい」など話し言葉を使う\n"
+    "・「〜です」「〜ます」「〜である」などの硬い表現は絶対に使わない\n"
+    "・難しい専門用語は使わず、もし使う場合はすぐ後ろに簡単な説明を添える\n"
+    "・記号や絵文字は使わない\n"
+    "【KEYWORDSの例】\n"
+    "・「日銀が金利を引き上げ」→ KEYWORDS: japan bank interest rate\n"
+    "・「ウクライナに攻撃」→ KEYWORDS: ukraine war conflict\n"
+    "・「パリ五輪で金メダル」→ KEYWORDS: olympics gold medal sport"
+)
+
+
 def summarize(title, content=""):
     """
-    タイトル＋記事概要をClaudeへの入力として3行要約を生成する。
-    contentはClaudeへのプロンプト入力にのみ使用し、そのまま表示はしない。
+    タイトル＋記事概要をClaudeへの入力として3行要約とUnsplash検索キーワードを生成する。
+    戻り値: (summary_text, keywords) のタプル。広告判定時は (None, None)。
+    レート制限時は1回だけ自動リトライ（10秒待機）する。
     """
     text_input = content if content else title
-    try:
-        response = client.messages.create(
-            model="claude-haiku-4-5",
-            max_tokens=256,
-            system=[{
-                "type": "text",
-                "text": (
-                    "あなたは世界のニュースをわかりやすく伝える大学生です。\n"
-                    "商品PR・セール・求人・プレスリリースなど報道価値のない内容なら「SKIP」とだけ返してください。\n"
-                    "それ以外のニュースは、クラスの友達にLINEで教えるイメージで、必ずタメ口の3行で説明してください。\n"
-                    "【口調のルール】\n"
-                    "・「〜だよ」「〜なんだ」「〜みたい」「〜らしい」「〜になってる」など話し言葉を使う\n"
-                    "・「〜です」「〜ます」「〜である」などの硬い表現は絶対に使わない\n"
-                    "・難しい専門用語は使わず、もし使う場合はすぐ後ろに簡単な説明を添える\n"
-                    "・各行は短く、テンポよく読めるようにする\n"
-                    "・記号や絵文字は使わない、テキストだけで書く"
-                ),
-                "cache_control": {"type": "ephemeral"},
-            }],
-            messages=[{
-                "role": "user",
-                "content": f"タイトル：{title}\n内容：{text_input}",
-            }],
-        )
-        result = response.content[0].text.strip()
-        if result.upper().startswith("SKIP"):
-            return None
-        return result
-    except anthropic.APIStatusError:
-        return content or title  # APIエラー時はdescriptionかタイトルで代替
-    except Exception:
-        return content or title
+
+    for attempt in range(2):  # 最大2回試行
+        try:
+            response = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=420,
+                system=[{
+                    "type": "text",
+                    "text": SYSTEM_PROMPT,
+                    "cache_control": {"type": "ephemeral"},
+                }],
+                messages=[{
+                    "role": "user",
+                    "content": f"title: {title}\ncontent: {text_input}",
+                }],
+            )
+            result = response.content[0].text.strip()
+
+            if result.upper().startswith("SKIP"):
+                return None, None
+
+            # KEYWORDS行を分離
+            if "KEYWORDS:" in result:
+                parts    = result.split("KEYWORDS:")
+                text     = parts[0].strip()
+                keywords = parts[1].strip().split("\n")[0].strip()
+            else:
+                text     = result
+                keywords = ""
+
+            return text, keywords
+
+        except anthropic.RateLimitError:
+            if attempt == 0:
+                time.sleep(10)   # 10秒待ってリトライ
+            else:
+                break
+        except Exception:
+            break
+
+    fallback = clean_text(content) or title
+    return fallback, ""
 
 
 除外ワード = [
@@ -190,19 +238,21 @@ def summarize(title, content=""):
 
 
 def fetch_news():
-    url = (
-        "https://newsapi.org/v2/everything"
-        "?q=戦争 OR 紛争 OR 環境 OR 気候 OR 経済 OR 政治 OR 国際 OR AI OR テクノロジー OR SNS OR スポーツ OR 音楽"
-        "&language=jp"
-        "&pageSize=10"
-        "&sortBy=publishedAt"
-        f"&apiKey={API_KEY}"
-    )
-
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(
+            "https://newsapi.org/v2/everything",
+            params={
+                "q":        "戦争 OR 紛争 OR 環境 OR 気候 OR 経済 OR 政治 OR 国際 OR AI OR テクノロジー OR SNS OR スポーツ OR 音楽",
+                "language": "jp",
+                "pageSize": 10,
+                "sortBy":   "publishedAt",
+                "apiKey":   API_KEY,
+            },
+            timeout=10,
+        )
         data = response.json()
-    except Exception:
+    except Exception as e:
+        print(f"[fetch_news error] {type(e).__name__}: {e}")
         return None
 
     if data.get("status") != "ok":
@@ -218,15 +268,21 @@ def fetch_news():
         source_name = article.get("source", {}).get("name") or "不明"
         article_url = article["url"]
         url_hash = hashlib.md5(article_url.encode()).hexdigest()
-        if title not in cache:
-            # descriptionはClaudeへの入力にのみ使用（要約生成の参考情報）
-            description = article.get("description") or ""
-            cache[title] = summarize(title, description)
-        summary = cache[title]
+        description = clean_text(article.get("description") or "")
+        # 未キャッシュ、またはClaude要約でない（フォールバック）場合は再試行
+        if title not in cache or cache.get(title) in (description, title, None):
+            new_summary, new_kw = summarize(title, description)
+            cache[title]        = new_summary
+            keyword_cache[title] = new_kw
+            time.sleep(0.5)   # Claude APIレート制限を回避
+        summary  = cache[title]
+        keywords = keyword_cache.get(title, "")
         if summary is None:
             continue
         category = get_category(title)
-        img_url, photo_by, photo_link = get_category_image(category)
+        # キーワードがなければカテゴリ別のデフォルトキーワードで代替
+        search_kw = keywords or CATEGORY_KEYWORDS.get(category, "world news")
+        img_url, photo_by, photo_link = get_article_image(search_kw, url_hash)
         news.append({
             "category":     category,
             "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
@@ -257,6 +313,36 @@ def index():
     news_cache = result
     news_cache_time = time.time()
     return render_template("index.html", news=news_cache, error=False)
+
+
+@app.route("/debug-summary")
+def debug_summary():
+    """Claude要約が正常に動くか確認するデバッグ用エンドポイント"""
+    test_title   = "日銀が政策金利を引き上げ、円高進む"
+    test_content = "日本銀行は本日の金融政策決定会合で政策金利を0.5%引き上げることを決定した。"
+
+    # 例外を直接捕捉してエラー内容を返す
+    error_info = None
+    raw_response = None
+    try:
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=50,
+            messages=[{"role": "user", "content": f"タイトル：{test_title}\n内容：{test_content}"}],
+        )
+        raw_response = resp.content[0].text.strip()
+    except Exception as e:
+        error_info = f"{type(e).__name__}: {str(e)[:300]}"
+
+    summary, keywords = summarize(test_title, test_content)
+    return jsonify({
+        "error_info":       error_info,
+        "raw_response":     raw_response,
+        "summary":          summary,
+        "keywords":         keywords,
+        "claude_key_head":  (CLAUDE_KEY or "")[:20],
+        "news_cache_count": len(news_cache),
+    })
 
 
 # ── SNS機能 API ──────────────────────────────────────────────

@@ -120,10 +120,10 @@
     /* Unsplash写真サムネイル */
     .card-thumb {
       width: 100%;
-      height: 160px;
+      height: 260px;
       overflow: hidden;
       position: relative;
-      background: #e0e8f0;
+      background: #1a1a2e;
     }
 
     .card-thumb img {
@@ -131,28 +131,62 @@
       height: 100%;
       object-fit: cover;
       display: block;
-      transition: transform 0.3s;
+      transition: transform 0.4s;
     }
 
     .card:hover .card-thumb img {
-      transform: scale(1.03);
+      transform: scale(1.04);
+    }
+
+    /* グラデーションオーバーレイ */
+    .thumb-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        transparent 30%,
+        rgba(0,0,0,0.75) 100%
+      );
+      display: flex;
+      align-items: flex-end;
+      padding: 12px 14px;
+    }
+
+    .thumb-meta {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    /* オーバーレイ上のタグ（白ベース） */
+    .card-thumb .category-tag {
+      background: rgba(255,255,255,0.18);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.35);
+      backdrop-filter: blur(4px);
+    }
+
+    .card-thumb .source-tag {
+      background: rgba(0,0,0,0.35);
+      color: rgba(255,255,255,0.85);
+      border: 1px solid rgba(255,255,255,0.15);
     }
 
     /* Unsplash利用規約必須：撮影者クレジット */
     .photo-credit {
       position: absolute;
-      bottom: 0;
-      right: 0;
-      background: rgba(0,0,0,0.45);
-      color: rgba(255,255,255,0.9);
-      font-size: 10px;
-      padding: 3px 8px;
-      border-radius: 4px 0 0 0;
+      top: 8px;
+      right: 8px;
+      background: rgba(0,0,0,0.4);
+      color: rgba(255,255,255,0.8);
+      font-size: 9px;
+      padding: 2px 7px;
+      border-radius: 10px;
       line-height: 1.6;
     }
 
     .photo-credit a {
-      color: rgba(255,255,255,0.85);
+      color: rgba(255,255,255,0.8);
       text-decoration: none;
     }
 
@@ -561,11 +595,8 @@
       }
 
       /* カード */
-      .card-banner,
-      .card-thumb {
-        height: 120px;
-        font-size: 44px;
-      }
+      .card-banner { height: 100px; font-size: 44px; }
+      .card-thumb  { height: 200px; }
 
       .card-body {
         padding: 12px 14px 16px;
@@ -820,15 +851,21 @@
       {% for item in news %}
       <div class="card">
         {% if item.image %}
-        <!-- Unsplash著作権フリー写真 -->
-        <!-- data属性にフォールバック情報を持たせてJinja2/JS間のクォート衝突を回避 -->
+        <!-- Unsplash著作権フリー写真＋グラデーションオーバーレイ -->
         <div class="card-thumb"
              data-bg="{{ item.banner_color }}"
              data-emoji="{{ item.category.split(' ')[0] }}">
           <img src="{{ item.image }}" alt="{{ item.category }}" loading="lazy"
                onerror="thumbFallback(this)">
+          <!-- カテゴリ・出典を写真上に重ねる -->
+          <div class="thumb-overlay">
+            <div class="thumb-meta">
+              <span class="category-tag">{{ item.category }}</span>
+              <span class="source-tag">📰 {{ item.source }}</span>
+            </div>
+          </div>
+          <!-- 撮影者クレジット（Unsplash利用規約で必須） -->
           <div class="photo-credit">
-            Photo by
             <a href="{{ item.photo_link }}?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">{{ item.photo_by }}</a>
             on
             <a href="https://unsplash.com?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>
@@ -842,10 +879,12 @@
         {% endif %}
 
         <div class="card-body">
+          {% if not item.image %}
           <div class="card-meta">
             <span class="category-tag">{{ item.category }}</span>
             <span class="source-tag">📰 {{ item.source }}</span>
           </div>
+          {% endif %}
           <h2>{{ item.title }}</h2>
           <p>{{ item.content }}</p>
 
