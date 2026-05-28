@@ -291,16 +291,19 @@ def fetch_news():
 
     news = []
     for article in data.get("articles", []):
-        title = article.get("title") or ""
-        if not title:          # タイトルがNullの記事はスキップ
-            continue
-        if not is_japanese(title):  # 日本語以外の記事はスキップ
-            continue
-        if any(word in title.lower() for word in 除外ワード):
-            continue
-        source_name = article.get("source", {}).get("name") or "不明"
-        article_url = article["url"]
-        url_hash = hashlib.md5(article_url.encode()).hexdigest()
+        try:
+            title = article.get("title") or ""
+            if not title:
+                continue
+            if not is_japanese(title):
+                continue
+            if any(word in title.lower() for word in 除外ワード):
+                continue
+            source_name = article.get("source", {}).get("name") or "不明"
+            article_url = article.get("url") or ""
+            if not article_url:        # url が null の記事はスキップ
+                continue
+            url_hash = hashlib.md5(article_url.encode()).hexdigest()
         description = clean_text(article.get("description") or "")
         # 未キャッシュ、またはClaude要約でない（フォールバック）場合は再試行
         if title not in cache or cache.get(title) in (description, title, None):
@@ -320,18 +323,20 @@ def fetch_news():
         else:
             search_kw = keywords or CATEGORY_KEYWORDS.get(category, "world news")
             img_url, photo_by, photo_link = get_article_image(search_kw, url_hash)
-        news.append({
-            "category":     category,
-            "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
-            "title":        title,
-            "content":      summary,
-            "url":          article_url,
-            "source":       source_name,
-            "url_hash":     url_hash,
-            "image":        img_url,    # Unsplash画像URL（None = 絵文字バナーで表示）
-            "photo_by":     photo_by,   # 撮影者名
-            "photo_link":   photo_link, # 撮影者プロフィールURL
-        })
+            news.append({
+                "category":     category,
+                "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
+                "title":        title,
+                "content":      summary,
+                "url":          article_url,
+                "source":       source_name,
+                "url_hash":     url_hash,
+                "image":        img_url,
+                "photo_by":     photo_by,
+                "photo_link":   photo_link,
+            })
+        except Exception as e:
+            print(f"[article skip] {type(e).__name__}: {e}")
     return news
 
 
