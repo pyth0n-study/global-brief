@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from dotenv import load_dotenv
 import requests
-import anthropic
 import os
 import time
 import sqlite3
@@ -191,37 +190,11 @@ SYSTEM_PROMPT = (
 
 
 def summarize(title, content=""):
-    """
-    タイトル＋記事概要をClaudeへの入力として3行要約とUnsplash検索キーワードを生成する。
-    戻り値: (summary_text, keywords) のタプル。広告判定時は (None, None)。
-    """
-    text_input = content if content else title
+    if not content:
+        return content, None
+    return content, None
 
-    for attempt in range(2):
-        try:
-            print(f"\n[Claude] Summarizing: {title}")
-
-            response = client.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=420,
-                system=[{
-                    "type": "text",
-                    "text": SYSTEM_PROMPT,
-                    "cache_control": {"type": "ephemeral"},
-                }],
-                messages=[{
-                    "role": "user",
-                    "content": f"title: {title}\ncontent: {text_input}",
-                }],
-            )
-
-            result = response.content[0].text.strip()
-
-            print(f"[Claude Success] {title}")
-
-            if result.upper().startswith("SKIP"):
-                print("[Claude] SKIP判定")
-                return None, None
+    
 
             if "KEYWORDS:" in result:
                 parts = result.split("KEYWORDS:")
@@ -309,7 +282,7 @@ def fetch_news():
                 new_summary, new_kw = summarize(title, description)
                 cache[title]         = new_summary
                 keyword_cache[title] = new_kw
-                time.sleep(0.5)
+                
             summary  = cache[title]
             keywords = keyword_cache.get(title, "")
             if summary is None:
