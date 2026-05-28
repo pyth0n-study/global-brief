@@ -196,34 +196,7 @@ def summarize(title, content=""):
 
     
 
-            if "KEYWORDS:" in result:
-                parts = result.split("KEYWORDS:")
-                text = parts[0].strip()
-                keywords = parts[1].strip().split("\n")[0].strip()
-            else:
-                text = result
-                keywords = ""
-
-            return text, keywords
-
-        except anthropic.RateLimitError as e:
-            print(f"[RateLimitError] {e}")
-
-            if attempt == 0:
-                print("10秒待機して再試行...")
-                time.sleep(10)
-            else:
-                print("リトライ失敗")
-                break
-
-        except Exception as e:
-            print(f"[Claude Error] {type(e).__name__}: {e}")
-            break
-
-    fallback = clean_text(content) or title
-    print(f"[Fallback] {title}")
-
-    return fallback, ""
+            
 
 
 除外ワード = [
