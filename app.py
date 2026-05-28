@@ -53,6 +53,25 @@ CATEGORY_KEYWORDS = {
 _img_cache = {}  # url_hash → (url, photographer_name, photographer_link)
 
 
+def is_japanese(text: str) -> bool:
+    """日本語記事の判定。
+    - ひらがな・カタカナがあれば確実に日本語
+    - 漢字のみでもハングルがなければ日本語と見なす（「首相訪米」等の漢字見出しを救済）
+    - ハングルを含む → 韓国語として除外
+    - ラテン文字のみ → 英語等として除外
+    """
+    has_cjk = False
+    for ch in text:
+        cp = ord(ch)
+        if 0x3040 <= cp <= 0x309F or 0x30A0 <= cp <= 0x30FF:
+            return True                          # ひらがな・カタカナ → 確実に日本語
+        if 0x4E00 <= cp <= 0x9FFF or 0x3400 <= cp <= 0x4DBF:
+            has_cjk = True                       # 漢字あり
+        if 0xAC00 <= cp <= 0xD7AF or 0x1100 <= cp <= 0x11FF:
+            return False                         # ハングルあり → 韓国語
+    return has_cjk                               # 漢字のみ（中国語の混入は許容範囲）
+
+
 def clean_text(text: str) -> str:
     """NewsAPIのテキストからノイズを除去する。
     - HTMLエンティティをデコード（&amp; → & など）
@@ -155,8 +174,8 @@ def get_category(title):
 
 SYSTEM_PROMPT = (
     "あなたは世界のニュースをわかりやすく伝える大学生です。\n"
-    "商品PR・セール・求人・プレスリリースなど報道価値のない内容なら「SKIP」とだけ返してください。\n"
-    "それ以外のニュースは以下の形式で返してください：\n\n"
+    "純粋な商品広告・採用情報（求人）・セール・クーポン告知のみ「SKIP」とだけ返してください。\n"
+    "ニュース・社会・経済・スポーツ・科学・文化・政治・国際に関する記事はすべて以下の形式で要約してください：\n\n"
     "1行目〜3行目：クラスの友達にLINEで教えるイメージでタメ口の3行要約\n"
     "4行目：KEYWORDS: [この記事の内容に合う英語キーワードを2〜3語]\n\n"
     "【口調のルール】\n"
@@ -175,12 +194,13 @@ def summarize(title, content=""):
     """
     タイトル＋記事概要をClaudeへの入力として3行要約とUnsplash検索キーワードを生成する。
     戻り値: (summary_text, keywords) のタプル。広告判定時は (None, None)。
-    レート制限時は1回だけ自動リトライ（10秒待機）する。
     """
     text_input = content if content else title
 
-    for attempt in range(2):  # 最大2回試行
+    for attempt in range(2):
         try:
+            print(f"\n[Claude] Summarizing: {title}")
+
             response = client.messages.create(
                 model="claude-haiku-4-5-20251001",
                 max_tokens=420,
@@ -194,31 +214,42 @@ def summarize(title, content=""):
                     "content": f"title: {title}\ncontent: {text_input}",
                 }],
             )
+
             result = response.content[0].text.strip()
 
+            print(f"[Claude Success] {title}")
+
             if result.upper().startswith("SKIP"):
+                print("[Claude] SKIP判定")
                 return None, None
 
-            # KEYWORDS行を分離
             if "KEYWORDS:" in result:
-                parts    = result.split("KEYWORDS:")
-                text     = parts[0].strip()
+                parts = result.split("KEYWORDS:")
+                text = parts[0].strip()
                 keywords = parts[1].strip().split("\n")[0].strip()
             else:
-                text     = result
+                text = result
                 keywords = ""
 
             return text, keywords
 
-        except anthropic.RateLimitError:
+        except anthropic.RateLimitError as e:
+            print(f"[RateLimitError] {e}")
+
             if attempt == 0:
-                time.sleep(10)   # 10秒待ってリトライ
+                print("10秒待機して再試行...")
+                time.sleep(10)
             else:
+                print("リトライ失敗")
                 break
-        except Exception:
+
+        except Exception as e:
+            print(f"[Claude Error] {type(e).__name__}: {e}")
             break
 
     fallback = clean_text(content) or title
+    print(f"[Fallback] {title}")
+
     return fallback, ""
 
 
@@ -242,11 +273,11 @@ def fetch_news():
         response = requests.get(
             "https://newsapi.org/v2/everything",
             params={
-                "q":        "戦争 OR 紛争 OR 環境 OR 気候 OR 経済 OR 政治 OR 国際 OR AI OR テクノロジー OR SNS OR スポーツ OR 音楽",
-                "language": "jp",
-                "pageSize": 10,
-                "sortBy":   "publishedAt",
-                "apiKey":   API_KEY,
+                "domains":        "nhk.or.jp,asahi.com,mainichi.jp,yomiuri.co.jp,nikkei.com,jiji.com,47news.jp,sankei.com,tokyo-np.co.jp",
+                "excludeDomains": "prtimes.jp,atpress.ne.jp,dreamnews.jp,newscast.co.jp,prlog.jp",
+                "pageSize":       100,
+                "sortBy":         "publishedAt",
+                "apiKey":         API_KEY,
             },
             timeout=10,
         )
@@ -262,6 +293,8 @@ def fetch_news():
     for article in data.get("articles", []):
         title = article.get("title") or ""
         if not title:          # タイトルがNullの記事はスキップ
+            continue
+        if not is_japanese(title):  # 日本語以外の記事はスキップ
             continue
         if any(word in title.lower() for word in 除外ワード):
             continue
@@ -280,9 +313,13 @@ def fetch_news():
         if summary is None:
             continue
         category = get_category(title)
-        # キーワードがなければカテゴリ別のデフォルトキーワードで代替
-        search_kw = keywords or CATEGORY_KEYWORDS.get(category, "world news")
-        img_url, photo_by, photo_link = get_article_image(search_kw, url_hash)
+        # 記事元の画像を優先、なければ Unsplash にフォールバック
+        article_img = article.get("urlToImage") or ""
+        if article_img and article_img.startswith("http"):
+            img_url, photo_by, photo_link = article_img, None, None
+        else:
+            search_kw = keywords or CATEGORY_KEYWORDS.get(category, "world news")
+            img_url, photo_by, photo_link = get_article_image(search_kw, url_hash)
         news.append({
             "category":     category,
             "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
@@ -313,6 +350,50 @@ def index():
     news_cache = result
     news_cache_time = time.time()
     return render_template("index.html", news=news_cache, error=False)
+
+
+@app.route("/debug-news")
+def debug_news():
+    """NewsAPI の生レスポンスと日本語フィルタ結果を確認するデバッグエンドポイント"""
+    results = {}
+
+    # everything エンドポイント
+    try:
+        r1 = requests.get(
+            "https://newsapi.org/v2/everything",
+            params={"q": "政治 OR 経済 OR 国際", "pageSize": 5, "sortBy": "publishedAt", "apiKey": API_KEY},
+            timeout=10,
+        )
+        d1 = r1.json()
+        results["everything"] = {
+            "status": d1.get("status"),
+            "totalResults": d1.get("totalResults"),
+            "message": d1.get("message"),
+            "titles": [a.get("title") for a in d1.get("articles", [])],
+            "japanese_pass": [is_japanese(a.get("title") or "") for a in d1.get("articles", [])],
+        }
+    except Exception as e:
+        results["everything"] = {"error": str(e)}
+
+    # top-headlines エンドポイント
+    try:
+        r2 = requests.get(
+            "https://newsapi.org/v2/top-headlines",
+            params={"country": "jp", "pageSize": 5, "apiKey": API_KEY},
+            timeout=10,
+        )
+        d2 = r2.json()
+        results["top_headlines_jp"] = {
+            "status": d2.get("status"),
+            "totalResults": d2.get("totalResults"),
+            "message": d2.get("message"),
+            "titles": [a.get("title") for a in d2.get("articles", [])],
+        }
+    except Exception as e:
+        results["top_headlines_jp"] = {"error": str(e)}
+
+    results["news_cache_count"] = len(news_cache)
+    return jsonify(results)
 
 
 @app.route("/debug-summary")

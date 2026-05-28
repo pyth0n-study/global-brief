@@ -864,12 +864,14 @@
               <span class="source-tag">📰 {{ item.source }}</span>
             </div>
           </div>
-          <!-- 撮影者クレジット（Unsplash利用規約で必須） -->
+          <!-- 撮影者クレジット（Unsplash画像の場合のみ表示） -->
+          {% if item.photo_by %}
           <div class="photo-credit">
             <a href="{{ item.photo_link }}?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">{{ item.photo_by }}</a>
             on
             <a href="https://unsplash.com?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>
           </div>
+          {% endif %}
         </div>
         {% else %}
         <!-- Unsplashキー未設定時のフォールバック -->
