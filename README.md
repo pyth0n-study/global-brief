@@ -1,5 +1,5 @@
 # 🌍 Global Brief
-> 世界世界のいまを、3行で。
+> 世界のいまを、3行で。
 
 ## 🔗 デモ
 https://global-brief-00i2.onrender.com
