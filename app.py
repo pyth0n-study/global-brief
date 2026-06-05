@@ -1,13 +1,13 @@
 from flask import Flask, render_template, request, jsonify
 from dotenv import load_dotenv
 import requests
-import anthropic
 import os
 import time
 import sqlite3
 import hashlib
 import html as _html
 import re
+import anthropic
 
 load_dotenv()
 API_KEY       = os.environ.get("NEWS_API_KEY")
@@ -191,66 +191,13 @@ SYSTEM_PROMPT = (
 
 
 def summarize(title, content=""):
-    """
-    タイトル＋記事概要をClaudeへの入力として3行要約とUnsplash検索キーワードを生成する。
-    戻り値: (summary_text, keywords) のタプル。広告判定時は (None, None)。
-    """
-    text_input = content if content else title
+    if not content:
+        return content, None
+    return content, None
 
-    for attempt in range(2):
-        try:
-            print(f"\n[Claude] Summarizing: {title}")
+    
 
-            response = client.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=420,
-                system=[{
-                    "type": "text",
-                    "text": SYSTEM_PROMPT,
-                    "cache_control": {"type": "ephemeral"},
-                }],
-                messages=[{
-                    "role": "user",
-                    "content": f"title: {title}\ncontent: {text_input}",
-                }],
-            )
-
-            result = response.content[0].text.strip()
-
-            print(f"[Claude Success] {title}")
-
-            if result.upper().startswith("SKIP"):
-                print("[Claude] SKIP判定")
-                return None, None
-
-            if "KEYWORDS:" in result:
-                parts = result.split("KEYWORDS:")
-                text = parts[0].strip()
-                keywords = parts[1].strip().split("\n")[0].strip()
-            else:
-                text = result
-                keywords = ""
-
-            return text, keywords
-
-        except anthropic.RateLimitError as e:
-            print(f"[RateLimitError] {e}")
-
-            if attempt == 0:
-                print("10秒待機して再試行...")
-                time.sleep(10)
-            else:
-                print("リトライ失敗")
-                break
-
-        except Exception as e:
-            print(f"[Claude Error] {type(e).__name__}: {e}")
-            break
-
-    fallback = clean_text(content) or title
-    print(f"[Fallback] {title}")
-
-    return fallback, ""
+            
 
 
 除外ワード = [
@@ -309,7 +256,7 @@ def fetch_news():
                 new_summary, new_kw = summarize(title, description)
                 cache[title]         = new_summary
                 keyword_cache[title] = new_kw
-                time.sleep(0.5)
+                
             summary  = cache[title]
             keywords = keyword_cache.get(title, "")
             if summary is None:
