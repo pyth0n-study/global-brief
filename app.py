@@ -275,7 +275,7 @@ def fetch_news():
             params={
                 "domains":        "nhk.or.jp,asahi.com,mainichi.jp,yomiuri.co.jp,nikkei.com,jiji.com,47news.jp,sankei.com,tokyo-np.co.jp",
                 "excludeDomains": "prtimes.jp,atpress.ne.jp,dreamnews.jp,newscast.co.jp,prlog.jp",
-                "pageSize":       100,
+                "pageSize":       10,
                 "sortBy":         "publishedAt",
                 "apiKey":         API_KEY,
             },
