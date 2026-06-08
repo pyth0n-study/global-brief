@@ -193,7 +193,25 @@ SYSTEM_PROMPT = (
 def summarize(title, content=""):
     if not content:
         return content, None
-    return content, None
+    try:
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=300,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": f"タイトル：{title}\n内容：{content}"}],
+        )
+        raw = resp.content[0].text.strip()
+        if raw == "SKIP":
+            return None, None
+        lines = raw.splitlines()
+        kw_line = next((l for l in lines if l.startswith("KEYWORDS:")), None)
+        keywords = kw_line.replace("KEYWORDS:", "").strip() if kw_line else None
+        summary_lines = [l for l in lines if not l.startswith("KEYWORDS:")]
+        summary = "\n".join(summary_lines).strip()
+        return summary, keywords
+    except Exception as e:
+        print(f"[summarize error] {type(e).__name__}: {e}")
+        return content, None
 
     
 
@@ -358,7 +376,8 @@ def debug_summary():
     try:
         resp = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=50,
+            max_tokens=300,
+            system=SYSTEM_PROMPT,
             messages=[{"role": "user", "content": f"タイトル：{test_title}\n内容：{test_content}"}],
         )
         raw_response = resp.content[0].text.strip()
