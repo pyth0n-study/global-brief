@@ -69,6 +69,16 @@
         📭 現在表示できるニュースがありません。
       </div>
       {% endif %}
+      {% if trends %}
+      <div class="trends-section">
+        <p class="trends-label">🔮 AIによる今後の動向予測</p>
+        <ul class="trends-list">
+          {% for trend in trends %}
+          <li>{{ trend }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
       {% for item in news %}
       <div class="card">
         {% if item.image %}
@@ -113,12 +123,22 @@
           <button class="bookmark-btn" data-hash="{{ item.url_hash }}" data-title="{{ item.title }}" data-url="{{ item.url }}" data-category="{{ item.category }}" onclick="toggleBookmark(this)">🔖 保存</button>
 
           <div class="card-actions">
+            {% if item.insight %}
+            <button class="action-btn insight-toggle-btn" onclick="toggleInsight('{{ item.url_hash }}')">🔮 AIの先読み</button>
+            {% endif %}
             <button class="action-btn" onclick="toggleComments('{{ item.url_hash }}')">💬 コメント</button>
             <button class="action-btn share-x-btn" data-url="{{ item.url }}" data-title="{{ item.title }}" onclick="shareX(this)">𝕏 シェア</button>
             <button class="action-btn share-line-btn" data-url="{{ item.url }}" onclick="shareLINE(this)">LINE</button>
             <button class="action-btn copy-link-btn" data-url="{{ item.url }}" onclick="copyLink(this)">🔗 コピー</button>
             <a class="read-more" href="{{ item.url }}" target="_blank">元記事を読む →</a>
           </div>
+
+          {% if item.insight %}
+          <div class="insight-section" data-hash="{{ item.url_hash }}" style="display:none;">
+            <p class="insight-label">🔮 これからどうなる？ / 押さえておきたいポイント</p>
+            <p class="insight-text">{{ item.insight }}</p>
+          </div>
+          {% endif %}
         </div>
 
         <div class="comment-section" data-hash="{{ item.url_hash }}" style="display:none;">

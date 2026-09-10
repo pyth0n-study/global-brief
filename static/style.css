@@ -312,6 +312,69 @@ header p {
 
 .read-more:hover { background: #0d3b6e; }
 
+.trends-section {
+  background: linear-gradient(135deg, #f5f0fc, #eef4fd);
+  border: 1px solid #e0d4f5;
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.trends-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #7e57c2;
+  margin-bottom: 10px;
+}
+
+.trends-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.trends-list li {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.7;
+  padding-left: 18px;
+  position: relative;
+}
+
+.trends-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #7e57c2;
+}
+
+.insight-toggle-btn { border-color: #b39ddb; color: #7e57c2; }
+.insight-toggle-btn:hover { border-color: #7e57c2; color: #7e57c2; }
+
+.insight-section {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f5f0fc, #eef4fd);
+  border: 1px solid #e0d4f5;
+}
+
+.insight-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #7e57c2;
+  margin-bottom: 6px;
+}
+
+.insight-text {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+}
+
 .comment-section {
   border-top: 1px solid #f0f0f0;
   padding: 16px 20px 20px;
@@ -548,6 +611,24 @@ html.dark .read-more,
 html.dark .comment-submit-btn { background: #1f6feb; }
 html.dark .read-more:hover,
 html.dark .comment-submit-btn:hover { background: #388bfd; }
+
+html.dark .trends-section {
+  background: linear-gradient(135deg, #241f33, #1b2536);
+  border-color: #3a2f52;
+}
+html.dark .trends-label { color: #b39ddb; }
+html.dark .trends-list li { color: #c9d1d9; }
+html.dark .trends-list li::before { color: #b39ddb; }
+
+html.dark .insight-toggle-btn { border-color: #6e4fa3; color: #b39ddb; }
+html.dark .insight-toggle-btn:hover { border-color: #b39ddb; color: #d1c4e9; }
+
+html.dark .insight-section {
+  background: linear-gradient(135deg, #241f33, #1b2536);
+  border-color: #3a2f52;
+}
+html.dark .insight-label { color: #b39ddb; }
+html.dark .insight-text  { color: #c9d1d9; }
 
 html.dark .comment-section { border-top-color: #21262d; }
 html.dark .comment-item    { background: #21262d; }

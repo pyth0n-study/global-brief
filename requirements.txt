@@ -2,4 +2,5 @@ flask
 requests
 python-dotenv
 anthropic
+google-genai
 gunicorn

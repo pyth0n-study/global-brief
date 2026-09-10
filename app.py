@@ -7,14 +7,19 @@ import sqlite3
 import hashlib
 import html as _html
 import re
-import anthropic
+import json
+from google import genai
+from google.genai import types as genai_types
+from pydantic import BaseModel
 
 load_dotenv()
 API_KEY       = os.environ.get("NEWS_API_KEY")
-CLAUDE_KEY    = os.environ.get("CLAUDE_API_KEY")
+GEMINI_KEY    = os.environ.get("GEMINI_API_KEY")
 UNSPLASH_KEY  = os.environ.get("UNSPLASH_ACCESS_KEY")
 
-client = anthropic.Anthropic(api_key=CLAUDE_KEY)
+# 要約・INSIGHT生成にはGemini APIの無料枠を利用（従量課金のClaude APIの代替）
+client = genai.Client(api_key=GEMINI_KEY)
+GEMINI_MODEL = "gemini-flash-latest"  # Googleが自動追従させる最新Flashモデルのエイリアス
 
 app = Flask(__name__)
 
@@ -25,10 +30,13 @@ logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 cache         = {}   # title → summary text
 keyword_cache = {}   # title → unsplash keywords
+insight_cache = {}   # title → AIによる今後の展望・押さえておきたいポイント
+is_world_cache = {}  # title → 海外にも関係する話題か（false=国内限定）。フォールバック時はTrue扱い
 
 news_cache = []
 news_cache_time = 0
-CACHE_TTL = 1800  # 30分（秒）
+trends_cache = []  # サイト全体の記事を踏まえたAIによる今後の動向予測（3件程度）
+CACHE_TTL = 5400  # 90分（秒）※バッチ化後も1日20リクエストの無料枠に収まるよう更新頻度を抑える（24h稼働で最大16回/日）
 
 DATABASE = 'global_brief.db'
 
@@ -38,6 +46,7 @@ CATEGORY_COLORS = {
     "💰 経済":        "linear-gradient(135deg, #1565c0, #1976d2)",
     "🏛️ 政治":       "linear-gradient(135deg, #6a1b9a, #8e24aa)",
     "🌍 国際":        "linear-gradient(135deg, #00695c, #00897b)",
+    "🏠 国内":        "linear-gradient(135deg, #616161, #9e9e9e)",
 }
 
 # Unsplash: カテゴリ→検索キーワード
@@ -47,6 +56,7 @@ CATEGORY_KEYWORDS = {
     "💰 経済":        "economy finance business",
     "🏛️ 政治":       "politics government",
     "🌍 国際":        "world city global",
+    "🏠 国内":        "japan city street",
 }
 
 # Unsplash画像キャッシュ（記事単位・サーバー起動中保持）
@@ -151,14 +161,63 @@ def init_db():
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP
         )
     ''')
+    db.execute('''
+        CREATE TABLE IF NOT EXISTS app_state (
+            key   TEXT PRIMARY KEY,
+            value TEXT
+        )
+    ''')
     db.commit()
     db.close()
 
 
+def save_cache_state():
+    """news_cache/trends_cacheをDBに保存する。
+    プロセス再起動やGemini側の一時的な障害（503等）でtrends生成に失敗しても、
+    直前まで表示できていた動向予測・ニュース一覧が消えないようにするための永続化。"""
+    try:
+        db = get_db()
+        db.execute(
+            'INSERT INTO app_state (key, value) VALUES (?, ?) '
+            'ON CONFLICT(key) DO UPDATE SET value = excluded.value',
+            ('cache', json.dumps({
+                'news_cache':      news_cache,
+                'news_cache_time': news_cache_time,
+                'trends_cache':    trends_cache,
+            }, ensure_ascii=False))
+        )
+        db.commit()
+        db.close()
+    except Exception as e:
+        print(f"[save_cache_state error] {type(e).__name__}: {e}")
+
+
+def load_cache_state():
+    """起動時にDBから前回のnews_cache/trends_cacheを復元する。"""
+    global news_cache, news_cache_time, trends_cache
+    try:
+        db = get_db()
+        row = db.execute('SELECT value FROM app_state WHERE key = ?', ('cache',)).fetchone()
+        db.close()
+        if row:
+            data = json.loads(row['value'])
+            news_cache      = data.get('news_cache', [])
+            news_cache_time = data.get('news_cache_time', 0)
+            trends_cache    = data.get('trends_cache', [])
+    except Exception as e:
+        print(f"[load_cache_state error] {type(e).__name__}: {e}")
+
+
 init_db()
+load_cache_state()
 
 
-def get_category(title):
+def get_category(title, is_world=True):
+    """記事のカテゴリを判定する。
+    キーワードに一致しない場合、以前は無条件で「🌍 国際」扱いだったが、
+    国内限定の話題（is_world=False）まで国際に誤分類されてしまうバグがあったため、
+    Geminiが判定した is_world を使って「🌍 国際」か「🏠 国内」かを振り分ける。
+    """
     title_lower = title.lower()
     if any(word in title_lower for word in ["戦争", "紛争", "攻撃", "ミサイル", "軍", "イラン", "ロシア", "ウクライナ", "パレスチナ", "停戦"]):
         return "🔴 紛争・戦争"
@@ -168,54 +227,108 @@ def get_category(title):
         return "💰 経済"
     elif any(word in title_lower for word in ["政治", "選挙", "首相", "大統領", "政府", "国会"]):
         return "🏛️ 政治"
-    else:
+    elif is_world:
         return "🌍 国際"
+    else:
+        return "🏠 国内"
 
 
-SYSTEM_PROMPT = (
+BATCH_SYSTEM_PROMPT = (
     "あなたは世界のニュースをわかりやすく伝える大学生です。\n"
-    "純粋な商品広告・採用情報（求人）・セール・クーポン告知のみ「SKIP」とだけ返してください。\n"
-    "ニュース・社会・経済・スポーツ・科学・文化・政治・国際に関する記事はすべて以下の形式で要約してください：\n\n"
-    "1行目〜3行目：クラスの友達にLINEで教えるイメージでタメ口の3行要約\n"
-    "4行目：KEYWORDS: [この記事の内容に合う英語キーワードを2〜3語]\n\n"
+    "入力はJSON配列で、各要素は {\"index\": 記事番号, \"title\": タイトル, \"content\": 本文} です。\n"
+    "出力は {\"articles\": [...], \"trends\": [...]} という1つのオブジェクトにしてください。\n\n"
+    "■ articles: 記事ごとに以下のフィールドを持つオブジェクトの配列。indexは入力と同じ値にしてください。\n"
+    "・index: 入力と同じ記事番号\n"
+    "・skip: 純粋な商品広告・採用情報（求人）・セール・クーポン告知ならtrue、それ以外のニュース・社会・経済・スポーツ・科学・文化・政治・国際記事はfalse\n"
+    "・summary: skipがtrueなら空文字。falseならクラスの友達にLINEで教えるイメージのタメ口3行要約（改行区切りの1つの文字列）\n"
+    "・keywords: この記事の内容に合う英語キーワードを2〜3語（例: \"japan bank interest rate\"）。skipなら空文字\n"
+    "・insight: この記事を踏まえて今後どうなりそうか、または読者が押さえておくべきポイントを1〜2文・タメ口で。skipなら空文字\n"
+    "・is_world: 海外の出来事・国際情勢・外交・世界経済・グローバルな環境問題など、海外にも関係する内容ならtrue。\n"
+    "　日本国内限定の事件・芸能・スポーツ・グルメ・ローカルな話題ならfalse。skipならfalseでよい\n\n"
+    "■ trends: 上記の記事全体（skipしたものは除く）を俯瞰して、今後起こりそうな展開・押さえておきたい流れを3つ、\n"
+    "それぞれ1〜2文・タメ口の文字列としてまとめた配列。個別記事の内容の繰り返しではなく、複数記事を横断した傾向や見通しにすること。\n"
+    "対象になる記事が少ない・偏っている場合は、無理に3つ作らず出せる範囲でよい。\n\n"
     "【口調のルール】\n"
     "・「〜だよ」「〜なんだ」「〜みたい」「〜らしい」など話し言葉を使う\n"
     "・「〜です」「〜ます」「〜である」などの硬い表現は絶対に使わない\n"
     "・難しい専門用語は使わず、もし使う場合はすぐ後ろに簡単な説明を添える\n"
     "・記号や絵文字は使わない\n"
-    "【KEYWORDSの例】\n"
-    "・「日銀が金利を引き上げ」→ KEYWORDS: japan bank interest rate\n"
-    "・「ウクライナに攻撃」→ KEYWORDS: ukraine war conflict\n"
-    "・「パリ五輪で金メダル」→ KEYWORDS: olympics gold medal sport"
+    "【insightの例】\n"
+    "・「日銀が金利を引き上げ」→ 金利が上がると住宅ローンとかの返済額も増えるから、家計への影響は要チェックだよ\n"
+    "・「ウクライナに攻撃」→ 停戦交渉がどう動くか次第で、エネルギー価格にも響いてきそうだよ\n"
+    "【trendsの例】\n"
+    "・複数の記事で金利や為替の話題が出ているなら → 各国の金利政策の差が広がっていて、しばらく円安・株価の値動きが荒くなりそうだよ"
 )
 
 
-def summarize(title, content=""):
-    if not content:
-        return content, None
+class _ArticleResult(BaseModel):
+    index: int
+    skip: bool
+    summary: str
+    keywords: str
+    insight: str
+    is_world: bool
+
+
+class _BatchResult(BaseModel):
+    articles: list[_ArticleResult]
+    trends: list[str]
+
+
+# 503（サーバー側の一時的な高負荷）時の再試行待機時間（秒）。1回目失敗→5秒待って再試行、2回目失敗→15秒待って再試行、
+# 3回目も失敗したら諦めて呼び出し元に空を返す（＝生の本文にフォールバック）。面接等での動向予測(trends)の
+# 表示安定性を優先し、消費リクエスト数の増加（最大1→3呼び出し/回）を許容する設定。
+# 429（RESOURCE_EXHAUSTED＝1日の無料枠を使い切った状態）は数秒待っても回復しないため再試行しない。
+RETRY_BACKOFFS = [5, 15]
+
+
+def summarize_batch(pending, _attempt=0):
+    """pending: [{"index": int, "title": str, "content": str}, ...]
+    Gemini APIの無料枠は1日あたりのリクエスト数の上限が厳しいため、
+    全記事の要約とサイト全体の動向予測を1回のAPI呼び出しにまとめて消費リクエスト数を最小化する。
+    戻り値: ({index: (summary, keywords, insight) または None（skip記事）}, [動向予測の文字列, ...])
+    呼び出し自体が失敗した場合は (空辞書, 空リスト) を返す（呼び出し元が生の本文にフォールバックする）。
+    """
+    if not pending:
+        return {}, []
+    payload = [{"index": p["index"], "title": p["title"], "content": p["content"]} for p in pending]
     try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=300,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": f"タイトル：{title}\n内容：{content}"}],
+        resp = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=json.dumps(payload, ensure_ascii=False),
+            config=genai_types.GenerateContentConfig(
+                system_instruction=BATCH_SYSTEM_PROMPT,
+                max_output_tokens=800 * len(payload) + 400,
+                thinking_config=genai_types.ThinkingConfig(thinking_budget=0),
+                response_mime_type="application/json",
+                response_schema=_BatchResult,
+            ),
         )
-        raw = resp.content[0].text.strip()
-        if raw == "SKIP":
-            return None, None
-        lines = raw.splitlines()
-        kw_line = next((l for l in lines if l.startswith("KEYWORDS:")), None)
-        keywords = kw_line.replace("KEYWORDS:", "").strip() if kw_line else None
-        summary_lines = [l for l in lines if not l.startswith("KEYWORDS:")]
-        summary = "\n".join(summary_lines).strip()
-        return summary, keywords
+        parsed = resp.parsed
+        if not parsed:
+            raise ValueError(f"empty/unparsable response: {(resp.text or '')[:200]}")
+        results = {}
+        for item in parsed.articles:
+            if item.skip:
+                results[item.index] = None
+            else:
+                results[item.index] = (item.summary.strip(), item.keywords.strip() or None, item.insight.strip() or None, item.is_world)
+        trends = [t.strip() for t in parsed.trends if t and t.strip()][:3]
+        return results, trends
+    except (genai.errors.ClientError, genai.errors.ServerError) as e:
+        # サーバー混雑（503）はbackoffを挟んで最大2回まで再試行する。
+        # 429は「1日の無料枠を使い切った」ケースがほとんどで、数秒〜数十秒待っても回復しないため再試行しない
+        # （無駄なリクエストでさらに枠を消費するだけになる）。
+        if e.code == 503 and _attempt < len(RETRY_BACKOFFS):
+            wait = RETRY_BACKOFFS[_attempt]
+            print(f"[summarize_batch retry] {e.code} received, retrying in {wait}s (attempt {_attempt + 1}/{len(RETRY_BACKOFFS)})")
+            time.sleep(wait)
+            return summarize_batch(pending, _attempt=_attempt + 1)
+        print(f"[summarize_batch error] {type(e).__name__}: {e}")
+        return {}, []
     except Exception as e:
-        print(f"[summarize error] {type(e).__name__}: {e}")
-        return content, None
-
-    
-
-            
+        print(f"[summarize_batch error] {type(e).__name__}: {e}")
+        return {}, []
 
 
 除外ワード = [
@@ -240,7 +353,7 @@ def fetch_news():
             params={
                 "domains":        "nhk.or.jp,asahi.com,mainichi.jp,yomiuri.co.jp,nikkei.com,jiji.com,47news.jp,sankei.com,tokyo-np.co.jp",
                 "excludeDomains": "prtimes.jp,atpress.ne.jp,dreamnews.jp,newscast.co.jp,prlog.jp",
-                "pageSize":       10,
+                "pageSize":       20,  # 10→20。1バッチのGemini呼び出しが多少大きくなるが1日のリクエスト回数は変わらない
                 "sortBy":         "publishedAt",
                 "apiKey":         API_KEY,
             },
@@ -254,7 +367,9 @@ def fetch_news():
     if data.get("status") != "ok":
         return None
 
-    news = []
+    # 1st pass: フィルタリングして、要約が未取得/古い記事だけをバッチ要約の対象にする
+    filtered = []  # インデックス = バッチ要約時のindexと対応
+    pending  = []
     for article in data.get("articles", []):
         try:
             title = article.get("title") or ""
@@ -270,36 +385,83 @@ def fetch_news():
                 continue
             url_hash = hashlib.md5(article_url.encode()).hexdigest()
             description = clean_text(article.get("description") or "")
-            if title not in cache or cache.get(title) in (description, title, None):
-                new_summary, new_kw = summarize(title, description)
-                cache[title]         = new_summary
-                keyword_cache[title] = new_kw
-                
-            summary  = cache[title]
-            keywords = keyword_cache.get(title, "")
-            if summary is None:
-                continue
-            category = get_category(title)
-            article_img = article.get("urlToImage") or ""
-            if article_img and article_img.startswith("http"):
-                img_url, photo_by, photo_link = article_img, None, None
-            else:
-                search_kw = keywords or CATEGORY_KEYWORDS.get(category, "world news")
-                img_url, photo_by, photo_link = get_article_image(search_kw, url_hash)
-            news.append({
-                "category":     category,
-                "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
-                "title":        title,
-                "content":      summary,
-                "url":          article_url,
-                "source":       source_name,
-                "url_hash":     url_hash,
-                "image":        img_url,
-                "photo_by":     photo_by,
-                "photo_link":   photo_link,
+
+            idx = len(filtered)
+            filtered.append({
+                "title":       title,
+                "source_name": source_name,
+                "article_url": article_url,
+                "url_hash":    url_hash,
+                "description": description,
+                "article":     article,
             })
+            if title not in cache or cache.get(title) in (description, title, None):
+                pending.append({"index": idx, "title": title, "content": description})
         except Exception as e:
-            print(f"[article skip] {type(e).__name__}: {e}")
+            print(f"[article filter skip] {type(e).__name__}: {e}")
+
+    # 2nd pass: 1回のAPI呼び出しでまとめて要約・KEYWORDS・INSIGHT・動向予測を取得してキャッシュに反映
+    batch_results, trends = summarize_batch(pending)
+    if trends:
+        global trends_cache
+        trends_cache = trends
+    for item in pending:
+        idx   = item["index"]
+        title = filtered[idx]["title"]
+        if idx in batch_results:
+            result = batch_results[idx]
+            if result is None:
+                cache[title] = None  # AIが広告等と判定してSKIP
+            else:
+                summary, keywords, insight, is_world = result
+                cache[title]         = summary
+                keyword_cache[title] = keywords
+                insight_cache[title] = insight
+                is_world_cache[title] = is_world
+        else:
+            # バッチ呼び出し自体が失敗、またはこの記事の結果が返ってこなかった場合は生の本文にフォールバック
+            cache[title]         = item["content"]
+            keyword_cache[title] = None
+            insight_cache[title] = None
+            is_world_cache[title] = True  # 判定不能時は従来通り国際寄り扱い（誤って国内落ちさせない）
+
+    # 3rd pass: キャッシュから最終的な記事一覧を組み立てる
+    news = []
+    for f in filtered:
+        title = f["title"]
+        summary = cache.get(title)
+        if summary is None:
+            continue
+        keywords = keyword_cache.get(title, "")
+        insight  = insight_cache.get(title, "")
+        is_world = is_world_cache.get(title, True)
+        category = get_category(title, is_world)
+        article_img = f["article"].get("urlToImage") or ""
+        if article_img and article_img.startswith("http"):
+            img_url, photo_by, photo_link = article_img, None, None
+        else:
+            search_kw = keywords or CATEGORY_KEYWORDS.get(category, "world news")
+            img_url, photo_by, photo_link = get_article_image(search_kw, f["url_hash"])
+        news.append({
+            "category":     category,
+            "banner_color": CATEGORY_COLORS.get(category, "linear-gradient(135deg, #0d3b6e, #1a6cbd)"),
+            "title":        title,
+            "content":      summary,
+            "url":          f["article_url"],
+            "source":       f["source_name"],
+            "url_hash":     f["url_hash"],
+            "image":        img_url,
+            "photo_by":     photo_by,
+            "photo_link":   photo_link,
+            "insight":      insight,
+            "is_world":     is_world,
+        })
+    # 「Global Brief」という趣旨に沿うよう、国際ニュースを前方・国内限定ニュースを後方に回す。
+    # 以前は category=="🏠 国内" で判定していたが、経済・政治などのキーワードに一致した記事は
+    # 国内限定でも別カテゴリにラベル付けされて後方に回らず、国内ニュースが埋もれない原因になっていた。
+    # AIが判定した is_world（記事の内容そのものの国際性）で並び替えることで正しく国際ニュースを優先する。
+    # 除外はせず全件表示したまま並び順だけ調整する（安定ソートなので同カテゴリ内の順序は保たれる）
+    news.sort(key=lambda item: not item["is_world"])
     return news
 
 
@@ -308,16 +470,17 @@ def index():
     global news_cache, news_cache_time
 
     if time.time() - news_cache_time < CACHE_TTL:
-        return render_template("index.html", news=news_cache, error=False)
+        return render_template("index.html", news=news_cache, error=False, trends=trends_cache)
 
     result = fetch_news()
 
     if result is None:
-        return render_template("index.html", news=news_cache, error=True)
+        return render_template("index.html", news=news_cache, error=True, trends=trends_cache)
 
     news_cache = result
     news_cache_time = time.time()
-    return render_template("index.html", news=news_cache, error=False)
+    save_cache_state()
+    return render_template("index.html", news=news_cache, error=False, trends=trends_cache)
 
 
 @app.route("/debug-news")
@@ -366,31 +529,22 @@ def debug_news():
 
 @app.route("/debug-summary")
 def debug_summary():
-    """Claude要約が正常に動くか確認するデバッグ用エンドポイント"""
+    """Geminiバッチ要約が正常に動くか確認するデバッグ用エンドポイント"""
     test_title   = "日銀が政策金利を引き上げ、円高進む"
     test_content = "日本銀行は本日の金融政策決定会合で政策金利を0.5%引き上げることを決定した。"
 
-    # 例外を直接捕捉してエラー内容を返す
-    error_info = None
-    raw_response = None
-    try:
-        resp = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=300,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": f"タイトル：{test_title}\n内容：{test_content}"}],
-        )
-        raw_response = resp.content[0].text.strip()
-    except Exception as e:
-        error_info = f"{type(e).__name__}: {str(e)[:300]}"
+    result, trends = summarize_batch([{"index": 0, "title": test_title, "content": test_content}])
+    entry  = result.get(0)
+    summary, keywords, insight, is_world = entry if entry else (None, None, None, None)
 
-    summary, keywords = summarize(test_title, test_content)
     return jsonify({
-        "error_info":       error_info,
-        "raw_response":     raw_response,
+        "batch_result_raw": {k: (v if v is None else list(v)) for k, v in result.items()},
         "summary":          summary,
         "keywords":         keywords,
-        "claude_key_head":  (CLAUDE_KEY or "")[:20],
+        "insight":          insight,
+        "is_world":         is_world,
+        "trends":           trends,
+        "gemini_key_head":  (GEMINI_KEY or "")[:12],
         "news_cache_count": len(news_cache),
     })
 

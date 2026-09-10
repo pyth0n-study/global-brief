@@ -105,6 +105,12 @@ async function toggleReaction(btn) {
   } catch (e) {}
 }
 
+function toggleInsight(hash) {
+  const section = document.querySelector(`.insight-section[data-hash="${hash}"]`);
+  if (!section) return;
+  section.style.display = section.style.display === 'none' ? 'block' : 'none';
+}
+
 function toggleComments(hash) {
   const section = document.querySelector(`.comment-section[data-hash="${hash}"]`);
   if (section.style.display === 'none') {
