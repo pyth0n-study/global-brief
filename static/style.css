@@ -130,11 +130,36 @@ header p {
 .thumb-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.75) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.08), rgba(0,0,0,0.85));
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   padding: 12px 14px;
 }
+
+.thumb-headline {
+  color: #fff;
+  font-size: clamp(20px, 2.3vw, 29px);
+  font-weight: 900;
+  line-height: 1.45;
+  margin: 28px 0 14px;
+  text-shadow: 0 2px 8px #000;
+  overflow-wrap: anywhere;
+}
+.image-disclaimer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #fff;
+  background: rgba(0,0,0,.65);
+  font-size: 11px;
+}
+.card-thumb { height: auto; min-height: 290px; }
+.card-thumb img { position: absolute; inset: 0; }
+.thumb-overlay { position: relative; min-height: 290px; box-sizing: border-box; padding: 42px 18px 18px; }
 
 .thumb-meta { display: flex; gap: 6px; flex-wrap: wrap; }
 
@@ -197,6 +222,20 @@ header p {
   color: #777;
 }
 
+.friendly-title-label {
+  display: block;
+  font-size: 12px;
+  color: #1a6cbd;
+  margin-bottom: 6px;
+}
+.card-body .original-title {
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  margin-bottom: 12px;
+}
+html.dark .friendly-title-label { color: #79c0ff; }
+
 .card-body h2 {
   font-size: 16px;
   font-weight: 700;
@@ -236,7 +275,7 @@ header p {
 }
 
 .action-btn { white-space: nowrap; }
-.bookmark-btn { margin-top: 10px; }
+.bookmark-btn { margin-top: 0; }
 
 .action-btn:hover  { border-color: #1a6cbd; color: #1a6cbd; }
 .bookmark-btn:hover { border-color: #f5a623; color: #f5a623; }
@@ -248,7 +287,7 @@ header p {
   font-weight: 600;
 }
 
-.reactions { display: flex; gap: 6px; flex-wrap: wrap; }
+.reactions { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 
 .react-btn {
   display: inline-flex;

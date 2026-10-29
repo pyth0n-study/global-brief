@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 *.db
+preview.*.log
+image_preview_data.json
+focus_preview_results.json
+live_news_preview.json
+image-fallback-preview.png

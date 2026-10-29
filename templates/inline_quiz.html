@@ -1,0 +1,9 @@
+<div class="inline-quiz" data-config='{{ item.quiz|tojson }}'>
+<div class="quiz-top"><strong class="quiz-question"></strong><button type="button" class="quiz-skip">スキップ</button></div>
+<svg viewBox="{{ item.quiz.region }}" role="img" aria-label="周辺地域の拡大地図。下の3択で回答できます。">
+<defs><clipPath id="quiz-region-{{ loop.index }}"><rect x="{{ item.quiz.region.split()[0] }}" y="{{ item.quiz.region.split()[1] }}" width="{{ item.quiz.region.split()[2] }}" height="{{ item.quiz.region.split()[3] }}"/></clipPath></defs><g clip-path="url(#quiz-region-{{ loop.index }})">
+{% for country in countries %}<path d="{{ country.path }}" data-country="{{ country.code }}" fill="#365d6c" stroke="#90a9b0" stroke-width=".65"/>{% endfor %}
+{% set map_size = [item.quiz.region.split()[2]|float, item.quiz.region.split()[3]|float]|min %}
+<g class="quiz-pins">{% for pin in item.quiz.pins %}<circle cx="{{ pin[0] }}" cy="{{ pin[1] }}" r="{{ map_size * 0.022 }}" fill="#d3edb8" fill-opacity=".8" stroke="#fff" stroke-width="{{ map_size * 0.002 }}"/><text x="{{ pin[0] }}" y="{{ pin[1] }}" dy=".35em" text-anchor="middle" fill="#17362d" font-size="{{ map_size * 0.032 }}" font-weight="bold">{{ ['A','B','C'][loop.index0] }}</text>{% endfor %}</g></g></svg>
+<div class="quiz-choices" role="group" aria-label="クイズの回答"></div><div class="quiz-feedback" aria-live="polite"></div>
+</div>

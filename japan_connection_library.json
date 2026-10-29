@@ -1,0 +1,43 @@
+[
+  {
+    "id": "brazil_soy",
+    "countries": [
+      "ブラジル"
+    ],
+    "topics": [
+      "大統領選",
+      "選挙",
+      "貿易",
+      "農業",
+      "大豆",
+      "輸出"
+    ],
+    "fact": "ブラジルは日本の大豆の輸入先のひとつ。食料の輸入を通じたつながりがある。",
+    "source": {
+      "label": "農林水産省：大豆の輸入先",
+      "url": "https://www.maff.go.jp/j/heya/kodomo_sodan/0011/07.html"
+    },
+    "reviewed_at": "2026-10-29"
+  },
+  {
+    "id": "middle_east_oil",
+    "countries": [
+      "イラン",
+      "中東"
+    ],
+    "topics": [
+      "原油",
+      "石油",
+      "輸送",
+      "情勢",
+      "攻撃",
+      "紛争"
+    ],
+    "fact": "日本は中東地域から原油を輸入している。これは地域との既存のつながりで、この記事による供給・価格の変化を示すものではない。",
+    "source": {
+      "label": "資源エネルギー庁：2025年6月版・一次エネルギーの動向",
+      "url": "https://www.enecho.meti.go.jp/about/energytrends/202506/html/s-1-3.html"
+    },
+    "reviewed_at": "2026-10-29"
+  }
+]

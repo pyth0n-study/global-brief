@@ -1,8 +1,10 @@
 function thumbFallback(img) {
   const wrap  = img.closest('.card-thumb');
-  const bg    = wrap.dataset.bg;
-  const emoji = wrap.dataset.emoji;
-  wrap.outerHTML = `<div class="card-banner" style="background:${bg}">${emoji}</div>`;
+  img.remove();
+  wrap.style.background = wrap.dataset.bg;
+  wrap.querySelector('.photo-credit')?.remove();
+  wrap.querySelector('.image-disclaimer')?.remove();
+  // 画像が壊れても見出し・出典は残す。
 }
 
 function toggleSidebar() {

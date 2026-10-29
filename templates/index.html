@@ -18,6 +18,7 @@
   <header>
     <h1>Global Brief</h1>
     <p>世界のいまを、3行で。</p>
+    {% if submission_mode %}<p style="font-size:12px">保存記事 {{ captured_at }} · 最新配信ではありません</p><a href="/" style="color:inherit">← 縦型で読む</a> · <a href="/about?from=list" style="color:inherit">このサイトについて</a>{% endif %}
     <button id="dark-toggle" onclick="toggleDark()" aria-label="ダークモード切替">🌙</button>
   </header>
 
@@ -40,7 +41,7 @@
           ボタンを押すと<br>詳しい記事が<br>開きます
         </p>
         <hr>
-        <p>
+        {% if not submission_mode %}<p>
           ❤️ <strong>いいね</strong><br>
           気になった記事に<br>いいねできます
         </p>
@@ -50,7 +51,7 @@
           ニックネームで<br>コメントを投稿<br>できます
         </p>
         <hr>
-        <p class="title">🔖 保存済み <span id="bookmark-count" style="color:#f5a623;"></span></p>
+        {% endif %}<p class="title">🔖 保存済み <span id="bookmark-count" style="color:#f5a623;"></span></p>
         <div id="bookmark-list">
           <p style="font-size:12px; color:#bbb;">まだ保存した記事はありません</p>
         </div>
@@ -69,15 +70,19 @@
         📭 現在表示できるニュースがありません。
       </div>
       {% endif %}
-      {% if trends %}
-      <div class="trends-section">
-        <p class="trends-label">🔮 AIによる今後の動向予測</p>
+      {% if news and (trends or not submission_mode) %}
+      <section class="trends-section" aria-labelledby="trends-heading">
+        <p class="trends-label" id="trends-heading">🔮 AIによる今後の動向 — 3行で先読み</p>
+        {% if trends %}
         <ul class="trends-list">
           {% for trend in trends %}
           <li>{{ trend }}</li>
           {% endfor %}
         </ul>
-      </div>
+        {% else %}
+        <p>今後の動向を生成できませんでした。次回の記事更新時に再試行します。</p>
+        {% endif %}
+      </section>
       {% endif %}
       {% for item in news %}
       <div class="card">
@@ -85,12 +90,16 @@
         <div class="card-thumb" data-bg="{{ item.banner_color }}" data-emoji="{{ item.category.split(' ')[0] }}">
           <img src="{{ item.image }}" alt="{{ item.category }}" loading="lazy" onerror="thumbFallback(this)">
           <div class="thumb-overlay">
+            {% if item.friendly_title %}
+            <p class="thumb-headline">{{ item.friendly_title }}</p>
+            {% endif %}
             <div class="thumb-meta">
               <span class="category-tag">{{ item.category }}</span>
               <span class="source-tag">📰 {{ item.source }}</span>
             </div>
           </div>
           {% if item.photo_by %}
+          <span class="image-disclaimer">イメージ写真</span>
           <div class="photo-credit">
             <a href="{{ item.photo_link }}?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">{{ item.photo_by }}</a>
             on
@@ -111,25 +120,49 @@
             <span class="source-tag">📰 {{ item.source }}</span>
           </div>
           {% endif %}
+          {% if item.friendly_title and item.friendly_title != item.title %}
+          <h2>{{ item.friendly_title }}</h2>
+          {% else %}
           <h2>{{ item.title }}</h2>
+          {% endif %}
           <p>{{ item.content }}</p>
+          {% if submission_mode %}<small>{{ '要約' if item.summary else '配信元の説明' }}{% if item.reference %} · 背景資料{% endif %}</small>{% if not item.summary and item.description_incomplete %}<p style="font-size:12px;color:#888">説明文は一部のみ。続きは元記事へ。</p>{% endif %}{% endif %}
 
           <div class="reactions">
-            {% for reaction, emoji in [('heart', '❤️'), ('wow', '😮'), ('sad', '😢'), ('angry', '😡'), ('think', '🤔')] %}
+            {% if not submission_mode %}{% for reaction, emoji in [('heart', '❤️'), ('wow', '😮'), ('sad', '😢'), ('angry', '😡'), ('think', '🤔')] %}
             <button class="react-btn" data-hash="{{ item.url_hash }}" data-reaction="{{ reaction }}" onclick="toggleReaction(this)">{{ emoji }} <span>0</span></button>
-            {% endfor %}
+            {% endfor %}{% endif %}
+            <button class="bookmark-btn" data-hash="{{ item.url_hash }}" data-title="{{ item.title }}" data-url="{{ item.url }}" data-category="{{ item.category }}" onclick="toggleBookmark(this)">🔖 保存</button>
           </div>
-
-          <button class="bookmark-btn" data-hash="{{ item.url_hash }}" data-title="{{ item.title }}" data-url="{{ item.url }}" data-category="{{ item.category }}" onclick="toggleBookmark(this)">🔖 保存</button>
 
           <div class="card-actions">
             {% if item.insight %}
             <button class="action-btn insight-toggle-btn" onclick="toggleInsight('{{ item.url_hash }}')">🔮 AIの先読み</button>
             {% endif %}
-            <button class="action-btn" onclick="toggleComments('{{ item.url_hash }}')">💬 コメント</button>
+            {% if not submission_mode %}<button class="action-btn" onclick="toggleComments('{{ item.url_hash }}')">💬 コメント</button>{% endif %}
             <button class="action-btn share-x-btn" data-url="{{ item.url }}" data-title="{{ item.title }}" onclick="shareX(this)">𝕏 シェア</button>
             <button class="action-btn share-line-btn" data-url="{{ item.url }}" onclick="shareLINE(this)">LINE</button>
             <button class="action-btn copy-link-btn" data-url="{{ item.url }}" onclick="copyLink(this)">🔗 コピー</button>
+            {% if item.japan_connection and item.japan_connection.matched %}
+            <details style="width:100%;margin:12px 0;">
+              <summary style="cursor:pointer;font-weight:bold;">日本との接点</summary>
+              {% for quote in item.japan_connection.evidence %}<blockquote>{{ quote }}</blockquote>{% endfor %}
+              {% if item.japan_connection.relation %}<p>{{ item.japan_connection.relation }}</p>{% endif %}
+              <p>{{ item.japan_connection.limit }}</p>
+              {% for source in item.japan_connection.sources %}<a href="{{ source.url }}" target="_blank" rel="noopener noreferrer">{{ source.label }} ↗</a>{% endfor %}
+            </details>
+            {% endif %}
+            {% if item.focus %}<details style="width:100%;margin:12px 0;"><summary>ここに注目</summary><p>{{ item.focus.point }}</p><small>記事の説明文から抽出</small></details>{% endif %}
+            {% if item.timeline %}
+            <details class="history-details" style="width:100%;margin:12px 0;">
+              <summary style="cursor:pointer;font-weight:bold;">これまで</summary>
+              <p>{{ item.timeline.label }}</p>
+              {% for moment in item.timeline.moments %}
+              <p><strong>{{ moment.year }} · {{ moment.title }}</strong><br>{{ moment.body }}<br><a href="{{ moment.source }}" target="_blank" rel="noopener noreferrer">出典：{{ moment.publisher }} ↗</a></p>
+              {% endfor %}
+              <small>{{ item.timeline.context }}</small>
+            </details>
+            {% endif %}
             <a class="read-more" href="{{ item.url }}" target="_blank">元記事を読む →</a>
           </div>
 
@@ -161,8 +194,13 @@
 
   <footer>
     <p>© 2026 Global Brief</p>
-    <p>ニュース記事の著作権は各配信元メディアに帰属します。<br>本サイトの解説文はAIが独自に生成したものです。</p>
+    <p>ニュース記事の著作権は各配信元メディアに帰属します。<br>{% if submission_mode %}説明は配信元提供の抜粋です。歴史・接点には出典を記載しています。{% else %}本サイトの解説文はAIが独自に生成したものです。{% endif %}</p>
+    {% if news_provider == 'newsdata' %}
+    <p>Powered by <a href="https://newsdata.io/" target="_blank" rel="noopener noreferrer" style="color:#999;">NewsData.io</a></p>
+    <p>学術・非商用プロジェクト。無料プランのニュースには12時間の遅延があります。</p>
+    {% else %}
     <p>Powered by <a href="https://newsapi.org" target="_blank" style="color:#999;">NewsAPI</a></p>
+    {% endif %}
   </footer>
 
   <div id="tooltip">🔍 この単語を調べる</div>

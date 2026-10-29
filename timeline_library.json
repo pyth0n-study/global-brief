@@ -1,0 +1,86 @@
+{
+  "brazil_elections": {
+    "label": "選挙｜ブラジルの民主化",
+    "context": "現在の大統領選を理解するための制度の背景です。今回の選挙結果の原因を説明するものではありません。",
+    "moments": [
+      {
+        "year": "1985",
+        "title": "軍政から民政へ",
+        "body": "1964年から続いた軍政が終わり、民政への移行が始まった。この時点の大統領選出は、国民による直接投票ではなかった。",
+        "source": "https://www.tse.jus.br/servicos-eleitorais/glossario/termos/titulo-eleitoral/9o-titulo-eleitoral-1986",
+        "publisher": "ブラジル高等選挙裁判所"
+      },
+      {
+        "year": "1988",
+        "title": "新憲法が公布",
+        "body": "10月5日に新憲法が公布された。大統領を直接選ぶ制度が、新たな憲法のもとに位置付けられた。",
+        "source": "https://www.tse.jus.br/servicos-eleitorais/glossario/termos/titulo-eleitoral/9o-titulo-eleitoral-1986",
+        "publisher": "ブラジル高等選挙裁判所"
+      },
+      {
+        "year": "1989",
+        "title": "大統領の直接選挙が復活",
+        "body": "1960年以来となる大統領の直接選挙が実施された。国民が大統領を選ぶ仕組みが戻った。",
+        "source": "https://www.gov.br/memoriasreveladas/pt-br/centrais-de-conteudo/destaques/centenario-da-proclamacao/eleicoes-diretas/",
+        "publisher": "ブラジル国立公文書館"
+      }
+    ],
+    "reviewed_at": "2026-10-29"
+  },
+  "china_trade": {
+    "label": "貿易｜中国と国際貿易のルール",
+    "context": "国際貿易制度の背景です。個別の輸出規制・安全保障上の措置の理由や合法性を判断するものではありません。",
+    "moments": [
+      {
+        "year": "1948",
+        "title": "GATTの時代が始まる",
+        "body": "関税と貿易に関する一般協定（GATT）が、国際貿易のルールを支える枠組みとして機能し始めた。",
+        "source": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm",
+        "publisher": "WTO"
+      },
+      {
+        "year": "1995",
+        "title": "WTOが発足",
+        "body": "1月1日、世界貿易機関（WTO）が発足。GATTから引き継いだルールなどを扱う国際機関が誕生した。",
+        "source": "https://www.wto.org/english/docs_e/legal_e/legalexplgatt1947_e.htm",
+        "publisher": "WTO"
+      },
+      {
+        "year": "2001",
+        "title": "中国がWTOに加盟",
+        "body": "12月11日、中国が143番目のWTO加盟国になった。中国の貿易を読む際の制度上の節目のひとつ。",
+        "source": "https://www.wto.org/english/thewto_e/minist_e/min01_e/min01_11nov_e.htm",
+        "publisher": "WTO"
+      }
+    ],
+    "reviewed_at": "2026-10-29"
+  },
+  "japan_china_diplomacy": {
+    "label": "外交｜日中関係の節目",
+    "context": "日中関係の基本文書の歩みです。協力の文書があることと、個別の問題で対立がないことは別です。",
+    "moments": [
+      {
+        "year": "1972",
+        "title": "日中の国交が正常化",
+        "body": "9月29日、日中共同声明が発表された。両国の外交関係が正常化した。",
+        "source": "https://www.mofa.go.jp/mofaj/area/china/nc_seimei.html",
+        "publisher": "外務省"
+      },
+      {
+        "year": "1978",
+        "title": "平和友好条約が発効",
+        "body": "8月12日に日中平和友好条約へ署名。10月23日に発効した。",
+        "source": "https://www.mofa.go.jp/mofaj/ms/da/page24_001940.html",
+        "publisher": "外務省"
+      },
+      {
+        "year": "1998",
+        "title": "友好協力の共同宣言",
+        "body": "江沢民国家主席の訪日に際し、平和と発展のための友好協力パートナーシップの構築に関する共同宣言が発表された。",
+        "source": "https://www.mofa.go.jp/mofaj/area/china/nc_sengen.html",
+        "publisher": "外務省"
+      }
+    ],
+    "reviewed_at": "2026-10-29"
+  }
+}

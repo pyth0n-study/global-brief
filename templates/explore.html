@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Brief — 世界と、つながる。</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap');
+:root{font-family:'Noto Sans JP',sans-serif;color:#172d34;background:#edf0ed}*{box-sizing:border-box}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #df683d;outline-offset:4px}.brand{position:fixed;left:5vw;top:36px;z-index:3;font-size:20px;font-weight:900;letter-spacing:-1px}.brand span{color:#e06a43}.intro{position:fixed;left:5vw;top:30%;width:235px}.intro .eyebrow{font-size:11px;letter-spacing:3px;color:#57746f}.intro h1{font-size:38px;line-height:1.6;letter-spacing:-2px}.intro p{font-size:13px;line-height:2;color:#60726e}.intro small{display:block;margin-top:36px;font-size:11px;color:#71817a}.rail{position:fixed;right:5vw;top:45%;display:grid;gap:18px}.dot{border:0;background:#c6d1ca;width:9px;height:9px;border-radius:50%;padding:0}.dot.active{background:#df683d;box-shadow:0 0 0 5px #df683d20}.feed{height:100dvh;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth;margin-left:30%;width: min(560px,55vw);scrollbar-width:none}.feed::-webkit-scrollbar{display:none}.story{height:100dvh;scroll-snap-align:start;padding:24px 0;display:flex;align-items:center}.sheet{height:100%;max-height:900px;background:#fafbf7;border:1px solid #dbe1d7;border-radius:24px;overflow-y:auto;scrollbar-width:thin;position:relative;box-shadow:0 16px 60px #203b3020;width:100%}.hero{min-height:235px;padding:28px 30px;background:var(--bg);color:#fff;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;width:250px;height:250px;border:1px solid #ffffff26;border-radius:50%;right:-70px;top:5px;box-shadow:0 0 0 35px #ffffff09,0 0 0 70px #ffffff06;pointer-events:none}.meta{display:flex;justify-content:space-between;position:relative;z-index:1;font-size:11px;letter-spacing:1px}.tag{border:1px solid #ffffff66;border-radius:30px;padding:5px 10px}.issue{opacity:.7;padding-top:5px}.hero h2{position:relative;z-index:1;font-size:29px;line-height:1.6;letter-spacing:-1px;max-width:400px;margin:24px 0 12px}.hero .sub{font-size:11px;opacity:.7;margin:0}.body{padding:22px 28px 18px}.label{font-size:10px;letter-spacing:2px;color:#678077;font-weight:700;margin:0 0 10px}.summary{font-size:14px;line-height:1.95;margin:0 0 21px}.question{font-size:16px;font-weight:800;margin:0 0 5px}.hint{font-size:11px;color:#738078;margin:0 0 14px}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.tab{border:1px solid #dce2d6;border-radius:13px;padding:12px 4px;background:#f2f4ed;color:#53665c;font-size:11px;font-weight:600;transition:.2s}.tab span{font-size:20px;display:block;margin-bottom:6px}.tab[aria-selected=true]{background:#244e43;color:white;border-color:#244e43}.tab.seen:after{content:' ✓';color:#d27a45}.panel{margin-top:12px;border:1px solid #dde3d6;border-radius:14px;padding:17px 18px;min-height:140px;background:#fff}.panel h3{margin:0 0 9px;font-size:14px}.panel p{font-size:12px;line-height:1.95;margin:0;white-space:pre-line}.flow{margin-top:12px;display:flex;align-items:center;gap:5px;flex-wrap:wrap}.flow span{background:#eef3e8;padding:7px 9px;border-radius:7px;font-size:10px}.flow b{font-size:12px;color:#a2b49b}.bottom{display:flex;justify-content:space-between;align-items:center;margin-top:17px;font-size:10px;color:#728074}.next{border:0;background:transparent;color:#315c4c;font-size:11px;padding:9px}.progress{height:3px;background:#e5eadd;margin:14px 0 0;border-radius:5px}.progress i{display:block;background:#df784c;height:100%;width:0;transition:width .3s}.notice{position:fixed;bottom:24px;left:5vw;font-size:10px;color:#7c857b;max-width:235px;line-height:1.9}.counter{font-variant-numeric:tabular-nums}.mobile-brand{display:none}
+@media(max-width:950px){.intro{width:175px}.intro h1{font-size:28px}.feed{margin-left:29%;width:62vw}.rail{right:3vw}.brand{font-size:17px;left:3vw}.intro,.notice{left:3vw}.notice{max-width:180px}}
+@media(max-width:650px){body{background:#fafbf7}.brand,.intro,.rail,.notice{display:none}.feed{width:100%;margin:0}.story{padding:0}.sheet{max-height:none;border:0;border-radius:0;box-shadow:none}.hero{padding:21px 24px;min-height:245px;padding-top:18px}.mobile-brand{display:block;font-size:11px;margin:0 0 18px;letter-spacing:1px;opacity:.75}.hero h2{font-size:27px;margin-top:21px}.body{padding:20px 22px}.summary{font-size:13px}.panel{min-height:150px}.bottom{padding-bottom:env(safe-area-inset-bottom)}}
+@media(prefers-reduced-motion:reduce){.feed{scroll-behavior:auto}*{transition:none!important}}
+
+/* Full-screen feed: each story is the entire canvas. */
+body{background:#091815;color:#fff;overflow:hidden}
+.brand{left:32px;top:24px;font-size:19px;color:#fff}.brand span{color:#b9edbc}
+.intro,.notice{display:none}.feed{width:100%;margin:0;height:100dvh}
+.story{padding:0;height:100dvh;scroll-snap-stop:always}
+.sheet{border:0;border-radius:0;box-shadow:none;max-height:none;height:100%;background:radial-gradient(ellipse at 80% 20%,#ffffff0e,transparent 55%),linear-gradient(150deg,var(--scene),#081614 90%);display:flex;flex-direction:column;overflow-y:auto}
+.hero{background:transparent;flex:1;min-height:210px;overflow:visible;padding:90px max(7vw,24px) 18px;display:flex;flex-direction:column;justify-content:flex-end}
+.hero:after{width:43vw;height:43vw;right:4vw;top:11vh;box-shadow:0 0 0 65px #ffffff03,0 0 0 130px #ffffff02;opacity:.6}
+.meta{max-width:760px}.tag{background:#ffffff0a;border-color:#ffffff35}.issue{letter-spacing:2px}
+.hero h2{font-size:clamp(32px,4.7vw,68px);line-height:1.35;letter-spacing:-2px;max-width:1000px;margin:20px 0 16px;text-shadow:0 3px 30px #0002}.hero .sub{font-size:10px}
+.body{position:relative;z-index:1;padding:12px max(7vw,24px) max(24px,env(safe-area-inset-bottom));width:100%;max-width:1080px}
+.label{color:#c5dec9;letter-spacing:2px}.summary{font-size:clamp(13px,1.2vw,16px);line-height:1.8;color:#e1eae5;margin-bottom:18px}
+.question{display:none}.hint{color:#9fbab0;font-size:11px;margin-bottom:10px}.tabs{max-width:640px;gap:9px}
+.tab{background:#ffffff0a;border:1px solid #ffffff32;color:#e2eee6;border-radius:12px;padding:12px 8px;font-size:12px;backdrop-filter:blur(14px)}.tab span{font-size:18px;display:inline;margin-right:8px}.tab[aria-selected=true]{background:#d3edb8;color:#183b2b;border-color:#d3edb8}.tab.seen:after{color:#db8659}
+.panel{display:none;background:#102b27eb;border-color:#ffffff26;color:#eef6ee;max-width:760px;min-height:0;max-height:30dvh;overflow:auto;backdrop-filter:blur(20px);animation:reveal .2s ease-out}.panel.open{display:block}.panel h3{font-size:15px}.panel p{font-size:13px;color:#d3e1d8}.flow span{background:#ffffff12;color:#e8f1df}.flow b{color:#a7c697}
+.progress{max-width:640px;background:#ffffff18;margin-top:18px}.progress i{background:#d3edb8}.bottom{max-width:640px;color:#b5c9bd;margin-top:8px}.next{color:#e4efdc}
+.rail{right:30px;top:50%;z-index:3}.dot{background:#ffffff35}.dot.active{background:#d3edb8;box-shadow:0 0 0 5px #d3edb815}
+.mobile-brand{display:none}
+@keyframes reveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:650px){.brand{display:block;left:22px;top:20px;font-size:16px}.rail{display:none}.hero{padding:72px 22px 16px;min-height:220px}.hero h2{font-size:clamp(29px,8.5vw,44px);letter-spacing:-1px}.hero:after{width:70vw;height:70vw;right:-10vw;top:16vh}.body{padding:8px 22px max(18px,env(safe-area-inset-bottom))}.summary{font-size:13px;line-height:1.85}.tabs{gap:7px}.tab{font-size:10px;padding:12px 3px}.tab span{display:block;margin:0 0 5px;font-size:19px}.panel{max-height:30dvh;padding:15px}.panel p{font-size:12px}.hero .sub{font-size:9px}}
+@media(max-height:700px){.hero{min-height:170px;padding-top:65px}.hero h2{font-size:clamp(26px,4vw,42px);margin:12px 0}.summary{font-size:12px;margin-bottom:10px}.panel{max-height:24dvh}.hint{margin-bottom:6px}.tab{padding:8px 4px}.progress{margin-top:10px}}
+@media(prefers-reduced-motion:reduce){.panel{animation:none}}
+
+.feed{touch-action:pan-y}.sheet{overscroll-behavior-y:contain}.panel{overscroll-behavior-y:contain}
+
+.hero{justify-content:center;padding-top:105px;padding-bottom:30px}.hero h2{font-weight:900;font-size:clamp(36px,5.6vw,80px);line-height:1.35;margin:20px 0 0;max-width:1150px;letter-spacing:-.035em}.key{color:#d3edb8}.place{font-size:clamp(14px,1.6vw,20px);font-weight:700;letter-spacing:.08em;color:#d3edb8;display:flex;align-items:center;gap:9px}.place:before{content:'';width:7px;height:7px;background:#d3edb8;border-radius:50%}.summary{font-size:clamp(15px,1.5vw,20px);line-height:1.75;margin-bottom:26px;color:#d9e4dc}.bottom{font-size:9px;opacity:.65}.next{font-size:22px;padding:0 12px;min-width:44px;min-height:44px}.tab{font-size:14px;padding:15px 8px}.body{padding-bottom:20px}.brand{font-size:15px;opacity:.75}.panel p{font-size:14px;line-height:1.85}
+@media(max-width:650px){.hero{padding:90px 24px 25px;min-height:220px}.hero h2{font-size:clamp(30px,8.5vw,48px);line-height:1.4}.place{font-size:14px}.body{padding:0 24px max(12px,env(safe-area-inset-bottom))}.summary{font-size:15px;margin-bottom:24px}.tab{font-size:12px;padding:14px 3px}.tab span{display:inline;margin-right:5px;font-size:16px}.panel p{font-size:13px}.progress{margin-top:18px}.bottom{margin-top:0}}
+@media(max-height:650px){.hero{padding-top:65px;padding-bottom:15px;min-height:160px}.hero h2{font-size:clamp(26px,4.5vw,46px)}.summary{font-size:13px;margin-bottom:12px}.tab{padding:10px 4px}.panel{max-height:22dvh}}
+</style>
+<div class="brand">Global Brief<span> /</span></div>
+<nav class="rail" aria-label="ニュースを選択"></nav>
+<main class="feed" aria-label="ニュース体験の試作"></main>
+<script>
+const stories=[
+ {color:'#275c57',tag:'物流と暮らし',place:'アルナ海峡（架空）',title:'貨物船が<span class="key">迂回</span>。<br>輸送に遅れの可能性',summary:'航路の安全確認で遠回りに。<br>この道を通る輸入品は、到着が遅れる可能性。',panels:[['航路が変わる、その手前には','これまで：船は決まった航路で荷物を運んでいた。\nきっかけ：航路上で安全確認が必要になった。\n今回：一部の船が、距離の長い別の道を選んだ。'],['同じ海でも、立場はさまざま','沿岸の国は安全と港の運営、輸出する国は商品の出荷、輸入する国は安定した供給に関わる。\n国同士の関係だけでなく、船会社の判断も重なる話題だよ。'],['「船の道」から「いつもの買い物」へ','日本に届く輸入品も、その航路を利用していれば関係する可能性がある。\nただし、すべての商品が値上がりするとは限らない。航路・在庫・迂回の長さで変わるよ。']],flow:['航路の迂回','輸送の時間・費用','商品の供給'],prompt:'どこが気になった？'},
+ {color:'#354d75',tag:'資源とテクノロジー',place:'リオナ国（架空）',title:'スマホ部品の資源、<br><span class="key">輸出ルール見直し案</span>',summary:'電子機器に使う資源が対象。<br>調達や製品への影響は、まだ決まっていない。',panels:[['便利な製品を支える、長いつながり','これまで：資源の採掘、加工、部品づくりを複数の国で分担してきた。\nきっかけ：資源の安定確保が議論になった。\n今回：輸出の手続きを見直す案が提示された。'],['協力と競争は、同時にある','資源を持つ国、加工する国、製品を作る国は互いに取引している。\n貿易で協力していても、資源の管理方法では意見が異なることがある。単純な「仲がいい・悪い」では捉えきれないんだ。'],['身近な製品まで、何段階？','日本の企業がその資源を使っていれば、調達計画に関わる可能性がある。\nスマホの値段や発売日に影響するかは、代替材料や在庫次第。この案だけで値上がりは判断できないよ。']],flow:['資源','部品の調達','製品づくり'],prompt:'気になるつながりを開こう'},
+ {color:'#895636',tag:'環境と食',place:'セリナ地方（架空）',title:'天候の変化で、<br>作物の<span class="key">収穫見通し下がる</span>',summary:'輸出側と買い付け側が対応を検討。<br>店頭価格への影響は、在庫や為替にもよる。',panels:[['今回だけで終わらない、作物の時間','これまで：作付けと収穫の計画に沿って取引していた。\nきっかけ：生産地域の天候が変わった。\n今回：収穫見通しを見直し、供給計画の調整が始まった。'],['輸出国と輸入国、必要なものの違い','輸出する国には自国の食料を確保する事情があり、輸入する国には安定して買い付けたい事情がある。\n他の産地との取引や、企業間の契約も供給を左右する。'],['食費とのつながりを、たどってみる','日本がその作物をその地域から輸入していれば、調達先や費用に関わり得る。\nただし、お店の価格には為替・契約・在庫なども関係する。収穫減から即値上げ、と決まるわけではないよ。']],flow:['産地の収穫','輸入・仕入れ','食卓'],prompt:'ニュースの先を、ひとつ知る'}
+];
+const shortPanels=[
+ ['いつもの航路 → 安全確認 → 遠回りに。\nその分、輸送に時間がかかる可能性。','沿岸国は安全を確保したい。輸出入する国は荷物を安定して運びたい。\n船会社の判断も関わる。','この航路を使う輸入品なら、到着や輸送費に関わる可能性。\n値上がりするかは、在庫や迂回の長さ次第。'],
+ ['国をまたいで、採掘 → 加工 → 部品づくり。\nその途中の輸出手続きが、見直しの対象に。','資源を売る国と、部品を作る国は互いに取引。\n貿易では協力しても、資源の管理では意見が分かれる。','日本企業が使う資源なら、調達計画に関わる可能性。\nスマホが高くなるかは、在庫や代替材料次第。'],
+ ['作付け → 天候の変化 → 収穫見通しを下方修正。\n供給計画の調整が始まった。','輸出国は自国の食料を確保したい。輸入国は安定して買いたい。\n他の産地との取引も関わる。','日本がこの産地から輸入していれば、仕入れに関わる可能性。\n食費への影響は、為替や在庫にもよる。']
+];
+stories.forEach((s,i)=>s.panels.forEach((p,j)=>p[1]=shortPanels[i][j]));
+const feed=document.querySelector('.feed'),rail=document.querySelector('.rail');
+stories.forEach((s,i)=>{
+ const article=document.createElement('article');article.className='story';article.id='story-'+i;article.style.setProperty('--scene',s.color);
+ article.innerHTML=`<div class="sheet"><header class="hero" style="--bg:${s.color}"><div class="meta"><span class="place">${s.place}</span></div><h2>${s.title}</h2></header><div class="body"><p class="summary">${s.summary}</p><div class="tabs" role="tablist" aria-label="解説の切り替え">${['背景','国の関係','日本との接点'].map((x,j)=>`<button type="button" class="tab" role="tab" id="tab-${i}-${j}" aria-controls="panel-${i}" aria-selected="false" data-index="${j}"><span aria-hidden="true">${['↶','◎','↗'][j]}</span>${x}</button>`).join('')}</div><section class="panel" id="panel-${i}" role="tabpanel" aria-label="選んだ解説" aria-live="polite"></section><div class="progress" aria-hidden="true"><i></i></div><div class="bottom"><span>架空のニュース</span><button class="next" type="button" aria-label="${i<2?'次のニュース':'最初のニュース'}">${i<2?'↓':'↑'}</button></div></div></div>`;
+ const seen=new Set();const tabs=[...article.querySelectorAll('.tab')];
+ function select(j){seen.add(j);tabs.forEach((b,k)=>{b.setAttribute('aria-selected',String(k===j));if(seen.has(k))b.classList.add('seen')});const p=article.querySelector('.panel');p.classList.add('open');p.setAttribute('aria-labelledby',tabs[j].id);p.replaceChildren();let text=document.createElement('p');text.textContent=s.panels[j][1];p.append(text);if(j===2){const f=document.createElement('div');f.className='flow';s.flow.forEach((v,k)=>{if(k){let arrow=document.createElement('b');arrow.textContent='→';f.append(arrow)}let vspan=document.createElement('span');vspan.textContent=v;f.append(vspan)});p.append(f)}article.querySelector('.progress i').style.width=seen.size/3*100+'%'}
+ tabs.forEach((b,j)=>{b.onclick=()=>select(j);b.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();let n=e.key==='Home'?0:e.key==='End'?2:(j+(e.key==='ArrowRight'?1:2))%3;tabs[n].focus();select(n)}}});
+ article.querySelector('.next').onclick=()=>document.getElementById('story-'+((i+1)%3)).scrollIntoView({block:'start'});feed.append(article);
+ const dot=document.createElement('button');dot.className='dot'+(i===0?' active':'');dot.setAttribute('aria-label',`ニュース${i+1}へ`);dot.onclick=()=>article.scrollIntoView({block:'start'});rail.append(dot);
+});
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){const n=[...feed.children].indexOf(e.target);[...rail.children].forEach((d,i)=>{d.classList.toggle('active',i===n);d.setAttribute('aria-current',String(i===n))})}}),{root:feed,threshold:.6});
+[...feed.children].forEach(el=>observer.observe(el));
+
+// Consume a wheel gesture once; avoid skipping multiple stories on a trackpad.
+let wheelTotal=0,wheelLast=0,navUntil=0;
+function currentStory(){return Math.round(feed.scrollTop/feed.clientHeight)}
+function moveStory(direction){
+ const next=Math.max(0,Math.min(stories.length-1,currentStory()+direction));
+ feed.scrollTo({top:next*feed.clientHeight,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+ navUntil=performance.now()+650;
+}
+function canReadInside(target,delta){
+ const box=target.closest('.panel,.sheet');
+ return box && box.scrollHeight>box.clientHeight+2 && (delta>0?box.scrollTop+box.clientHeight<box.scrollHeight-2:box.scrollTop>2);
+}
+feed.addEventListener('wheel',e=>{
+ if(e.ctrlKey||Math.abs(e.deltaX)>Math.abs(e.deltaY)||!e.deltaY)return;
+ if(canReadInside(e.target,e.deltaY))return;
+ e.preventDefault();const now=performance.now();const gap=now-wheelLast;wheelLast=now;
+ if(now<navUntil){wheelTotal=0;return}
+ if(gap<180 && wheelTotal===Infinity)return;
+ if(gap>=180||Math.sign(wheelTotal)!==Math.sign(e.deltaY))wheelTotal=0;
+ wheelTotal+=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?feed.clientHeight:1);
+ if(Math.abs(wheelTotal)>=40){moveStory(Math.sign(wheelTotal));wheelTotal=Infinity}
+},{passive:false});
+let touchStart=null;
+feed.addEventListener('touchstart',e=>{if(e.touches.length===1){const t=e.touches[0];touchStart={x:t.clientX,y:t.clientY,target:e.target,inside:false}}else touchStart=null},{passive:true});
+feed.addEventListener('touchmove',e=>{
+ if(!touchStart||e.touches.length!==1)return;
+ const dy=touchStart.y-e.touches[0].clientY;
+ if(canReadInside(touchStart.target,dy)){touchStart.inside=true;return}
+ if(!touchStart.inside && Math.abs(dy)>8)e.preventDefault();
+},{passive:false});
+feed.addEventListener('touchend',e=>{
+ if(!touchStart)return;const t=e.changedTouches[0],dy=touchStart.y-t.clientY,dx=touchStart.x-t.clientX;
+ if(!touchStart.inside&&Math.abs(dy)>45&&Math.abs(dy)>Math.abs(dx)&&performance.now()>navUntil)moveStory(Math.sign(dy));
+ touchStart=null;
+},{passive:true});
+feed.addEventListener('touchcancel',()=>touchStart=null,{passive:true});
+</script>
+</html>
