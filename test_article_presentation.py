@@ -15,6 +15,9 @@ class PresentationTests(unittest.TestCase):
 
     def test_logo_is_not_a_news_photo(self):
         self.assertEqual(usable_image('https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800'), '')
+        self.assertEqual(usable_image('https://image.news.livedoor.com/newsimage/stf/o/g/ogp_image_32679556_3f268f2d07b5.jpg'), '')
+        other = 'https://image.news.livedoor.com/newsimage/stf/o/g/ogp_image_other.jpg'
+        self.assertEqual(usable_image(other), other)
         self.assertEqual(usable_image('https://example.com/photo.jpg'), 'https://example.com/photo.jpg')
 
     def test_election_has_country_quiz_without_ai(self):

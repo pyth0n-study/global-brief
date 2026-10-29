@@ -27,6 +27,10 @@ def quiz_for_article(article):
 
 def usable_image(url):
     parsed = urlparse(url or '')
+    # Visually reviewed: this specific image contains only a repeated headline.
+    # Do not classify all OGP images this way; many contain real photographs.
+    if parsed.hostname == 'image.news.livedoor.com' and parsed.path.endswith('/ogp_image_32679556_3f268f2d07b5.jpg'):
+        return ''
     # Yahoo's default.jpg is its service logo, not a photo of the event.
     if parsed.hostname and parsed.hostname.endswith('.yimg.jp') and parsed.path.endswith('/default.jpg'):
         return ''
