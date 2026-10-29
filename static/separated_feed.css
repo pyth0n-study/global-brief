@@ -2,6 +2,16 @@
 body{background:#f3f5f4;color:#15231f}
 header{position:sticky;top:0;left:auto;padding:14px 20px;background:#fffefc;box-shadow:0 1px 8px #14231b0b;text-shadow:none;pointer-events:auto}
 header a{color:#395c50!important}
+.brand-bar,.brand-meta{max-width:632px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand-home{display:flex;align-items:center;gap:11px;text-decoration:none}
+.brand-home strong{display:block;font-size:27px;font-weight:900;letter-spacing:-1px;line-height:1.1;color:#123d36}
+.brand-home strong span{color:#538664}
+.brand-home small{display:block;font-size:10px;font-weight:600;letter-spacing:1px;margin-top:5px;color:#698077}
+.brand-globe{display:grid;place-items:center;width:43px;height:43px;border-radius:50%;background:#123d36;color:#e0efba;font-size:35px;line-height:1}
+.brand-list{font-size:11px;text-decoration:none;border:1px solid #d1dfd6;border-radius:20px;padding:8px 12px;white-space:nowrap}
+.brand-meta{font-size:10px;font-weight:400;color:#84958b;margin-top:12px;padding-top:9px;border-top:1px solid #e5ebe7}
+.brand-meta a{text-decoration:none}
+@media(max-width:380px){.brand-home strong{font-size:23px}.brand-home{gap:8px}.brand-globe{width:35px;height:35px;font-size:30px}.brand-list{padding:8px;font-size:10px}}
 main{height:auto;overflow:visible;scroll-snap-type:none;max-width:660px;margin:auto;padding:20px 14px 40px}
 article{--media-height:350px;height:auto;min-height:0;scroll-snap-align:none;scroll-snap-stop:normal;justify-content:flex-start;padding:calc(var(--media-height) + 18px) 22px 20px;margin-bottom:24px;border-radius:18px;background:#fff;box-shadow:0 3px 16px #14231b0c;overflow:hidden}
 article:after{display:none}
