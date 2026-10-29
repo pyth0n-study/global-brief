@@ -15,6 +15,7 @@ submission = Blueprint('submission', __name__)
 @submission.get('/')
 @submission.get('/play')
 @submission.get('/articles')
+@submission.get('/preview/feed')
 def home():
     payload = json.loads((Path(__file__).parent / 'data/submission_news.json').read_text(encoding='utf-8'))
     articles = [prepare_article(a) for a in payload['articles']]
@@ -37,7 +38,7 @@ def home():
     template = 'image_preview.html'
     return render_template(template, articles=articles, inline_quiz=True,
         motion=False, countries=world_paths(), timelines=load_timelines(),
-        submission_mode=True, captured_at=payload['captured_at'])
+        submission_mode=True, captured_at=payload['captured_at'], separated_feed=request.path == '/preview/feed')
 
 
 @submission.get('/about')

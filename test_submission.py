@@ -50,3 +50,12 @@ class SubmissionTests(unittest.TestCase):
         self.assertIn('/about?from=list', listing)
         self.assertIn('href="/articles">記事一覧に戻る', client.get('/about?from=list').get_data(as_text=True))
         self.assertIn('href="/">ニュースに戻る', client.get('/about').get_data(as_text=True))
+
+    def test_separated_feed_preview_keeps_interactions(self):
+        client = self.module.app.test_client()
+        page = client.get('/preview/feed').get_data(as_text=True)
+        self.assertIn('separated_feed.css', page)
+        self.assertIn('headline-toggle', page)
+        self.assertIn('inline-quiz', page)
+        self.assertEqual(page.count('<article '), 12)
+        self.assertNotIn('separated_feed.css', client.get('/').get_data(as_text=True))
