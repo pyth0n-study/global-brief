@@ -58,4 +58,9 @@ class SubmissionTests(unittest.TestCase):
         self.assertIn('headline-toggle', page)
         self.assertIn('inline-quiz', page)
         self.assertEqual(page.count('<article '), 12)
-        self.assertNotIn('separated_feed.css', client.get('/').get_data(as_text=True))
+        for route in ('/', '/play'):
+            homepage = client.get(route).get_data(as_text=True)
+            self.assertIn('separated_feed.css', homepage)
+            self.assertIn('headline-toggle', homepage)
+            self.assertIn('inline-quiz', homepage)
+            self.assertIn('href="/" aria-label="Global Brief ホーム"', homepage)

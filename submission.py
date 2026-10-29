@@ -38,7 +38,7 @@ def home():
     template = 'image_preview.html'
     return render_template(template, articles=articles, inline_quiz=True,
         motion=False, countries=world_paths(), timelines=load_timelines(),
-        submission_mode=True, captured_at=payload['captured_at'], separated_feed=request.path == '/preview/feed')
+        submission_mode=True, captured_at=payload['captured_at'], separated_feed=True)
 
 
 @submission.get('/about')
