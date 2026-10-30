@@ -64,6 +64,7 @@
     requestAnimationFrame(slide);
   };
   window.addEventListener('wheel', event => {
+    if (document.querySelector('.saved-stories-dialog[open]')) return;
     if (event.ctrlKey || event.target.closest('aside,select,input,textarea') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
     event.preventDefault();
     if (locked) return;
@@ -71,6 +72,7 @@
     if (Math.abs(delta) >= 18) { const direction = Math.sign(delta); delta = 0; move(direction); }
   }, {passive: false});
   window.addEventListener('keydown', event => {
+    if (document.querySelector('.saved-stories-dialog[open]')) return;
     if (event.target.closest('aside,button,a,input,select,textarea')) return;
     const direction = {ArrowDown: 1, PageDown: 1, ArrowUp: -1, PageUp: -1}[event.key];
     if (direction) { event.preventDefault(); move(direction); }
