@@ -4,6 +4,26 @@
   if (!feed) return;
   const stories = [...feed.querySelectorAll('article')];
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  let motionEnabled = !reduced.matches;
+  try {
+    const requested = new URLSearchParams(location.search).get('motion');
+    if (['on', 'off'].includes(requested)) localStorage.setItem('gb_story_motion', requested);
+    const stored = localStorage.getItem('gb_story_motion');
+    if (['on', 'off'].includes(stored)) motionEnabled = stored === 'on';
+  } catch (_) { /* The control still works when local storage is unavailable. */ }
+  const motionControl = document.querySelector('.story-motion-control');
+  const showMotionState = () => {
+    if (!motionControl) return;
+    motionControl.textContent = '切替アニメ ' + (motionEnabled ? 'ON' : 'OFF');
+    motionControl.setAttribute('aria-pressed', String(motionEnabled));
+  };
+  if (motionControl) motionControl.onclick = () => {
+    motionEnabled = !motionEnabled;
+    try { localStorage.setItem('gb_story_motion', motionEnabled ? 'on' : 'off'); } catch (_) {}
+    showMotionState();
+  };
+  showMotionState();
+  const immersive = feed.dataset.layout === 'immersive';
   // Give the media all space left by this story's actual headline and controls.
   // A fixed percentage leaves large gaps on tall phones and short headlines.
   let fitFrame = 0;
@@ -18,7 +38,8 @@
           if (css.display === 'none' || ['absolute', 'fixed'].includes(css.position)) continue;
           contentHeight += child.getBoundingClientRect().height + parseFloat(css.marginTop) + parseFloat(css.marginBottom);
         }
-        const available = feed.clientHeight - contentHeight - parseFloat(style.paddingBottom) - 17;
+        const headerSpace = immersive ? document.querySelector('header').getBoundingClientRect().height + 14 : 0;
+        const available = feed.clientHeight - contentHeight - parseFloat(style.paddingBottom) - 17 - headerSpace;
         const height = Math.max(120, Math.floor(available));
         if (story.style.getPropertyValue('--media-height') !== height + 'px') story.style.setProperty('--media-height', height + 'px');
       }
@@ -39,8 +60,32 @@
     const target = Math.max(0, Math.min(stories.length - 1, current() + direction));
     if (target === current()) return;
     locked = true;
-    feed.scrollTo({top: stories[target].offsetTop, behavior: reduced.matches ? 'instant' : 'smooth'});
-    setTimeout(() => { locked = false; delta = 0; }, 750);
+    const start = feed.scrollTop, end = stories[target].offsetTop;
+    if (!motionEnabled) {
+      feed.scrollTo({top: end, behavior: 'instant'});
+      setTimeout(() => { locked = false; delta = 0; }, 300);
+      return;
+    }
+    // Native smooth scroll can be snapped immediately by the browser.
+    // Temporarily release snapping and animate the whole viewport explicitly.
+    feed.style.scrollSnapType = 'none';
+    feed.style.scrollBehavior = 'auto';
+    feed.classList.add('is-sliding');
+    const started = performance.now();
+    const slide = now => {
+      const progress = Math.min(1, (now - started) / 600);
+      const eased = progress < .5 ? 4 * progress ** 3 : 1 - (-2 * progress + 2) ** 3 / 2;
+      feed.scrollTop = start + (end - start) * eased;
+      if (progress < 1) requestAnimationFrame(slide);
+      else {
+        feed.scrollTop = end;
+        feed.style.scrollSnapType = '';
+        feed.style.scrollBehavior = '';
+        feed.classList.remove('is-sliding');
+        setTimeout(() => { locked = false; delta = 0; }, 180);
+      }
+    };
+    requestAnimationFrame(slide);
   };
   window.addEventListener('wheel', event => {
     if (event.ctrlKey || event.target.closest('aside,select,input,textarea') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
