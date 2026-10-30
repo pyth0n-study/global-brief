@@ -51,8 +51,8 @@ def fetch_articles(provider, newsapi_key=None, newsdata_key=None):
                 'url': url,
                 'source': {'name': item.get('source_name') or item.get('source_id') or '不明'},
                 'publishedAt': item.get('pubDate'),
-                # Image permission is pending; do not reuse provider images.
-                'urlToImage': None,
+                # Provider URL only; no image download or fabricated replacement.
+                'urlToImage': item.get('image_url') or None,
             })
         page = data.get('nextPage')
         if len(articles) >= 20 or not page or page in pages or not data['results']:

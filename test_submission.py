@@ -1,3 +1,4 @@
+import json
 import importlib
 import os
 from pathlib import Path
@@ -14,6 +15,12 @@ class SubmissionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as folder:
             with patch.dict(os.environ, {'GEMINI_API_KEY': '', 'ENABLE_LEGACY_APP': '', 'ENABLE_DEBUG_ROUTES': ''}), patch('sqlite3.connect', side_effect=lambda _: connect(str(Path(folder) / 'test.db'))):
                 cls.module = importlib.import_module('app')
+
+    def setUp(self):
+        payload = json.loads((Path(__file__).parent / 'data/submission_news.json').read_text(encoding='utf-8'))
+        loader = patch('submission.load_home_feed', return_value=payload)
+        loader.start()
+        self.addCleanup(loader.stop)
 
     def test_pages_render_without_api_calls(self):
         with patch('requests.get', side_effect=AssertionError('External request')), patch.object(self.module, 'summarize_batch', side_effect=AssertionError('AI request')):

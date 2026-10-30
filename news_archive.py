@@ -43,6 +43,8 @@ def connect(db_path=None):
         url TEXT NOT NULL, kind TEXT NOT NULL, tag TEXT NOT NULL,
         PRIMARY KEY(url,kind,tag));
         CREATE INDEX IF NOT EXISTS archive_tag_lookup ON archive_tags(kind,tag,url);''')
+    if 'image' not in {row['name'] for row in db.execute('PRAGMA table_info(archive_articles)')}:
+        db.execute('ALTER TABLE archive_articles ADD COLUMN image TEXT')
     return db
 
 
@@ -58,10 +60,11 @@ def archive_articles(articles, captured_at=None, db_path=None, update=True, pres
             if isinstance(source, dict):
                 source = source.get('name') or '不明'
             description = item.get('source_description') or item.get('description') or ''
-            conflict = 'DO UPDATE SET title=excluded.title,description=excluded.description,source=excluded.source,published_at=COALESCE(excluded.published_at,archive_articles.published_at)' if update else 'DO NOTHING'
-            cursor = db.execute('INSERT INTO archive_articles VALUES(?,?,?,?,?,?) ON CONFLICT(url) ' + conflict,
+            image = item.get('image') or item.get('urlToImage') or None
+            conflict = 'DO UPDATE SET title=excluded.title,description=excluded.description,source=excluded.source,published_at=COALESCE(excluded.published_at,archive_articles.published_at),image=COALESCE(excluded.image,archive_articles.image)' if update else 'DO NOTHING'
+            cursor = db.execute('INSERT INTO archive_articles(url,title,description,source,published_at,first_seen,image) VALUES(?,?,?,?,?,?,?) ON CONFLICT(url) ' + conflict,
                 (url, title, description, source, item.get('publishedAt') or item.get('published_at'),
-                 item.get('first_seen', stamp) if preserve_first_seen else stamp))
+                 item.get('first_seen', stamp) if preserve_first_seen else stamp, image))
             if not cursor.rowcount:
                 continue
             db.execute('DELETE FROM archive_tags WHERE url=?', (url,))

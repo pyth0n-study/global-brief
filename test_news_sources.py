@@ -23,7 +23,7 @@ class NewsSourcesTests(unittest.TestCase):
         self.assertEqual(len(articles), 2)
         self.assertEqual(articles[0]['description'], '')
         self.assertEqual(articles[0]['source'], {'name': 'Example'})
-        self.assertIsNone(articles[0]['urlToImage'])
+        self.assertEqual(articles[0]['urlToImage'], 'https://example.com/photo.jpg')
         self.assertEqual(get.call_args.kwargs['params']['page'], 'abc')
         self.assertEqual(get.call_args.kwargs['params']['category'], 'world')
         self.assertNotIn('apikey', get.call_args.kwargs['params'])

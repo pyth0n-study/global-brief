@@ -8,6 +8,7 @@ from preview_visuals import fallback_visual, world_paths
 from timeline_library import attach_timelines, load_timelines
 from japan_connections import attach_japan_connections
 from grounded_focus import validate_focus
+from public_feed import load_home_feed
 
 submission = Blueprint('submission', __name__)
 
@@ -17,7 +18,7 @@ submission = Blueprint('submission', __name__)
 @submission.get('/articles')
 @submission.get('/preview/feed')
 def home():
-    payload = json.loads((Path(__file__).parent / 'data/submission_news.json').read_text(encoding='utf-8'))
+    payload = load_home_feed()
     articles = [prepare_article(a) for a in payload['articles']]
     articles = attach_japan_connections(attach_timelines(articles))
     for article in articles:
@@ -38,7 +39,8 @@ def home():
     template = 'image_preview.html'
     return render_template(template, articles=articles, inline_quiz=True,
         motion=False, countries=world_paths(), timelines=load_timelines(),
-        submission_mode=True, captured_at=payload['captured_at'], separated_feed=True, immersive_feed=True)
+        submission_mode=True, captured_at=payload['captured_at'], separated_feed=True, immersive_feed=True,
+        live_archive=payload.get('live_archive', False), archive_status=payload.get('archive_status', {}))
 
 
 @submission.get('/about')

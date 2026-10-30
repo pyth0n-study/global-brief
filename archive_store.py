@@ -30,6 +30,8 @@ def restore_snapshot(payload, db_path=None):
             raise ValueError('Invalid archive article')
         if row.get('published_at') is not None and not isinstance(row['published_at'], str):
             raise ValueError('Invalid publication date')
+        if row.get('image') is not None and not isinstance(row['image'], str):
+            raise ValueError('Invalid image URL')
     archive_articles(rows, db_path=db_path, preserve_first_seen=True)
     return len(rows)
 
