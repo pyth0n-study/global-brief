@@ -70,7 +70,10 @@ def sync_public_archive():
             return dict(_status)
         _next_check = time.monotonic() + 300
         try:
-            response = requests.get(os.environ.get('NEWS_ARCHIVE_SNAPSHOT_URL', SNAPSHOT_URL), timeout=5)
+            # Use one shared URL per five-minute window so GitHub's CDN cannot
+            # add another stale cache interval on top of this process's cache.
+            response = requests.get(os.environ.get('NEWS_ARCHIVE_SNAPSHOT_URL', SNAPSHOT_URL),
+                                    params={'snapshot_window': int(time.time() // 300)}, timeout=5)
             response.raise_for_status()
             payload = response.json()
             count = restore_snapshot(payload)
