@@ -25,7 +25,7 @@ COUNTRIES = [
 
 def quiz_for_article(article):
     # Headline only: a dateline in the description need not be the subject country.
-    title = article.get('title', '')
+    title = re.sub(r'[（(][^（）()]{1,40}[）)]$', '', article.get('title', '')).strip()
     def country_mention(word):
         if word == 'マリ':
             # Avoid incidental substrings: ソマリア / マリーナ / マリオ, etc.

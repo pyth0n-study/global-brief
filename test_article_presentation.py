@@ -37,3 +37,16 @@ class PresentationTests(unittest.TestCase):
         item = prepare_article(dict(title='スペイン列車事故(共同通信)', image=''))
         self.assertEqual(item['title'], 'スペイン列車事故(共同通信)')
         self.assertEqual(item['display_title'], 'スペイン列車事故')
+
+    def test_publisher_language_does_not_select_japan(self):
+        self.assertIsNone(quiz_for_article({'title': 'ハイネケン、ビール販売に悪影響(中央日報日本語版)'}))
+        self.assertEqual(quiz_for_article({'title': '韓国の選挙(中央日報日本語版)'})['code'], 'KOR')
+
+    def test_theme_visual_never_infers_a_country(self):
+        from preview_visuals import fallback_visual
+        svg, _ = fallback_visual({'title': 'ハイネケンの発表(中央日報日本語版)', 'description': '英国のパブへの資料。'})
+        self.assertNotIn('日本', svg)
+        self.assertNotIn('英国', svg)
+        svg, _ = fallback_visual({'title': '不正選挙論が広がる公園', 'description': ''})
+        self.assertIn('主張と確認された事実を分けて読む', svg)
+        self.assertNotIn('data-country', svg)

@@ -31,7 +31,7 @@ article:has(aside:not([hidden]))>.inline-quiz{visibility:hidden}article>aside{fl
 {% if inline_quiz and item.quiz_country %}{% include 'inline_quiz.html' %}{% endif %}
 {% if motion %}<div class="motion-track" aria-hidden="true"><i></i></div>{% endif %}
 <div class="visual">{{ item.visual|safe }}</div>
-<button type="button" class="visual-switch" aria-pressed="false">図で見る</button>
+
 {% if item.image.startswith('https://') %}<img src="{{ item.image }}" alt="" {% if not loop.first %}loading="lazy"{% endif %} referrerpolicy="no-referrer">{% endif %}
 {% if item.reference %}<div class="count">背景資料 · 新着ニュースではありません</div>{% endif %}<div class="count">{{ '%02d'|format(loop.index) }} / {{ articles|length }}{% if separated_feed %}<span class="editorial-source">{{ item.source }}</span>{% endif %}</div>
 <h1>{% if item.summary or item.description_excerpt %}<button type="button" class="headline-toggle" data-kind="description" aria-expanded="false" aria-controls="article-detail-{{ loop.index }}"><span class="headline-text">{{ item.display_title or item.title }}</span><span class="read-more-hint">続きを読む⌄</span></button>{% else %}<span class="headline-text">{{ item.display_title or item.title }}</span>{% endif %}</h1>
@@ -46,10 +46,10 @@ article:has(aside:not([hidden]))>.inline-quiz{visibility:hidden}article>aside{fl
 {% endfor %}</main>{% if separated_feed %}<script defer src="{{ url_for('static', filename='vertical_feed.js', v='6') }}"></script>{% endif %}{% if separated_feed %}<script>const pageHeader=document.querySelector('header');const sizeHeader=()=>document.documentElement.style.setProperty('--site-header-height',pageHeader.getBoundingClientRect().height+'px');sizeHeader();new ResizeObserver(sizeHeader).observe(pageHeader);</script>{% endif %}
 <script>
 document.querySelectorAll('article').forEach(article=>{
-const image=article.querySelector('img'),status=article.querySelector('.status'),toggle=article.querySelector('.visual-switch');
-function fallback(){article.classList.remove('has-photo');if(image)image.hidden=true;status.textContent=article.dataset.visualLabel;toggle.hidden=true}
-function loaded(){if(image.naturalWidth<100||image.naturalHeight<60){fallback();return}article.classList.add('has-photo');status.textContent='写真出典：'+article.querySelector('.credit a').textContent;toggle.hidden=false;article.dispatchEvent(new Event('photo-ready'))}
-toggle.onclick=()=>{const on=article.classList.toggle('show-diagram');toggle.setAttribute('aria-pressed',String(on));toggle.textContent=on?'写真に戻る':'図で見る';status.textContent=on?article.dataset.visualLabel:'記事提供の写真'};
+const image=article.querySelector('img'),status=article.querySelector('.status');
+function fallback(){article.classList.remove('has-photo');if(image)image.hidden=true;status.textContent=article.dataset.visualLabel}
+function loaded(){if(image.naturalWidth<100||image.naturalHeight<60){fallback();return}article.classList.add('has-photo');status.textContent='写真出典：'+article.querySelector('.credit a').textContent;article.dispatchEvent(new Event('photo-ready'))}
+
 if(image){image.addEventListener('load',loaded);image.addEventListener('error',fallback);if(image.complete){if(image.naturalWidth)loaded();else fallback()}}else fallback();
 const panel=article.querySelector('aside'),buttons=[...article.querySelectorAll('button[data-kind]')];
 buttons.forEach(b=>b.onclick=()=>{const open=b.getAttribute('aria-expanded')!=='true';buttons.forEach(x=>x.setAttribute('aria-expanded','false'));panel.hidden=!open;article.classList.toggle('description-open',open&&b.dataset.kind==='description');article.classList.toggle('japan-open',open&&['japan','thinking','focus'].includes(b.dataset.kind));if(open){b.setAttribute('aria-expanded','true');const slot=panel.querySelector('span');slot.textContent='';article.classList.toggle('japan-open',['japan','thinking','focus'].includes(b.dataset.kind));if(b.dataset.kind==='focus'){const info=JSON.parse(article.querySelector('.focus-data').textContent);const text=document.createElement('p');text.textContent=info.point;slot.append(text);const label=document.createElement('small');label.textContent='記事の説明文から原文のまま抽出。元記事で文脈を確認できます。';slot.append(label);
