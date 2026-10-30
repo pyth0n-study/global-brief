@@ -3,29 +3,7 @@
   const feed = document.querySelector('main[data-story-feed]');
   if (!feed) return;
   const stories = [...feed.querySelectorAll('article')];
-  // Animate normal public URLs by default; an explicit OFF choice is remembered.
-  let motionEnabled = true;
-  try {
-    const stored = localStorage.getItem('gb_story_motion');
-    if (['on', 'off'].includes(stored)) motionEnabled = stored === 'on';
-    const requested = new URLSearchParams(location.search).get('motion');
-    if (['on', 'off'].includes(requested)) {
-      motionEnabled = requested === 'on';
-      localStorage.setItem('gb_story_motion', requested);
-    }
-  } catch (_) { /* The control still works when local storage is unavailable. */ }
-  const motionControl = document.querySelector('.story-motion-control');
-  const showMotionState = () => {
-    if (!motionControl) return;
-    motionControl.textContent = '切替アニメ ' + (motionEnabled ? 'ON' : 'OFF');
-    motionControl.setAttribute('aria-pressed', String(motionEnabled));
-  };
-  if (motionControl) motionControl.onclick = () => {
-    motionEnabled = !motionEnabled;
-    try { localStorage.setItem('gb_story_motion', motionEnabled ? 'on' : 'off'); } catch (_) {}
-    showMotionState();
-  };
-  showMotionState();
+  // Story transitions always animate, including visits with an old OFF preference.
   const immersive = feed.dataset.layout === 'immersive';
   // Give the media all space left by this story's actual headline and controls.
   // A fixed percentage leaves large gaps on tall phones and short headlines.
@@ -64,11 +42,6 @@
     if (target === current()) return;
     locked = true;
     const start = feed.scrollTop, end = stories[target].offsetTop;
-    if (!motionEnabled) {
-      feed.scrollTo({top: end, behavior: 'instant'});
-      setTimeout(() => { locked = false; delta = 0; }, 300);
-      return;
-    }
     // Native smooth scroll can be snapped immediately by the browser.
     // Temporarily release snapping and animate the whole viewport explicitly.
     feed.style.scrollSnapType = 'none';
