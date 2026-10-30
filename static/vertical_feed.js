@@ -4,6 +4,33 @@
   if (!feed) return;
   const stories = [...feed.querySelectorAll('article')];
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  // Give the media all space left by this story's actual headline and controls.
+  // A fixed percentage leaves large gaps on tall phones and short headlines.
+  let fitFrame = 0;
+  const fitMedia = () => {
+    cancelAnimationFrame(fitFrame);
+    fitFrame = requestAnimationFrame(() => {
+      for (const story of stories) {
+        const style = getComputedStyle(story);
+        let contentHeight = 0;
+        for (const child of story.children) {
+          const css = getComputedStyle(child);
+          if (css.display === 'none' || ['absolute', 'fixed'].includes(css.position)) continue;
+          contentHeight += child.getBoundingClientRect().height + parseFloat(css.marginTop) + parseFloat(css.marginBottom);
+        }
+        const available = feed.clientHeight - contentHeight - parseFloat(style.paddingBottom) - 17;
+        const height = Math.max(120, Math.floor(available));
+        if (story.style.getPropertyValue('--media-height') !== height + 'px') story.style.setProperty('--media-height', height + 'px');
+      }
+    });
+  };
+  const sizeObserver = new ResizeObserver(fitMedia);
+  sizeObserver.observe(feed);
+  stories.forEach(story => [...story.children].forEach(child => {
+    if (child.matches('h1,nav,.credit,.count,.status,.thinking-teaser')) sizeObserver.observe(child);
+  }));
+  document.fonts?.ready.then(fitMedia);
+  fitMedia();
   let locked = false, delta = 0;
   const current = () => stories.reduce((best, story, i) =>
     Math.abs(story.offsetTop - feed.scrollTop) < Math.abs(stories[best].offsetTop - feed.scrollTop) ? i : best, 0);

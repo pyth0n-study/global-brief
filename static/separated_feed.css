@@ -80,3 +80,7 @@ html,body{height:100%;margin:0;overflow:hidden}
 header{position:fixed;top:0;left:0;right:0;z-index:20;width:100%}
 main[data-story-feed]{position:fixed;top:var(--site-header-height,130px);bottom:0;left:0;right:0;margin:0 auto;height:auto;padding:0;overflow-x:hidden;overflow-y:auto;scroll-snap-type:y mandatory;touch-action:pan-y pinch-zoom;outline:none}
 main[data-story-feed]>article{flex-shrink:0;scroll-snap-align:start;scroll-snap-stop:always;height:calc(100dvh - var(--site-header-height,130px));min-height:calc(100dvh - var(--site-header-height,130px))}
+/* Media expands to the actual free space, rather than a fixed half-screen. */
+main[data-story-feed]>article{--media-height:calc(var(--story-height) - 245px)}
+main[data-story-feed]>article>.count,main[data-story-feed]>article>h1,main[data-story-feed]>article>nav,main[data-story-feed]>article>.credit,main[data-story-feed]>article>.status,main[data-story-feed]>article>.thinking-teaser{flex-shrink:0}
+.inline-quiz svg{max-height:none}
