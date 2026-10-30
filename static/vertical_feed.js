@@ -3,13 +3,16 @@
   const feed = document.querySelector('main[data-story-feed]');
   if (!feed) return;
   const stories = [...feed.querySelectorAll('article')];
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let motionEnabled = !reduced.matches;
+  // Animate normal public URLs by default; an explicit OFF choice is remembered.
+  let motionEnabled = true;
   try {
-    const requested = new URLSearchParams(location.search).get('motion');
-    if (['on', 'off'].includes(requested)) localStorage.setItem('gb_story_motion', requested);
     const stored = localStorage.getItem('gb_story_motion');
     if (['on', 'off'].includes(stored)) motionEnabled = stored === 'on';
+    const requested = new URLSearchParams(location.search).get('motion');
+    if (['on', 'off'].includes(requested)) {
+      motionEnabled = requested === 'on';
+      localStorage.setItem('gb_story_motion', requested);
+    }
   } catch (_) { /* The control still works when local storage is unavailable. */ }
   const motionControl = document.querySelector('.story-motion-control');
   const showMotionState = () => {

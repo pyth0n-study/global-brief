@@ -34,6 +34,7 @@ class SubmissionTests(unittest.TestCase):
             self.assertIn('data-story-feed', page)
             self.assertIn('data-layout="immersive"', page)
             self.assertIn('story-motion-control', page)
+            self.assertIn('aria-pressed="true">切替アニメ ON</button>', page)
             self.assertIn('vertical_feed.js', page)
             self.assertIn('immersive-20261030-1', page)
             script_response = client.get('/static/vertical_feed.js')
