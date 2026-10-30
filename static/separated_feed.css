@@ -56,3 +56,22 @@ article:has(aside:not([hidden]))>.inline-quiz,.japan-open>.inline-quiz,.timeline
 button:focus-visible,a:focus-visible{outline:2px solid #d5c39e;outline-offset:4px}
 @media(max-width:600px){header{padding:21px 20px 12px}.brand-bar{gap:12px}.brand-home{gap:10px}.brand-home strong{font-size:24px;letter-spacing:.8px}.brand-home small{font-size:9px;letter-spacing:1px;margin-top:8px}.brand-globe{width:33px;height:33px}.brand-globe svg{width:24px;height:24px}.brand-list{font-size:10px;padding:7px 10px;min-height:38px}.brand-meta{margin-top:16px;padding-top:10px;font-size:9px}main{padding:22px 12px 50px}article{--media-height:330px;padding:calc(var(--media-height) + 22px) 23px 22px;margin-bottom:26px;border-radius:7px}article>h1,article.quiz-pending h1,article.quiz-done h1,article:has(aside:not([hidden])) h1{font-size:19px;line-height:1.75;margin:13px 0 21px}.inline-quiz{padding:18px 6px 5px}.quiz-top{font-size:15px}.credit{font-size:10px!important}.count{gap:10px;font-size:9px}.editorial-source{font-size:10px}.count:before{width:14px}.japan-open aside,.timeline-open aside{padding:16px}}
 @media(prefers-reduced-motion:reduce){button{transition:none}}
+
+/* One story per viewport. The image and headline remain separate. */
+body{height:100dvh;overflow:hidden}
+header{position:relative}
+.brand-actions{display:flex;gap:8px;align-items:center}
+main{height:calc(100dvh - var(--site-header-height,130px));overflow-y:auto;scroll-snap-type:y mandatory;scroll-padding:0;padding:0;overscroll-behavior-y:contain;scrollbar-width:thin;width:100%}
+article{--story-height:calc(100dvh - var(--site-header-height,130px));--media-height:min(42dvh,calc(var(--story-height) * .48));height:var(--story-height);min-height:var(--story-height);scroll-snap-align:start;scroll-snap-stop:always;margin:0;padding:calc(var(--media-height) + 17px) 30px 18px;border-radius:0;border-top:0;box-shadow:none}
+article>h1,article.quiz-pending h1,article.quiz-done h1,article:has(aside:not([hidden])) h1{font-size:clamp(18px,2vw,23px);line-height:1.6;margin:10px 0 15px}
+.read-more-hint{margin-top:8px;font-size:10px}
+article>.credit,article.quiz-pending>.credit,article.quiz-done>.credit{margin-top:14px;padding-top:10px;font-size:10px;line-height:1.6;flex-shrink:0}
+.status{margin-top:5px;font-size:9px;min-height:12px}
+article>aside,.japan-open aside,.timeline-open aside{position:absolute!important;z-index:8!important;bottom:18px;left:22px;right:22px;width:auto;max-height:58%;margin:0;background:#0b1626f7;backdrop-filter:blur(20px);box-shadow:0 -10px 50px #0005}
+@media(max-width:600px){header{padding:15px 16px 9px}.brand-home strong{font-size:21px;letter-spacing:.5px}.brand-home small{font-size:8px}.brand-globe{width:29px;height:29px}.brand-globe svg{width:21px;height:21px}.brand-home{gap:7px}.brand-bar{gap:8px}.brand-list{font-size:10px;padding:7px 9px;min-height:36px}.brand-actions{gap:5px}.brand-meta{margin-top:12px;padding-top:8px}main{padding:0}article{padding-left:22px;padding-right:22px;padding-bottom:16px}.inline-quiz{padding-top:12px}.quiz-top{font-size:15px}.credit{font-size:9px!important}.credit br{display:none}.credit br:after{content:' · '}.count{font-size:9px}.editorial-source{font-size:10px}}
+@media(max-width:360px){.brand-globe{display:none}.brand-home strong{font-size:20px}}
+@media(max-height:700px){article{--media-height:calc(var(--story-height) * .43)}article>h1,article.quiz-pending h1,article.quiz-done h1{font-size:17px;margin:7px 0 10px}.brand-meta{margin-top:8px}article>.credit,article.quiz-pending>.credit,article.quiz-done>.credit{margin-top:9px;padding-top:7px}.inline-quiz{padding-top:10px}.quiz-feedback{min-height:20px}nav button,.original-link{padding:8px 12px;font-size:11px;min-height:40px}}
+@media(prefers-reduced-motion:no-preference){main{scroll-behavior:smooth}}
+.brand-home strong,.brand-actions .brand-list{white-space:nowrap}
+@media(max-width:600px){.brand-home strong{font-size:20px}.brand-home small{letter-spacing:.4px}.credit br{display:initial}.credit br:after{content:none}}
+@media(max-width:400px){.brand-globe{display:none}}

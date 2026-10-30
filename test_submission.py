@@ -29,6 +29,8 @@ class SubmissionTests(unittest.TestCase):
             self.assertNotIn('amd-img/default.jpg', page)
             self.assertIn('data-kind="background"', page)
             self.assertIn('一覧で読む', page)
+            self.assertIn('href="/background"', page)
+            self.assertIn('ResizeObserver', page)
             self.assertIn('class="headline-toggle"', page)
             self.assertIn('続きを読む⌄', page)
             self.assertNotIn('<button type="button" data-kind="description"', page)

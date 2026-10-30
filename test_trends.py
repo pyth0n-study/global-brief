@@ -20,6 +20,9 @@ class TrendsTests(unittest.TestCase):
         client_patch = patch.object(self.m, 'client', Mock())
         client_patch.start()
         self.addCleanup(client_patch.stop)
+        archive_patch = patch('news_archive.archive_articles')
+        archive_patch.start()
+        self.addCleanup(archive_patch.stop)
         for name in ('cache', 'keyword_cache', 'insight_cache', 'is_world_cache', 'headline_cache', 'focus_cache'):
             getattr(self.m, name).clear()
         self.m.trends_cache = ['前回の動向']

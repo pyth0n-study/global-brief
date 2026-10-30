@@ -35,7 +35,7 @@ app.register_blueprint(submission)
 def submission_route_guard():
     # The submission site only exposes read-only, API-independent pages.
     if os.environ.get('ENABLE_LEGACY_APP') != '1' and request.endpoint not in {
-        'submission.home', 'submission.about', 'static'
+        'submission.home', 'submission.about', 'submission.background', 'static'
     }:
         return 'Not found', 404
 
@@ -403,6 +403,12 @@ def fetch_news():
         print(f"[fetch_news error] {type(e).__name__}")
         return None
 
+    # Save the source immediately, even if later AI generation fails.
+    try:
+        from news_archive import archive_articles
+        archive_articles(articles)
+    except (OSError, sqlite3.Error):
+        app.logger.warning('News archive write failed; current news remains available')
     # 動向が表示記事全体に対応するよう、更新時は取得した全記事を同じバッチで分析する。
     filtered = []  # インデックス = バッチ要約時のindexと対応
     pending  = []

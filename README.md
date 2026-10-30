@@ -35,3 +35,18 @@ Render：Procfileの `gunicorn --timeout 180 --workers 1 --preload app:app` を�
 Python / Flask / Jinja2 / JavaScript / CSS。従来機能はSQLiteを利用し、公開版の記事はJSONで保存します。
 
 `python -m unittest test_submission test_article_presentation test_grounded_focus test_japan_connections test_timeline_library test_news_sources test_trends`
+
+## 背景を知る・記事アーカイブ
+
+`/background` は、出典付きの基本解説と取得記事の記録を分けたスペースです。国・テーマで絞り込みできます。タイトルの明示的な対応語で分類し、出来事同士の因果関係や歴史を自動生成しません。
+
+元記事URLを一意キーにSQLiteで保存し、同じ記事を再取得しても最初の保存日時を維持します。配信日時が取得できない記事には、その旨を明示します。公開画面の表示だけでは外部APIを呼ばず、現時点では保存済み10記事を初期収録します。背景資料2件はニュースの記録から除外します。
+
+既存の `fetch_news()` は取得直後に原文を保存します。取得処理だけ試す場合は `python manage_archive.py fetch`（NewsData.ioの最大2ページを消費、AI呼び出しなし）。自動実行や定期取得はまだ有効にしていません。
+
+`NEWS_ARCHIVE_DB` でSQLiteの保存先を指定できます。既定は `instance/news_archive.db`。ローカルではファイルを保持できますが、Renderの一時ファイルシステムでは再起動・再デプロイにより追加分が失われる場合があります。長期運用には永続ディスク等を接続し、この環境変数をそのパスに設定する必要があります（有料サービスの契約は実施していません）。
+
+バックアップ：`python manage_archive.py export --file data/archive_export.json`
+復元：`python manage_archive.py import --file data/archive_export.json`
+
+公開URLから取得・編集・バックアップを実行する機能は設けていません。保存記事はプロジェクト終了時にバックアップと公開環境のコピーを含めて削除してください。

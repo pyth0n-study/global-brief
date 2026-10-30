@@ -2,7 +2,7 @@
 import json
 import hashlib
 from pathlib import Path
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, abort
 from article_presentation import prepare_article
 from preview_visuals import fallback_visual, world_paths
 from timeline_library import attach_timelines, load_timelines
@@ -46,3 +46,18 @@ def about():
     from_list = request.args.get('from') == 'list'
     return render_template('submission_about.html', back_url='/articles' if from_list else '/',
         back_label='記事一覧に戻る' if from_list else 'ニュースに戻る')
+
+
+@submission.get('/background')
+def background():
+    from news_archive import seed_archive, read_archive, COUNTRIES, THEMES
+    from background_guides import guides_for
+    country, theme = request.args.get('country', ''), request.args.get('theme', '')
+    if (country and country not in COUNTRIES) or (theme and theme not in THEMES):
+        abort(400)
+    seed_archive()
+    articles = read_archive(country, theme)
+    for item in articles:
+        item.update(prepare_article(item))
+    return render_template('background.html', countries=COUNTRIES, themes=THEMES,
+        country=country, theme=theme, guides=guides_for(country, theme), articles=articles)
