@@ -55,6 +55,7 @@ def background():
     from news_archive import seed_archive, read_archive, COUNTRIES, THEMES
     from background_guides import guides_for
     country, theme = request.args.get('country', ''), request.args.get('theme', '')
+    active_tab = 'archive' if request.args.get('tab') == 'archive' else 'basics'
     if (country and country not in COUNTRIES) or (theme and theme not in THEMES):
         abort(400)
     seed_archive()
@@ -64,4 +65,4 @@ def background():
     for item in articles:
         item.update(prepare_article(item))
     return render_template('background.html', countries=COUNTRIES, themes=THEMES,
-        country=country, theme=theme, guides=guides_for(country, theme), articles=articles, archive_status=archive_status)
+        country=country, theme=theme, guides=guides_for(country, theme), articles=articles, archive_status=archive_status, active_tab=active_tab)

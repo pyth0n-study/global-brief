@@ -66,8 +66,8 @@ class ArchiveTests(unittest.TestCase):
         with patch.dict(os.environ, {'NEWS_ARCHIVE_DB': str(self.db)}), patch('requests.get', side_effect=AssertionError('No network')):
             client = app.test_client()
             page = client.get('/background').get_data(as_text=True)
-            self.assertIn('基本の背景', page)
-            self.assertIn('これまでの記事', page)
+            self.assertIn('まず知っておきたい', page)
+            self.assertIn('過去のニュースを探す', page)
             self.assertIn('WTO', page)
             page = client.get('/background?country=ukraine&theme=security').get_data(as_text=True)
             self.assertIn('まず、ウクライナは独立した国', page)
