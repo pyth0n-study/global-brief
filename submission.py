@@ -45,7 +45,7 @@ def home():
         motion=False, countries=world_paths(), timelines=load_timelines(),
         submission_mode=True, captured_at=payload['captured_at'], separated_feed=True, immersive_feed=True,
         live_archive=payload.get('live_archive', False), archive_status=payload.get('archive_status', {}),
-        social_preview=request.path == '/preview/social')
+        social_preview=True)
 
 
 @submission.get('/about')
