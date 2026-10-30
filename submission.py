@@ -17,11 +17,15 @@ submission = Blueprint('submission', __name__)
 @submission.get('/play')
 @submission.get('/articles')
 @submission.get('/preview/feed')
+@submission.get('/preview/social')
 def home():
-    payload = load_home_feed()
+    payload = load_home_feed(request.args.get('article', ''))
+    if payload.get('requested_not_found'):
+        abort(404, description='この記事は保存期間の終了などにより表示できません。')
     articles = [prepare_article(a) for a in payload['articles']]
     articles = attach_japan_connections(attach_timelines(articles))
     for article in articles:
+        article['url_hash'] = hashlib.md5(article['url'].encode()).hexdigest()
         article['relation_quotes'] = []  # Raw quotations are not a relationship explainer.
         focus = article.get('focus') or {}
         article['focus'] = validate_focus(focus.get('point'), focus.get('evidence'), article['title'], article['description'])
@@ -40,7 +44,8 @@ def home():
     return render_template(template, articles=articles, inline_quiz=True,
         motion=False, countries=world_paths(), timelines=load_timelines(),
         submission_mode=True, captured_at=payload['captured_at'], separated_feed=True, immersive_feed=True,
-        live_archive=payload.get('live_archive', False), archive_status=payload.get('archive_status', {}))
+        live_archive=payload.get('live_archive', False), archive_status=payload.get('archive_status', {}),
+        social_preview=request.path == '/preview/social')
 
 
 @submission.get('/about')

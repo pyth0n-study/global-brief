@@ -54,3 +54,14 @@ class PublicFeedTests(unittest.TestCase):
         archive_articles([dict(row, image='https://example.com/photo.jpg')])
         archive_articles([row])
         self.assertEqual(read_archive()[0]['image'], 'https://example.com/photo.jpg')
+
+    def test_shared_link_opens_old_archived_article_and_missing_link_is_explicit(self):
+        import hashlib
+        rows = [dict(title='ブラジルの選挙', description='発表されました。', source='配信元', url=f'https://example.com/{i}', publishedAt='2026-10-30') for i in range(205)]
+        old = dict(title='ブラジルの過去の記事', description='過去の説明です。', source='配信元', url='https://example.com/old', publishedAt='2020-01-01')
+        archive_articles(rows + [old])
+        payload = load_home_feed(hashlib.md5(old['url'].encode()).hexdigest())
+        self.assertEqual(payload['articles'][0]['url'], old['url'])
+        self.assertEqual(len(payload['articles']), 20)
+        self.assertTrue(load_home_feed('f' * 32)['requested_not_found'])
+        self.assertTrue(load_home_feed('not-an-id')['requested_not_found'])
