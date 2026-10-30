@@ -46,7 +46,7 @@ def connect(db_path=None):
     return db
 
 
-def archive_articles(articles, captured_at=None, db_path=None, update=True):
+def archive_articles(articles, captured_at=None, db_path=None, update=True, preserve_first_seen=False):
     stamp = captured_at or datetime.now(timezone.utc).isoformat()
     count = 0
     with closing(connect(db_path)) as db, db:
@@ -60,7 +60,8 @@ def archive_articles(articles, captured_at=None, db_path=None, update=True):
             description = item.get('source_description') or item.get('description') or ''
             conflict = 'DO UPDATE SET title=excluded.title,description=excluded.description,source=excluded.source,published_at=COALESCE(excluded.published_at,archive_articles.published_at)' if update else 'DO NOTHING'
             cursor = db.execute('INSERT INTO archive_articles VALUES(?,?,?,?,?,?) ON CONFLICT(url) ' + conflict,
-                (url, title, description, source, item.get('publishedAt') or item.get('published_at'), stamp))
+                (url, title, description, source, item.get('publishedAt') or item.get('published_at'),
+                 item.get('first_seen', stamp) if preserve_first_seen else stamp))
             if not cursor.rowcount:
                 continue
             db.execute('DELETE FROM archive_tags WHERE url=?', (url,))

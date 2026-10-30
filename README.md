@@ -42,9 +42,9 @@ Python / Flask / Jinja2 / JavaScript / CSS。従来機能はSQLiteを利用し�
 
 元記事URLを一意キーにSQLiteで保存し、同じ記事を再取得しても最初の保存日時を維持します。配信日時が取得できない記事には、その旨を明示します。公開画面の表示だけでは外部APIを呼ばず、現時点では保存済み10記事を初期収録します。背景資料2件はニュースの記録から除外します。
 
-既存の `fetch_news()` は取得直後に原文を保存します。取得処理だけ試す場合は `python manage_archive.py fetch`（NewsData.ioの最大2ページを消費、AI呼び出しなし）。自動実行や定期取得はまだ有効にしていません。
+既存の `fetch_news()` は取得直後に原文を保存します。取得処理だけ試す場合は `python manage_archive.py fetch`（NewsData.ioの最大2ページを消費、AI呼び出しなし）。公開版の定期取得は、以下のGitHub Actionsで実行します。
 
-`NEWS_ARCHIVE_DB` でSQLiteの保存先を指定できます。既定は `instance/news_archive.db`。ローカルではファイルを保持できますが、Renderの一時ファイルシステムでは再起動・再デプロイにより追加分が失われる場合があります。長期運用には永続ディスク等を接続し、この環境変数をそのパスに設定する必要があります（有料サービスの契約は実施していません）。
+`NEWS_ARCHIVE_DB` でSQLiteの保存先を指定できます。既定は `instance/news_archive.db`。ローカルではファイルを保持できますが、Renderの一時ファイルシステムでは再起動・再デプロイにより追加分が失われる場合があります。公開版ではGitHubの専用ブランチを永続保存元にし、SQLiteはそこから復元できる読み込み用キャッシュとして使います。Renderの有料ディスクは契約していません。
 
 バックアップ：`python manage_archive.py export --file data/archive_export.json`
 復元：`python manage_archive.py import --file data/archive_export.json`
@@ -54,3 +54,23 @@ Python / Flask / Jinja2 / JavaScript / CSS。従来機能はSQLiteを利用し�
 背景解説には、ロシア・ウクライナの独立・2014年の紛争・2022年の全面侵攻までの経緯と、確認済みの直近の動きを分けて収録しています（data/russia_ukraine_background.json）。本文ごとに出典を付け、AI・閲覧時のAPIで自動生成していません。追加・更新時には出典と確認日を見直してください。
 
 記事の保存件数にはコード上の上限を設けていません（保存容量には依存）。画面は最新200件までを表示し、exportは全件が対象です。記事を開かなくても取得時に保存されます。本文全体・写真ファイルは保存していません。
+
+## 無料構成での定期蓄積・復旧
+
+- `.github/workflows/archive-news.yml`：GitHub標準Ubuntuランナー、毎日00:23/12:23 UTC（日本時間09:23/21:23）。手動実行も可能。並列実行を抑止し、10分で終了します。
+- 1回NewsData.ioの最大2ページ、通常1日最大4ページ（各最大10記事）。Geminiは呼びません。取得・保存に記事の閲覧は不要。全てのニュースを取り切る保証はありません。
+- `NEWSDATA_API_KEY` はGitHub Actions Secret。フォークでは実行しません。アプリの閲覧者へキーを送信しません。
+- 永続保存元：同じリポジトリの **archive-data** ブランチの `archive.json`。見出し・説明文・URL・出典・配信日時・初回保存日時のみ。本文・写真・APIキーは保存しません。公開リポジトリなのでこのデータも公開されます。
+- `/background` は5分間隔を上限に公開スナップショットを同期。Render再起動後にも復元できます。GitHubの読み込み障害時はローカルの直前データ、再起動直後なら収録10記事を表示します。トップの縦型ニュース収録データは従来どおりです。
+- バックアップは各実行のActions Artifact `news-archive-実行ID`（gzip JSON + SHA-256、7日保持）。専用ブランチのコミット履歴も残ります。別アカウント・別事業者への複製ではありません。
+- 圧縮バックアップは1回5 MiB以下。1日2回×7日で約70 MiB以内に制限し、サイズ超過時は公開更新を停止して失敗にします。GitHubアカウント全体の他用途の消費量は別途確認してください。有料ランナー・有料DB・有料APIを追加していません。
+- 実行失敗はActionsに表示。APIエラー・空の応答・壊れた復元データで直前の公開スナップショットを上書きしません。定期処理は遅延・スキップされる場合があり、公開リポジトリでは60日間活動がないと無効になる場合があります。Actions画面を定期的に確認してください。
+
+### バックアップから復元
+
+1. Actionsの成功した実行からArtifactをダウンロードし、gzipとsha256を同じフォルダーへ展開。
+2. `python manage_archive.py import --file archive-backups/archive-backup.json.gz`。チェックサム不一致では復元しません。元の初回保存日時を保持し、URLで重複を防止します。
+3. ローカル復旧後のJSON出力は `python archive_pipeline.py --folder archive-backups/recovered`（API不使用）。公開元の復旧はarchive-dataブランチへそのarchive.jsonをコミットし、次回の取得を実行。
+4. GitHub履歴からの復旧も、過去コミットのarchive.jsonを取得し、同じimportで実行可能。
+
+プロジェクト終了時はワークフローを無効化し、archive-dataブランチ、Actions Artifact、ローカルのDB・バックアップも削除してください。Gitの履歴・キャッシュに残ったデータの削除にはGitHub側の手続きが必要な場合があります。許可された保存期間を超えてアーカイブを継続しないでください。

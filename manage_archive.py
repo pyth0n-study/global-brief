@@ -25,7 +25,22 @@ def main():
         Path(args.file).write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding='utf-8')
         print('Exported articles:', len(rows))
     else:
-        rows = json.loads(Path(args.file).read_text(encoding='utf-8'))
+        path = Path(args.file)
+        if path.suffix == '.gz':
+            import gzip
+            import hashlib
+            content = path.read_bytes()
+            checksum = path.with_suffix('.gz.sha256').read_text(encoding='ascii').split()[0]
+            if hashlib.sha256(content).hexdigest() != checksum:
+                raise ValueError('Backup checksum mismatch')
+            payload = json.loads(gzip.decompress(content))
+        else:
+            payload = json.loads(path.read_text(encoding='utf-8'))
+        if isinstance(payload, dict):
+            from archive_store import restore_snapshot
+            print('Imported articles:', restore_snapshot(payload))
+            return
+        rows = payload
         for row in rows:
             archive_articles([row], captured_at=row.get('first_seen'))
         print('Imported articles:', len(rows))

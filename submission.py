@@ -56,8 +56,10 @@ def background():
     if (country and country not in COUNTRIES) or (theme and theme not in THEMES):
         abort(400)
     seed_archive()
+    from archive_store import sync_public_archive
+    archive_status = sync_public_archive()
     articles = read_archive(country, theme)
     for item in articles:
         item.update(prepare_article(item))
     return render_template('background.html', countries=COUNTRIES, themes=THEMES,
-        country=country, theme=theme, guides=guides_for(country, theme), articles=articles)
+        country=country, theme=theme, guides=guides_for(country, theme), articles=articles, archive_status=archive_status)

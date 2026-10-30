@@ -1,0 +1,54 @@
+name: Archive international news
+on:
+  schedule:
+    - cron: '23 0,12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: news-archive
+  cancel-in-progress: false
+jobs:
+  archive:
+    if: github.repository == 'pyth0n-study/global-brief'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout application
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: app
+      - name: Checkout durable archive
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: archive-data
+          path: store
+          fetch-depth: 1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - name: Install ingestion dependencies
+        run: python -m pip install requests python-dotenv
+      - name: Fetch at most two pages and prepare a verified backup
+        working-directory: app
+        env:
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          NEWS_ARCHIVE_DB: ${{ runner.temp }}/news-archive.db
+        run: python archive_pipeline.py --folder ../store --fetch
+      - name: Back up snapshot (7 days, compressed file capped at 5 MiB)
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: news-archive-${{ github.run_id }}
+          path: |
+            store/archive-backup.json.gz
+            store/archive-backup.json.gz.sha256
+          retention-days: 7
+          if-no-files-found: error
+      - name: Publish durable snapshot and retain revision history
+        working-directory: store
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add archive.json
+          git commit -m 'Archive news snapshot'
+          git push origin HEAD:archive-data
