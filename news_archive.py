@@ -1,6 +1,7 @@
 """Source article archive. Classification is explicit keyword matching, not history generation."""
 import json
 import os
+import re
 import sqlite3
 from contextlib import closing
 from datetime import datetime, timezone
@@ -26,6 +27,8 @@ THEMES = {
 
 
 def classify(title):
+    # Provider labels such as 中央日報日本語版 are not article locations.
+    title = re.sub(r'[（(][^（）()]{1,40}[）)]$', '', title).strip()
     countries = [key for key, (_, words) in COUNTRIES.items() if any(word in title for word in words)]
     themes = [key for key, (_, words) in THEMES.items() if words and any(word in title for word in words)]
     return countries, themes or ['other']

@@ -34,6 +34,10 @@ class ArchiveTests(unittest.TestCase):
         archive_articles([article], db_path=self.db)
         self.assertEqual(read_archive('france', db_path=self.db), [])
 
+    def test_publisher_name_does_not_tag_the_archive_as_japan(self):
+        archive_articles([dict(self.article, title='ハイネケンの販売戦略(中央日報日本語版)')], db_path=self.db)
+        self.assertEqual(read_archive('japan', db_path=self.db), [])
+
     def test_seed_is_idempotent_and_excludes_reference_cards(self):
         seed_archive(self.db)
         seed_archive(self.db)
