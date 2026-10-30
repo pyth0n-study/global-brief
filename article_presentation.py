@@ -18,13 +18,21 @@ COUNTRIES = [
     ('ロシア', 'RUS', ('ロシア',), ['カザフスタン', 'ロシア', '中国'], '610 100 270 170', [(723,194),(700,160),(754,222)]),
     ('ドイツ', 'DEU', ('ドイツ',), ['フランス', 'ドイツ', 'ポーランド'], '470 145 110 90', [(505,196),(525,185),(546,185)]),
     ('イギリス', 'GBR', ('イギリス', '英国'), ['アイルランド', 'イギリス', 'フランス'], '445 140 105 95', [(480,182),(495,178),(505,196)]),
+    ('北朝鮮', 'PRK', ('北朝鮮',), ['中国', '北朝鮮', '韓国'], '755 185 90 65', [(777,216),(810,211),(809,220)]),
+    ('マリ', 'MLI', ('マリ',), ['モーリタニア', 'マリ', 'ニジェール'], '445 225 110 85', [(474,254),(490,261),(522,261)]),
 ]
 
 
 def quiz_for_article(article):
     # Headline only: a dateline in the description need not be the subject country.
     title = article.get('title', '')
-    matches = [(title.index(word), row) for row in COUNTRIES for word in row[2] if word in title]
+    def country_mention(word):
+        if word == 'マリ':
+            # Avoid incidental substrings: ソマリア / マリーナ / マリオ, etc.
+            return re.search(r'(?<![ァ-ヺー])マリ(?![ァ-ヺー])', title)
+        return re.search(re.escape(word), title)
+    matches = [(match.start(), row) for row in COUNTRIES for word in row[2]
+               if (match := country_mention(word))]
     if not matches:
         return None
     _, row = min(matches, key=lambda match: match[0])

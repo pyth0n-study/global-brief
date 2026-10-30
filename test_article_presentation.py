@@ -27,6 +27,12 @@ class PresentationTests(unittest.TestCase):
     def test_unknown_country_is_not_guessed_from_dateline(self):
         self.assertIsNone(quiz_for_article({'title': 'サメの映像', 'description': '【パリ共同】'}))
 
+    def test_missing_image_articles_have_explicit_country_quizzes(self):
+        self.assertEqual(quiz_for_article({'title': '北朝鮮、無人機と放射砲で示威'})['code'], 'PRK')
+        self.assertEqual(quiz_for_article({'title': 'マリで発見の火星隕石 水の存在示唆'})['code'], 'MLI')
+        for title in ('ソマリアでの出来事', 'マリーナのニュース', 'マリオの新作'):
+            self.assertIsNone(quiz_for_article({'title': title}))
+
     def test_original_is_retained(self):
         item = prepare_article(dict(title='スペイン列車事故(共同通信)', image=''))
         self.assertEqual(item['title'], 'スペイン列車事故(共同通信)')
