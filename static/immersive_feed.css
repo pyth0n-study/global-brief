@@ -50,3 +50,14 @@ article:has(aside:not([hidden]))>.inline-quiz{visibility:hidden}
 button:focus-visible,a:focus-visible{outline:3px solid #d5ebbd;outline-offset:4px}
 .story-motion-control{pointer-events:auto;min-height:26px;padding:4px 9px;font-size:9px;font-weight:400;border:1px solid #ffffff32;background:#0c202970;color:#d9e5e5;border-radius:16px;line-height:1.2;cursor:pointer}
 .story-motion-control[aria-pressed=true]{background:#d5ebbd22;color:#e6f3d7;border-color:#d5ebbd70}
+
+/* Description belongs to the story: normal flow lifts the headline above it. */
+article.description-open:after{background:linear-gradient(180deg,#0003 0%,#0004 25%,#000c 55%,#000f 100%)}
+article.description-open>aside{position:relative!important;inset:auto!important;z-index:2!important;flex-shrink:0;width:100%;max-width:900px;min-height:0;max-height:min(30dvh,260px);margin:0 0 20px;padding:0;border:0;border-radius:0;background:none;backdrop-filter:none;box-shadow:none;color:#f2f5f5;font-size:16px;line-height:1.9;white-space:pre-line;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;text-shadow:0 2px 8px #0008;animation:description-reveal .2s ease-out}
+article.description-open>aside .close{display:none}
+article.description-open>h1{font-size:clamp(26px,3.3vw,44px);margin:13px 0 16px;line-height:1.45}
+article.description-open .read-more-hint{margin-top:8px}
+@keyframes description-reveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:600px){article.description-open>h1{font-size:26px;margin:10px 0 14px}article.description-open>aside{font-size:14px;line-height:1.85;margin-bottom:16px;max-height:30dvh}}
+@media(max-height:700px){article.description-open>h1{font-size:23px;margin:8px 0 12px}article.description-open>aside{font-size:14px;max-height:26dvh;margin-bottom:12px}}
+@media(prefers-reduced-motion:reduce){article.description-open>aside{animation:none}}

@@ -43,7 +43,7 @@ class SubmissionTests(unittest.TestCase):
             self.assertIn('story-motion-control', page)
             self.assertIn('aria-pressed="true">切替アニメ ON</button>', page)
             self.assertIn('vertical_feed.js', page)
-            self.assertIn('immersive-20261030-1', page)
+            self.assertIn('immersive-20261030-2', page)
             script_response = client.get('/static/vertical_feed.js')
             self.assertEqual(script_response.status_code, 200)
             script_response.close()
