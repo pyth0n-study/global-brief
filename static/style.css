@@ -696,3 +696,12 @@ html.dark #loading-overlay p { color: #8b949e; }
 html.dark footer   { color: #6e7681; }
 html.dark footer a { color: #6e7681 !important; }
 html.dark #tooltip { background: #1f6feb; }
+
+/* Reliable list thumbnails: keep a themed fallback behind every remote photo. */
+.card-thumb{height:220px;min-height:220px;background:#102731}
+.thumb-fallback{position:absolute;inset:0;overflow:hidden;background:#102731}
+.thumb-fallback svg{width:100%;height:100%;display:block}
+.card-thumb img{opacity:0}.card-thumb.photo-loaded img{opacity:1}.card-thumb.photo-loaded .thumb-fallback{visibility:hidden}
+.card-thumb .thumb-overlay{position:absolute;inset:0;min-height:0;padding:14px;background:linear-gradient(transparent 60%,#0009);justify-content:flex-end;pointer-events:none}
+.comment-storage-note{font-size:11px;line-height:1.7;color:#777}
+@media(max-width:600px){.card-thumb{height:200px;min-height:200px}}

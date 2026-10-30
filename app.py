@@ -29,15 +29,49 @@ GEMINI_MODEL = "gemini-flash-latest"  # Googleが自動追従させる最新Flas
 app = Flask(__name__)
 from submission import submission
 app.register_blueprint(submission)
+SOCIAL_ENDPOINTS = {'get_reactions', 'toggle_reaction', 'get_comments', 'post_comment'}
+_social_posts = {}
 
 
 @app.before_request
 def submission_route_guard():
-    # The submission site only exposes read-only, API-independent pages.
+    # Keep legacy/debug routes closed; explicitly expose the article interactions.
     if os.environ.get('ENABLE_LEGACY_APP') != '1' and request.endpoint not in {
-        'submission.home', 'submission.about', 'submission.background', 'static'
+        'submission.home', 'submission.about', 'submission.background', 'static', *SOCIAL_ENDPOINTS
     }:
         return 'Not found', 404
+    if request.endpoint in SOCIAL_ENDPOINTS:
+        if request.method == 'POST':
+            from urllib.parse import urlparse
+            origin = request.headers.get('Origin')
+            if origin and urlparse(origin).netloc != request.host:
+                return jsonify(error='別サイトからの投稿はできません'), 403
+            if request.content_length and request.content_length > 12000:
+                return jsonify(error='入力が長すぎます'), 413
+            data = request.get_json(silent=True)
+            if not isinstance(data, dict):
+                return jsonify(error='Invalid request'), 400
+            if request.endpoint == 'get_reactions':
+                hashes = data.get('hashes')
+                if not isinstance(hashes, list) or len(hashes) > 50 or any(not isinstance(h, str) or not re.fullmatch(r'[a-f0-9]{32}', h) for h in hashes):
+                    return jsonify(error='Invalid article IDs'), 400
+            else:
+                if not isinstance(data.get('url_hash'), str) or not re.fullmatch(r'[a-f0-9]{32}', data['url_hash']):
+                    return jsonify(error='Invalid article ID'), 400
+                if request.endpoint == 'post_comment' and any(not isinstance(data.get(k), str) for k in ('nickname', 'body')):
+                    return jsonify(error='Invalid comment'), 400
+                if request.endpoint == 'toggle_reaction' and (not isinstance(data.get('reaction'), str) or data.get('reaction') not in VALID_REACTIONS or data.get('action') not in ('add', 'remove')):
+                    return jsonify(error='Invalid reaction'), 400
+                address = request.remote_addr or 'unknown'
+                now = time.monotonic()
+                recent = [t for t in _social_posts.get(address, []) if now-t < 60]
+                if len(recent) >= 30:
+                    return jsonify(error='しばらく待って再試行してください'), 429
+                if len(_social_posts) > 2000:
+                    _social_posts.clear()
+                _social_posts[address] = recent + [now]
+        elif not re.fullmatch(r'[a-f0-9]{32}', request.view_args.get('url_hash', '')):
+            return jsonify(error='Invalid article ID'), 400
 
 # httpx/httpcore の詳細ログが日本語テキストをASCII出力しようとしてクラッシュするのを防ぐ
 import logging

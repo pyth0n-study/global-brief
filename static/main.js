@@ -1,11 +1,16 @@
 function thumbFallback(img) {
-  const wrap  = img.closest('.card-thumb');
+  img.closest('.card-thumb')?.classList.remove('photo-loaded');
   img.remove();
-  wrap.style.background = wrap.dataset.bg;
-  wrap.querySelector('.photo-credit')?.remove();
-  wrap.querySelector('.image-disclaimer')?.remove();
-  // 画像が壊れても見出し・出典は残す。
 }
+document.querySelectorAll('.card-thumb img').forEach(img => {
+  const loaded = () => {
+    if (img.naturalWidth < 100 || img.naturalHeight < 60) return thumbFallback(img);
+    img.closest('.card-thumb').classList.add('photo-loaded');
+  };
+  img.addEventListener('load', loaded);
+  img.addEventListener('error', () => thumbFallback(img));
+  if (img.complete) { if (img.naturalWidth) loaded(); else thumbFallback(img); }
+});
 
 function toggleSidebar() {
   const content = document.getElementById('sidebar-content');
@@ -92,6 +97,7 @@ async function toggleReaction(btn) {
       body: JSON.stringify({ url_hash: hash, reaction, action })
     });
     const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'リアクションを保存できませんでした');
 
     btn.querySelector('span').textContent = data.count;
     if (action === 'add') {
@@ -104,7 +110,7 @@ async function toggleReaction(btn) {
       btn.classList.remove('reacted');
     }
     localStorage.setItem('user_reactions', JSON.stringify([...reactedSet]));
-  } catch (e) {}
+  } catch (e) { alert('リアクションを保存できませんでした。時間をおいて再試行してください。'); }
 }
 
 function toggleInsight(hash) {

@@ -54,13 +54,14 @@ class SubmissionTests(unittest.TestCase):
             self.assertIn('縦型で読む', listing)
             self.assertEqual(listing.count('class="card"'), 12)
             self.assertIn('sidebar-content', listing)
-            self.assertNotIn('onclick="toggleComments(', listing)
+            self.assertIn('onclick="toggleComments(', listing)
+            self.assertNotIn('配信元の説明', listing)
 
     def test_debug_and_legacy_routes_are_closed(self):
         client = self.module.app.test_client()
         for route in ('/debug-summary', '/debug-news', '/legacy'):
             self.assertEqual(client.get(route).status_code, 404)
-        self.assertEqual(client.post('/api/comment', json={}).status_code, 404)
+        self.assertEqual(client.post('/api/comment', json={}).status_code, 400)
 
     def test_about_returns_to_originating_view(self):
         client = self.module.app.test_client()

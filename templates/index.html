@@ -6,7 +6,7 @@
   <title>Global Brief</title>
   <script>if(localStorage.getItem('dark_mode')==='1')document.documentElement.classList.add('dark');</script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v='list-2') }}">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
     <h1>Global Brief</h1>
     <p>世界のいまを、3行で。</p>
     {% if submission_mode %}<a href="/background" style="color:inherit">背景を知る ↗</a>{% endif %}
-    {% if submission_mode %}<p style="font-size:12px">保存記事 {{ captured_at }} · 最新配信ではありません</p><a href="/" style="color:inherit">← 縦型で読む</a> · <a href="/about?from=list" style="color:inherit">このサイトについて</a>{% endif %}
+    {% if submission_mode %}<p style="font-size:12px">更新 {{ captured_at }} · 12時間遅延</p><a href="/" style="color:inherit">← 縦型で読む</a> · <a href="/about?from=list" style="color:inherit">このサイトについて</a>{% endif %}
     <button id="dark-toggle" onclick="toggleDark()" aria-label="ダークモード切替">🌙</button>
   </header>
 
@@ -87,32 +87,11 @@
       {% endif %}
       {% for item in news %}
       <div class="card">
-        {% if item.image %}
-        <div class="card-thumb" data-bg="{{ item.banner_color }}" data-emoji="{{ item.category.split(' ')[0] }}">
-          <img src="{{ item.image }}" alt="{{ item.category }}" loading="lazy" onerror="thumbFallback(this)">
-          <div class="thumb-overlay">
-            {% if item.friendly_title %}
-            <p class="thumb-headline">{{ item.friendly_title }}</p>
-            {% endif %}
-            <div class="thumb-meta">
-              <span class="category-tag">{{ item.category }}</span>
-              <span class="source-tag">📰 {{ item.source }}</span>
-            </div>
-          </div>
-          {% if item.photo_by %}
-          <span class="image-disclaimer">イメージ写真</span>
-          <div class="photo-credit">
-            <a href="{{ item.photo_link }}?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">{{ item.photo_by }}</a>
-            on
-            <a href="https://unsplash.com?utm_source=global_brief&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>
-          </div>
-          {% endif %}
+        <div class="card-thumb" data-bg="#102731">
+          <div class="thumb-fallback" aria-hidden="true">{{ item.visual|safe }}</div>
+          {% if item.image %}<img src="{{ item.image }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% endif %}
+          <div class="thumb-overlay"><div class="thumb-meta"><span class="category-tag">{{ item.category }}</span><span class="source-tag">{{ item.source }}</span></div></div>
         </div>
-        {% else %}
-        <div class="card-banner" style="background: {{ item.banner_color }};">
-          {{ item.category.split(' ')[0] }}
-        </div>
-        {% endif %}
 
         <div class="card-body">
           {% if not item.image %}
@@ -127,12 +106,12 @@
           <h2>{{ item.title }}</h2>
           {% endif %}
           <p>{{ item.content }}</p>
-          {% if submission_mode %}<small>{{ '要約' if item.summary else '配信元の説明' }}{% if item.reference %} · 背景資料{% endif %}</small>{% if not item.summary and item.description_incomplete %}<p style="font-size:12px;color:#888">説明文は一部のみ。続きは元記事へ。</p>{% endif %}{% endif %}
+          {% if submission_mode %}{% if item.reference %}<small>背景資料</small>{% endif %}{% if not item.summary and item.description_incomplete %}<p style="font-size:12px;color:#888">説明文は一部のみ。続きは元記事へ。</p>{% endif %}{% endif %}
 
           <div class="reactions">
-            {% if not submission_mode %}{% for reaction, emoji in [('heart', '❤️'), ('wow', '😮'), ('sad', '😢'), ('angry', '😡'), ('think', '🤔')] %}
+            {% for reaction, emoji in [('heart', '❤️'), ('wow', '😮'), ('sad', '😢'), ('angry', '😡'), ('think', '🤔')] %}
             <button class="react-btn" data-hash="{{ item.url_hash }}" data-reaction="{{ reaction }}" onclick="toggleReaction(this)">{{ emoji }} <span>0</span></button>
-            {% endfor %}{% endif %}
+            {% endfor %}
             <button class="bookmark-btn" data-hash="{{ item.url_hash }}" data-title="{{ item.title }}" data-url="{{ item.url }}" data-category="{{ item.category }}" onclick="toggleBookmark(this)">🔖 保存</button>
           </div>
 
@@ -140,7 +119,7 @@
             {% if item.insight %}
             <button class="action-btn insight-toggle-btn" onclick="toggleInsight('{{ item.url_hash }}')">🔮 AIの先読み</button>
             {% endif %}
-            {% if not submission_mode %}<button class="action-btn" onclick="toggleComments('{{ item.url_hash }}')">💬 コメント</button>{% endif %}
+            <button class="action-btn" onclick="toggleComments('{{ item.url_hash }}')">💬 コメント</button>
             <button class="action-btn share-x-btn" data-url="{{ item.url }}" data-title="{{ item.title }}" onclick="shareX(this)">𝕏 シェア</button>
             <button class="action-btn share-line-btn" data-url="{{ item.url }}" onclick="shareLINE(this)">LINE</button>
             <button class="action-btn copy-link-btn" data-url="{{ item.url }}" onclick="copyLink(this)">🔗 コピー</button>
@@ -179,7 +158,7 @@
           <div class="comments-list">
             <p class="no-comments">読み込み中...</p>
           </div>
-          <div class="comment-form">
+          <p class="comment-storage-note">コメントは公開されます。現在は試験運用のため、再起動などで消える場合があります。</p><div class="comment-form">
             <input type="text" class="comment-nick-input" placeholder="ニックネーム（必須・50文字以内）" maxlength="50">
             <textarea class="comment-body-input" placeholder="コメントを入力... (500文字以内)" maxlength="500"></textarea>
             <button class="comment-submit-btn" onclick="submitComment('{{ item.url_hash }}')">送信</button>
@@ -206,7 +185,7 @@
 
   <div id="tooltip">🔍 この単語を調べる</div>
 
-  <script src="{{ url_for('static', filename='main.js') }}"></script>
+  <script src="{{ url_for('static', filename='main.js', v='list-2') }}"></script>
 
 </body>
 </html>
