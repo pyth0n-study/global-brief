@@ -6,7 +6,7 @@
   <title>Global Brief</title>
   <script>if(localStorage.getItem('dark_mode')==='1')document.documentElement.classList.add('dark');</script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v='list-2') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v='list-3') }}">
 </head>
 <body>
 
@@ -49,7 +49,7 @@
         <hr>
         <p>
           💬 <strong>コメント</strong><br>
-          ニックネームで<br>コメントを投稿<br>できます
+          匿名でも<br>コメントを投稿<br>できます
         </p>
         <hr>
         {% endif %}<p class="title">🔖 保存済み <span id="bookmark-count" style="color:#f5a623;"></span></p>
@@ -94,12 +94,6 @@
         </div>
 
         <div class="card-body">
-          {% if not item.image %}
-          <div class="card-meta">
-            <span class="category-tag">{{ item.category }}</span>
-            <span class="source-tag">📰 {{ item.source }}</span>
-          </div>
-          {% endif %}
           {% if item.friendly_title and item.friendly_title != item.title %}
           <h2>{{ item.friendly_title }}</h2>
           {% else %}
@@ -159,7 +153,7 @@
             <p class="no-comments">読み込み中...</p>
           </div>
           <p class="comment-storage-note">コメントは公開されます。現在は試験運用のため、再起動などで消える場合があります。</p><div class="comment-form">
-            <input type="text" class="comment-nick-input" placeholder="ニックネーム（必須・50文字以内）" maxlength="50">
+            <input type="text" class="comment-nick-input" placeholder="名前（任意・空欄なら匿名）" maxlength="50">
             <textarea class="comment-body-input" placeholder="コメントを入力... (500文字以内)" maxlength="500"></textarea>
             <button class="comment-submit-btn" onclick="submitComment('{{ item.url_hash }}')">送信</button>
           </div>
@@ -185,7 +179,7 @@
 
   <div id="tooltip">🔍 この単語を調べる</div>
 
-  <script src="{{ url_for('static', filename='main.js', v='list-2') }}"></script>
+  <script src="{{ url_for('static', filename='main.js', v='list-3') }}"></script>
 
 </body>
 </html>

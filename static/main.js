@@ -159,8 +159,8 @@ async function submitComment(hash) {
   const nick = section.querySelector('.comment-nick-input').value.trim();
   const body = section.querySelector('.comment-body-input').value.trim();
 
-  if (!nick || !body) {
-    alert('ニックネームとコメントを入力してください');
+  if (!body) {
+    alert('コメントを入力してください');
     return;
   }
 

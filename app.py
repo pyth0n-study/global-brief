@@ -58,7 +58,7 @@ def submission_route_guard():
             else:
                 if not isinstance(data.get('url_hash'), str) or not re.fullmatch(r'[a-f0-9]{32}', data['url_hash']):
                     return jsonify(error='Invalid article ID'), 400
-                if request.endpoint == 'post_comment' and any(not isinstance(data.get(k), str) for k in ('nickname', 'body')):
+                if request.endpoint == 'post_comment' and (not isinstance(data.get('body'), str) or not isinstance(data.get('nickname', ''), str)):
                     return jsonify(error='Invalid comment'), 400
                 if request.endpoint == 'toggle_reaction' and (not isinstance(data.get('reaction'), str) or data.get('reaction') not in VALID_REACTIONS or data.get('action') not in ('add', 'remove')):
                     return jsonify(error='Invalid reaction'), 400
@@ -721,11 +721,11 @@ def post_comment():
     """コメントを投稿"""
     data = request.get_json()
     url_hash = data.get('url_hash', '').strip()
-    nickname = data.get('nickname', '').strip()
+    nickname = data.get('nickname', '').strip() or '匿名'
     body = data.get('body', '').strip()
 
-    if not nickname or not body:
-        return jsonify({'error': 'ニックネームとコメントは必須です'}), 400
+    if not body:
+        return jsonify({'error': 'コメントを入力してください'}), 400
     if len(nickname) > 50:
         return jsonify({'error': 'ニックネームは50文字以内'}), 400
     if len(body) > 500:
