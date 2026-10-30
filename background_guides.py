@@ -1,5 +1,7 @@
 """Reviewed reference material stays separate from the news archive."""
 from timeline_library import load_timelines
+import json
+from pathlib import Path
 
 GUIDES = [
     ('brazil_elections', ['brazil'], 'elections', 'ブラジルの選挙と民主化', '軍政から民政への移行と、直接選挙が戻るまでの節目を知る。'),
@@ -16,6 +18,10 @@ OVERVIEWS = {
 
 def guides_for(country='', theme=''):
     library = load_timelines()
-    return [dict(id=key, countries=countries, theme=topic, title=title, intro=intro, overview=OVERVIEWS[key], **library[key])
+    guides = [dict(id=key, countries=countries, theme=topic, title=title, intro=intro, overview=OVERVIEWS[key], **library[key])
         for key, countries, topic, title, intro in GUIDES
         if (not country or country in countries) and (not theme or theme == topic)]
+    war = json.loads((Path(__file__).parent / 'data/russia_ukraine_background.json').read_text(encoding='utf-8'))
+    if (not country or country in war['countries']) and (not theme or theme == war['theme']):
+        guides.insert(0, war)
+    return guides

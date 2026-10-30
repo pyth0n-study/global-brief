@@ -43,9 +43,19 @@ class ArchiveTests(unittest.TestCase):
         self.assertTrue(all(a['published_at'] is None for a in rows))
 
     def test_basic_guides_remain_separate(self):
-        self.assertEqual(len(guides_for()), 3)
+        self.assertEqual(len(guides_for()), 4)
         self.assertEqual(len(guides_for('china', 'trade')), 1)
         self.assertEqual(guides_for('spain'), [])
+
+    def test_war_guide_has_narrative_sources_and_matches_both_countries(self):
+        for country in ('russia', 'ukraine'):
+            guide, = guides_for(country, 'security')
+            self.assertEqual(guide['id'], 'russia_ukraine_war')
+            self.assertEqual(len(guide['explanations']), 3)
+            for section in guide['explanations'] + guide['moments'] + guide['recent_moments']:
+                self.assertTrue(section['source'].startswith('https://'))
+                self.assertTrue(section['publisher'])
+        self.assertEqual(guides_for('ukraine', 'trade'), [])
 
     def test_background_routes_without_network(self):
         from app import app
@@ -55,6 +65,12 @@ class ArchiveTests(unittest.TestCase):
             self.assertIn('基本の背景', page)
             self.assertIn('これまでの記事', page)
             self.assertIn('WTO', page)
+            page = client.get('/background?country=ukraine&theme=security').get_data(as_text=True)
+            self.assertIn('まず、ウクライナは独立した国', page)
+            self.assertIn('その後・直近の動き', page)
+            self.assertIn('2026.10.26', page)
+            self.assertIn('まだ関連記事を保存していません', page)
+            self.assertEqual(len(read_archive(db_path=self.db)), 10)
             page = client.get('/background?country=spain&theme=transport').get_data(as_text=True)
             self.assertIn('基本解説は、まだありません', page)
             self.assertIn('列車事故', page)

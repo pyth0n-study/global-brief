@@ -1,0 +1,83 @@
+{
+  "id": "russia_ukraine_war",
+  "countries": [
+    "russia",
+    "ukraine"
+  ],
+  "theme": "security",
+  "title": "ロシア・ウクライナ戦争に至る経緯",
+  "intro": "2022年に突然始まった？ 独立、2014年の紛争、停戦の試みから振り返る。",
+  "reviewed_at": "2026-10-30",
+  "overview": "2022年2月の全面侵攻より前から、クリミアとウクライナ東部をめぐる紛争が続いていました。「独立した国」「2014年の転換」「続かなかった停戦」の順に押さえると、今のニュースの前提が見えてきます。",
+  "explanations": [
+    {
+      "year": "",
+      "title": "まず、ウクライナは独立した国",
+      "body": "ウクライナは1991年、ソ連の崩壊に伴って独立しました。ロシアとは別の国です。2013年には、当時の政権がEUとの連合協定に向けた交渉を停止したことをきっかけに、大規模な抗議運動が起きました。2014年2月に大統領が国外に去り、新政権が発足します。",
+      "source": "https://www.mofa.go.jp/mofaj/area/ukraine/data.html",
+      "publisher": "日本外務省「ウクライナ基礎データ」"
+    },
+    {
+      "year": "",
+      "title": "2014年、領土と武力紛争の問題へ",
+      "body": "ロシアは2014年3月にクリミアを一方的に「併合」。続いて東部のドネツク、ルハンスクを含むドンバス地方で、ウクライナ政府軍とロシアが支援する分離派の戦闘が続きました。つまり、2022年以前から領土をめぐる対立と戦闘があったのです。",
+      "source": "https://www.diplomatie.gouv.fr/en/the-ministry-in-action/promoting-a-sovereign-europe/european-matters/war-in-ukraine-france-s-diplomatic-action/understanding-the-situation-in-ukraine-since-2014",
+      "publisher": "フランス外務省「2014年以降の状況」"
+    },
+    {
+      "year": "",
+      "title": "和平の試みを経て、全面侵攻へ",
+      "body": "2014〜2015年には、停戦と政治的解決を目指すミンスク諸合意が結ばれました。しかし、停戦は繰り返し破られ、紛争は解決しませんでした。2022年2月、ロシアは東部の分離派が称する「共和国」の独立を承認。24日には全面侵攻を開始し、戦闘が東部以外にも広がりました。",
+      "source": "https://ukraine.un.org/en/download/151048/256565",
+      "publisher": "国連ウクライナ「Country Context」"
+    }
+  ],
+  "moments_heading": "全面侵攻までの節目",
+  "moments": [
+    {
+      "year": "1991",
+      "title": "ウクライナが独立",
+      "body": "ソ連崩壊の年に独立。現在のニュースを読むうえでの出発点です。",
+      "source": "https://www.mofa.go.jp/mofaj/area/ukraine/data.html",
+      "publisher": "日本外務省"
+    },
+    {
+      "year": "2013–14",
+      "title": "抗議運動と政権交代",
+      "body": "EUとの連合協定をめぐる政権の決定をきっかけに抗議が拡大し、新政権が発足。",
+      "source": "https://www.mofa.go.jp/mofaj/area/ukraine/data.html",
+      "publisher": "日本外務省"
+    },
+    {
+      "year": "2014",
+      "title": "クリミア「併合」と東部紛争",
+      "body": "ロシアによるクリミア「併合」と、ドンバスでの武力紛争。",
+      "source": "https://www.diplomatie.gouv.fr/en/the-ministry-in-action/promoting-a-sovereign-europe/european-matters/war-in-ukraine-france-s-diplomatic-action/understanding-the-situation-in-ukraine-since-2014",
+      "publisher": "フランス外務省"
+    },
+    {
+      "year": "2014–15",
+      "title": "ミンスク諸合意",
+      "body": "停戦と政治的解決を目指して合意。ただし、その後も停戦違反と戦闘が続きました。",
+      "source": "https://www.diplomatie.gouv.fr/en/the-ministry-in-action/promoting-a-sovereign-europe/european-matters/war-in-ukraine-france-s-diplomatic-action/understanding-the-situation-in-ukraine-since-2014",
+      "publisher": "フランス外務省"
+    },
+    {
+      "year": "2022.02",
+      "title": "ロシアが全面侵攻",
+      "body": "21日に分離派が称する「共和国」の独立を承認。24日に全面侵攻を開始。",
+      "source": "https://ukraine.un.org/en/download/151048/256565",
+      "publisher": "国連ウクライナ"
+    }
+  ],
+  "recent_moments": [
+    {
+      "year": "2026.10.26",
+      "title": "電力・暖房への被害も、戦争の現在地",
+      "body": "国連の独立国際調査委員会は、ロシアによるウクライナのエネルギー施設への攻撃が、市民の電力・暖房・水などに深刻な影響を及ぼしたと報告しました。戦況だけでなく、市民生活を支える設備への被害も注目点です。",
+      "source": "https://ukraine.un.org/en/325200-russian-authorities-committed-crimes-against-humanity-through-attacks-ukraine%E2%80%99s-energy",
+      "publisher": "国連・独立国際調査委員会の発表"
+    }
+  ],
+  "context": "これは経緯をつかむために選んだ出来事であり、戦争の原因を一つに断定する説明ではありません。基本解説と直近の動きは出典を確認して編集した資料です。取得記事の自動蓄積や、リアルタイムの戦況表示とは異なります。"
+}
