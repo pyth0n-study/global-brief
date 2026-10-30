@@ -196,7 +196,7 @@ function renderBookmarkSidebar() {
     return;
   }
   list.innerHTML = bookmarks.map(b => `
-    <a class="bookmark-list-item" href="${escHtml(b.url)}" target="_blank">
+    <a class="bookmark-list-item" href="/?article=${encodeURIComponent(b.hash)}">
       <span class="bookmark-category">${escHtml(b.category)}</span>
       ${escHtml(b.title.length > 28 ? b.title.slice(0, 28) + '…' : b.title)}
     </a>
