@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T05:57:06.216825+00:00",
-  "count": 103,
+  "updated_at": "2026-10-31T17:17:38.293005+00:00",
+  "count": 123,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -1031,6 +1031,206 @@
       "published_at": "2026-10-30 16:33:13",
       "first_seen": "2026-10-31T05:57:06.212369+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811839030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b4cfc275f35ea9e0dacfe330880ba6f8",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/09bce642ba1797073012e56b33ad36ee69f817d4",
+      "title": "日ロ外相会談 北海道新聞記者の即時解放要求(ABEMA TIMES)",
+      "description": "茂木外務大臣は訪問先のアメリカでロシアのラブロフ外相と会談し、拘束されている北海道新聞の記者の即時解放を強く訴えました。日ロの外相が対面で正式に会談するのは、ロシアのウクライナ侵攻後初めてです。【映像",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:54:16",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-10285647-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1b94f5edc927aaae68bbf547f070857add01e198",
+      "title": "トランプ大統領 接戦州での遊説一転して実施へ(ABEMA TIMES)",
+      "description": "アメリカの中間選挙の投票日が来週に迫る中、中止するとしていたトランプ大統領の接戦州での遊説が一転して行われることになりました。【映像】トランプ大統領 接戦州での遊説を一転実施トランプ大統領「『現地に来",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:54:16",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-10285645-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/22ff47db9b2d948de955ba24689851412aeb025b",
+      "title": "「妖精の煙突」と呼ばれるキノコ型の岩が突如落下…立ち上る土煙と緊迫の救助活動 豪雨で地滑り発生し2人死亡 トルコ(ABEMA TIMES)",
+      "description": "トルコの人気リゾート地カッパドキアで10月29日、「妖精の煙突」と呼ばれるキノコのような形をした岩が落下した。映像からは土煙があがり、跡形もない様子が確認できる。【映像】「妖精の煙突」が落下し土煙があ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:15:34",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-10285436-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3d2384f85f453e06afd1468c073bd2d7bf58d201",
+      "title": "空と陸のドローンが連携し、ロシアの包囲網の撃破に成功…「新作戦」はウクライナ戦争をどう変える？(ニューズウィーク日本版)",
+      "description": "ドローンを駆使してロシア軍に反撃する「ビバルディ作戦」を、ウクライナが公式に発表したのは9月中旬。この作戦によりウクライナ軍は東部ドネツク州リマン近郊の領土を奪還し、東部防衛線の要となる要塞都市群への",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:10:19",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00010006-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5711205f548bf4bcd663428892a6cc756b148ca1",
+      "title": "【コラム】ワイングラスが割れても食卓をひっくり返してはいけない＝韓国(中央日報日本語版)",
+      "description": "外交と聞けば、ワインとシャンデリアのある優雅な食卓で、紳士のルールが支配する平和な晩餐を思い浮かべるかもしれない。しかし私が経験した30年間の外交現場は常に平和だったわけではない。食卓のワイングラスが",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:38:35",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000008-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/631a952d62b7661fb588e99aa894aee2e0ac1360",
+      "title": "スペイン列車事故 運輸相「追突した列車の信号は青」(ABEMA TIMES)",
+      "description": "スペイン中部で列車同士が衝突し69人が死亡した事故で、プエンテ運輸相は追突した列車に対する線路脇の信号が青になっていたと明らかにしました。【映像】スペイン列車事故 追突した列車の信号は「青」 スペイン",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:54:16",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-10285646-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/718d2f10aa4b918a3a9510c4da92d6d55af95d70",
+      "title": "「タンクデー」で物議醸した韓国スタバ、光州の大型店を閉店…騒動以降で初(朝鮮日報日本語版)",
+      "description": "5・18光州民主化運動を連想させる「タンクデー」というイベントを実施して物議を醸し、消費者による不買運動へとつながったスターバックスが、光州で大型店1店舗を閉店した。【写真】新世界グループ・鄭溶鎮会長",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:11:00",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00080023-chosun-000-7-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a195b02ce4a8c611fd34e3b96eb31dc48f4b716f",
+      "title": "交流していた女性に中国スパイ疑惑…エヌビディア「業務上の通常の接触」(中央日報日本語版)",
+      "description": "米情報当局が中国政府のために情報を収集していた可能性を疑って監視してきた中国籍の女性実業家アリス・フアン氏（中国名：Huang Le）が、エヌビディアのジェンスン・フアン最高経営責任者（CEO）と親密",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 03:53:21",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000007-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a635b697eecf30e3ea86d1476e3b9a5802f86616",
+      "title": "坂本龍一氏の回顧展 台北市立美術館で開催 インスタレーション作品7点を展示／台湾(中央社フォーカス台湾)",
+      "description": "（台北中央社）音楽家の故坂本龍一氏（23年死去）のインスタレーション作品を包括的に紹介する特別展「坂本龍一｜音を視る 時を聴く」が31日から来年3月14日まで台北市立美術館で開催されている。20年以上",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:43:53",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000002-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b04ac7671ba10da2c495bf388e9198103b525158",
+      "title": "AIは科学研究を脅かしているのか……数学をめぐる論争があおる懸念(BBC News)",
+      "description": "パラブ・ゴーシュ科学担当編集委員英ロンドン中心部の旧時計工場跡地に、白い冷凍庫がずらりと並び、静かに稼働している。中には、バーコード付きのガラス管が入った小さな箱が何十個も保管されている。ガラス管に入",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 03:54:00",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-58012768-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b5b36e11f0b8c0e8a7ba9c44b6236f1cdd4ea599",
+      "title": "トランプ氏、集会キャンセルを巡る報道に激怒 顧問が明かす二転三転の内幕(CNN.co.jp)",
+      "description": "（CNN） 今月25回目となる米中間選挙の応援集会に参加するため、サウスカロライナ州へ向かう機内で、トランプ米大統領と政治チームはある決断を下した。顧問の1人によると、トランプ氏は共和党の牙城（がじょ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 03:45:00",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-35254246-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bf0253235207b6acb76c75ebbbd50f4905f8a335",
+      "title": "AI国際映画祭が開幕 700超の作品が東京に(テレビ朝日系（ANN）)",
+      "description": "AIを活用した映像作品に特化した国際映画祭が、東京で開幕しました。 2回目となる「AI日本国際映画祭」には、去年を大幅に上回る60余りの国や地域から、730の作品の応募がありました。 来月2日まで3日",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 03:56:07",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000035-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f846131032739e2cbd470d1adc242aa49518460a",
+      "title": "ＫＯＳＰＩ「アルファベットショック」…サムスン電子６％↓、ＳＫハイニックス８％↓(ハンギョレ新聞)",
+      "description": "グーグルの親会社アルファベットの業績不振の影響で、韓国株式市場は30日午前、急落を記録した。韓国総合株価指数（KOSPI）市場では売りサイドカーが発動されもした。市場の動きを主導するサムスン電子とSK",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:08:30",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/fd25a442d578e97d17fb356ddf172722bab2d397",
+      "title": "【分析】物価高騰よりも「尻」、トランプ氏が男性の体に言及するのをやめられない理由(CNN.co.jp)",
+      "description": "（CNN） トランプ米大統領が男性上院議員の「尻」について語ったこと自体は、さほど興味を引く話ではない。【映像】トランプ氏、女性記者に「ブタ、静かに」興味深いのは、トランプ氏がこの話を何度も繰り返して",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 04:48:00",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-35254247-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/430e952bf5bdb701ec0ca8a0a2e3c4a6",
+      "title": "中国「不正の温床」にメス 摘発続々",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 04:03:23",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/4a6e106b8b8f0ee081019ce238556a07",
+      "title": "米中間選挙 期日前投票が過去最多",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 05:03:44",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/6cfbd1605792d2a3d1e7b8f1c174dd26",
+      "title": "米 中国の工作員2人に実刑判決",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 04:41:52",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/a33e40f6de8ae0e41e772b17a9dc64bf",
+      "title": "次の国連総長 新顔参戦で先見通せず",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 04:54:25",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/usa/35254246.html",
+      "title": "トランプ氏、集会キャンセルを巡る報道に激怒 顧問が明かす二転三転の内幕",
+      "description": "今月25回目となる米中間選挙の応援集会に参加するため、サウスカロライナ州へ向かう機内で、トランプ米大統領と政治チームはある決断を下した。顧問の1人によると、トランプ氏は共和党の牙城（がじょう）でありながら苦戦が伝えられるカンザス州で週末に予定していた対面集会を取りやめ、代わりに電話で最後の訴えをする方針を固めた。 数時間後には、アイオワ州で週末に予定されていた別の集会も中止された。保守色の強い選挙...",
+      "source": "Cnn",
+      "published_at": "2026-10-31 03:45:00",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/10/31/405c587032bea8582bb3d96442cb4ee9/ap26302643889533.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/usa/35254247.html",
+      "title": "【分析】物価高騰よりも「尻」、トランプ氏が男性の体に言及するのをやめられない理由",
+      "description": "トランプ米大統領が男性上院議員の「尻」について語ったこと自体は、さほど興味を引く話ではない。 興味深いのは、トランプ氏がこの話を何度も繰り返していることだ。 たぶんガソリン価格よりも、尻の筋肉について語る方が楽しいのだろう。 2026年中間選挙を目前に控えた最終週の動きを注視している人なら、トランプ氏がジョン・ヒューステッド上院議員の尻をいたく気に入っていることは、もう知っているはずだ。 CNNのアン...",
+      "source": "Cnn",
+      "published_at": "2026-10-31 04:48:00",
+      "first_seen": "2026-10-31T17:17:38.288575+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/10/31/7f67ab0def4a6271926584c40be615d9/01-gettyimages-2299891838.jpg",
       "watch_point": null
     }
   ],
