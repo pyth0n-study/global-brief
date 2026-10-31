@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T18:05:40.646967+00:00",
-  "count": 68,
+  "updated_at": "2026-10-31T02:59:24.584660+00:00",
+  "count": 88,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -10,7 +10,8 @@
       "source": "ライブドアニュース",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/30733ef2f6fbda8bddbdce219a632c4a325dbc45",
@@ -19,7 +20,8 @@
       "source": "Yahoo Japan",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/4875ac6e63061b280a93617f62a2bf909554157e",
@@ -28,7 +30,8 @@
       "source": "Yahoo Japan",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/4d8f08eada2e347d36ed8ea1b272ae531c55463f",
@@ -37,7 +40,8 @@
       "source": "Yahoo Japan",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/9b47b8a97727e15160011e76f8df634d5ecf08b3",
@@ -46,7 +50,8 @@
       "source": "Yahoo Japan",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/be5ec18723697d88362ca3494f50b7f282f0a202",
@@ -55,7 +60,8 @@
       "source": "Yahoo Japan",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/d4221fb53063da9a956bafd48b12a1914d9a112e",
@@ -64,7 +70,8 @@
       "source": "Yahoo Japan",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/89eb1a2158dc295508a8210512067c88",
@@ -73,7 +80,8 @@
       "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://www.cnn.co.jp/world/35254112.html",
@@ -82,7 +90,8 @@
       "source": "Cnn",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGR283930Y6A021C2000000/",
@@ -91,7 +100,8 @@
       "source": "Nikkei Shimbun",
       "published_at": null,
       "first_seen": "2026-10-29",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.livedoor.com/article/detail/32689772/",
@@ -100,7 +110,8 @@
       "source": "ライブドアニュース",
       "published_at": "2026-10-29 23:48:15",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/0186b3df815f18364466b046a4deeef485dd75d7",
@@ -109,7 +120,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:29:52",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/0f5a4db6e71aea4801845d833958f31e9f29357c",
@@ -118,7 +130,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:03:00",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-35254197-cnn-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-35254197-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/1a2d5b99e42f4598c1762d2af85fcbfb205cfb74",
@@ -127,7 +140,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:01:12",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/1c083fda5ccecdda740dd8f59801918964466539",
@@ -136,7 +150,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:18:15",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/214c201d74254e237803eab31596db50f13cc055",
@@ -145,7 +160,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:09:35",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00057534-hankyoreh-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00057534-hankyoreh-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/22c1364784e597f0124e2343d4492f70af8f448c",
@@ -154,7 +170,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:53:02",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/69b3db9915a5ffb7e891ccb3cea47b1de0c7be73",
@@ -163,7 +180,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:45:44",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/73fdc54a1ad14955020d1be1e800412ba5325a71",
@@ -172,7 +190,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:25:05",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/74c085788f239a3f826303f617154b7c9d9a1658",
@@ -181,7 +200,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:27:27",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/76c98218aea0e7fa13fd0f66a6d5b20d12feff23",
@@ -190,7 +210,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:26:45",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/b77c5eafe91f5a3eb98e02688105e6a1edc6d582",
@@ -199,7 +220,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:38:46",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/d1ea587ed8a5c2cc03c0ac9a1e0ee5b47ea6747d",
@@ -208,7 +230,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:01:16",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/dd82de3993e58e0b3e48f98b95e8898e64be7f63",
@@ -217,7 +240,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:54:30",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/ec2cc0e924e050c446ea31eedbe95694194b34de",
@@ -226,7 +250,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:27:00",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/fcf6833a06835d6c9c8e037a0bd3c46af7c1589b",
@@ -235,7 +260,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-29 23:37:49",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/9052081d356062e782cab8eeb00ae9f4",
@@ -244,7 +270,8 @@
       "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
       "published_at": "2026-10-29 23:48:20",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://www.cnn.co.jp/world/35254190.html",
@@ -253,7 +280,8 @@
       "source": "Cnn",
       "published_at": "2026-10-29 23:27:00",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://www.cnn.co.jp/world/35254197.html",
@@ -262,7 +290,8 @@
       "source": "Cnn",
       "published_at": "2026-10-30 00:03:00",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGR29BSL0Z21C26A0000000/",
@@ -271,7 +300,8 @@
       "source": "Nikkei Shimbun",
       "published_at": "2026-10-29 23:38:25",
       "first_seen": "2026-10-30T12:13:32.147100+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://japan.hani.co.kr/arti/international/57535.html",
@@ -280,7 +310,8 @@
       "source": "Hani",
       "published_at": "2026-10-30 00:32:00",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://img.hani.co.kr/imgdb/japan/news/resize/2026/1030/179332023866_20261030.JPG"
+      "image": "https://img.hani.co.kr/imgdb/japan/news/resize/2026/1030/179332023866_20261030.JPG",
+      "watch_point": null
     },
     {
       "url": "https://news.livedoor.com/article/detail/32690125/",
@@ -289,7 +320,8 @@
       "source": "ライブドアニュース",
       "published_at": "2026-10-30 00:53:11",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://image.news.livedoor.com/newsimage/stf/4/4/4468c_1675_c3e565b656a653670292fad4eafead7a.jpg"
+      "image": "https://image.news.livedoor.com/newsimage/stf/4/4/4468c_1675_c3e565b656a653670292fad4eafead7a.jpg",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/03cf7f875eebc3468c273b79122bf8a25ffed4b4",
@@ -298,7 +330,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:47:23",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000024-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000024-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/0a9827af2c7fcd627aa584f0fa4ff2168a7aaaad",
@@ -307,7 +340,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:25:10",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000051-kyodonews-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000051-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/284c6640f824f7ffde55df89b7bccb1f796f83cd",
@@ -316,7 +350,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:48:59",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000022-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000022-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/2aff8349b6c9341df55e01a70023de5a6a635be2",
@@ -325,7 +360,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:55:12",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000028-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000028-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/33b0e1b315eeda28e05645e11c4b161ffe1a1b80",
@@ -334,7 +370,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:59:43",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000029-cnippou-000-1-view.png?fmt=jpeg&q=85&exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000029-cnippou-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/3db7cc9e6552af9ef15114faac01c6eae36e985e",
@@ -343,7 +380,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:31:36",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00540229-yonh-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00540229-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/40a344aa9b4de7080ef05e9a24208af268aa4377",
@@ -352,7 +390,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:25:10",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000021-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000021-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/411142647af14d6af6c326240a9866fb85ed7b4d",
@@ -361,7 +400,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:21:17",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-10285272-abemav-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-10285272-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/41576f83db607002595588f1f6d4da213388ed9a",
@@ -370,7 +410,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:17:07",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000020-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000020-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/6a7994f103d41d460376d90b9fe1ae5f46e34eef",
@@ -379,7 +420,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:48:54",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00057529-hankyoreh-000-2-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00057529-hankyoreh-000-2-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/7c39c59f089a0b1dfab2a306c50c6f35c075c6a9",
@@ -388,7 +430,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:52:31",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000057-kyodonews-000-2-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000057-kyodonews-000-2-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/8335340042e7a3a4bb91913723a132fd4746b2c3",
@@ -397,7 +440,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:55:09",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000026-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000026-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/c403d9ec595fe20933704692afe5153d70465cd4",
@@ -406,7 +450,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:41:54",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000016-ann-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000016-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/facc42007db0119131c80f4c03bacb0a82e0e169",
@@ -415,7 +460,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 00:37:34",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/2ce88e43f60a9c1588c162b3bb13c48e",
@@ -424,7 +470,8 @@
       "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
       "published_at": "2026-10-30 00:20:40",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/e2c5b7f2fbd18c7d73034dd951d7867f",
@@ -433,7 +480,8 @@
       "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
       "published_at": "2026-10-30 00:55:00",
       "first_seen": "2026-10-30T13:06:44.996630+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "http://j.people.com.cn/n3/2026/1030/c94475-20514101.html",
@@ -442,7 +490,8 @@
       "source": "人民網日本語版 People's",
       "published_at": "2026-10-30 06:00:39",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "http://j.people.com.cn/NMediaFile/2026/1030/FOREIGN1793338967336WA8B8D0QWF.jpg"
+      "image": "http://j.people.com.cn/NMediaFile/2026/1030/FOREIGN1793338967336WA8B8D0QWF.jpg",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/16b6de15d5e283ae57804523ddccd51b0e942c5b",
@@ -451,7 +500,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:02:27",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000050-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000050-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/28746f1ee06c6a15df0a7a0e6a047178c413a2df",
@@ -460,7 +510,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:15:33",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-10285336-abemav-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-10285336-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/2a0b0913bdc5218ff40139d8848afac8cc520d65",
@@ -469,7 +520,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:03:00",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00080111-chosun-000-7-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00080111-chosun-000-7-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/39cd62f750051c1b662e31a6918fa02ffab970d9",
@@ -478,7 +530,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:31:16",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000052-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000052-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/3ab415baaec1d5438f87fc95872760a920699b22",
@@ -487,7 +540,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:21:00",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00080120-chosun-000-9-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00080120-chosun-000-9-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/57d7657fc585a19c0d4f522f902e8a077f07957b",
@@ -496,7 +550,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:54:00",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-59876791-bbc-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-59876791-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/67d81c656cbe4697d844776229e366214d4a5f7e",
@@ -505,7 +560,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:23:06",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/8e555cdc60ec22698e41cf275c344061d87ed1d6",
@@ -514,7 +570,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:30:58",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00010005-aptsushinv-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00010005-aptsushinv-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/9400aef698328cc68517747056091e8e50b8b871",
@@ -523,7 +580,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:03:26",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000049-cnippou-000-1-view.png?fmt=jpeg&q=85&exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000049-cnippou-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/a8eaa633ce35e6bdd8875e592007da8d03981ee7",
@@ -532,7 +590,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:53:40",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00057524-hankyoreh-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00057524-hankyoreh-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/a8fe45240919c2f8e04abdc299c58cd8e0f27a91",
@@ -541,7 +600,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:59:18",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00540259-yonh-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00540259-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/db539d79407c090e5f5e30862b0c2db98a9fd02f",
@@ -550,7 +610,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:29:58",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00010004-aptsushinv-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00010004-aptsushinv-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/e7f9b7587a0f80c48469516724f0f13f25540985",
@@ -559,7 +620,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:21:05",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000051-cnippou-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000051-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/f84f27bb9a6fb386d6e769c8372da56a1378b271",
@@ -568,7 +630,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:04:14",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00540251-yonh-000-1-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00540251-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://news.yahoo.co.jp/articles/f905314cb64cece4711a7a78e1530ceaf5fbc24b",
@@ -577,7 +640,8 @@
       "source": "Yahoo Japan",
       "published_at": "2026-10-30 05:40:00",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00080133-chosun-000-9-view.jpg?exp=10800"
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00080133-chosun-000-9-view.jpg?exp=10800",
+      "watch_point": null
     },
     {
       "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/cefb696caca28328e98ac1f04c3539df",
@@ -586,7 +650,8 @@
       "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
       "published_at": "2026-10-30 05:44:05",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": null
+      "image": null,
+      "watch_point": null
     },
     {
       "url": "https://www.cnn.co.jp/fringe/35254208.html",
@@ -595,7 +660,8 @@
       "source": "Cnn",
       "published_at": "2026-10-30 05:59:00",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://www.cnn.co.jp/storage/2026/10/30/d31eca5e332c14bafd256911fda063ea/barnesicecapwide-oli2-20260712.jpg"
+      "image": "https://www.cnn.co.jp/storage/2026/10/30/d31eca5e332c14bafd256911fda063ea/barnesicecapwide-oli2-20260712.jpg",
+      "watch_point": null
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOCB29AIT0Z21C26A0000000/",
@@ -604,7 +670,8 @@
       "source": "Nikkei Shimbun",
       "published_at": "2026-10-30 05:38:30",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3803766029102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e621646608cea6f1b96546d5539277b3"
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3803766029102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e621646608cea6f1b96546d5539277b3",
+      "watch_point": null
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGN300TF0Q6A031C2000000/",
@@ -613,7 +680,208 @@
       "source": "Nikkei Shimbun",
       "published_at": "2026-10-30 06:03:57",
       "first_seen": "2026-10-30T18:05:40.630699+00:00",
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3806875030102026000000-2.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=7250c77c03d871db97507ab038aef17e"
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3806875030102026000000-2.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=7250c77c03d871db97507ab038aef17e",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32695732/",
+      "title": "トルコで車が店に衝突し炎上、駆けつけた近隣男性が運転手を救出",
+      "description": "9月28日午前4時ごろ、トルコ・イスタンブールにある店舗の横に設置された防犯カメラが、緊迫の救出劇を捉えました。画面右側から車のライトが見えた次の瞬間、飛び込んできた白い車がガードレールを突き破り、そのま",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-30 12:04:00",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/d/b/dbb26_1726_0c14e5d5_e0f87c0f.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32695985/",
+      "title": "ウクライナ軍がロシアの製油所への攻撃を一時停止、米メディアが報道",
+      "description": "アメリカメディアは29日、ウクライナが、アメリカのトランプ大統領からの圧力を受け、ロシア国内の製油所に対する攻撃を一時停止したと伝えました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-30 13:04:00",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/0/5/05f6d_1110_21a8ca9b_b8303be7.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32696155/",
+      "title": "韓国で日本人女性が殺害された事件、逮捕された男が建物から出る映像を入手",
+      "description": "韓国で20代の日本人女性が殺害された事件で、NNNは逮捕された韓国人の男が現場から逃走する様子を捉えた防犯カメラの映像を入手しました。現場となった建物から1人の男が出てきます。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-30 13:50:00",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/a/a/aa120_1110_cf271d57_f9dd1874.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/062161d36e0f756cccc697e27b42d74fcca23acc",
+      "title": "トランプ氏、接戦の米中西部州で集会開催へ(共同通信)",
+      "description": "【ワシントン共同】AP通信は30日、トランプ米大統領が11月1日に中間選挙の上院選が接戦となっている中西部のアイオワ、カンザス両州で集会を開くと伝えた。いったん予定を中止したが、再調整した。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 14:44:22",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/297dc7a3a626ef7ef25bb6f2ab6fd3844aabd60b",
+      "title": "ウクライナ南部の孤立の町から住民避難(共同通信)",
+      "description": "【キーウ共同】ウクライナ与党幹部のアラハミヤ氏は30日、ウクライナ南部ヘルソン州オレシュキの住民避難が始まったと明らかにした。ロシア南部のアナパからベラルーシに飛行機で向かい、バスでウクライナに戻ると",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 14:57:09",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/64e7911e5deec9771d50d97689f9b2b7e5c735d6",
+      "title": "「航行の自由」確保へ議論 G20外相、中東情勢悪化で(共同通信)",
+      "description": "【アトランタ共同】米南部アトランタで30日、20カ国・地域（G20）外相会合が開幕した。イランが事実上封鎖するエネルギー輸送の要衝ホルムズ海峡での「航行の自由」確保や、インド太平洋の海洋安全保障を議論",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 14:58:12",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/7403f42a4bce24d3e12cb3c371301495818e3f70",
+      "title": "マカオ治安警察局が一斉取り締まり実施…違法両替従事の男1人発見(マカオ新聞)",
+      "description": "マカオ治安警察局では、マカオ警察総局による統括と指揮の下、マカオの良好な治安環境の保護・維持を目的とした犯罪抑止・撲滅作戦「雷霆（らいてい）2026」の第2フェーズを展開している。 同局は10月30日",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 13:40:06",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00010003-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d7941ebd3abbfe4d78263b4a9e82ab977780127f",
+      "title": "習氏「公平な市場環境」要望 ドイツ大統領と会談(共同通信)",
+      "description": "【北京共同】中国の習近平国家主席は30日、北京でドイツのシュタインマイヤー大統領と会談した。国営通信の新華社が伝えた。習氏は「中国は高水準な（市場の）対外開放を推進する」とした上で「進出する中国企業に",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 13:45:28",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00000277-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d7cbdbbcc9510bbe0db18afb705853eb3b818dd2",
+      "title": "海の上では見えない「巨大な影」…ドローンが捉えた、ホオジロザメがサーファーに迫る戦慄の映像(ニューズウィーク日本版)",
+      "description": "透き通った緑色の海を、巨大な黒い影がゆっくりと進んでいく。その先には、サーフボードに乗った男性たちの姿がある。【映像】海中の巨大な影がサーファーに迫る…上空から見た戦慄の光景影の正体は、体長約3.7～",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 11:31:12",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261030-00010016-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/6a2c493fc8a81ee39b3976bbf2cea12a",
+      "title": "豪の毒キノコ殺人 控訴審で終身刑に",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 12:09:36",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/94040e8d27a55b881203221c26309f5b",
+      "title": "露・ウが停戦都市に到着 住民避難も",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 12:13:46",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/9e576d62036ad20dadc8e4286b010cdd",
+      "title": "中国共産党「不忠者」は断固排除へ",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 11:14:09",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/bf09b2105598b4b9531ffac471cc7597",
+      "title": "スペイン列車事故 行方不明届70件",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 14:57:50",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d551e293be3408a7c73c870488503464",
+      "title": "米大統領 記者に健康問題問われ激高",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 13:09:50",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/df9df440bd1eb1f278e45a862c523521",
+      "title": "米民主の新星 共和党牙城で支持拡大",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 12:43:49",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ef000de40a2b969efba966104df46acc",
+      "title": "スペイン事故 安全システムを軽視か",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 13:32:55",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM30BG90Q6A031C2000000/",
+      "title": "局地停戦のウクライナ南部、ロシア・ウクライナの人道支援代表団到着",
+      "description": "【キーウ、モスクワ=共同】ロシアの占領下で孤立したウクライナ南部ヘルソン州オレシュキに30日、ロシアとウクライナの人道支援代表団が到着した。トランプ米大統領の妻メラニアさんが仲介し27日に始まったオレシュキの局地停戦は3日間維持されている。取り残された住民の避難、支援が実現しそうだ。ロシアのラントラトワ連邦人権問題全権代表、ウクライナ最高会議（議会）のルビネツ人権問題全権代表らがクリミア半島北",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 11:26:03",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811331030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b43ab04d54fb8e4b52c9d3980cb38b3d",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM30C3C0Q6A031C2000000/",
+      "title": "中国人民銀行、翌日物リバースレポ操作を毎営業日実施 主要政策金利に",
+      "description": "【北京=塩崎健太郎】中国人民銀行（中央銀行）は30日、11月2日から翌日物リバースレポ操作を毎営業日に実施すると発表した。翌日物の短期金利を主要な政策金利に位置づける方向だ。日銀や米連邦準備理事会（FRB）など主要中銀の金融政策運営に近づく。翌日物リバースレポは短期金融市場の調節手段の一つで、翌日に債券を売り戻す条件がつく。金利",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 13:58:29",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811640030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=0a31e5865d9d91e704a0ebe42d2fe101",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM30C670Q6A031C2000000/",
+      "title": "習近平氏「中国・EU貿易は相互補完」 ドイツ大統領に歩み寄り訴え",
+      "description": "【北京=田島如生】中国の習近平（シー・ジンピン）国家主席は30日、訪中したドイツのシュタインマイヤー大統領と北京で会談した。習氏はドイツやフランスが中核を担う欧州連合（EU）を「パートナー」と呼び、通商政策で中国への歩み寄りを求めた。中国外務省が発表した。EUは15日の首脳会議で中国製品を念頭に新たな貿易規制を検討することで合意した。習氏は「中・欧の経済貿易関係の本質は相互補完だ」と語り、双方",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 13:50:18",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811669030102026000000-1.png?ixlib=js-3.8.0&w=696&h=433&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=18eccc5dfb706c6cc383153eb86cd4a8",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR30B110Q6A031C2000000/",
+      "title": "ロシア独立系紙が閉鎖へ、前編集長が平和賞 「当局が停止を強要」",
+      "description": "ロシアの独立系紙ノーバヤ・ガゼータは30日、11月9日に閉鎖すると発表した。モスクワの編集部が立ち退きを命じられ、読者から寄付を受け取るシステムが止まり資金源を断たれたと説明した。当局の圧力により「活動停止を強いられた」と訴えた。ノーバヤ・ガゼータは2021年にムラトフ編集長（当時）がノーベル平和賞を受賞した。プーチン政権の汚職疑惑や人権侵害を追及する調査報道で知られ、06年にモスクワで射殺さ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 12:25:37",
+      "first_seen": "2026-10-31T02:59:24.435724+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811515030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b33802c46b5f4d01d94bdd407d5f1a02",
+      "watch_point": null
     }
   ]
 }
