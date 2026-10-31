@@ -891,21 +891,21 @@
         "owner": "41162365125-1",
         "fingerprint": "2c587e29a8feef73d2c4ccaf09b37e782af38c3e1d8f819f6be6cfbcf2bf4dc6",
         "url": "https://www.nikkei.com/article/DGXZQOGM30C670Q6A031C2000000/",
-        "status": "reserved"
+        "status": "failed"
       },
       {
         "day": "2026-10-31",
         "owner": "41162365125-1",
         "fingerprint": "69e49681280cb7fa8e2c061c656e749dbcb59aa69e6ffc851f41cd2ef2f31239",
         "url": "https://www.nikkei.com/article/DGXZQOGN300TF0Q6A031C2000000/",
-        "status": "reserved"
+        "status": "failed"
       },
       {
         "day": "2026-10-31",
         "owner": "41162365125-1",
         "fingerprint": "54d2611620f54e21885a0cb33056539b3dbb48af0f7769f0d31d73ece5da7152",
         "url": "https://news.yahoo.co.jp/articles/d4221fb53063da9a956bafd48b12a1914d9a112e",
-        "status": "reserved"
+        "status": "failed"
       }
     ]
   }
