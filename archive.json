@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T02:59:24.584660+00:00",
-  "count": 88,
+  "updated_at": "2026-10-31T05:57:06.216825+00:00",
+  "count": 103,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -881,6 +881,156 @@
       "published_at": "2026-10-30 12:25:37",
       "first_seen": "2026-10-31T02:59:24.435724+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811515030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b33802c46b5f4d01d94bdd407d5f1a02",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32696427/",
+      "title": "エヌビディアCEO 中国側と接触か",
+      "description": "ニューヨーク・タイムズは29日、「アメリカの半導体大手エヌビディアのフアンCEOと中国の女性工作員が親密な関係となり、製品の情報が中国側に伝えられた疑いがある」と報じました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-30 15:39:26",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/0/e/0e523_1796_91f9e0a5_18ef8ce4.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32696478/",
+      "title": "砂漠の観光都市ラスベガスが水不足に直面、地域一丸で節水対策に挑む",
+      "description": "「Live News α」では今週、未来に向けたSDGsについてお伝えします。最終日の30日は、アメリカ西部で深刻化する水不足への対応です。地域一丸となった節水対策が進んでいます。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-30 16:07:00",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/2/3/2391a_1726_4ba30ba6_8c9d951d.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1f93f7530f24d51f96f8ad0acd2773a7ba84a165",
+      "title": "プーチン政権批判の独立系新聞廃刊 当局の圧力受け11月9日に活動停止へ(テレビ朝日系（ANN）)",
+      "description": "ロシアの独立系メディアでプーチン政権への批判を続けていた新聞「ノーバヤ・ガゼータ」が廃刊を発表しました。 「ノーバヤ・ガゼータ」のセルゲイ・ソコロフ編集長は30日、ウェブサイトで声明を発表し、11月9",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:57:13",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000000-ann-000-4-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6e9ba2d0628e2a68793295f56ca1fe17611089a9",
+      "title": "トランプ氏、最終盤で混乱 集会巡り、方針二転三転(共同通信)",
+      "description": "【ワシントン共同】トランプ米大統領が中間選挙前の最後の土日に上院選が接戦となっている中西部アイオワ、カンザス両州で開く予定だった集会は29日、中止が発表された。代わりに投開票日の11月3日までに約20",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:30:17",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000006-kyodonews-000-3-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/af2b6932b2b0ed805ddb279fe23d8fa21b959cbe",
+      "title": "エルメス、香港の西九文化区で体験型展示 ブランドの歴史と職人技を表現(みんなの経済新聞ネットワーク)",
+      "description": "フランスの高級ブランド「エルメス（Hermes）」が現在、香港・西九文化区のフリースペース（Freespace）で、ブランドの歴史や代表的な製品をテーマにした演劇・展示イベント「Hermestorie",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:29:55",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000000-minkei-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bf3edef0b73a484d53a8bbd39dc9fc30bd019df7",
+      "title": "オレシュキ避難の住民がクリミア半島北部に(共同通信)",
+      "description": "【モスクワ共同】ロシアのラントラトワ連邦人権問題全権代表は30日、ウクライナ南部ヘルソン州オレシュキから避難した住民と共にクリミア半島北部に到着したと発表した。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:56:44",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/cf821f4b6fecb2825d91edff2cf74b2268001be4",
+      "title": "工事責任者の起訴求める ベトナムのプール事故で捜査当局(共同通信)",
+      "description": "【ハノイ共同】ベトナム南部のリゾートホテルのプールで2022年、ホーチミン市在住の会社員塙義一さんの長男幸士さん＝当時（10）＝がプール壁面の排水口に引きつけられて溺死した事故で、プールの工事関係者の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:22:48",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/cf85f8c4f3241bc8678b2d817e2a8b14eab6eadd",
+      "title": "今日の歴史（10月31日）(聯合ニュース)",
+      "description": "1953年：大韓商工会議所と24の地方商工会議所が公法人として認可され改編・発足1959年：ブラジルと国交樹立1961年：オーストラリアと国交樹立1964年：ベトナムと韓国軍派兵に関する協定を締結19",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:00:01",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d76d840ad550cfdbabad4ead2e03b7a990b48e07",
+      "title": "占領下の孤立住民避難始まる オレシュキに人道支援(共同通信)",
+      "description": "【キーウ、モスクワ共同】ロシアの占領下で孤立したウクライナ南部ヘルソン州オレシュキに30日、ロシアとウクライナの人道支援代表団が到着した。取り残された住民の避難が始まり、人道支援物資が搬入された。トラ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:24:51",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/fe6be3d6d818b3b04e76af505eab3df896a7a9c9",
+      "title": "EUとカナダが首脳会談 「準加盟」名称に反対も(共同通信)",
+      "description": "【モントリオール共同】欧州連合（EU）のフォンデアライエン欧州委員長とコスタ大統領は30日、訪問先のカナダ東部モントリオールでカーニー首相と首脳会談を開いた。フォンデアライエン氏は9月、カナダをEUに",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-30 15:12:00",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000002-kyodonews-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d3d04cf0f882d1af2ef5d88b5077e9b7",
+      "title": "米大統領 接戦の米中西部州で集会へ",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 15:37:21",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f26332e3b07d0c2fd6efc9bdf34442da",
+      "title": "オレシュキ避難住民 クリミア半島に",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-30 16:52:49",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCD2246I0S6A021C2000000/",
+      "title": "IT大国インドとAI失業 ソナル・バルマ氏",
+      "description": "人工知能（AI）が雇用に与える影響を検証する上で、インドは世界で最も重要なテストケースだ。同国ではビジネス・プロセス・アウトソーシング（BPO）業務や多国籍企業の技術拠点であるグローバル・ケイパビリティー・センター（GCC）で、600万人のIT労働者が従事する。「世界のバックオフィス」は自動化の波を乗り切れるだろうか。インドの専門人材派遣会社エックスフィーノの推計によると、インドのIT業界にお",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 17:00:00",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3764564022102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=932&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=5b6c3ca1b999dd701e8b1fd24d331f4b",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR27C970X21C26A0000000/",
+      "title": "スイスの中国輸出品、99.8%無関税に FTA改定で時計など恩恵",
+      "description": "【ジュネーブ=ムートゥ朋子、北京=塩崎健太郎】中国の王文濤商務相とスイスのブドリガー・アルティエダ経済庁長官は30日、北京で自由貿易協定（FTA）の改定に署名した。スイスから中国への無関税の輸出対象を倍近くに広げ、不均衡を是正する。中国商務省によると、中国の習近平（シー・ジンピン）国家主席とスイスのパルムラン大統領も署名に立ち会った。両国は国内での法的手続きを経て早期発効をめざす。習氏はこれ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 15:41:41",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811125030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=454&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=5dcff0b71f28678e58dadc50aed54e1c",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR30CIB0Q6A031C2000000/",
+      "title": "ローマ教皇、米中間選挙で郵便投票 移民や中東問題でトランプ氏と溝",
+      "description": "【フランクフルト=五艘志織】ローマ教皇レオ14世が米中間選挙で投票したことが30日、明らかになった。ローマ教皇庁（バチカン）が発表した。現職の教皇が米国の選挙に票を投じた前例はないとみられる。レオ14世は初の米国出身の教皇。11月3日に迫る米中間選挙では、海外に居住する米国市民も郵送による投票が可能だ。出身地である中西部イリノイ州シカゴに投票用紙を提出した。どの候補に投票したかは明らかにしてい",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-30 16:33:13",
+      "first_seen": "2026-10-31T05:57:06.212369+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3811839030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b4cfc275f35ea9e0dacfe330880ba6f8",
       "watch_point": null
     }
   ],
