@@ -1262,14 +1262,14 @@
         "owner": "41223801510-1",
         "fingerprint": "0439ecc72f46111c6590927ebe7d66dc42d9214d50a9a315d1abce9429ed56ca",
         "url": "https://www.cnn.co.jp/usa/35254246.html",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-01",
         "owner": "41223801510-1",
         "fingerprint": "8f694a7775669d15967569220302fa3779472fafef4448dac4569a6d1231ac56",
         "url": "https://news.yahoo.co.jp/articles/6e9ba2d0628e2a68793295f56ca1fe17611089a9",
-        "status": "reserved"
+        "status": "failed"
       }
     ]
   }
