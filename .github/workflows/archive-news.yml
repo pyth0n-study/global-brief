@@ -52,3 +52,41 @@ jobs:
           git add archive.json
           git commit -m 'Archive news snapshot'
           git push origin HEAD:archive-data
+
+      - name: Reserve at most three watch-point attempts per JST day
+        working-directory: app
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python watch_points.py reserve --file ../store/archive.json --owner "${{ github.run_id }}-${{ github.run_attempt }}"
+      - name: Persist reservations before calling Gemini
+        working-directory: store
+        run: |
+          git add archive.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Reserve daily watch-point trial budget'
+            git push origin HEAD:archive-data
+          fi
+      - name: Generate grounded watch points (no retries or paid fallback)
+        working-directory: app
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python watch_points.py generate --file ../store/archive.json --owner "${{ github.run_id }}-${{ github.run_attempt }}"
+          python -c "from archive_store import backup_snapshot; backup_snapshot('../store/archive.json')"
+      - name: Back up trial results
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: watch-archive-${{ github.run_id }}
+          path: |
+            store/archive-backup.json.gz
+            store/archive-backup.json.gz.sha256
+          retention-days: 7
+          if-no-files-found: error
+      - name: Publish watch-point results
+        working-directory: store
+        run: |
+          git add archive.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save grounded watch-point trial results'
+            git push origin HEAD:archive-data
+          fi

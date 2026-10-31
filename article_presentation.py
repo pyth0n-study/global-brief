@@ -60,6 +60,8 @@ def prepare_article(article):
     item['description_excerpt'] = description[:end + 1] if end >= 0 else ''
     item['description_incomplete'] = bool(description[end + 1:].strip()) if end >= 0 else bool(description)
     item['image'] = usable_image(item.get('image'))
+    from watch_points import validate_watch
+    item['watch_point'] = validate_watch(item.get('watch_point'), description)
     item['display_title'] = re.sub(r'[（(][^（）()]{1,40}[）)]$', '', item['title']).strip()
     quiz = quiz_for_article(item)
     item['quiz'] = quiz

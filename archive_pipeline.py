@@ -13,8 +13,10 @@ from news_sources import fetch_articles
 def run(folder, fetch=False):
     folder = Path(folder)
     path = folder / 'archive.json'
+    previous = {}
     if path.exists():
-        restore_snapshot(json.loads(path.read_text(encoding='utf-8')))
+        previous = json.loads(path.read_text(encoding='utf-8'))
+        restore_snapshot(previous)
     seed_archive()
     if fetch:
         load_dotenv()
@@ -22,7 +24,7 @@ def run(folder, fetch=False):
         if not articles:
             raise ValueError('No articles received; keeping the previous published archive')
         archive_articles(articles)
-    payload = export_snapshot(path)
+    payload = export_snapshot(path, metadata=previous)
     backup_snapshot(path)
     print('Archive snapshot ready:', payload['count'], 'articles')
     return payload

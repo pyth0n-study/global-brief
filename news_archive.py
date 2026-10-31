@@ -48,6 +48,8 @@ def connect(db_path=None):
         CREATE INDEX IF NOT EXISTS archive_tag_lookup ON archive_tags(kind,tag,url);''')
     if 'image' not in {row['name'] for row in db.execute('PRAGMA table_info(archive_articles)')}:
         db.execute('ALTER TABLE archive_articles ADD COLUMN image TEXT')
+    if 'watch_point' not in {row['name'] for row in db.execute('PRAGMA table_info(archive_articles)')}:
+        db.execute('ALTER TABLE archive_articles ADD COLUMN watch_point TEXT')
     return db
 
 
@@ -64,10 +66,13 @@ def archive_articles(articles, captured_at=None, db_path=None, update=True, pres
                 source = source.get('name') or '不明'
             description = item.get('source_description') or item.get('description') or ''
             image = item.get('image') or item.get('urlToImage') or None
-            conflict = 'DO UPDATE SET title=excluded.title,description=excluded.description,source=excluded.source,published_at=COALESCE(excluded.published_at,archive_articles.published_at),image=COALESCE(excluded.image,archive_articles.image)' if update else 'DO NOTHING'
-            cursor = db.execute('INSERT INTO archive_articles(url,title,description,source,published_at,first_seen,image) VALUES(?,?,?,?,?,?,?) ON CONFLICT(url) ' + conflict,
+            from watch_points import validate_watch
+            watch = validate_watch(item.get('watch_point'), description)
+            watch_json = json.dumps(watch, ensure_ascii=False) if watch else None
+            conflict = 'DO UPDATE SET title=excluded.title,description=excluded.description,source=excluded.source,published_at=COALESCE(excluded.published_at,archive_articles.published_at),image=COALESCE(excluded.image,archive_articles.image),watch_point=CASE WHEN excluded.description=archive_articles.description THEN COALESCE(excluded.watch_point,archive_articles.watch_point) ELSE excluded.watch_point END' if update else 'DO NOTHING'
+            cursor = db.execute('INSERT INTO archive_articles(url,title,description,source,published_at,first_seen,image,watch_point) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(url) ' + conflict,
                 (url, title, description, source, item.get('publishedAt') or item.get('published_at'),
-                 item.get('first_seen', stamp) if preserve_first_seen else stamp, image))
+                 item.get('first_seen', stamp) if preserve_first_seen else stamp, image, watch_json))
             if not cursor.rowcount:
                 continue
             db.execute('DELETE FROM archive_tags WHERE url=?', (url,))

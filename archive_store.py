@@ -36,10 +36,15 @@ def restore_snapshot(payload, db_path=None):
     return len(rows)
 
 
-def export_snapshot(path, db_path=None):
+def export_snapshot(path, db_path=None, metadata=None):
     with closing(connect(db_path)) as db:
         rows = [dict(row) for row in db.execute('SELECT * FROM archive_articles ORDER BY first_seen,url')]
+    from watch_points import validate_watch
+    for row in rows:
+        row['watch_point'] = validate_watch(row.get('watch_point'), row['description'])
     payload = dict(version=1, updated_at=datetime.now(timezone.utc).isoformat(), count=len(rows), articles=rows)
+    if metadata and isinstance(metadata.get('watch_trial'), dict):
+        payload['watch_trial'] = metadata['watch_trial']
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix('.tmp')
