@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T06:25:40.048362+00:00",
-  "count": 143,
+  "updated_at": "2026-11-01T17:58:41.008201+00:00",
+  "count": 163,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -1431,6 +1431,206 @@
       "published_at": "2026-10-31 15:16:47",
       "first_seen": "2026-11-01T06:25:40.045187+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3813196031102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=503&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=479bb7be69c423623bda42147d7305cf",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32705819/",
+      "title": "バイナンスから約1兆円相当の暗号資産が流出、FBIは北朝鮮の犯行と発表",
+      "description": "暗号資産大手バイナンスから、およそ1兆円相当の暗号資産が盗まれた事件で、10月31日、アメリカのFBIは北朝鮮の犯行だと発表しました。この事件はバイナンスが10月29日ごろ、外部からサイバー攻撃を受け、推定で63億",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-01 04:23:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/5/e/5e431_1726_bd55ae39_99d7e45a.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32706003/",
+      "title": "オレシュキ住民 退避完了し再会",
+      "description": "ロシアの占領下で孤立していたウクライナ南部オレシュキでは、局地的な停戦が維持され、住民の退避が完了しました。ウクライナ北部チェルニヒウ州に10月31日、オレシュキから退避してきた住民を乗せたバスが到着しま",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-01 05:02:21",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/2/6/26b0d_1796_f5cfbcf7_3dfbcb66.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32706197/",
+      "title": "共和党の牙城テキサスの上院選、パクストン候補がMAGA派の集会で支持訴え",
+      "description": "アメリカの中間選挙が今月3日に迫る中、激戦州テキサスではトランプ氏の熱烈な支持層「MAGA」派の戦士と呼ばれる共和党候補が集会を開き、支持を訴えました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-01 05:49:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/7/d/7d0c4_1110_f60364dc_af209cd9.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/07387895bc66f3d11882212ed6c451e742008508",
+      "title": "密猟者に歯を折られたクマたちを救う「野生動物の歯医者さん」という仕事(クーリエ・ジャポン)",
+      "description": "長年にわたり、人間の患者を診てきた英国の歯科医師ポール・カサール。彼はある依頼をきっかけに、野生のクマやトラ、ライオン、ゴリラなど、人間とはスケールの違う野生動物たちの歯科治療をするようになった。その",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 04:40:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00000002-courrier-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/4067dba50e5f473be7449b8bf2b954634b4434a2",
+      "title": "共和党劣勢情報の中 トランプ氏「非常にいい感触」(テレビ朝日系（ANN）)",
+      "description": "",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:25:48",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00010004-annd-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/433359bea186e4260ff0704046f944a9eb8a63e1",
+      "title": "インドのヒマラヤでヘリコプター墜落、ヒンズー教巡礼客6人死亡(中央日報日本語版)",
+      "description": "インド北部のヒマラヤ山脈近くの山岳地域でヒンズー教巡礼客を乗せたヘリコプターが墜落し搭乗者6人が全員死亡した。AP通信とAFP通信などによると、先月30日午後にインドのウッタラーカンド州チャモリ地域で",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 04:25:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00000009-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/4511252f1b2c3cd8a38ed96444ede099bfbafb24",
+      "title": "李大統領 2日に国会で施政方針演説＝来年度予算の協力呼び掛けへ(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国の李在明（イ・ジェミョン）大統領は2日、国会で2027年度（1～12月）予算案に関する施政方針演説を行う予定だ。青瓦台（大統領府）の姜由楨（カン・ユジョン）首席報道官が1日、",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:32:59",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00541378-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6acb04bed4a3bd808e2f71e85ab95d56de82078b",
+      "title": "キプロス沖で沈没寸前の貨物船 海岸警備隊が乗組員10人全員救助(AP通信)",
+      "description": "ニコシア、キプロス、11月1日 (AP) ー キプロス当局は、同国の西海岸沖約167キロで10月31日、沈没しかけていた貨物船から乗組員10人が救助されたと発表した。 キプロスの合同救難調整センターは",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 04:50:17",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00010002-aptsushinv-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6bb5b536c279a757392530edc47b3c8c5030d958",
+      "title": "韓国外相 G20で北朝鮮地雷爆発事件を説明＝対話の重要性強調(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国の趙顕（チョ・ヒョン）外交部長官は10月30～31日（現地時間）に米アトランタで開かれた20カ国・地域（G20）外相会合に出席し、南北軍事境界線を挟む非武装地帯（DMZ）の南",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 04:53:21",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00541369-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6d2a16ed6e87858472c140fb9f5cb5c1bf356ebc",
+      "title": "仏全土3週連続の週末抗議デモ パリではデモ隊を都市部から排除(AP通信)",
+      "description": "パリ、フランス、11月1日 (AP) ー 生活費の高騰や教育をめぐる3週連続の週末のデモとして、主に若い世代を中心とする数十万人ものデモ隊が10月30日、三度フランス全土で街頭に繰り出したが、その規模",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:00:51",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00010003-aptsushinv-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/79732826954748e6d254c0adec493a2d91febb7d",
+      "title": "トランプ政権から「女性ばかりが去っていく」理由─米紙が見た「扱いの差」(クーリエ・ジャポン)",
+      "description": "第二次トランプ政権では、女性高官の離職が相次ぐ一方、不祥事が指摘される男性高官が留任するケースが目立っている。この「処遇の差」はなぜ生まれるのか。米紙「ニューヨーク・タイムズ」がその要因を探る。【画像",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:00:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00000003-courrier-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a75e20ffc6086f24cb5d0fa845f7fe8051a89f93",
+      "title": "中間選挙を揺るがしうる「米30代の絶望」─親のような暮らしができない！(クーリエ・ジャポン)",
+      "description": "中流階級の30代のリアルニューヨーク市クイーンズ区に住むある女性は、ケーキとシャンパン、そしていまなお「その日暮らし」を続けているという将来への強い焦燥感とともに、30歳の誕生日を祝った。【画像】中間",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:15:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00000004-courrier-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/aac5aaa0bd55318e8599ecc181cb93369638f716",
+      "title": "ハロウィーンに合わせドイツへデモ拡大 フランスでも数十万人が参加(CNN.co.jp)",
+      "description": "（CNN） フランスで始まった生活費をめぐるデモが、ドイツにも広がっている。ハロウィーンと重なった10月31日は、フランスでも数十万人がデモに参加した。ドイツでは「Z世代に任せろ！」と名乗る若者主導の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:00:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-35254259-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b4c66b8fb4baab90ac5bad1b6041974a7f58bfd0",
+      "title": "69人死亡のスペイン列車事故 56人の身元確認 残る13人は外国籍か(テレビ朝日系（ANN）)",
+      "description": "スペインで69人が死亡した列車事故で、56人の身元が特定されました。 事故では69人の死亡が確認されていますが、身元の特定が進み、現地当局は31日、56人の身元が特定されたと発表しました。 残る13人",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:02:57",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00000027-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/cbd082e04e6b485fa0d04d76bc3557ab1c4076fa",
+      "title": "独ケルンで若者主導の抗議デモ 規制に当たる警察が放水で対応(AP通信)",
+      "description": "ケルン、ドイツ、11月1日 (AP) ー ドイツ西部ケルンの警察は、デモ隊が花火などの火工品を打ち上げたり、顔を覆ったりして緊張が高まったため、抗議デモの行進を中止させた。 事態の悪化に伴い、警察は群",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 05:03:40",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00010004-aptsushinv-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/cdd7f5969fd5441855530daa2694a875eae09995",
+      "title": "夜の台北をアートで彩る フランス発の「白夜祭」開催／台湾(中央社フォーカス台湾)",
+      "description": "（台北中央社）台北市で毎年行われるフランス・パリ発の芸術の祭典「台北白夜祭」（ニュイ・ブランシュ、白昼之夜）が10月31日午後から11月1日未明にかけ、市内の円山エリアで開催された。市民らは街のあちこ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 04:37:26",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00000001-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/eb55055d243ac08257c6046858d39d0b214ed3c0",
+      "title": "マカオのカジノ売上が5ヶ月連続前年割れ…2026年10月1割減の約4233億円、1〜10月累計1.6%増の約4兆円(マカオ新聞)",
+      "description": "マカオ政府博彩監察協調局（DICJ）は11月1日、今年（2026年）10月の月次カジノ売上（粗収益、Gross Gaming Revenue=GGR）統計を発表。 今年10月のGGRは前年同月から10",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-01 04:55:14",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-00010002-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/44d0fdd9013fcef0a6f8b00c69b0ca77",
+      "title": "ヒマラヤ巡礼中のヘリ墜落 6人死亡",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-01 04:55:39",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ccdc85500a35c35d2367b5688d7df9a2",
+      "title": "独でZ世代主導のデモ 一部が暴徒化",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-01 05:32:05",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/world/35254259.html",
+      "title": "ハロウィーンに合わせドイツへデモ拡大 フランスでも数十万人が参加",
+      "description": "フランスで始まった生活費をめぐるデモが、ドイツにも広がっている。ハロウィーンと重なった10月31日は、フランスでも数十万人がデモに参加した。 ドイツでは「Z世代に任せろ！」と名乗る若者主導の団体が、生活費の高騰や学校、大学の資金不足、環境問題、さらには徴兵制復活の可能性に対して抗議活動を展開。ベルリン、フランクフルト、ケルン、ミュンヘンなどの主要都市でデモを主催した。 ベルリンでのデモは平和的に実施...",
+      "source": "Cnn",
+      "published_at": "2026-11-01 05:00:00",
+      "first_seen": "2026-11-01T17:58:41.003355+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/01/13c1425183269402431c6c1e9fe98e20/gettyimages-2302322450.jpg",
       "watch_point": null
     }
   ],
