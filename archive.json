@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T17:17:38.293005+00:00",
-  "count": 123,
+  "updated_at": "2026-11-01T06:25:40.048362+00:00",
+  "count": 143,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -1231,6 +1231,206 @@
       "published_at": "2026-10-31 04:48:00",
       "first_seen": "2026-10-31T17:17:38.288575+00:00",
       "image": "https://www.cnn.co.jp/storage/2026/10/31/7f67ab0def4a6271926584c40be615d9/01-gettyimages-2299891838.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32702345/",
+      "title": "クアッド外相会談 AIで協力確認",
+      "description": "日本とアメリカ、オーストラリア、インドによる「クアッド」の外相会談がアメリカで行われ、AI=人工知能技術への対応などで協力していくことを確認しました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-31 14:03:24",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/7/0/70aa8_1796_a344f324_6ea5bcea.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32702461/",
+      "title": "米カリフォルニア州のハロウィン用品店で銃撃事件、1人が死亡し6人負傷",
+      "description": "ハロウィン前日の30日、アメリカ西部カリフォルニア州にあるハロウィン用品店で銃撃事件が発生し、1人が死亡、6人が負傷しました。【映像】被害者の身元についての情報は現在なしカリフォルニア州フェアフィール",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-31 14:44:00",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/1/2/12b5d_1585_5885ba6d955e81e0da5c3182893689b4.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32702853/",
+      "title": "イラン カタールで仲介国と協議",
+      "description": "アメリカが中間選挙後にイランを攻撃する可能性が報じられるなか、イランのアラグチ外相は、戦闘終結に向けた仲介国との協議を行うために代表団をカタールに派遣したことを明らかにしました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-10-31 17:49:19",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/d/0/d03a1_1796_fe31ae34_495c916b.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/0987de786ea13d6a6a656fce1fc074e613aa316a",
+      "title": "今日の歴史（11月1日）(聯合ニュース)",
+      "description": "1911年：中国とつながる鴨緑江鉄橋が完工1986年：光州市が直轄市に昇格（現在は全南光州統合特別市）1987年：1973年に解体された海兵隊司令部を再創設1989年：ポーランドと国交樹立1999年：",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 15:00:01",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/0ea2d575c999c69b2b694ef42bbaea7fc9f8fbbe",
+      "title": "「出られてうれしい」とウクライナ避難住民(共同通信)",
+      "description": "【チェルニヒウ州（ウクライナ）共同】ロシア占領地のウクライナ南部オレシュキから避難した住民は31日「出られてうれしいが、あれほどきれいだった町が破壊されて悲しい」と取材に話した。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 13:54:59",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/276b37f815546f72c3789d625092f46a2dd8a729",
+      "title": "米・ハロウィン用品店で銃撃 1人死亡6人けが 犯人は逃走中 カリフォルニア州(テレビ朝日系（ANN）)",
+      "description": "ハロウィン前日の30日、アメリカ西部カリフォルニア州にあるハロウィン用品店で銃撃事件が発生し、1人が死亡、6人が負傷しました。 カリフォルニア州フェアフィールドのショッピングモール内にあるハロウィン用",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 14:18:44",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000055-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3be717d78323346f6d0b4d93ecdebb16750cb61f",
+      "title": "オレシュキへの支援継続で合意とロシア代表(共同通信)",
+      "description": "【モスクワ共同】ロシアのラントラトワ連邦人権問題全権代表は10月31日、ウクライナ南部ヘルソン州オレシュキでの局地停戦と住民への人道支援を巡り、今後も定期的に支援を続けることでウクライナ側と合意したと",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 18:02:14",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6aba0562e87078042a410363d146fd6232c9c24b",
+      "title": "マカオ競馬場跡地内の変電所から電線や銅板盗み転売…建設会社勤務の男3人逮捕(マカオ新聞)",
+      "description": "マカオ司法警察局は10月30日、タイパ島のマカオ競馬場跡地内にある変電所から電線や銅板を盗んで転売し、不当な所得を得たとして、マカオの建設会社に勤務する30〜40代の中国人（中国本土居民）の男3人を逮",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 13:50:32",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00010003-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8974803e237f2a461aaf810b5e8b8b32bb4bdfc9",
+      "title": "米・カリフォルニア州 ハロウィン用品店で銃撃 1人死亡(ABEMA TIMES)",
+      "description": "ハロウィン前日の30日、アメリカ西部カリフォルニア州にあるハロウィン用品店で銃撃事件が発生し、1人が死亡、6人が負傷しました。【映像】被害者の身元についての情報は現在なし カリフォルニア州フェアフィー",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 14:45:32",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-10285676-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9042cd8b80c791b441204c59ed95916e4ef7cddf",
+      "title": "ホルムズ海峡2日以内再開案合意 イランとカタール アラグチ外相「米と交渉の道も」(テレビ朝日系（ANN）)",
+      "description": "アメリカが再攻撃を検討しているとされるなか、イランのアラグチ外相は条件が整えばホルムズ海峡を2日以内に再開することで仲介国と合意したと明らかにしました。 アラグチ外相は31日、中東の衛星テレビ局アルジ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 14:59:52",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b4cb4d0bf9f6b3114bc240bcbd62eeeed50eccd2",
+      "title": "「トランプ関税は有害」共和党で相次ぐ離反 “ブッシュ家”も反旗(テレビ朝日系（ANN）)",
+      "description": "アメリカの中間選挙まで、あと3日。新旧の大統領が応酬を繰り広げる中、共和党内ではトランプ大統領と距離を置く動きが加速しています。（サタデーステーション10月31日OA）",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 16:30:37",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261101-90203219-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/ce9e185fc279500773bfa27fc707c12832e7e2b4",
+      "title": "クアッド、経済的威圧に懸念 外相会合、AI開発・活用支援(共同通信)",
+      "description": "【アトランタ共同】日本、米国、オーストラリア、インドの4カ国は31日、米南部アトランタで協力枠組み「クアッド」の外相会合を開いた。会談後に発表した共同プレスリリースで、中国を念頭に恣意的な輸出規制や過",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 14:33:15",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261031-00000138-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d8e34586e35b433d075b79061d7e77a3e8787e50",
+      "title": "代表団がカタール訪問とイラン外相(共同通信)",
+      "description": "【テヘラン共同】イランのアラグチ外相は31日公開の中東の衛星テレビ、アルジャジーラのインタビューで、イラン代表団が米国との仲介役を務めるカタールを訪れたと明らかにした。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 14:22:04",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/edc4e13a988d45280cf2e4d347d10ea413ea48d4",
+      "title": "米イラン、間接協議再開か 戦闘終結へ、カタールで(共同通信)",
+      "description": "【ワシントン、テヘラン共同】イランのアラグチ外相は31日公開の中東の衛星テレビ、アルジャジーラのインタビューで、イラン代表団が米国との仲介役を務めるカタールの首都ドーハを訪れたと明らかにし、米国との戦",
+      "source": "Yahoo Japan",
+      "published_at": "2026-10-31 15:06:08",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/119ad7567033163498290620b1ecaf87",
+      "title": "イラン外相 米と間接協議の再開示唆",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 16:40:39",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/89d7308472276d13b6d04ad3002cb4c6",
+      "title": "米の激戦州でブッシュ家が「反旗」",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 17:41:41",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d9fe6464c1579c0321055d8b66600f49",
+      "title": "仲介国カタール イラン説得を継続か",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 13:46:56",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ddf4bf2698854b9225d0c2b939d66ae1",
+      "title": "クアッド外相会合 経済的威圧に懸念",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-10-31 14:58:18",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB282Z20Y6A021C2000000/",
+      "title": "インドネシアの排出権事業、森林火災で存亡の危機 再開の矢先に",
+      "description": "インドネシアの森林火災はジャングル、大農園、農地を焼き尽くしているだけではない。同国が最近開始した4つのプロジェクトをも脅かしている。22万5000ヘクタールの森林による温暖化ガスの排出量削減効果に基づいて、数億ドル相当のカーボンクレジット（温暖化ガス排出と相殺できる枠）を発行する事業だ。ボルネオ島とスマトラ島に各2カ所あるプロジェクトの対象地域では、数百人が猛暑や刺激臭のする煙と闘いながら、",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-31 17:00:00",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3792540028102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=391&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e4889478cf7b3308683e78d72fa6190e",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB312UM0R31C26A0000000/",
+      "title": "局地停戦のウクライナ南部、住民退避完了 「町破壊され悲しい」",
+      "description": "【チェルニヒウ州（ウクライナ）、モスクワ=共同】ロシアによる占領で孤立したウクライナ南部ヘルソン州オレシュキに30日、ロシアとウクライナ両国の人道支援代表団が入り、食料や医薬品などを届けた。避難を希望する住民の退避も完了。避難した住民は「町が破壊されて悲しい」と吐露した。両国はトランプ米大統領の妻メラニアさんが仲介して27日に始まった局地停戦を順守し、異例の住民支援が実現した。ただ局地停戦の外",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-10-31 15:16:47",
+      "first_seen": "2026-11-01T06:25:40.045187+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3813196031102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=503&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=479bb7be69c423623bda42147d7305cf",
       "watch_point": null
     }
   ],
