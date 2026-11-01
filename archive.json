@@ -1677,6 +1677,20 @@
         "fingerprint": "876b55613598b4a67a189cbf67e49e61500172d38fcbc8995e536ae98ac99171",
         "url": "https://news.livedoor.com/article/detail/32702853/",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-02",
+        "owner": "41334174987-1",
+        "fingerprint": "eeb8a2b024c9c8f0646b7a4a4cb27257970eef675717583c265cf20d2769e470",
+        "url": "https://news.yahoo.co.jp/articles/4511252f1b2c3cd8a38ed96444ede099bfbafb24",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-02",
+        "owner": "41334174987-1",
+        "fingerprint": "04e0520ff2e4e48717b6618bc3937da42039bc86f86eefed0bc38804f99addee",
+        "url": "https://news.yahoo.co.jp/articles/9042cd8b80c791b441204c59ed95916e4ef7cddf",
+        "status": "reserved"
       }
     ]
   }
