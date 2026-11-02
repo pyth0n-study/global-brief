@@ -1896,6 +1896,13 @@
         "fingerprint": "04e0520ff2e4e48717b6618bc3937da42039bc86f86eefed0bc38804f99addee",
         "url": "https://news.yahoo.co.jp/articles/9042cd8b80c791b441204c59ed95916e4ef7cddf",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-02",
+        "owner": "41399885569-1",
+        "fingerprint": "5e24e76bcc60cdea41ad3924e85b2f8e25efbe2f58e75dab1c61ae08c2e429ac",
+        "url": "https://news.livedoor.com/article/detail/32708731/",
+        "status": "reserved"
       }
     ]
   }
