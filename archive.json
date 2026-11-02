@@ -1911,7 +1911,12 @@
       "published_at": "2026-11-02 08:58:06",
       "first_seen": "2026-11-02T21:47:52.225649+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000054-cnippou-000-1-view.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "韓国政府は韓米間の包括協定文案協議を年内に終える目標だ。",
+        "evidence": "韓国政府は韓米間の包括協定文案協議を年内に終える目標だ。",
+        "generated_at": "2026-11-02T21:48:01.764570+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.yahoo.co.jp/articles/6947f60e93871813438e82451d185702c4cd7e58",
@@ -2041,7 +2046,12 @@
       "published_at": "2026-11-02 08:34:58",
       "first_seen": "2026-11-02T21:47:52.225649+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3818703002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=473&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=eaa43d656e8552c740d15d2ddfdce0c3",
-      "watch_point": null
+      "watch_point": {
+        "text": "トランプ氏はイランとの協議を優先する意向だといい、双方の立場には隔たりもある。",
+        "evidence": "トランプ氏はイランとの協議を優先する意向だといい、双方の立場には隔たりもある。",
+        "generated_at": "2026-11-02T21:48:02.624908+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     }
   ],
   "watch_trial": {
@@ -2114,21 +2124,21 @@
         "owner": "41531575066-1",
         "fingerprint": "b127d348397e9556b69c27fa3408607da79d5e8a9e2bf0cdf73e44074729311a",
         "url": "https://news.yahoo.co.jp/articles/acebb21dd9a66ca61f27d434acc880eb3e2d527f",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-03",
         "owner": "41531575066-1",
         "fingerprint": "432a8b8ab6cce6d550afb885eff063fc112f9551f86c3120e1a3727dd407a6b7",
         "url": "https://news.yahoo.co.jp/articles/3bcf02b00b32da40648f3265d8239f271e424bbc",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-03",
         "owner": "41531575066-1",
         "fingerprint": "3c06c604a5cbd7713fd207b4448d1b936eaaf196b90cd614c81f5eb8c7fd21c4",
         "url": "https://www.nikkei.com/article/DGXZQOGR024YW0S6A101C2000000/",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   }
