@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T06:26:23.375954+00:00",
-  "count": 183,
+  "updated_at": "2026-11-02T21:47:52.229718+00:00",
+  "count": 203,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -1841,6 +1841,206 @@
       "published_at": "2026-11-01 15:23:38",
       "first_seen": "2026-11-02T06:26:23.372673+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3814534001112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=459&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=92c49722b3549d3c3c1276a3f76d597b",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1102/c94475-20514776.html",
+      "title": "オランダで生まれたジャイアントパンダ「朗月」、無事に帰国",
+      "description": "中国とオランダ間のジャイアントパンダ保護国際協力協定の規定に基づき、両国の友好的な協議を経て、オランダのアウエハンツ動物園で飼育されていたジャイアントパンダの「朗月（ランユエ）」（メス、2024年7",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-02 08:31:30",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1102/FOREIGN1793605962756GDP626CEH2.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1102/c94475-20514804.html",
+      "title": "四川省の三星堆博物館、18歳未満の未成年者を対象に入場料を無料に",
+      "description": "あるブロガーが10月30日、ソーシャルメディアで「四川省広漢市の三星堆博物館が11月4日から、18歳未満の未成年者を対象に無料となる」と書き込み、前売り券の予約が完了したことを示すページのスクリーンシ",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-02 09:02:10",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1102/FOREIGN1793607662063V0QC5QC5L1.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1102/c94638-20514856.html",
+      "title": "秋の色どりを深める唐家河の山々 四川省広元",
+      "description": "四川省広元市青川県にある唐家河国家級自然保護区は、四川西北高原から四川盆地へ移行する高山峡谷地帯に位置している。同保護区は、毎年10月下旬から11月下旬にかけて、紅葉の鑑賞ピークを迎え、山々が鮮やかに",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-02 09:31:57",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1102/FOREIGN17936093959317MHX8OBM35.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1102/c94638-20514857.html",
+      "title": "まるで「花の滝」！ 満開を迎えた樹齢30年のブーゲンビリア 福建省厦門",
+      "description": "福建省厦門（アモイ）市狐尾山の麓にある金鼎巷では、樹齢約30年の1本の木に咲くブーゲンビリアが満開を迎えた。枝が住居の外壁に沿って何層にも重なって垂れ下がり、壮観な「花の滝」のような景観が出現。古い街",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-02 09:31:57",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1102/FOREIGN179360958568777N2CK5Z5V.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32715258/",
+      "title": "中間選挙の激戦州ミシガン、物価高にあえぐ自動車の街デトロイトの今",
+      "description": "“トランプ政権の通信簿”ともいわれるアメリカの中間選挙が現地時間の3日に投開票を迎えます。FNNは注目の激戦州ミシガンを取材。自動車の街・デトロイトでは、ある異変が起こっていました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-02 09:27:00",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/5/b/5bc5b_1726_59859f2f_f08e54a2.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/387bae9e1445c3062080ed4f1a3df1790751c412",
+      "title": "阿部寛、台北金馬映画祭に参加へ 主演映画「ハッピーリスト」世界プレミア／台湾(中央社フォーカス台湾)",
+      "description": "（台北中央社）台北市内で6日から22日まで開催される「2026台北金馬映画祭」に、俳優の阿部寛が参加する。8日に行われる主演映画「ハッピーリスト」のワールドプレミアで、外山文治監督とともに舞台あいさつ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 09:21:19",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000007-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3bcf02b00b32da40648f3265d8239f271e424bbc",
+      "title": "光州軍空港移転、韓米「包括協定」で解決へ…年内の文案合意が目標(中央日報日本語版)",
+      "description": "韓国政府が光州（クァンジュ）軍空港移転に向けた米国との協議を韓国内の韓米空軍共同運営基地5カ所全体に共通適用する「包括協定」締結方式で推進する。韓国政府は韓米間の包括協定文案協議を年内に終える目標だ。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 08:58:06",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000054-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6947f60e93871813438e82451d185702c4cd7e58",
+      "title": "サッカーのエムバペ選手のジョーク、中国側が強く反発 国営テレビが試合の放送中止(BBC News)",
+      "description": "サッカーのフランス代表のキリアン・エムバペ選手が中国建国の父とされる毛沢東を侮辱したとして、中国が強く反発している。中国企業は同選手とのスポンサー契約を解除。エムバペ選手は「軽率な」発言だったとして謝",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 09:12:00",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-61133088-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/754f9b20fc04ce4dd25d46c5514a160b670610db",
+      "title": "米中間選挙 迫る審判 苦戦予想にトランプ氏焦り？ 投票日を前に「不正」主張(テレビ朝日系（ANN）)",
+      "description": "苦戦が予想されるトランプ大統領。投票日を前に、すでに「不正」を主張し始めています。■トランプ氏焦り「不正」主張 3日の中間選挙を前にトランプ大統領が演説に入ったのは…。トランプ大統領「アイオワ州こんに",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 09:40:48",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000058-ann-000-5-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/7ec66967dfd1a03a9aef8e5a31d591a7692407b0",
+      "title": "米中間選挙 ミシガン州 「トランプ関税」への不満噴出(ABEMA TIMES)",
+      "description": "アメリカの中間選挙の激戦州ミシガン州では、トランプ政権の関税政策に市民の不満が高まり、大きな争点になっています。【映像】ミシガン州で「トランプ関税」への不満噴出 ミシガン州の家具メーカーでは、カナダ産",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 08:33:15",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-10285838-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/882e7c2626b2aef0b3d06932ee3de311e4eee12e",
+      "title": "中国軍、汚職で幹部空洞化 共産党会議、補充なし(共同通信)",
+      "description": "【北京共同】中国の習近平指導部が進める「反腐敗闘争」の影響で軍上層部が空洞化している。10月下旬に開かれた中国共産党の重要会議、第20期中央委員会第5回総会（5中総会）では軍の最高指導機関、中央軍事委",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 08:27:23",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a4015da5b6e5c325065bbdab55cc187e6dce85b8",
+      "title": "頭が透明で「目」が丸見え…深海600メートルで撮影された奇妙な魚の驚くべき映像(ニューズウィーク日本版)",
+      "description": "暗い海の中を漂う、黒っぽい魚。頭部だけがガラスのドームのように透き通り、その内部には鮮やかな緑色の器官が浮かび上がっている。【映像】頭が透けて「緑色の目」が丸見え…深海で撮影された奇妙な魚の姿米カリフ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 08:30:01",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00010000-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/aa201a1786e6b8bdc19e2d5b1847c8f334bc21d1",
+      "title": "スペイン列車事故 69人死亡 日本人1人の死亡確認(テレビ朝日系（ANN）)",
+      "description": "スペインで起きた高速列車の衝突事故。死者69人に上るなか、日本人1人の死亡が確認されました。■日本人1人の死亡確認 事故が起きた地元では、犠牲者への追悼の動きが広がっています。地元住民「身元が分かって",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 09:38:49",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000057-ann-000-4-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/acebb21dd9a66ca61f27d434acc880eb3e2d527f",
+      "title": "台湾と日本、包括的な貿易取り決め締結を協議＝メディア報道 林佳竜外相、実現に前向き(中央社フォーカス台湾)",
+      "description": "（台北中央社）日本経済新聞社の英語メディア「Nikkei Asia」は2日、関係筋の話として、日本と台湾が幅広い分野を対象とする貿易取り決めの締結に向けて協議を進めていると報じた。これに関し、林佳竜（",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 09:17:17",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000006-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f3757204b7002b3a0a134ab47f33a6bc6b699598",
+      "title": "韓国 きょうのニュース（11月2日）(聯合ニュース)",
+      "description": "◇李大統領が施政方針演説 格差解消を強調 李在明（イ・ジェミョン）大統領は、国会で2027年度（1～12月）予算案に関する施政方針演説を行い、不平等と二極化が深まる「K字型成長」の限界を克服するには新",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 09:00:00",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00541462-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/0eed51eca8711af29bbb9ab971343bd9",
+      "title": "トランプ氏発言が支離滅裂？NYT分析",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-02 08:43:25",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/52d52589dbb74b5e1851a3b50e216c4c",
+      "title": "トランプ関税が激戦州で争点 不満も",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-02 09:27:09",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/fringe/35254289.html",
+      "title": "コーヒーの淹れ方、フィルター使えば早死にリスク低減か 20年研究",
+      "description": "コーヒーを飲むときは、フィルターを使って淹（い）れたものを選ぶ方が、心臓発作などで早死にするリスクを減らせる可能性がある――2020年にそんな研究結果をまとめた論文が発表された。 論文の著者で、スウェーデンのイエーテボリ大学で公衆衛生などを研究するダーグ・テレ主任教授は、「フィルターを通さずに淹れたコーヒーには、血中コレステロールを高める物質が含まれる。フィルターを使えばこれらの物質は除去され、心臓...",
+      "source": "Cnn",
+      "published_at": "2026-11-02 09:15:00",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/02/cfc011a7f3b07ccbbd620488771e30e2/image__18_.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM155230V11C26A0000000/",
+      "title": "中国共産党の5中全会終了 台湾の識者「27年の有事シナリオ遠のく」",
+      "description": "【台北=羽田野主】中国共産党の重要会議、第20期中央委員会第5回全体会議（5中全会）が閉幕した。終了後に台湾の複数の識者に取材をすると、軍の粛清などにより中国が2027年に台湾に侵攻するというシナリオは遠のいたなどの分析があった。軍粛清で戦力整備に遅れ国防部（国防省）系シンクタンク、国防安全研究院の沈明室研究員は、中国軍で高級幹部の処分が相次いでいることから台湾への侵攻能力の整備にも影響が出",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 08:48:05",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3788216027102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=86b3e39a807b832148b32929383ec3ce",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR024YW0S6A101C2000000/",
+      "title": "イスラエル首相、トランプ氏に中間選挙直後のイラン攻撃要求 米報道",
+      "description": "【イスタンブール=渡辺夏奈】米ニュースサイトのアクシオスは1日、イスラエルのネタニヤフ首相がトランプ米大統領に3日の米中間選挙の直後にイランを再度攻撃するよう求めたと報じた。トランプ氏はイランとの協議を優先する意向だといい、双方の立場には隔たりもある。アクシオスによると両首脳は10月31日に電話協議し、イラン攻撃の可能性について話し合った。ネタニヤフ氏は再攻撃を求めてトランプ氏に圧力をかけたが",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 08:34:58",
+      "first_seen": "2026-11-02T21:47:52.225649+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3818703002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=473&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=eaa43d656e8552c740d15d2ddfdce0c3",
       "watch_point": null
     }
   ],
