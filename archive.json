@@ -1666,7 +1666,12 @@
       "published_at": "2026-11-01 14:50:00",
       "first_seen": "2026-11-02T06:26:23.372673+00:00",
       "image": "https://image.news.livedoor.com/newsimage/stf/f/7/f7562_1110_d671b20c_38335b03.jpg",
-      "watch_point": null
+      "watch_point": {
+        "text": "イギリスのバーナム首相は先月31日、過去の大西洋奴隷貿易でイギリスの関わった責任について、正式な謝罪を検討する姿勢を示しました。",
+        "evidence": "イギリスのバーナム首相は先月31日、過去の大西洋奴隷貿易でイギリスの関わった責任について、正式な謝罪を検討する姿勢を示しました。",
+        "generated_at": "2026-11-02T06:26:28.102856+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.livedoor.com/article/detail/32708858/",
@@ -1902,7 +1907,7 @@
         "owner": "41399885569-1",
         "fingerprint": "5e24e76bcc60cdea41ad3924e85b2f8e25efbe2f58e75dab1c61ae08c2e429ac",
         "url": "https://news.livedoor.com/article/detail/32708731/",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   }
