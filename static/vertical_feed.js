@@ -65,7 +65,7 @@
   };
   window.addEventListener('wheel', event => {
     if (document.querySelector('.saved-stories-dialog[open]')) return;
-    if (event.ctrlKey || event.target.closest('aside,select,input,textarea') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+    if (event.ctrlKey || event.target.closest('aside,.term-quiz,select,input,textarea') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
     event.preventDefault();
     if (locked) return;
     delta += event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? feed.clientHeight : 1);
