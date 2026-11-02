@@ -21,17 +21,36 @@ COUNTRIES = [
     ('北朝鮮', 'PRK', ('北朝鮮',), ['中国', '北朝鮮', '韓国'], '755 185 90 65', [(777,216),(810,211),(809,220)]),
     ('マリ', 'MLI', ('マリ',), ['モーリタニア', 'マリ', 'ニジェール'], '445 225 110 85', [(474,254),(490,261),(522,261)]),
 ]
+# Explicit country names and unambiguous headline abbreviations only.
+COUNTRIES += [
+    ('インド', 'IND', ('インド', '印首都', '印政府', '印首相'), ['パキスタン', 'インド', 'バングラデシュ'], '630 215 115 100', [(668,248),(692,258),(716,258)]),
+    ('エクアドル', 'ECU', ('エクアドル',), ['コロンビア', 'エクアドル', 'ペルー'], '280 260 90 100', [(331,284),(318,300),(324,320)]),
+    ('トルコ', 'TUR', ('トルコ',), ['ギリシャ', 'トルコ', 'イラン'], '540 185 115 80', [(564,213),(592,213),(632,229)]),
+    ('カナダ', 'CAN', ('カナダ',), ['アメリカ', 'カナダ', 'メキシコ'], '165 90 220 190', [(260,204),(260,165),(250,244)]),
+    ('オーストラリア', 'AUS', ('オーストラリア',), ['ニュージーランド', 'オーストラリア', 'インドネシア'], '755 285 230 155', [(950,405),(862,369),(806,312)]),
+    ('イタリア', 'ITA', ('イタリア',), ['フランス', 'イタリア', 'ギリシャ'], '480 170 100 80', [(505,196),(535,212),(564,213)]),
+    ('フィリピン', 'PHL', ('フィリピン',), ['ベトナム', 'フィリピン', 'インドネシア'], '745 245 110 100', [(777,274),(813,276),(806,312)]),
+    ('南アフリカ', 'ZAF', ('南アフリカ', '南ア共和国'), ['ナミビア', '南アフリカ', 'モザンビーク'], '490 335 130 100', [(535,373),(553,398),(580,371)]),
+]
+HEADLINE_ALIASES = {
+    'RUS': ('露統計局', '露政府', '露軍', '露大統領'),
+    'GBR': ('英首相', '英政府', '英議会'),
+    'USA': ('米大統領', '米政府', '米議会', '米首都'),
+    'FRA': ('仏大統領', '仏政府'),
+    'DEU': ('独首相', '独政府'),
+}
+
 
 
 def quiz_for_article(article):
     # Headline only: a dateline in the description need not be the subject country.
     title = re.sub(r'[（(][^（）()]{1,40}[）)]$', '', article.get('title', '')).strip()
     def country_mention(word):
-        if word == 'マリ':
+        if word in ('マリ', 'インド'):
             # Avoid incidental substrings: ソマリア / マリーナ / マリオ, etc.
-            return re.search(r'(?<![ァ-ヺー])マリ(?![ァ-ヺー])', title)
+            return re.search(r'(?<![ァ-ヺー])' + re.escape(word) + r'(?![ァ-ヺー])', title)
         return re.search(re.escape(word), title)
-    matches = [(match.start(), row) for row in COUNTRIES for word in row[2]
+    matches = [(match.start(), row) for row in COUNTRIES for word in row[2] + HEADLINE_ALIASES.get(row[1], ())
                if (match := country_mention(word))]
     if not matches:
         return None
@@ -66,6 +85,8 @@ def prepare_article(article):
     quiz = quiz_for_article(item)
     item['quiz'] = quiz
     item['quiz_country'] = quiz['code'] if quiz else None
+    from term_quizzes import term_quiz_for_article
+    item['term_quiz'] = None if quiz else term_quiz_for_article(item)
     aliases = {'日本': ('日本', '小泉防衛相'), '韓国': ('韓国',), '中国': ('中国',),
                'アメリカ': ('アメリカ', '米国', '米軍'), 'イスラエル': ('イスラエル',),
                'イラン': ('イラン',), 'スペイン': ('スペイン',), 'フランス': ('フランス',),

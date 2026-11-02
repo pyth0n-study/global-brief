@@ -48,5 +48,36 @@ class PresentationTests(unittest.TestCase):
         self.assertNotIn('日本', svg)
         self.assertNotIn('英国', svg)
         svg, _ = fallback_visual({'title': '不正選挙論が広がる公園', 'description': ''})
-        self.assertIn('主張と確認された事実を分けて読む', svg)
+        self.assertIn('不正選挙論が広がる公園', svg)
         self.assertNotIn('data-country', svg)
+
+
+class FallbackTests(unittest.TestCase):
+    def test_explicit_abbreviations_and_new_countries(self):
+        for title, code in [('露統計局にサイバー攻撃', 'RUS'), ('印首都のIT産業', 'IND'), ('英首相が演説', 'GBR'), ('フィリピン当局が発表', 'PHL'), ('エクアドルで豪雨', 'ECU')]:
+            self.assertEqual(quiz_for_article({'title': title})['code'], code)
+        for title in ['インドネシアの報道', 'ガラパゴスで豪雨', '香港の医療', 'トランプ氏が演説']:
+            self.assertIsNone(quiz_for_article({'title': title}))
+
+    def test_term_quiz_priority_and_headline_only(self):
+        from term_quizzes import term_quiz_for_article
+        self.assertEqual(prepare_article({'title': 'OPECプラス生産枠維持'})['term_quiz']['term'], 'OPEC')
+        self.assertIsNone(prepare_article({'title': '中国とWTO'})['term_quiz'])
+        self.assertIsNone(term_quiz_for_article({'title': '発表(国連通信)', 'description': 'OPECの説明'}))
+        self.assertIsNone(term_quiz_for_article({'title': 'NOTWTOの発表'}))
+        for title in ['WTOの会合', '国連の会合']:
+            self.assertIsNotNone(term_quiz_for_article({'title': title}))
+
+    def test_headline_card_escapes_source(self):
+        from preview_visuals import fallback_visual
+        svg, label = fallback_visual({'title': '<script>出来事</script>'})
+        self.assertNotIn('<script>', svg)
+        self.assertIn('&lt;script&gt;', svg)
+        self.assertIn('見出し', label)
+
+    def test_all_map_targets_exist(self):
+        from article_presentation import COUNTRIES
+        from preview_visuals import world_paths
+        codes = {c['code'] for c in world_paths()}
+        for row in COUNTRIES:
+            self.assertIn(row[1], codes)
