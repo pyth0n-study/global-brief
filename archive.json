@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T21:47:52.229718+00:00",
-  "count": 203,
+  "updated_at": "2026-11-03T06:59:26.027942+00:00",
+  "count": 223,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -2052,6 +2052,206 @@
         "generated_at": "2026-11-02T21:48:02.624908+00:00",
         "model": "gemini-3.5-flash-lite"
       }
+    },
+    {
+      "url": "https://jp.wsj.com/articles/americas-gulf-allies-prepare-for-new-round-of-strikes-on-iranand-the-blowback-aaa2b626",
+      "title": "湾岸諸国、米攻撃再開とイラン報復に身構え",
+      "description": "",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-02 17:41:00",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32717595/",
+      "title": "米中間選挙でAIデータセンターが争点に、格差や富の集中への怒りが背景",
+      "description": "トランプ政権に対してアメリカ国民はどのような審判を下すのか、中間選挙の投票がいよいよ3日に迫っています。テキサス州は長年、トランプ大統領率いる共和党の「牙城」ですが、今回は野党・民主党の勢いが増してい",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-02 15:51:00",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/1/2/12cb5_1110_731b708c_ad38c2ce.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32717815/",
+      "title": "ロシアとウクライナの警報アプリがサイバー攻撃、核や放射線の偽情報を配信",
+      "description": "ウクライナとロシアで、住民向けの警報アプリが相次いでサイバー攻撃を受け、放射線の危険や核攻撃を知らせる偽の情報が配信されました。ウクライナメディアによりますと、1日夜、ミサイルなどによる攻撃の危険を住",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-02 16:31:00",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/f/e/fe3b5_1726_e9692b74_9945c588.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32718105/",
+      "title": "イラン大統領 対話解決へ意欲",
+      "description": "アメリカとイランの協議をめぐり、イランのペゼシュキアン大統領は、最高指導者から和平交渉に関する一定の権限が政府に与えられたことを明らかにしました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-02 18:06:26",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/0/8/085bc_1796_603330a7_950133d8.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/19a70a0cb47bf6490d68776f1f7a319993711d75",
+      "title": "ロ軍、ウクライナ南部の学校攻撃24人死亡(共同通信)",
+      "description": "【キーウ共同】ウクライナ非常事態庁によると、南部ザポリージャ州コミシュバハの学校に2日、ロシア軍の攻撃があり、24人が死亡、5人が負傷した。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 18:31:10",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/74e0f719e77f7bf44384300233818319fa1f3020",
+      "title": "欧州のスーパーに再びサイバー攻撃 ベルギーや北欧で 遠隔操作で冷蔵設備の温度上昇(テレビ朝日系（ANN）)",
+      "description": "ヨーロッパ各地のスーパーマーケットで冷蔵設備の温度が不正に操作されるサイバー攻撃の被害が確認されました。 ベルギーにある大手スーパー「カルフール」によりますと、およそ700店舗のうち15店舗から冷蔵設",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 15:40:41",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261103-00000000-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/80f258cd3b5939bfbc59169314db9382d5c75110",
+      "title": "今日の歴史（11月3日）(聯合ニュース)",
+      "description": "1929年：光州の学生による抗日独立運動、光州学生運動が発生1945年：独立運動家の曺晩植（チョ・マンシク）が平壌で右翼系の朝鮮民主党を結成1979年：朴正熙（パク・チョンヒ）大統領の国葬を挙行198",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 15:00:00",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9753b0338a66fd7211516af66e5133b4f8718973",
+      "title": "民主新星・タラリコ氏、イーロン・マスク氏念頭に「億万長者打ち負かせ」米中間選挙 最後の週末(産経新聞)",
+      "description": "【サンアントニオ＝塩原永久】3日の米中間選挙の投票前で最後の週末となった1日、米南部の接戦州テキサス州で、与党・共和党候補のパクストン州司法長官と野党・民主党のタラリコ州下院議員が、中部サンアントニオ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 15:23:31",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b84b531a708c00e1edaee075f2302f00ec317b35",
+      "title": "ベルギー首相、国王に辞意伝達 受理保留で予算協議継続へ(共同通信)",
+      "description": "【ブリュッセル共同】ベルギーのデウェーフェル首相は2日、連立政権内での2027年の予算協議をまとめられなかったとして、フィリップ国王に辞意を伝えた。国王が受理の判断を保留したため、予算協議は継続される",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 15:05:43",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261103-00000001-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bc541b8fc9f4f8937714ee084b0f0ee11f858a20",
+      "title": "ポーランド警察がロシア国境に対テロ大部隊を派遣 武装グループ越境を警戒(テレビ朝日系（ANN）)",
+      "description": "ポーランド警察は、ロシアとの国境に大規模な対テロ部隊を派遣しました。武装グループの越境を警戒するということです。 TVP（ポーランド公共放送）によりますと、対テロ部隊が派遣されたのはポーランド北東部に",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 17:46:40",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/cc4cb8d7c01279f66e6c94a5818f92dc8b94c467",
+      "title": "米、ロシア産ガスの販売を提案 ウクライナ経由、報道(共同通信)",
+      "description": "【ワシントン共同】米紙ウォールストリート・ジャーナルは2日、エネルギー需要が高まる冬を前に、ロシア産ガスをウクライナ経由のパイプラインで欧州に販売する案を米国がロシアとウクライナに提案したと報じた。複",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 15:33:42",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261103-00000002-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/eb755b974e4eeb6caf68af80472cb6a23ba91720",
+      "title": "中国・北京で和食イベント 大人向けの食育活動も(テレビ朝日系（ANN）)",
+      "description": "中国・北京で2日、和食文化と健康食に関する講演会が行われ、北京市民ら170人余りが参加し、熱心に耳を傾けていました。 日本大使館で行われた交流イベントでは、北京で日本料理店を営む調理師が講師になり、和",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-02 14:58:45",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261102-00000085-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/cb7200c4d775fe79d51bd131fbaad04b",
+      "title": "フーシ派 アデンから80kmまで進軍か",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-02 17:30:56",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/df6021d26e78bd9416ec52559223f33d",
+      "title": "イラン最高指導者 政府に一定の権限",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-02 15:34:39",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/fb08abb32c39359d8c9b26882b2b676f",
+      "title": "米 ウ経由での露産ガス販売を提案か",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-02 17:00:32",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB0109S0R01C26A1000000/",
+      "title": "トランプ政策の勝者と敗者(The Economist)",
+      "description": "ポピュリストというのは誰しも労働者に多くを約束するものだ。だが2024年の米大統領選挙の直前にトランプ候補が予言したのは、それどころか働く普通の人々にとっての「黄金時代」だ。彼は有権者に対し、「世界がこれまで目にしたことのない最高の雇用、最高の給与、そして最も輝かしい経済的な未来」が目前に迫っていると語った。関税に減税、不法移民の強制送還という異例な政策の組み合わせによって、生活費を引き下げ、",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 17:00:00",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3815244002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=f4475d523abb4910a25205c2100d06b1",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN020CM0S6A101C2000000/",
+      "title": "「マスク帝国」左右する米中間選挙 テスラ・スペースX統合にも影響",
+      "description": "【ニューヨーク=川上梓】3日の米中間選挙で起業家のイーロン・マスク氏は最大の個人献金者となった。防衛や人工知能（AI）で政府と結びつきを強める中、選挙結果は自動運転や電気自動車（EV）の法制、テスラとスペースXの統合方針にも影響する。スペースXの政府受注、24年の約2倍米CNBCが入手した連邦選挙委員会（FEC）の資料によると、マスク氏が中間選挙で投じた政治献金は約3億6600万ドル（約58",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 18:41:48",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3814821002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=067ca303f29e359ac91500fa5e44b264",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN2701T0X21C26A0000000/",
+      "title": "仮想通貨業界「青い逆風」を警戒 法案停滞やトランプ一族に監視の目",
+      "description": "【ニューヨーク=佐藤璃子】米暗号資産（仮想通貨）業界が3日の米中間選挙に警戒を強めている。野党・民主党が巻き返すとの観測が広がり、法整備の停滞に加え、業界との関係の深さが指摘されるトランプ米大統領一族への監視が強まる可能性がある。仮想通貨業界が神経をとがらせるのがデジタル資産の規制当局の管轄を明確化する「クラリティー法案」の行方だ。従来の不透明なルールが解消されれば、仮想通貨を用いたビジネス拡",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 17:26:27",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3804108029102026000000-2.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=0c2d9db161b7b0466b33ff52b9237842",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR02AE10S6A101C2000000/",
+      "title": "歩いて泳いで28年 5万キロ踏破の探検家、イングランドに凱旋",
+      "description": "【ロンドン=福岡幸太郎】28年間をかけて南北米大陸、ユーラシア大陸の3万1000マイル（5万キロメートル）以上を徒歩で旅した英国の探検家、カール・ブッシュビー氏（57）が2日、イングランドの故郷に戻った。英公共放送BBCなどが報じた。イングランド北東部ヨークシャー地方の港町、ハル市に帰郷したブッシュビー氏を母親や市長ら数百人が出迎えた。AP通信によると、ブッシュビー氏は「個人から国家に至るまで",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 18:50:02",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3820949002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=90d24e3db2c65dbbb557aac5c9536408",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR15CBM0V11C26A0000000/",
+      "title": "邦人記者拘束「注目されるほど解決近づく」 英王立研のジャイルズ氏",
+      "description": "――ロシアが日本人記者を拘束しました。「民主主義国家出身でロシアで活動するジャーナリストなら誰でも当局に標的にされ、常に逮捕されるリスクがあると知っているはずだ。ロシアの近隣諸国に平和な時期は存在しない」――2023年に拘束された米紙記者は人質交換で解放されました。「ロシアが近隣諸国に圧力をかけ、譲歩を引き出そうとする理由は人質外交の他にもある。決めつけるべきでない。拘束している人物を解放",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-02 17:00:00",
+      "first_seen": "2026-11-03T06:59:26.023165+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3734669015102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=928&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e7b2659e98cb720c443505bdaa8dcc85",
+      "watch_point": null
     }
   ],
   "watch_trial": {
