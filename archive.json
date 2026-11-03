@@ -2221,7 +2221,12 @@
       "published_at": "2026-11-02 18:41:48",
       "first_seen": "2026-11-03T06:59:26.023165+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3814821002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=067ca303f29e359ac91500fa5e44b264",
-      "watch_point": null
+      "watch_point": {
+        "text": "防衛や人工知能（AI）で政府と結びつきを強める中、選挙結果は自動運転や電気自動車（EV）の法制、テスラとスペースXの統合方針にも影響する。",
+        "evidence": "防衛や人工知能（AI）で政府と結びつきを強める中、選挙結果は自動運転や電気自動車（EV）の法制、テスラとスペースXの統合方針にも影響する。",
+        "generated_at": "2026-11-03T19:37:32.877392+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGN2701T0X21C26A0000000/",
@@ -2545,21 +2550,21 @@
         "owner": "41704949472-1",
         "fingerprint": "6bcbdb27701355c8e67c855ccb84f5a5709a86d425cae69099527ef6fc0ad8cc",
         "url": "https://news.yahoo.co.jp/articles/85d9888794d777fd19170f4ce70b7408af090724",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-04",
         "owner": "41704949472-1",
         "fingerprint": "99266142e0860c962445a1ce504d31234251f6628d21d07f8379a1bacae41077",
         "url": "https://www.nikkei.com/article/DGXZQOGN020CM0S6A101C2000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-04",
         "owner": "41704949472-1",
         "fingerprint": "33ac4702af820b1d1d341da3dac73a3bb8410c8f8b33e0923732e80fd52367b3",
         "url": "https://news.livedoor.com/article/detail/32718105/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   }
