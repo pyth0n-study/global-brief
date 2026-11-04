@@ -2626,7 +2626,12 @@
       "published_at": "2026-11-03 18:28:01",
       "first_seen": "2026-11-04T06:41:51.531158+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822616003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=224b560e4b005170060fbd04f062789c",
-      "watch_point": null
+      "watch_point": {
+        "text": "【ニューヨーク=四方雅之】米資産運用大手アポロ・グローバル・マネジメントのマーク・ローワン最高経営責任者（CEO）は3日の決算説明会で「今後2年間で約3億5000万ドル（約550億円）をかけ、従来のシステムを刷新する」と述べた。",
+        "evidence": "【ニューヨーク=四方雅之】米資産運用大手アポロ・グローバル・マネジメントのマーク・ローワン最高経営責任者（CEO）は3日の決算説明会で「今後2年間で約3億5000万ドル（約550億円）をかけ、従来のシステムを刷新する」と述べた。",
+        "generated_at": "2026-11-04T19:54:01.399633+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGN2907E0Z21C26A0000000/",
@@ -2971,21 +2976,21 @@
         "owner": "41901344904-1",
         "fingerprint": "f02fc9c7cd6944d845cb9a9d308643783382d00d95cf2386c25cb106787f1366",
         "url": "https://news.yahoo.co.jp/articles/9d4fca0d67ee8a5e06630dc055e17b246d8b0bf3",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-05",
         "owner": "41901344904-1",
         "fingerprint": "1472797e9bd964ab6eeaa7c1d14dd18a2c3b36ee0adfd68b226d31713373b66c",
         "url": "https://news.yahoo.co.jp/articles/944c8428a5c9b0b078d3d2aa8346546cc255889a",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-05",
         "owner": "41901344904-1",
         "fingerprint": "55abe7b8a09f0ad26edf6255a59a0f85257c4e2498d69a46a9a419f46182c08f",
         "url": "https://www.nikkei.com/article/DGXZQOGN033CF0T01C26A1000000/",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   }
