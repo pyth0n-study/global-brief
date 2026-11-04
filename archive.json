@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T19:37:26.633070+00:00",
-  "count": 243,
+  "updated_at": "2026-11-04T06:41:51.535065+00:00",
+  "count": 263,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -2456,6 +2456,206 @@
       "published_at": "2026-11-03 07:33:04",
       "first_seen": "2026-11-03T19:37:26.623312+00:00",
       "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-year-3fb6cac6",
+      "title": "トランプ氏、対イスラエル支援を年内に打ち切る方針を表明",
+      "description": "",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-03 15:43:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32724540/",
+      "title": "スペイン列車事故で死亡した69人の身元確認が終了、日本人2人が含まれる",
+      "description": "スペイン中部で起きた列車事故で、死亡した69人全員の身元の確認が終了しました。地元当局は、このうち2人が日本人だったと発表しました。スペイン中部トレド県で起きた列車事故で、地元当局は2日、死亡が確認された",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-03 15:16:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/8/3/83dac_1726_dd89687e_6227b90e.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32724690/",
+      "title": "トランプ政権の審判となる米中間選挙の投票が始まる、共和党の行方に注目",
+      "description": "アメリカ・トランプ政権への国民の審判となる「中間選挙」の投票が、3日に始まりました。中間選挙の投票日を迎えた3日、ニューヨークでは朝から投票所に訪れる有権者の姿が見られました。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-03 16:35:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/4/4/444ca_1110_94b4c0d8_c808a9a7.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/39e2d7c0681e1c29d80c27289b57a941209c1c11",
+      "title": "トランプ氏、年間6000億円超のイスラエル支援を打ち切り表明 米紙「米外交の転換点」(産経新聞)",
+      "description": "【ワシントン＝杉本康士】トランプ米大統領は3日、米FOXニュースの番組に出演し、年間40億ドル（約6300億円）に上るイスラエルへの資金供与を年内に打ち切ると明らかにした。米議会専門紙ヒルは「米外交に",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-03 15:48:23",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/511752af0c4e480253ee1a24eb7f1bc03b40b995",
+      "title": "仏で再び学生デモ 教育環境に不満 進学制度の撤廃や予算増額求め 各地で学校封鎖も(テレビ朝日系（ANN）)",
+      "description": "フランス全土で3日、教育環境に不満を募らせた高校生や大学生による学校の封鎖や抗議デモが行われました。 パリでは3日、多くの高校生や大学生が通りに集まり、政府に対して老朽化した校舎の改善や教室の過密化を",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-03 16:31:20",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00000000-ann-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9034cd4c24d2456ea7684efe5ccea82150046fce",
+      "title": "欧州各地で7旅客機に爆弾情報 緊急着陸、空港閉鎖も(共同通信)",
+      "description": "【ベルリン、ロンドン共同】ポーランドの首都ワルシャワ近郊のモドリン空港は3日、旅客機が機内に爆弾がある可能性を示す情報を受け緊急着陸し、空港を一時閉鎖したと発表した。搭乗していた181人が避難。当局が",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-03 15:55:38",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/be8bf288e803e29ea6167139a221911dd9fe93cc",
+      "title": "今日の歴史（11月4日）(聯合ニュース)",
+      "description": "1920年：朝鮮体育会が第1回全国野球大会を開催1933年：朝鮮語学会がハングル正書法の統一案を発表1966年：第1回全国技能オリンピック大会を開催1997年：閣議で父系血統主義を父母両系血統主義に転",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-03 15:00:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/0c6c6cb16aa1effb6efc3425988821a8",
+      "title": "米中間選挙 上院の行方は不透明",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-03 17:47:36",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/46077e09d98b24a6a258204e95d24a66",
+      "title": "露がウのエネ施設攻撃 協議控え",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-03 15:32:08",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f803229edb4004d017a2c45363f8019a",
+      "title": "アラムコ 東西パイプライン拡張へ",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-03 16:45:06",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB020A00S6A101C2000000/",
+      "title": "[FT]ノルウェー基金の葛藤 エシカル投資、運用益との両立に腐心",
+      "description": "運用資産と影響が巨大になりすぎて、国が環境や社会の課題に配慮する「エシカル（倫理的）」投資家ではいられなくなることがあるのだろうか。企業が大きすぎて、投資ポートフォリオから外せなくなることはあるのだろうか。運用資産2兆3000億ドル（約360兆円）という世界最大の政府系ファンド（SWF）であるノルウェー政府年金基金が今、そんなジレンマに直面している。キャタピラー株売却がきっかけノルウェー政",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 17:00:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3814735002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=483&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=92b128021ee37f67b413c868785fb84d",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB2526N0V21C26A0000000/",
+      "title": "吉田防衛大校長「対中国、地理や核抑止でレッドライン」 富士山会合",
+      "description": "日本経済研究センターと日本国際問題研究所は10月24日、国際問題を話し合う第13回「富士山会合」を都内で開いた。「共通の利益が導く同盟の進化」をテーマに、日本と米国の政府高官や有識者が日米同盟や対中関係などを議論した。パネル討論①「日米同盟」 韓国・台湾・オーストラリアと連携強固に佐橋亮・東京大学教授（司会） 国際秩序が流動化するなか、日米同盟の価値はどこにあるか。岡野正敬・前国家安全保障局長",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 17:00:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3784202026102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=c103321718bc5a6506676b985a031065",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB252710V21C26A0000000/",
+      "title": "グラス駐日米大使「日本をドローン生産ハブに」 富士山会合",
+      "description": "日本経済研究センターと日本国際問題研究所は10月24日、国際問題を話し合う第13回「富士山会合」を都内で開いた。「共通の利益が導く同盟の進化」をテーマに、日本と米国の政府高官や有識者が日米同盟や対中関係などを議論した。パネル討論②「習近平を読み解く」 台湾海峡巡る姿勢明確に桃井裕理・日本経済新聞社ニュース・エディター兼国際報道センター長（司会） 中国の習近平（シー・ジンピン）氏をどう分析するか",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 17:00:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3784214026102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=652cd9512648e9ae1851148a7173d91e",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOFL033AM0T01C26A1000000/",
+      "title": "NYダウ反落で始まる、Apple株が下落 米中間選挙で様子見も",
+      "description": "【NQNニューヨーク=加治屋雄基】3日の米株式市場でダウ工業株30種平均は反落して始まり、午前9時35分現在は前日比273ドル53セント安の5万1710ドル45セントで推移している。3日夜以降に米中間選挙の結果が判明する前に景気敏感株やディフェンシブ株の一角に売りが出ている。米中間選挙では野党・民主党が連邦議会下院の過半数を獲得するとの見方が根強い。上院でも民主が過半数に達するかどうかが焦点と",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 15:52:19",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822576003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=654bcdf03b4adb360237f7c93ee57f57",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM031TU0T01C26A1000000/",
+      "title": "韓国、13日に佐渡金山の追悼式 3年連続で独自開催",
+      "description": "【ソウル=小林恵理香】韓国外務省は3日、新潟県佐渡市の世界文化遺産「佐渡島の金山」を巡り、朝鮮半島出身の労働者の追悼式を13日に同市で開催すると発表した。韓国政府が主催し、政府代表として李赫（イ・ヒョク）駐日大使が出席する。新潟県などが主催した追悼式は9月に開いた。追悼の辞の内容を巡り日韓間で意見が折り合わず、韓国側は欠席した。初めて追悼",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 15:09:36",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822044003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=730830d99b97ab0cb335a17da17bc285",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN0337F0T01C26A1000000/",
+      "title": "アメリカ中間選挙の基礎知識 仕組みや今後の展開は？",
+      "description": "米中間選挙が3日、投開票されます。連邦議会の上院選と下院選をあわせた選挙結果は任期をあと2年残すトランプ米大統領の政策推進に大きな影響を与えます。基礎知識をまとめました。①政権批判受けやすく与党不利 過去40年で下院多数派は1回中間選挙は歴史的に現職大統領が率いる与党が敗北する例が多い。2年前の大統領選の熱気が冷めたころに米国民が初めて現政権の評価を下すため、選挙公約を円滑に実行していないなど",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 15:44:31",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822535003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=faf4df8c214b60dcdd0f50684a32073a",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN033CF0T01C26A1000000/",
+      "title": "米アポロCEO「システム刷新に550億円」 未公開資産、売買しやすく",
+      "description": "【ニューヨーク=四方雅之】米資産運用大手アポロ・グローバル・マネジメントのマーク・ローワン最高経営責任者（CEO）は3日の決算説明会で「今後2年間で約3億5000万ドル（約550億円）をかけ、従来のシステムを刷新する」と述べた。まずクレジット分野で外部企業と組み、保管・決済の仕組みづくりに着手する。ローワン氏は「プライベート資産（未公開資産）の売買をできる限り簡単でなじみのあるものにする」と説",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 18:28:01",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822616003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=224b560e4b005170060fbd04f062789c",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN2907E0Z21C26A0000000/",
+      "title": "共和が唱えた「国の危機」、民主は「生活」に照準 中間選の訴え比較",
+      "description": "米中間選挙は3日、投開票日を迎えた。上院選の候補者のSNS投稿データを分析したところ、野党・民主党は医療制度の拡充や物価上昇など暮らしに絞って政権批判を強める一方、与党・共和党は国や価値観の「存亡論」で危機感を訴えていた。日本経済新聞は選挙戦が本格化した9月以降、上院選の候補者でX（旧ツイッター）に選挙用の公式アカウントを持つ共和党33人、民主党24人の投稿データ、約9200件を取得。言及した",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 17:00:00",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3812027031102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=458&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=81dcbeac2468852908ff34332aa86ce9",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR0333P0T01C26A1000000/",
+      "title": "25年のCOP議長国、化石燃料脱却へ3指標提案 状況配慮し移行促す",
+      "description": "【ロンドン=千葉大史】2025年の第30回国連気候変動枠組み条約締約国会議（COP30）議長国ブラジルは3日、化石燃料脱却に向けたロードマップに関する3つの指標を発表した。エネルギーの需給バランスや経済など各国の状況に応じた対応を促す。指標は25年のCOP開催地の名前を入れて「ベレン・レディネス・アプローチ」と銘打った。「エネルギー需要」「エネルギー供給」「広範な経済」の3つの柱で化石燃料脱却",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 15:41:31",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822509003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=561d8be975702978d4462bdc02fe4bfc",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC02AHQ0S6A101C2000000/",
+      "title": "英国で旅行見本市、日本は地方誘客に力 中部勢は「サムライ」文化",
+      "description": "【ロンドン=鈴木麻佑子】ロンドンで3日、英国最大規模となる旅行見本市が始まった。日本からの出展は東京や京都、大阪といった定番の観光地のほか、地方勢の出展が目立った。中部勢は織田信長など三英傑の「サムライ」文化で誘客を目指す。ワールド・トラベル・マーケット（WTM）は世界の旅行業界関係者が集まる見本市で、毎年11月ごろに開催されている。旅行会社、宿泊事業者、航空会社などが出展し、旅行商品の契約や",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-03 16:15:57",
+      "first_seen": "2026-11-04T06:41:51.531158+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822485003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=65ef618c8d27fd68db88e40d81ea49f8",
       "watch_point": null
     }
   ],
