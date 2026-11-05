@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T19:53:55.012615+00:00",
-  "count": 283,
+  "updated_at": "2026-11-05T07:00:17.519957+00:00",
+  "count": 303,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -2861,6 +2861,206 @@
       "published_at": "2026-11-04 07:43:23",
       "first_seen": "2026-11-04T19:53:55.007137+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3825965004112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=9072c7cc3179d83a32756849539d0420",
+      "watch_point": null
+    },
+    {
+      "url": "https://japan.hani.co.kr/arti/international/57584.html",
+      "title": "上下両院失ったトランプ氏、任期半分以上残し「超レームダック」危機",
+      "description": "米国のトランプ大統領は3日（現地時間）、中間選挙で共和党の連邦上下両院の第一党の地位をいずれも失い、任期を半分以上残して「レームダック」化の危機に陥った。トランプ大統領が自ら支援した候補が相次いで敗…",
+      "source": "Hani",
+      "published_at": "2026-11-04 16:41:00",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://img.hani.co.kr/imgdb/japan/news/resize/2026/1105/179381046755_20261105.JPG",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32733621/",
+      "title": "米中間選挙で共和党が大敗、トランプ大統領は民主党との取引に意欲",
+      "description": "アメリカの未来を占う中間選挙で、トランプ政権に厳しい審判が下されました。国民の答えは「NO」、共和党の大敗でした。ワシントンから中継です。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-04 15:41:00",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/8/7/87d03_1110_99d4fb6b_258b900f.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32733804/",
+      "title": "共和党大敗 仏紙が挙げた要因",
+      "description": "アメリカの中間選挙で与党・共和党が大敗したことを受けて、フランスの有力紙ルモンドは、「トランプ大統領が巨額の関税を課すことでインフレを再燃させ、勝ち目のない戦争に自国を導いたことなどが大敗の要因」だと",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-04 18:10:34",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/d/6/d6919_1796_60c8cea9_e1f9f978.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1e990ec44e8c625e7d83fc8a64f1e8a835789631",
+      "title": "イラン戦闘が中間選挙の敗因と米大統領(共同通信)",
+      "description": "【ワシントン共同】トランプ米大統領は4日、イランとの戦闘が中間選挙の大敗の一因になったとの見方について「事実だ」と語った。ホワイトハウスで記者団に語った。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 18:20:51",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/4ac5da63a5667d85ceb382ed2066555017aeea8f",
+      "title": "エベレストでヘリ2機が空中衝突 インド人ら3人死傷(共同通信)",
+      "description": "世界最高峰エベレストのネパール側のベースキャンプ付近で3日、ヘリコプター2機が空中で衝突する事故があり、インド人1人が死亡し、2人が負傷した。AP通信が報じた。 現場は標高4200メートルで、2機は着",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 14:56:34",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/54159686553d8510f0b338fd786d4dcc29193539",
+      "title": "“残り2年”世界はどうなる？日本への影響は？米中間選挙で共和党“歴史的敗北”(テレビ朝日系（ANN）)",
+      "description": "民主党が上下両院で多数派となったアメリカ。その原動力の一つが、暮らしに苦しむ国民の切実な声でした。【画像】“残り2年”世界はどうなる?日本への影響は?米中間選挙で共和党“歴史的敗北”無党派「一見、持ち",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 16:39:15",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-90203481-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/64faa2377014db987166246ef9306c58cebd5d11",
+      "title": "“レームダック”でも変わらず？トランプ氏「VETO」強調…米・共和党“歴史的敗北”(テレビ朝日系（ANN）)",
+      "description": "アメリカの中間選挙は、長年、共和党の牙城とされてきた州でも、民主党が次々と議席を獲得し、上下両院で多数派を奪還する歴史的な勝利となりました。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 15:21:14",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-90203479-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/72f0c8dbcf1e902e25a7bf846f4a009e1bd8ff6f",
+      "title": "アメリカ中間選挙 民主党が上下院で“多数派奪還”(テレビ朝日系（ANN）)",
+      "description": "アメリカの中間選挙は野党・民主党が上院と下院ともに多数派を奪還することが確実となりました。トランプ大統領の与党・共和党は歴史的な大敗を喫しました。 CNNによりますと、民主党は上院で接戦が予想されてい",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 14:59:59",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00000114-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/76f260295d5030d7ddfc4e48e3ead7a04bf4afdc",
+      "title": "今日の歴史（11月5日）(聯合ニュース)",
+      "description": "1906年：思想家で抗日運動家の崔益鉉（チェ・イクヒョン）が日本軍に連行された対馬で殉死1911年：朝鮮初の紡績会社、京城紡績創立1958年：李承晩（イ・スンマン）大統領がベトナム訪問1980年：政治",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 15:00:01",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8f36ef586d8748bdaf9a975cca322b7c8464c982",
+      "title": "登山客の利用増“疲れ” や“時短” で…エベレストでヘリ同士が衝突 1人死亡(テレビ朝日系（ANN）)",
+      "description": "3日、エベレスト中腹にある村のヘリポートで衝突事故が起きました。救助した観光客をのせた赤いヘリコプターが着陸態勢に入ります。そこへ物資を運んでいた別のヘリが。2機は空中で衝突し、墜落しました。乗ってい",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 14:54:16",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-90203477-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/aa18cdd355fcfd2a4ad68a837ae43a583bb4b089",
+      "title": "米大統領、民主党による弾劾けん制(共同通信)",
+      "description": "【ワシントン共同】トランプ米大統領は4日、中間選挙で勝利した野党民主党と「うまくやっていける」と協力姿勢を示す一方、自身の弾劾訴追といった動きをけん制した。ホワイトハウスで記者団に語った。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 18:39:51",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d792d5f9fb56f15a98d396af04ed1b8905625f55",
+      "title": "米中間選挙の結果を受けロシア政府「他国の内政問題」 トランプ氏の和平努力に期待(テレビ朝日系（ANN）)",
+      "description": "アメリカの中間選挙で民主党が議会の多数派を占めたことに、トランプ政権とウクライナ問題での協議を続けるロシア政府は冷静な反応を見せています。 ロシアメディアによりますと、ロシア大統領府のペスコフ報道官は",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 17:52:26",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f39554a3f04fc78d49ea845f91a0846f9929c4c2",
+      "title": "トランプ氏、国防長官交代の是非相談と報道(共同通信)",
+      "description": "【ワシントン共同】米CBSテレビは4日、トランプ大統領がヘグセス国防長官を交代させるべきかどうか側近に相談していると報じた。中間選挙の大敗を受け、イラン攻撃に関する責任を問題視している可能性がある。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-04 18:21:46",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/08fcd732045813904f08d767b8320c63",
+      "title": "エベレストでヘリ空中衝突 3人死傷",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-04 15:18:40",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ae4316a25f124e206b84b70dc8995164",
+      "title": "米中間選挙 予測市場が結果ほぼ的中",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-04 16:34:49",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/daeaf49e0d0f226e3415666ebfb809c4",
+      "title": "米民主党 過半数奪還もリーダー不在",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-04 17:35:13",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN040WL0U6A101C2000000/",
+      "title": "追い込まれたトランプ氏 内政行き詰まり、対中ロ朝外交に傾斜リスク",
+      "description": "【ワシントン=甲原潤之介、川手伊織】米中間選挙で共和党が大敗し、トランプ米大統領は追い込まれた。共和が上下両院で少数派に転落し、残り任期2年間は予算や人事などの内政運営が厳しくなる。トランプ氏が実績づくりのために中国やロシア、北朝鮮とのディール外交に傾くおそれがある。連邦議会、1月から民主が主導権連邦議会が新勢力の構成になる2027年1月から、トランプ政権は予算や法案、人事などで野党・民主党",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-04 17:00:00",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3827204004112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=c892267f62bf6958b2b572806fb48689",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN3007W0Q6A031C2000000/",
+      "title": "10月の米民間雇用8.6万人増、教育・医療で採用進む 調査",
+      "description": "【アラスカ州アンカレジ=野一色遥花】米民間雇用サービス会社ADPが4日発表した10月の全米雇用リポートによると、民間の雇用者数は前月比で8万6000人増えた。7万5000人前後と見込んだ市場予想（ダウ・ジョーンズまとめ）より多かった。増加幅は9月の8.6万（改定値）からは横ばいだった。業種別で増加幅が最も大きかったのは教育・医療サービスで2.8万人だった。娯楽・宿泊が1万9000人、金融が1万",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-04 17:51:07",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3804733030102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=250487f1b701fb3b079a3a7452c56395",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR02AS70S6A101C2000000/",
+      "title": "イスラエル、野党党首が連立交渉を主導か 総選挙の最終結果が確定",
+      "description": "【イスタンブール=渡辺夏奈】イスラエル中央選挙管理委員会は4日、10月27日の実施の総選挙（定数120）の最終結果を公表した。ネタニヤフ首相率いる右派「リクード」が第1党となり、与党陣営が53議席を確保した。最大勢力となったが、過半に満たなかった。組閣に向けて、各党の連立交渉が本格化する。中央選挙管理委員会は4日、公式の最終結果をヘルツォグ大統領に提出した。公表済みの速報値と結果は変わらなかっ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-04 15:52:46",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3829450004112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=457&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e9315cb916e79aaad9779ccf96ae0d26",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC04BJL0U6A101C2000000/",
+      "title": "フランスで血液製剤の冷蔵庫にサイバー攻撃 スーパーから広がる対象",
+      "description": "【ロンドン=鈴木麻佑子】フランスで血液製剤を供給する公的機関の冷蔵庫がサイバー攻撃の影響を受け、冷蔵庫の設定が変えられた。保管している血液製剤や健康への被害はなかったとしている。冷蔵庫や冷凍庫を狙うサイバー攻撃が医療インフラに波及し始めた。2日、フランス血液公社（EFS）の施設3カ所にある冷蔵庫で、温度や霜取りの設定が変更された。該当する冷蔵庫には輸血用や医薬品製造向けの血漿バッグが保管されて",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-04 17:28:38",
+      "first_seen": "2026-11-05T07:00:17.511920+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3829571004112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=a497a7d91fba2d283ce66a3127dee44e",
       "watch_point": null
     }
   ],
