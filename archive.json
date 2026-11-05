@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T07:00:17.519957+00:00",
-  "count": 303,
+  "updated_at": "2026-11-05T20:06:44.403881+00:00",
+  "count": 323,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -3061,6 +3061,206 @@
       "published_at": "2026-11-04 17:28:38",
       "first_seen": "2026-11-05T07:00:17.511920+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3829571004112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=a497a7d91fba2d283ce66a3127dee44e",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1105/c94475-20516049.html",
+      "title": "今度は茶トラ！ 北京の人気「猫グループ」に6匹目の猫が登場",
+      "description": "中山公園に登場した茶トラ猫のオブジェ（撮影・王新） 北京で最近人気を集めている猫オブジェのグループに新メンバーが加わった！日壇公園の「蓬蓬」、地下鉄菜市口駅の「園谷谷」、西単付近の三毛猫、景山公園の",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-05 06:30:42",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1105/FOREIGN1793848289564TX3KKZ7X6T.png",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1105/c94475-20516112.html",
+      "title": "中国1‐9月の出産育児手当の支出が781億元超 個人支給が全面実現",
+      "description": "国家医療保障局によると、2026年1-9月には、生育（出産育児）保険基金の支出額が1010億元（1元は約23.7円）に上り、延べ3355万人が恩恵を受けた。そのうち出産育児手当の支出額は781億610",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-05 07:00:51",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1105/c94475-20516150.html",
+      "title": "南京地下鉄の「曲がった案内サイン」が話題に 「分かりやすい」と好評",
+      "description": "南京地下鉄の南京南駅で最近、「曲がった案内サイン」が登場し、中国のネット上で大きな話題となっている。一般的な案内サインの矢印は上下左右を真っ直ぐに向いているのに対して、新しい案内サ",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-05 08:01:43",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1105/FOREIGN1793861786829W9QYHURDCC.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1105/c94638-20516054.html",
+      "title": "中国で飼育下のパンダが830頭に 世界のパンダ観覧者数は延べ10億人以上",
+      "description": "四川省成都市で今月3日に開催された「グローバル・パンダ・パートナーズ大会2026」で明らかにされたところによると、現時点で、中国で飼育されているジャイアントパンダの個体数は830頭で、遺伝的多様性も継",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-05 06:30:42",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1105/FOREIGN1793849050562LE5QXNDU17.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "http://j.people.com.cn/n3/2026/1105/c94638-20516146.html",
+      "title": "地震被災地の児童、避難先で授業再開 西蔵",
+      "description": "西蔵自治区那曲（ナクチュ）市巴青（バチェン）県で発生した地震の影響を受けた同県の瑪如郷小学校と崗切郷小学校では、児童約1千人が拉薩（ラサ）那曲（ナクチュ）完全中学に移り、授業が再開された。新華網が伝え",
+      "source": "人民網日本語版 People's",
+      "published_at": "2026-11-05 08:01:43",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "http://j.people.com.cn/NMediaFile/2026/1105/FOREIGN17938612655226I85I56RM1.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32739295/",
+      "title": "中間選挙で共和党が大敗 トランプ大統領がイラン戦争に言及",
+      "description": "アメリカの中間選挙で与党・共和党が大敗したことについて、トランプ大統領はイランとの戦闘が敗因の一つになったとの認識を示しました。ワシントンから、FNNワシントン支局・林英美支局長が中継でお伝えします。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-05 07:25:00",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/7/8/78141_1726_2bf80488_f30df257.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32739512/",
+      "title": "米オハイオ州知事選 絶縁した実母を起用したCMに批判",
+      "description": "ざっくり言うと 米中間選挙のオハイオ州知事選で、共和党陣営の中傷CMが物議を醸した 民主党候補と絶縁状態の実母を起用して「娘は嘘つき」と訴え、党内からも批判 国際政治学者の松本明日香氏は「根拠なき攻撃は逆効果でオウンゴール」と指摘 記事を読む",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-05 07:50:00",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/3/2/32f98_1585_f04afea7a864c1486af79c44ab346562.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/27494407f5a2b2fa6cb0ab9cb00bcad8830e5e84",
+      "title": "米中間選挙結果 「韓米同盟に影響及ぼさず」＝韓国大統領府(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国青瓦台（大統領府）の姜由楨（カン・ユジョン）首席報道官は5日の記者会見で、野党の民主党が圧勝した米国の中間選挙の結果について、「韓米同盟は70年以上にわたり、米国の超党派の支",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 08:02:33",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00541728-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2f865ac19ea64e72b0931a3fd0f82699725769d3",
+      "title": "新竹・湖口のパナソニックG工場火災 1人の遺体発見 残る1人の捜索続く／台湾(中央社フォーカス台湾)",
+      "description": "（新竹中央社）北部・新竹県湖口郷のパナソニックデバイスマテリアル台湾で4日に発生した火災で、県消防局は5日、1人の遺体を発見したと発表した。消防は行方不明になっている残る1人の捜索を続けている。火事は",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 07:46:08",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00000004-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/85db3fcecbd068c67a8d369202a034cce97d6f04",
+      "title": "【米中間選挙2026】 トランプ氏の権力、国内では弱まっても国外では違う＝BBC国際編集長(BBC News)",
+      "description": "ジェレミー・ボウエン国際編集長ドナルド・トランプ米大統領は、最大級のやりとりを好む。その点で、アメリカの有権者の大多数によってトランプ氏に与えられた今回の中間選挙での大敗には、政治的な因縁があると言え",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 08:04:00",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-57964440-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9f83de9d89ce5c46c044aba57b3b385d21d95858",
+      "title": "慰安婦被害者支援の研究書発刊へ 韓日活動家の経験・記憶(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国と日本で旧日本軍の慰安婦被害者を支援してきた活動家たちの経験や記憶をまとめた研究書が、韓国で発刊される。 韓国女性人権振興院の日本軍「慰安婦」問題研究所は5日、慰安婦被害者を",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 08:01:13",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00541727-yonh-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a5a63b47ff6efc5f0cc542030fc733314053712a",
+      "title": "韓国外相がG7会合出席へ 米国務長官と会談か(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国外交部の朴斗淳（パク・ドゥスン）報道官は5日の定例記者会見で、趙顕（チョ・ヒョン）同部長官が今年2回目となる主要7カ国（G7）外相会合に出席するため、8～11日の日程でフラン",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 07:58:48",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00541726-yonh-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/aba1664a239034fecb954d2c5da642db4b5d5608",
+      "title": "「ネトフリでも選挙広告」“毒親CM”まで飛び交った中傷合戦に米国民うんざり？「娘はウソつき」相手候補の絶縁した実母を引っ張り出し攻撃も…国際政治学者「今回は共和党のネガキャンが目立った」(ABEMA TIMES)",
+      "description": "アメリカ中間選挙に伴うオハイオ州知事選において、民主党のエイミー・アクトン氏が共和党のビベック・ラマスワミ氏を破り当選を確実にした。【映像】物議を醸した“毒親CM” 野党・民主党が上下両院で過半数を奪",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 07:51:16",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-10286593-abemav-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/c59f93e62dc2f29f6419c09e99c77858f3511447",
+      "title": "香港の著名民主活動家・黄氏に拘禁10年の判決 国安法違反で再び実刑(BBC News)",
+      "description": "余美霞BBC中国語版記者（香港）、ケリー・アン記者香港の民主活動家、黄之鋒（ジョシュア・ウォン）氏が香港国家安全維持法（国安法）違反の罪に問われた裁判で、香港の裁判所は5日、黄氏が外国勢力と結託したと",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 07:50:00",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-57675971-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/5eebab2b15804d071c4b11f46fef3192",
+      "title": "松井氏の元同僚テシェイラ氏 当確",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 06:26:11",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/727bfa70cbadd5b9993ce579f5e0edde",
+      "title": "米右派に動揺「トランプ後」を模索",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 07:23:25",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/c55e528dae14d579e80a7fda8469dcfa",
+      "title": "エルサイード氏の勝利祝福 NY市長",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 06:38:45",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM052XZ0V01C26A1000000/",
+      "title": "中国、馬興瑞・前政治局員を収賄罪で起訴 「厳格な統治」徹底",
+      "description": "【北京=田島如生】中国の最高人民検察院（最高検）が馬興瑞・前中央政治局員を収賄罪で起訴したことが分かった。国営の新華社通信が5日伝えた。中国共産党は5年に1度の党大会を2027年秋に控え「厳格な党内統治」を徹底する。新華社は馬氏について「職権や地位を利用して他人に利益をはかり、財物を違法に収",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 07:33:15",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3831255005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=6c0b7b5c62185b54b3db54f9c89f70f4",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM053N80V01C26A1000000/",
+      "title": "中国外相、北朝鮮高官と会談 党・国家の統治巡る相互学習で一致",
+      "description": "【北京=田島如生】中国の王毅（ワン・イー）共産党政治局員兼外相は5日、訪中した北朝鮮の朝鮮労働党の金成男（キム・ソンナム）政治局員兼国際部長と北京で会談した。王氏は「党と国家の統治の経験や手法について交流と相互学習を強め、両党の建設に寄与したい」と述べた。中国共産党の外交を担う中央対外連絡部（中連部）が発表した。王氏は党が10月下旬に開いた第20期中央委員会第5回全体会議（5中全会）で採択した",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 07:29:42",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3831869005112026000000-1.png?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=1815671a912638418f4c965850883b74",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM054QV0V01C26A1000000/",
+      "title": "中国最大級の貿易商談会、契約額4%増 欧米バイヤー増",
+      "description": "【広州=藤野逸郎】中国最大級の貿易商談会「中国輸出入商品交易会（広州交易会）」が4日閉幕した。出展企業と海外の仕入れ業者（バイヤー）が結んだ契約額は2026年春の開催時から4%増えた。欧米からのバイヤーの参加が増えたという。広州交易会は毎年、春と秋の2回開かれる。契約額は新型コロナウイルス禍が収束した23年秋から増加傾向が続き、主催者によると今回は268億元（約6300億円）だった。219",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 06:28:50",
+      "first_seen": "2026-11-05T20:06:44.397904+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3832514005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=ad5ed4fd8cfeb85f37b11ea5724944b7",
       "watch_point": null
     }
   ],
