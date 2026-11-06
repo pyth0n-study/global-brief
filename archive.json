@@ -3813,6 +3813,27 @@
         "fingerprint": "83b0eaa56df6704c72b367736f3f9d8d418535246ca454f6a3401bed8680155f",
         "url": "https://www.nikkei.com/article/DGXZQOCB020A00S6A101C2000000/",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-07",
+        "owner": "42280455535-1",
+        "fingerprint": "276ad04b0387d0242293b4025535a2ffe2081f7d00b39d6e181bb11703cd3877",
+        "url": "https://news.yahoo.co.jp/articles/5b1763084bb914841387cd7ca9c32479c0eeca6f",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-07",
+        "owner": "42280455535-1",
+        "fingerprint": "e19c20dfaaac363563eb9e3970a694342956bdb39b9d4abfff8d11ba0a4269aa",
+        "url": "https://jp.wsj.com/articles/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-19ab142b",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-07",
+        "owner": "42280455535-1",
+        "fingerprint": "3c16f168809bd6de755928c30d41905ff733ba13a5d358b3c3e7f801f3152fb4",
+        "url": "https://news.yahoo.co.jp/articles/f8fb8093e78dbe133fdc5836921d74ba7be92c56",
+        "status": "reserved"
       }
     ]
   }
