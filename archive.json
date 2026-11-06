@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T20:06:44.403881+00:00",
-  "count": 323,
+  "updated_at": "2026-11-06T07:00:09.772121+00:00",
+  "count": 343,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -3261,6 +3261,206 @@
       "published_at": "2026-11-05 06:28:50",
       "first_seen": "2026-11-05T20:06:44.397904+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3832514005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=ad5ed4fd8cfeb85f37b11ea5724944b7",
+      "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-19ab142b",
+      "title": "サウジ、フーシ派の脅威への対応に苦慮 選択肢少なく",
+      "description": "サウジ政府はフーシ派の敵対行為を交渉によって終結させるには何が必要かを探るため接触したところ、返ってきたのは、510億ドルという答えだった。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-05 18:34:00",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32743110/",
+      "title": "トランプ氏 国防長官を続投へ",
+      "description": "アメリカのトランプ大統領は、交代が取りざたされているヘグセス国防長官について留任させる意向を示しました。トランプ大統領は5日、ABCテレビの取材に応じ、「ヘグセス国防長官を留任させるつもりだ」と述べたとい",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-05 17:05:33",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/e/6/e6d3d_1796_a00b599d_7a58eced.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.livedoor.com/article/detail/32743340/",
+      "title": "パラグアイのペニャ大統領が辞任 銀行破綻で混乱拡大",
+      "description": "【サンパウロ共同】南米パラグアイのペニャ大統領が5日、辞任した。同国の大手デジタル銀行の破綻を巡って預金者らが抗議デモを行うなど混乱が拡大し、野党から辞任を要求されていた。",
+      "source": "ライブドアニュース",
+      "published_at": "2026-11-05 18:33:35",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://image.news.livedoor.com/newsimage/stf/o/g/ogp_image_32743340_dbc67bafb522.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1a94c131f582fd8871f63c404435a057bf3785e3",
+      "title": "欧州で航空機に相次ぎ「爆破予告」 25便に影響(テレビ朝日系（ANN）)",
+      "description": "ヨーロッパの各地で飛行する航空便に相次いで爆破予告が行われ、少なくとも25便が緊急着陸する事態になりました。 5日、アイルランドのダブリンからイタリアのローマに向かっていた航空機が爆破予告を受けたとし",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 16:35:05",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000000-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6470610a1042cd21d4dd48fe416475890b444f89",
+      "title": "香港香港藝術館で竹の彫刻展 多数のコレクションを期間限定展示(みんなの経済新聞ネットワーク)",
+      "description": "コレクターから寄贈された竹根彫刻のコレクションを紹介する「竹墨之間——華萼交輝樓藏品捐贈展（On Ink and Bamboo: The Hua-e Jiao-hui Lou Donation）」が1",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 15:48:07",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000002-minkei-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9de069b2c791acada91c1245383d21f3271d2f20",
+      "title": "ロシア、JT子会社の資産を露企業に暫定移管 対日圧力の一環か 返還は不透明(産経新聞)",
+      "description": "ロシアのプーチン大統領は5日、日本たばこ産業（JT）の国際販売部門を担う子会社「JTインターナショナル」が露国内に持つ生産設備などの資産を、露企業に暫定的に移管すると定める大統領令に署名した。露主要メ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 15:57:19",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d08162dfe60a6c1562dd621c17295e50288492d5",
+      "title": "中国副首相「貿易黒字を追求せず」上海で開幕の輸入博で市場開放アピールし摩擦緩和狙う(産経新聞)",
+      "description": "【上海＝三塚聖平】中国・上海で5日、海外企業が製品やサービスを中国市場で売り込むために展示する政府主催の総合見本市、中国国際輸入博覧会が開幕した。共産党序列6位の丁薛祥筆頭副首相は開幕式の演説で、「わ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 15:58:59",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000001-san-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d29949a64a06bd7e152654191966794294d99dc8",
+      "title": "今日の歴史（11月6日）(聯合ニュース)",
+      "description": "1922年：韓国初の飛行士、安昌男（アン・チャンナム）が日本で東京―大阪の飛行に成功1979年：戒厳司令部が朴正熙（パク・チョンヒ）大統領暗殺事件の全容を発表1980年：プロ囲碁棋士の趙治勲（チョ・チ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 15:00:01",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e0ed797eb7f20947b6e14361c87e751108fdb47f",
+      "title": "フランスで全国一斉ストライキ 物価高に抗議 160万人参加 エッフェル塔も休館(テレビ朝日系（ANN）)",
+      "description": "フランスで全国一斉ストライキが実施されて多くの市民が物価高への対策などを求めて声を上げました。 フランス各地で5日、労働組合や学生団体の呼び掛けで大規模な抗議デモが行われ、労働組合の発表で約160万人",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 17:38:39",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f6260e6ef5c9af14018424389d8739849af52200",
+      "title": "パラグアイ大統領が辞任(共同通信)",
+      "description": "【サンパウロ共同】南米パラグアイのペニャ大統領が5日、辞任した。同国の大手デジタル銀行の破綻を巡って預金者らが抗議デモを行うなど混乱が拡大し、野党から辞任を要求されていた。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 18:33:35",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f8fb8093e78dbe133fdc5836921d74ba7be92c56",
+      "title": "米中間選挙で台湾への影響は？ 「台湾に有利に働く」との見方も 研究者ら座談会(テレビ朝日系（ANN）)",
+      "description": "共和党が大敗したアメリカの中間選挙を受け、台湾の一部の研究者は民主党が議会の主導権を握ることで「台湾には有利に働く」という見通しを示しました。 台北市で5日、研究者らが集まり、選挙結果が台湾にどう影響",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-05 14:58:05",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00000106-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/11c70522b0a1203be9389e78da267b2e",
+      "title": "ホルムズ海峡 タンカー3隻が被害",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 16:31:09",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/13efb6d0ef5415177d49c5195b16816b",
+      "title": "イラン安保委トップ 露大統領と会談",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 18:24:42",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/76a8235d6b40cd90e0bf15231a65ed7d",
+      "title": "仏で労働者デモとスト 賃上げ訴え",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 14:59:36",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/b07bc0fc78238decf196d8bcf5009665",
+      "title": "バンス氏投稿 米政権にすきま風？",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-05 16:05:47",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB05C6F0V01C26A1000000/",
+      "title": "トルコ兵にイラン側から銃撃か 国境で取り締まり中に死亡",
+      "description": "【イスタンブール=共同】トルコ国防省は5日、イランとの国境沿いで10月31日、不法入国取り締まり中のトルコ軍兵士がイラン側からとみられる銃撃を受け死亡したと発表した。両国の当局は捜査を開始。11月3日に現",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 15:25:05",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3836605005112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&upscale=false&w=1200&s=ce08031376efc084baf218daa42f69ef",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN05CJC0V01C26A1000000/",
+      "title": "米国の失業保険申請、週18.9万件 3.5カ月ぶりの低水準",
+      "description": "【アラスカ州アンカレジ=野一色遥花】米労働省が5日発表した失業保険統計（季節調整済み）によると、企業による解雇の動向を示す週間（10月25〜31日）の新規失業保険申請件数は18万9000件だった。7月中旬以来およそ3カ月半ぶりの低水準となった。前の週の改定値から6000件減少した。ダウ・ジ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 18:27:29",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3836756005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=a33b136aa1aaba55d6745f33832587c8",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN240450U6A021C2000000/",
+      "title": "米10月の人員削減4万3994人、前年同月比7割減 民間調査",
+      "description": "【アラスカ州アンカレジ=野一色遥花】米調査会社チャレンジャー・グレイ・アンド・クリスマスは1日、米企業や政府機関が計画した10月の人員削減数が前年同月比71%減の4万3994人だったと発表した。業況・景況を理由とした削減が目立った。10月単月としては2023年以来、3年ぶりの低水準となった。前月比では2%増だった。理由別では業況・景況が最も多い1万6407人で、全体の4割だった。（事業や店舗",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 18:35:48",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3829651004112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=133cacdf386487f7f2107e50a3b8d676",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR05B9U0V01C26A1000000/",
+      "title": "独コメルツ銀、伊銀による買収「価値創出を確信」 一転前向きに",
+      "description": "【フランクフルト=五艘志織】独大手コメルツ銀行のベッティーナ・オルロップ最高経営責任者（CEO）は5日、イタリアの金融大手ウニクレディトによる買収を巡り「両行の強みを生かし、価値を創出できると確信している」と前向きな姿勢を示した。ウニクレディトは2024年から段階的にコメルツ銀の買収を進めてきた。26年7月まで実施した公開買い付けで議決権比率を約5割まで高めるめどをつけ、欧州中央銀行（ECB）",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 17:49:12",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3836629005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=30e21cbdcd927977b3f78071172860d0",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC05C0L0V01C26A1000000/",
+      "title": "欧州の旅客機25便超に爆破予告、目的地変更や戦闘機護衛",
+      "description": "【ロンドン=鈴木麻佑子】欧州で5日、旅客機への爆破予告が相次いだ。25便超にのぼり、複数の便の目的地が変更となったほか、空軍の戦闘機による護衛を受けた旅客機もあった。欧州で複数の爆破予告があったのは3日に引き続き、今週で2回目となる。空港の一時閉鎖や緊急着陸などの影響があったものの、爆発物は確認されていない。ロイター通信は5日夕時点で、欧州で少なくとも27便が爆破予告を受けたと伝えた。アイル",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-05 17:37:41",
+      "first_seen": "2026-11-06T07:00:09.765021+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3836705005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=462&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=730d0966258283daecb5b0a5280a9ba5",
       "watch_point": null
     }
   ],
