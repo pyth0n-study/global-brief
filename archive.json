@@ -3826,7 +3826,12 @@
       "published_at": "2026-11-06 17:28:41",
       "first_seen": "2026-11-07T06:14:22.015273+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3837297006112026000000-3.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=ebb273c04aef631e100ca3dcdab0f07f",
-      "watch_point": null
+      "watch_point": {
+        "text": "年内の最終合意を目指し、各国間の協議を本格化させる。",
+        "evidence": "年内の最終合意を目指し、各国間の協議を本格化させる。",
+        "generated_at": "2026-11-07T17:47:14.497081+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGR06BAU0W6A101C2000000/",
@@ -4245,21 +4250,21 @@
         "owner": "42397996605-1",
         "fingerprint": "3ad90b96bf77e049d235e5b868ed1b5291b32847a21f503230ae2ffd51a61dbd",
         "url": "https://news.yahoo.co.jp/articles/0965742c6a01bea373de8a00f16c5e4e436e644c",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-08",
         "owner": "42397996605-1",
         "fingerprint": "2de5f139e922831c80e6cca81acc5abc0d47dbefc16d1f7b22452b81132272ab",
         "url": "https://www.nikkei.com/article/DGXZQOGR0608O0W6A101C2000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-08",
         "owner": "42397996605-1",
         "fingerprint": "5968aec514598b739e6a4f07ef63a6ed251adbed7ca583208bb750bcd81289d9",
         "url": "https://www.nikkei.com/article/DGXZQOGN0333N0T01C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
