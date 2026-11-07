@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "entries": {
+    "Q23548": {
+      "qid": "Q23548",
+      "label": "アメリカ航空宇宙局",
+      "description": "アメリカ合衆国政府の宇宙関連機関",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "National Aeronautics and Space Administration",
+      "revision": 2562673423,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q23548&oldid=2562673423"
+    },
+    "Q3304418": {
+      "qid": "Q3304418",
+      "label": "メーガン・マークル",
+      "description": "イギリスの女性王族、サセックス公爵・ヘンリー王子の妃（1981 - ）",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "Meghan, Duchess of Sussex",
+      "revision": 2565790684,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q3304418&oldid=2565790684"
+    },
+    "Q37230": {
+      "qid": "Q37230",
+      "label": "中央情報局",
+      "description": "アメリカ合衆国の情報機関",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "Central Intelligence Agency",
+      "revision": 2565599746,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q37230&oldid=2565599746"
+    },
+    "Q7184": {
+      "qid": "Q7184",
+      "label": "北大西洋条約機構",
+      "description": "北米、欧州各国が加盟する政府間軍事同盟",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "NATO",
+      "revision": 2561110595,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q7184&oldid=2561110595"
+    },
+    "Q7804": {
+      "qid": "Q7804",
+      "label": "国際通貨基金",
+      "description": "国際連合の専門機関の一つ",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "International Monetary Fund",
+      "revision": 2560346781,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q7804&oldid=2560346781"
+    },
+    "Q7817": {
+      "qid": "Q7817",
+      "label": "世界保健機関",
+      "description": "国際連合の専門機関の一つ",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "World Health Organization",
+      "revision": 2555598525,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q7817&oldid=2555598525"
+    },
+    "Q8333": {
+      "qid": "Q8333",
+      "label": "連邦捜査局",
+      "description": "アメリカ合衆国の警察機関",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "Federal Bureau of Investigation",
+      "revision": 2565581127,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q8333&oldid=2565581127"
+    },
+    "Q8901": {
+      "qid": "Q8901",
+      "label": "欧州中央銀行",
+      "description": "ユーロのための中央銀行",
+      "fetched_at": "2026-11-07T16:37:58.763803+00:00",
+      "english_label": "European Central Bank",
+      "revision": 2563833652,
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q8901&oldid=2563833652"
+    }
+  }
+}

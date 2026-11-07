@@ -24,6 +24,8 @@ document.querySelectorAll('[data-term-config]').forEach(quiz => {
     explanation.textContent = config.explanation;
     explanation.hidden = false;
     quiz.querySelector('.term-source').hidden = false;
+    const notes = quiz.querySelector('.quiz-notes');
+    if (notes) notes.hidden = false;
     show();
   }
   config.options.forEach((text, index) => {

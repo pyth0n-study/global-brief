@@ -6,4 +6,5 @@
 {% set map_size = [item.quiz.region.split()[2]|float, item.quiz.region.split()[3]|float]|min %}
 <g class="quiz-pins">{% for pin in item.quiz.pins %}<circle cx="{{ pin[0] }}" cy="{{ pin[1] }}" r="{{ map_size * 0.022 }}" fill="#d3edb8" fill-opacity=".8" stroke="#fff" stroke-width="{{ map_size * 0.002 }}"/><text x="{{ pin[0] }}" y="{{ pin[1] }}" dy=".35em" text-anchor="middle" fill="#17362d" font-size="{{ map_size * 0.032 }}" font-weight="bold">{{ ['A','B','C'][loop.index0] }}</text>{% endfor %}</g></g></svg>
 <div class="quiz-choices" role="group" aria-label="クイズの回答"></div><div class="quiz-feedback" aria-live="polite"></div>
+{% include 'quiz_notes.html' %}
 </div>

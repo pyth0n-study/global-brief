@@ -24,7 +24,11 @@ def run(folder, fetch=False):
         if not articles:
             raise ValueError('No articles received; keeping the previous published archive')
         archive_articles(articles)
+    from wikidata_notes import refresh
+    from watch_points import save
     payload = export_snapshot(path, metadata=previous)
+    refresh(payload)
+    save(path, payload)
     backup_snapshot(path)
     print('Archive snapshot ready:', payload['count'], 'articles')
     return payload

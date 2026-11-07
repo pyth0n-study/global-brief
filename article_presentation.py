@@ -90,6 +90,11 @@ def prepare_article(article):
     if not quiz and not item['term_quiz']:
         from headline_quizzes import headline_quiz_for_article
         item['term_quiz'] = headline_quiz_for_article(item)
+    from wikidata_notes import notes_for_article
+    item['knowledge_notes'] = notes_for_article(item)
+    if item['term_quiz']:
+        answer = item['term_quiz']['options'][item['term_quiz']['answer']]
+        item['knowledge_notes'].sort(key=lambda n: n['term'] != answer)
     aliases = {'日本': ('日本', '小泉防衛相'), '韓国': ('韓国',), '中国': ('中国',),
                'アメリカ': ('アメリカ', '米国', '米軍'), 'イスラエル': ('イスラエル',),
                'イラン': ('イラン',), 'スペイン': ('スペイン',), 'フランス': ('フランス',),

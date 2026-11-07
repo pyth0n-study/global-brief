@@ -45,6 +45,8 @@ def export_snapshot(path, db_path=None, metadata=None):
     payload = dict(version=1, updated_at=datetime.now(timezone.utc).isoformat(), count=len(rows), articles=rows)
     if metadata and isinstance(metadata.get('watch_trial'), dict):
         payload['watch_trial'] = metadata['watch_trial']
+    if metadata and isinstance(metadata.get('wikidata'), dict):
+        payload['wikidata'] = metadata['wikidata']
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix('.tmp')
@@ -83,6 +85,7 @@ def sync_public_archive():
             payload = response.json()
             count = restore_snapshot(payload)
             _status.update(updated_at=payload.get('updated_at'), count=count, unavailable=False)
+            _status['wikidata'] = payload.get('wikidata')
         except (requests.RequestException, ValueError, OSError, sqlite3.Error) as error:
             # Retain the last good database; never replace it with an empty failed response.
             _status['unavailable'] = True
