@@ -49,7 +49,7 @@
     feed.classList.add('is-sliding');
     const started = performance.now();
     const slide = now => {
-      const progress = Math.min(1, (now - started) / 600);
+      const progress = Math.min(1, (now - started) / 480);
       const eased = progress < .5 ? 4 * progress ** 3 : 1 - (-2 * progress + 2) ** 3 / 2;
       feed.scrollTop = start + (end - start) * eased;
       if (progress < 1) requestAnimationFrame(slide);
@@ -58,14 +58,23 @@
         feed.style.scrollSnapType = '';
         feed.style.scrollBehavior = '';
         feed.classList.remove('is-sliding');
-        setTimeout(() => { locked = false; delta = 0; }, 180);
+        setTimeout(() => { locked = false; delta = 0; }, 100);
       }
     };
     requestAnimationFrame(slide);
   };
   window.addEventListener('wheel', event => {
     if (document.querySelector('.saved-stories-dialog[open]')) return;
-    if (event.ctrlKey || event.target.closest('aside,.term-quiz,select,input,textarea') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+    if (event.ctrlKey || event.target.closest('select,input,textarea') || Math.abs(event.deltaX) > Math.abs(event.deltaY)) return;
+    // Only hand the gesture to an inner panel while it can actually scroll
+    // in this direction. A quiz that fits must never become a dead zone.
+    const inner = event.target.closest('aside,.inline-quiz');
+    if (inner && inner.scrollHeight > inner.clientHeight + 2) {
+      const room = event.deltaY > 0
+        ? inner.scrollTop + inner.clientHeight < inner.scrollHeight - 2
+        : inner.scrollTop > 2;
+      if (room) { delta = 0; return; }
+    }
     event.preventDefault();
     if (locked) return;
     delta += event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? feed.clientHeight : 1);
