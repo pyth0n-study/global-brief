@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T19:32:12.679717+00:00",
-  "count": 363,
+  "updated_at": "2026-11-07T06:14:22.037798+00:00",
+  "count": 383,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -3666,6 +3666,206 @@
       "published_at": "2026-11-06 07:04:00",
       "first_seen": "2026-11-06T19:32:12.675632+00:00",
       "image": "https://www.cnn.co.jp/storage/2026/11/06/fd93cc08a7dce1eb75694defc708aa6e/gettyimages-2303409799.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/120db06cb3d9cdc9d4beb0dc58f4d88a7e5a0eb1",
+      "title": "アメリカ10月の雇用統計 非農業部門の就業者数は16.5万人増 市場予想を上回る(テレビ朝日系（ANN）)",
+      "description": "アメリカの10月の雇用統計が発表され、就業者の伸びは市場予想を上回りました。 アメリカ労働省が6日に発表した10月の雇用統計によりますと、景気の動向を敏感に示す農業部門以外の就業者数は前の月と比べて1",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-06 13:46:41",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1eaa7a6604be99ebcb5c3ea2685e0979a770001e",
+      "title": "今日の歴史（11月7日）(聯合ニュース)",
+      "description": "1911年：国税徴収令公布1945年：咸興で反共を目的とする軍事行動が発生1978年：韓米連合軍司令部が発足1982年：内戦中のレバノンが韓国に派兵要請1983年：東亜建設が単一工事としては世界最大級",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-06 15:00:01",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3881e2def362a41bf9add33b75a1011292cd41ec",
+      "title": "10月の世界平均気温は過去最高 年間でも2026年は観測史上2番目の暑さの可能性(テレビ朝日系（ANN）)",
+      "description": "先月、10月の世界の平均気温が観測史上最も高かったと明らかになりました。 EU＝ヨーロッパ連合の気象情報機関「コペルニクス気候変動サービス」は6日、10月の世界の平均気温が平年を0.85℃上回る15.",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-06 14:15:04",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000111-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6e94a46480118d6d43318c313d9dd234658e2f63",
+      "title": "「組織的な妨害工作の可能性」 今度は放送局に爆破予告相次ぐ 欧州で旅客機に加え(テレビ朝日系（ANN）)",
+      "description": "旅客機への爆破予告が多発しているヨーロッパで、今度はテレビ局などメディアへの爆破予告が相次いでいます。 アイルランドの国営放送RTEによりますと、爆破予告は6日午前8時半すぎにRTEと複数のメディアに",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-06 14:58:06",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000113-ann-000-4-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/702ddef020513044cc26104326aeb9e7c8d065c1",
+      "title": "メーガン妃の父親が児童ポルノ所持で逮捕 ロス郊外の二つの倉庫に保管(テレビ朝日系（ANN）)",
+      "description": "イギリスのヘンリー王子の妻、メーガン妃の父親が児童ポルノ所持の疑いでFBIに逮捕されました。 アメリカ司法省によりますと、フロリダ州に住むメーガン妃の父親、トーマス・マークル容疑者（82）はロサンゼル",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-06 17:43:29",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-00000000-ann-000-9-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a69dd12d15047cd144fa484489f82d760a3337e5",
+      "title": "仏東部で路線バスが事故 2人死亡 通学中の7歳女児と18歳男性が死亡16人重軽傷(テレビ朝日系（ANN）)",
+      "description": "フランス東部で通学中の児童らを乗せたバスが道路を外れて木に衝突し、7歳の女の子を含む2人が死亡し、16人が重軽傷です。 事故があったのは、フランス東部のブール＝カン＝ブレス近郊です。 現地メディアなど",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-06 13:54:31",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000110-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/75b3dac7ec73fd19adfed79fb7ed7868",
+      "title": "仏でバスが衝突 2人死亡16人重軽傷",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-06 15:17:04",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/90388455330bb14e996d33280a0cbec4",
+      "title": "韓国で店に車突入 男は写真撮り帰宅",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-06 13:50:53",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d246770aae1a0b33b34c82b223ab6952",
+      "title": "メーガン妃の父親をFBIが逮捕 報道",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-06 17:31:46",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f34ccc6d85854f86c58f352f1954a198",
+      "title": "欧州で爆破予告相次ぐ 今度は放送局",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-06 16:34:47",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCD0204Z0S6A101C2000000/",
+      "title": "台北市長選、座視できない中国 クリス・ホートン氏",
+      "description": "国民党の牙城だった台北で驚くべきことが起きている。与党・民主進歩党（民進党）の市長が誕生する可能性があるのだ。勝利すれば、1994年に三つどもえの選挙戦を制して1期だけ市長を務めた陳水扁氏以来となる。現職の台北市長である蔣万安氏は、民進党で立法委員（国会議員）1期目の沈伯洋氏に屈辱的な敗北を喫する可能性に直面している。沈氏の選挙運動は「洋流」（名前の一字と、海流を意味する言葉を掛けた造語）とし",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 17:00:00",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3838585006112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=bfffa2b6bd71c13a0435cb315d7cb852",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOFL06C490W6A101C2000000/",
+      "title": "NYダウ、続落で始まる 早期利上げ観測高まり消費関連に売り",
+      "description": "【NQNニューヨーク=加治屋雄基】6日の米株式市場でダウ工業株30種平均は続落して始まり、午前9時35分現在は前日比517ドル88セント安の5万1005ドル18セントで推移している。6日朝発表の10月の米雇用統計を受けて米連邦準備理事会（FRB）が早期利上げに踏み切るとの見方がやや強まった。消費関連の一角に売りが出て、ダウ平均を押し下げている。10月の米雇用統計は、非農業部門の雇用者数が前月比",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 15:45:51",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3843303006112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=73a92d12008736fab06405426e1950f4",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM0492V0U6A101C2000000/",
+      "title": "「トランプ後」見据える中国、次のキッシンジャーを探し出せるか",
+      "description": "「米国は国別で最大の出展面積となった」。中国・上海市で5日に開幕した中国国際輸入博覧会を訪れると、米国のハイテク大手のブースがずらりと並ぶ。合計面積は東京ドーム並みの5万平方メートルを超えた。米テスラ、人工知能（AI）を半導体で支える米マイクロン・テクノロジー、半導体製造に欠かせないアプライドマテリアルズ（AMAT）、KLA、ラムリサーチの米装置大手3社がそろった。国家の安全保障を左右するA",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 17:00:00",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3836169005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=24e032f9f798ae5f1abc0318095b0d9f",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN0333N0T01C26A1000000/",
+      "title": "米決算トーク「原料高に値上げで対抗」 好決算でも消費見通しは警戒",
+      "description": "【ニューヨーク=内山瑞貴、石坪真衣】米主要企業の2026年7〜9月期決算が後半戦に入った。燃料高や原材料価格の上昇、高金利が続く中、値上げで逆風をはね返す企業が目立つ。経営トップからは消費見通しを警戒する発言が相次いでいる。「航空各社が燃料価格の上昇分の多くを運賃に転嫁できていることには、良い意味で驚いている」。米ユナイテッド航空のスコット・カービー最高経営責任者（CEO）は決算説明会でこう語",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 15:05:00",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3822557003112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=91f6d9c1113ad9ad7b75f350c9e61801",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN05CLA0V01C26A1000000/",
+      "title": "米就業者数10月16.5万人増、市場予測上回る 失業率は4.1%へ低下",
+      "description": "【ワシントン=川手伊織】米労働省が6日発表した10月の雇用統計によると、非農業部門の就業者数は前月から16万5000人増えた。6万人前後の増加を見込んだ市場予想を上回った。失業率は9月より0.1ポイント低い4.1%となった。8月と9月の就業者数も更新した。8月は13万3000人増から18万6000人増に、9月は2万9000人増から6万人増になり、いずれも上方修正した。金融市場では、金融政策の",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 13:39:36",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3836770005112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=dc36f2d9f422f0e2efeb0b9d88027307",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR0608O0W6A101C2000000/",
+      "title": "ECB次期総裁、オランダのクノット氏・スペインのデコス氏が候補者に",
+      "description": "【フランクフルト=五艘志織】欧州連合（EU）は6日、欧州中央銀行（ECB）の次期総裁にオランダ中銀のクノット前総裁とスペイン中銀のデコス前総裁の2人の推薦があったと明らかにした。年内の最終合意を目指し、各国間の協議を本格化させる。ユーロ圏の財務相で構成する「ユーログループ」の議長声明で公表した。6日を各国からの推薦の締め切りとしていた。今後は加盟国間で議論し、欧州議会やECB理事会との協議を経",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 17:28:41",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3837297006112026000000-3.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=ebb273c04aef631e100ca3dcdab0f07f",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR06BAU0W6A101C2000000/",
+      "title": "10月の気温、過去最高 年間で産業革命前から「1.5度超上昇」へ",
+      "description": "【ロンドン=福岡幸太郎】欧州連合（EU）の気象情報機関は6日、世界の10月の平均気温が15.35度と同月として観測史上最も高かったと発表した。2026年は年間の平均気温が産業革命前より1.5度超高くなるのが確実だという。単年の数値は2年ぶりに気候変動対策の目標値を超える。EU機関「コペルニクス気候変動サービス」によれば、10月の平均気温は23年の15.30度を超え、史上最も高くなった。1991",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 16:44:27",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3843095006112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=807&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=c52c6ba4be377280f4cebada8bdfe58b",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUA022RC0S6A101C2000000/",
+      "title": "中国市場、企業は残るも引くもリスク 「経熱」生まぬ日中国内世論",
+      "description": "1年前の高市早苗首相の「台湾有事」答弁を機に日中の対立が深まり、経済界の交流も停滞が続く。両国関係において政治が冷え込んでも経済は活発なことを表す「政冷経熱」の面影はない。日本企業は中国市場に残るも引くもリスクがある。「20年前は経済から政治に関係改善を働きかけた。今は中国国内が習近平（シー・ジンピン）国家主席の顔色を見ていて、日中首脳会談が実現しないと物事が動きにくい」。経団連幹部は6日、胸",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 17:00:00",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3835162005112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=696&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=73d1483bf762dffa5a58179e4485f094",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC060Y20W6A101C2000000/",
+      "title": "ロシア事業、日本企業65社が継続 撤退には巨額損失伴う事例も",
+      "description": "米エール大の調べで、ロシア事業を継続する日本企業が65社あることがわかった。経済産業省によると100社以上が拠点を維持しているという。事業を縮小したり新規投資を止めたりしても撤退はせずに拠点や人員を残す企業も多い。三菱商事と三井物産はロシア極東の石油・天然ガス開発事業「サハリン2」に参画している。同事業は米国の経済制裁の対象外で日本に液化天然ガス（LNG）の輸出を続けている。伊藤忠商事と丸紅は",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 17:00:00",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3841392006112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2128776815af693b27f24b284f235714",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC06BYT0W6A101C2000000/",
+      "title": "小池都知事、英国でロボタクシー視察 AIでロンドンとも連携強化",
+      "description": "【ロンドン=鈴木麻佑子】東京都の小池百合子知事は6日、ロンドンで自動運転タクシー（ロボタクシー）を視察した。ロンドン市長とも面会し、人工知能（AI）の連携強化に向けた協定を結んだ。自動運転を手掛ける英ウェイブ・テクノロジーズの本社を訪問した。同社のサラ・ゲイツ副社長らと会い「技術と安全性の両方が進むことを期待している」と話した。運転手がほぼ操作せずに走行できる「レベル2＋＋」の自動運転車両に",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-06 16:27:07",
+      "first_seen": "2026-11-07T06:14:22.015273+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3843289006112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=1f5dd084bf9c472c110738804066ba89",
       "watch_point": null
     }
   ],
