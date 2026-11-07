@@ -80,6 +80,117 @@
       "revision": 2563833652,
       "source": "Wikidata",
       "url": "https://www.wikidata.org/w/index.php?title=Q8901&oldid=2563833652"
+    },
+    "Q1065": {
+      "qid": "Q1065",
+      "label": "国際連合",
+      "description": "政府間組織",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "United Nations",
+      "revision": 2563146967,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q1065&oldid=2563146967"
+    },
+    "Q12638": {
+      "qid": "Q12638",
+      "label": "国内総生産",
+      "description": "一定期間内に国内で産み出された付加価値の総額",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "gross domestic product",
+      "revision": 2558260936,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q12638&oldid=2558260936"
+    },
+    "Q180687": {
+      "qid": "Q180687",
+      "label": "消費者物価指数",
+      "description": "末端価格の変動を表す指数",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "consumer price index",
+      "revision": 2558184430,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q180687&oldid=2558184430"
+    },
+    "Q261703": {
+      "qid": "Q261703",
+      "label": "小池百合子",
+      "description": "日本の女性政治家、第20～22代東京都知事 (1952-)",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "Yuriko Koike",
+      "revision": 2555788169,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q261703&oldid=2555788169"
+    },
+    "Q458": {
+      "qid": "Q458",
+      "label": "欧州連合",
+      "description": "ヨーロッパ諸国による政治経済の統合を目指した国家連合",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "European Union",
+      "revision": 2562960941,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q458&oldid=2562960941"
+    },
+    "Q52389": {
+      "qid": "Q52389",
+      "label": "関税",
+      "description": "国境や特定地域を通過する物品に課され、輸入業者が支払うが、コストとして消費者に転嫁される税",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "tariff",
+      "revision": 2550382398,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q52389&oldid=2550382398"
+    },
+    "Q5440396": {
+      "qid": "Q5440396",
+      "label": "連邦準備制度理事会",
+      "description": "アメリカ合衆国の連邦準備制度の統括機関",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "Board of Governors of the Federal Reserve System",
+      "revision": 2547029892,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q5440396&oldid=2547029892"
+    },
+    "Q7795": {
+      "qid": "Q7795",
+      "label": "石油輸出国機構",
+      "description": "石油の輸出国による国際組織",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "Organization of the Petroleum Exporting Countries",
+      "revision": 2558015645,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q7795&oldid=2558015645"
+    },
+    "Q7825": {
+      "qid": "Q7825",
+      "label": "世界貿易機関",
+      "description": "自由貿易促進を主な目的とする国際機関",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "World Trade Organization",
+      "revision": 2564655391,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q7825&oldid=2564655391"
+    },
+    "Q845339": {
+      "qid": "Q845339",
+      "label": "気温",
+      "description": "大気の温度",
+      "fetched_at": "2026-11-07T17:03:54.293251+00:00",
+      "english_label": "atmospheric temperature",
+      "revision": 2544215416,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q845339&oldid=2544215416"
     }
-  }
+  },
+  "lookups": {}
 }

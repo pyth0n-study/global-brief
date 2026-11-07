@@ -19,7 +19,7 @@ def fixture():
 class WikidataNotesTests(unittest.TestCase):
     def test_identity_and_unknown_names(self):
         self.assertEqual([q for _, _, q in identified_terms('メーガン妃の父親をFBIが逮捕 報道')], ['Q3304418', 'Q8333'])
-        for title in ['メーガンが会見', 'NOTFBIが会見', '別の出来事(FBIニュース)', 'FBIという同名ドラマ', '映画FBIの新作']:
+        for title in ['メーガンが会見', 'NOTFBIが会見', '別の出来事(FBIニュース)', 'FBIという同名ドラマ', '映画FBIの新作', 'FRBという天文現象を観測', 'CPIの党大会']:
             self.assertEqual(identified_terms(title), [])
 
     def test_validation_rejects_wrong_missing_stale_and_forged_link(self):

@@ -23,6 +23,20 @@ ENTITIES = {
     'Q7817': ('World Health Organization', ('WHO', '世界保健機関')),
     'Q7184': ('NATO', ('NATO', '北大西洋条約機構')),
 }
+ENTITIES.update({
+    'Q1065': ('United Nations', ('国連', '国際連合')),
+    'Q458': ('European Union', ('EU', '欧州連合')),
+    'Q7825': ('World Trade Organization', ('WTO', '世界貿易機関')),
+    'Q261703': ('Yuriko Koike', ('小池百合子', '小池都知事')),
+    'Q1787954': ('unemployment rate', ('失業率',)),
+    'Q180687': ('consumer price index', ('消費者物価指数', 'CPI')),
+    'Q12638': ('gross domestic product', ('国内総生産', 'GDP')),
+    'Q52389': ('tariff', ('関税',)),
+    'Q845339': ('atmospheric temperature', ('気温',)),
+    'Q7795': ('Organization of the Petroleum Exporting Countries', ('OPEC', '石油輸出国機構')),
+    'Q5440396': ('Board of Governors of the Federal Reserve System', ('FRB', '連邦準備制度理事会')),
+})
+
 
 
 def identified_terms(title):
@@ -31,7 +45,9 @@ def identified_terms(title):
     if re.search(r'ドラマ|映画|小説|ゲーム|架空|同名|ものまね|なりすまし', title): return []
     found = []
     for qid, (_, words) in ENTITIES.items():
-        matches = [(m.start(), w) for w in words for m in mentions(w, title)]
+        matches = [(m.start(), w) for w in words for m in mentions(w, title)
+                   if w not in ('FRB', 'CPI') or re.search(
+                       r'金融|金利|利上げ|利下げ|連邦準備|物価|消費者|インフレ|価格', title)]
         if matches:
             position, word = min(matches, key=lambda x: (x[0], -len(x[1])))
             found.append((position, word, qid))
@@ -39,30 +55,52 @@ def identified_terms(title):
 
 
 def valid_note(qid, note, now=None):
-    if qid not in ENTITIES or not isinstance(note, dict): return None
+    if not isinstance(qid, str) or not re.fullmatch(r'Q[1-9][0-9]*', qid) or not isinstance(note, dict): return None
+    if qid not in ENTITIES:
+        from wikidata_discovery import valid_identity
+        if not valid_identity(note): return None
     now = now or datetime.now(timezone.utc)
     try:
         stamp = datetime.fromisoformat(note['fetched_at'])
         if not stamp.tzinfo or not timedelta(0) <= now - stamp <= MAX_AGE: return None
     except (KeyError, TypeError, ValueError): return None
     text, label, revision = note.get('description'), note.get('label'), note.get('revision')
-    if note.get('qid') != qid or note.get('english_label') != ENTITIES[qid][0]: return None
+    if note.get('qid') != qid: return None
+    if qid in ENTITIES and note.get('english_label') != ENTITIES[qid][0]: return None
     if not isinstance(text, str) or not 4 <= len(text) <= 180 or not re.search(r'[ぁ-んァ-ヶ一-龯]', text): return None
     if not isinstance(label, str) or not 1 <= len(label) <= 80: return None
     if re.search(r'[<>\n\r]|曖昧さ回避|ウィキメディア|disambiguation', text, re.I): return None
     if not isinstance(revision, int) or isinstance(revision, bool) or revision < 1: return None
-    return dict(qid=qid, label=label, description=text, fetched_at=note['fetched_at'],
+    result = dict(qid=qid, label=label, description=text, fetched_at=note['fetched_at'],
                 english_label=note['english_label'], revision=revision,
                 fetched_day=stamp.astimezone(timezone(timedelta(hours=9))).date().isoformat(),
                 source='Wikidata', url=f'https://www.wikidata.org/w/index.php?title={qid}&oldid={revision}')
+    if qid not in ENTITIES: result['identity'] = note['identity']
+    return result
+
+
+def seed_notes():
+    try:
+        return json.loads((Path(__file__).parent / 'data/wikidata_notes.json').read_text(encoding='utf-8'))
+    except (OSError, ValueError): return {'version': 1, 'entries': {}}
+
+
+def merge_seed(cache, now=None):
+    # Newly verified bindings can be previewed before the next scheduled run.
+    entries = cache.setdefault('entries', {})
+    for qid, note in seed_notes().get('entries', {}).items():
+        if valid_note(qid, note, now) and (not valid_note(qid, entries.get(qid), now)
+                or note['fetched_at'] > entries[qid]['fetched_at']):
+            entries[qid] = note
+    return cache
 
 
 def cached_notes():
     from archive_store import _status
-    if isinstance(_status.get('wikidata'), dict): return _status['wikidata']
-    try:
-        return json.loads((Path(__file__).parent / 'data/wikidata_notes.json').read_text(encoding='utf-8'))
-    except (OSError, ValueError): return {}
+    cache = _status.get('wikidata')
+    if isinstance(cache, dict):
+        return merge_seed(dict(cache, entries=dict(cache.get('entries', {}))))
+    return seed_notes()
 
 
 def notes_for_article(article, cache=None, now=None):
@@ -73,10 +111,14 @@ def notes_for_article(article, cache=None, now=None):
     for _, term, qid in identified_terms(article.get('title', '')):
         note = valid_note(qid, entries.get(qid), now)
         if note: result.append(dict(note, term=term))
+    from wikidata_discovery import dynamic_matches
+    for term, qid in dynamic_matches(article, entries):
+        note = valid_note(qid, entries.get(qid), now)
+        if note and not any(n['qid'] == qid for n in result): result.append(dict(note, term=term))
     return result[:2]
 
 
-def refresh(payload, session=None, now=None, interactive=False):
+def refresh_known(payload, session=None, now=None, interactive=False):
     """One bounded batch request during ingestion; never on page views."""
     now = now or datetime.now(timezone.utc)
     if 'wikidata' not in payload:
@@ -100,6 +142,7 @@ def refresh(payload, session=None, now=None, interactive=False):
         response.raise_for_status()
         body = response.json()
         if body.get('error'):
+            cache['deferred_until'] = (now + timedelta(hours=1)).isoformat()
             print('Wikidata deferred; descriptions hidden until a later scheduled refresh')
             return 0
         entities = body.get('entities', {})
@@ -117,8 +160,21 @@ def refresh(payload, session=None, now=None, interactive=False):
                 count += 1
         return count
     except (requests.RequestException, ValueError, TypeError, AttributeError):
+        cache['deferred_until'] = (now + timedelta(hours=1)).isoformat()
         print('Wikidata unavailable; unresolved introductions hidden')
         return 0
+
+
+def refresh(payload, session=None, now=None, interactive=False):
+    now = now or datetime.now(timezone.utc)
+    deferred = payload.get('wikidata', {}).get('deferred_until')
+    if deferred:
+        try:
+            if now < datetime.fromisoformat(deferred): return 0
+        except (ValueError, TypeError): pass
+    count = refresh_known(payload, session, now, interactive)
+    from wikidata_discovery import discover
+    return count + discover(payload, session, now, interactive)
 
 
 if __name__ == '__main__':
