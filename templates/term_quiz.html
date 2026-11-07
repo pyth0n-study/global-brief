@@ -1,8 +1,8 @@
-<div class="inline-quiz term-quiz" data-term-config='{{ item.term_quiz|tojson }}'>
-  <div class="quiz-top"><strong>ニュースの用語クイズ</strong><button type="button" class="quiz-skip">スキップ</button></div>
-  <div class="term-word">{{ item.term_quiz.term }}</div>
+<div class="inline-quiz term-quiz{% if item.term_quiz.kind == 'headline' %} headline-quiz{% endif %}" data-term-config='{{ item.term_quiz|tojson }}'>
+  <div class="quiz-top"><strong>{{ '見出しの空欄は？' if item.term_quiz.kind == 'headline' else 'ニュースの用語クイズ' }}</strong><button type="button" class="quiz-skip">スキップ</button></div>
+  <div class="term-word">{{ '［？］' if item.term_quiz.kind == 'headline' else item.term_quiz.term }}</div>
   <div class="term-question">{{ item.term_quiz.question }}</div>
-  <div class="quiz-choices" role="group" aria-label="用語クイズの回答"></div>
+  <div class="quiz-choices" role="group" aria-label="クイズの回答"></div>
   <div class="quiz-feedback" aria-live="polite"></div>
   <p class="term-explanation" hidden></p>
   <a class="term-source" href="{{ item.term_quiz.url }}" target="_blank" rel="noopener noreferrer" hidden>{{ item.term_quiz.source }} ↗</a>
