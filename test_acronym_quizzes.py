@@ -67,5 +67,18 @@ class AutomaticAcronymTests(unittest.TestCase):
   self.assertEqual(preview['term_quiz']['kind'],'acronym')
   self.assertIsNone(preview['quiz_country'])
   self.assertEqual(preview['image'],'')
+ def test_production_prioritizes_automatic_quiz_but_keeps_photo(self):
+  from article_presentation import prepare_article
+  p,_,_=self.resolve()
+  notes=notes_for_article(ARTICLE,p['wikidata'],NOW)
+  for image in ['', 'https://example.org/photo.jpg']:
+   with patch('wikidata_notes.notes_for_article',return_value=notes), patch('requests.get',side_effect=AssertionError('Network')):
+    item=prepare_article(dict(ARTICLE,title='IAEAが米国について報告',image=image))
+   self.assertEqual(item['term_quiz']['kind'],'acronym')
+   self.assertIsNone(item['quiz_country'])
+   self.assertEqual(item['image'],image)
+  with patch('wikidata_notes.notes_for_article',return_value=[]):
+   item=prepare_article(dict(ARTICLE,title='IAEAが米国について報告'))
+  self.assertEqual(item['quiz_country'],'USA')
 
 if __name__=='__main__':unittest.main()

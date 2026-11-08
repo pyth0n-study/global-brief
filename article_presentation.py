@@ -106,17 +106,18 @@ def prepare_article(article, prefer_acronym=False):
         item['term_quiz'] = headline_quiz_for_article(item)
     from wikidata_notes import notes_for_article
     item['knowledge_notes'] = notes_for_article(item)
-    if not quiz or prefer_acronym:
-        from acronym_quizzes import acronym_quiz_for_article
-        automatic_quiz = acronym_quiz_for_article(item, item['knowledge_notes'])
-        if automatic_quiz and (prefer_acronym or not item['term_quiz'] or item['term_quiz'].get('kind') == 'headline'):
-            item['term_quiz'] = automatic_quiz
-            if prefer_acronym:
-                item['quiz'] = None
-                item['quiz_country'] = None
-                item['image'] = ''
-            # This explanation is already revealed by the question itself.
-            item['knowledge_notes'] = [n for n in item['knowledge_notes'] if n['term'] != automatic_quiz['term']]
+    from acronym_quizzes import acronym_quiz_for_article
+    automatic_quiz = acronym_quiz_for_article(item, item['knowledge_notes'])
+    if automatic_quiz and (prefer_acronym or not item['term_quiz'] or item['term_quiz'].get('kind') == 'headline'):
+        item['term_quiz'] = automatic_quiz
+        item['quiz'] = None
+        item['quiz_country'] = None
+        # Production retains the photo. The browser reveals this quiz only when
+        # the photo is absent, fails, or is an unusable placeholder.
+        if prefer_acronym:
+            item['image'] = ''
+        # This explanation is already revealed by the question itself.
+        item['knowledge_notes'] = [n for n in item['knowledge_notes'] if n['term'] != automatic_quiz['term']]
     if item['term_quiz']:
         answer = item['term_quiz']['options'][item['term_quiz']['answer']]
         item['knowledge_notes'].sort(key=lambda n: n['term'] != answer)
