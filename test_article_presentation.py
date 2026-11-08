@@ -119,5 +119,8 @@ class ExpandedQuizTests(unittest.TestCase):
             return False
         for _, code, _, _, region, pins in COUNTRIES[24:]:
             self.assertTrue(contains(code, pins[1]), code)
+            if code == 'POL':
+                for neighbor, pin in zip(['DEU', 'POL', 'CZE'], pins):
+                    self.assertTrue(contains(neighbor, pin), neighbor)
             x,y,w,h = map(float, region.split())
             self.assertTrue(all(x <= px <= x+w and y <= py <= y+h for px,py in pins), code)
