@@ -19,6 +19,7 @@ submission = Blueprint('submission', __name__)
 @submission.get('/preview/feed')
 @submission.get('/preview/social')
 @submission.get('/preview/acronyms')
+@submission.get('/preview/flags')
 def home():
     payload = load_home_feed(request.args.get('article', ''))
     if payload.get('requested_not_found'):
@@ -29,6 +30,17 @@ def home():
         articles = [a for a in articles if (a.get('term_quiz') or {}).get('kind') == 'acronym']
         if not articles:
             abort(404, description='現在、自動照合できた略語問題はありません。')
+    flag_preview = request.path == '/preview/flags'
+    if flag_preview:
+        import secrets
+        from flag_quizzes import flag_quiz
+        mode = request.args.get('quiz', '')
+        for item in articles:
+            flag = flag_quiz(item.get('quiz_country'))
+            if flag and (mode == 'flag' or (mode != 'map' and secrets.randbelow(2) == 0)):
+                item['quiz'] = None
+                item['quiz_country'] = None
+                item['term_quiz'] = flag
     articles = attach_japan_connections(attach_timelines(articles))
     for article in articles:
         article['url_hash'] = hashlib.md5(article['url'].encode()).hexdigest()
@@ -51,7 +63,7 @@ def home():
         motion=False, countries=world_paths(), timelines=load_timelines(),
         submission_mode=True, captured_at=payload['captured_at'], separated_feed=True, immersive_feed=True,
         live_archive=payload.get('live_archive', False), archive_status=payload.get('archive_status', {}),
-        social_preview=True, acronym_preview=acronym_preview)
+        social_preview=True, acronym_preview=acronym_preview, flag_preview=flag_preview)
 
 
 @submission.get('/about')

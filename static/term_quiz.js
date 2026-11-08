@@ -8,6 +8,7 @@ document.querySelectorAll('[data-term-config]').forEach(quiz => {
     quiz.hidden = article.classList.contains('has-photo');
     article.classList.toggle('quiz-pending', !quiz.hidden && !answered);
     article.classList.toggle('quiz-done', !quiz.hidden && answered);
+    if (config.kind === 'flag') headline.textContent = !quiz.hidden && !answered ? originalTitle.replaceAll(config.term, 'この国') : originalTitle;
     if (config.kind === 'headline') headline.textContent = !quiz.hidden && !answered ? config.question : originalTitle;
   }
   function finish(choice) {
