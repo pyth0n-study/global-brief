@@ -66,6 +66,6 @@ class AutomaticAcronymTests(unittest.TestCase):
    preview=prepare_article(dict(ARTICLE,title='IAEAが米国について報告',image='https://example.org/photo.jpg'),prefer_acronym=True)
   self.assertEqual(preview['term_quiz']['kind'],'acronym')
   self.assertIsNone(preview['quiz_country'])
-  self.assertIsNone(preview['image'])
+  self.assertEqual(preview['image'],'')
 
 if __name__=='__main__':unittest.main()

@@ -114,7 +114,7 @@ def prepare_article(article, prefer_acronym=False):
             if prefer_acronym:
                 item['quiz'] = None
                 item['quiz_country'] = None
-                item['image'] = None
+                item['image'] = ''
             # This explanation is already revealed by the question itself.
             item['knowledge_notes'] = [n for n in item['knowledge_notes'] if n['term'] != automatic_quiz['term']]
     if item['term_quiz']:
