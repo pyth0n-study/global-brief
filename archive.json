@@ -4665,6 +4665,27 @@
         "fingerprint": "5968aec514598b739e6a4f07ef63a6ed251adbed7ca583208bb750bcd81289d9",
         "url": "https://www.nikkei.com/article/DGXZQOGN0333N0T01C26A1000000/",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-09",
+        "owner": "42507596227-1",
+        "fingerprint": "caaad35e4ca8641843369e054bd6bfff17344b30428bde1db92d334d619e5998",
+        "url": "https://news.yahoo.co.jp/articles/bcc1c361783bb7fd6933f42830af31e58e6726a4",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-09",
+        "owner": "42507596227-1",
+        "fingerprint": "c25f2ddb9ed98a56036a615e3cec9f22fbecf5271b0f34b3452b16bc46582143",
+        "url": "https://news.yahoo.co.jp/articles/257e18ccd27f9c762aa16b033fa07a58d3b4fa75",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-09",
+        "owner": "42507596227-1",
+        "fingerprint": "eb904f32ddeb2410d31f50b95e9a18515f05d5ab2bfa2c7d290a48c663518a9c",
+        "url": "https://www.cnn.co.jp/world/35254562.html",
+        "status": "reserved"
       }
     ]
   },
