@@ -4451,7 +4451,12 @@
       "published_at": "2026-11-08 04:15:00",
       "first_seen": "2026-11-08T17:58:33.918562+00:00",
       "image": "https://www.cnn.co.jp/storage/2026/11/08/02a69450e2244ab33fec5e2fd2c34675/israel-election.jpg",
-      "watch_point": null
+      "watch_point": {
+        "text": "アイゼンコット氏は14日間の延長期間を含め最長42日間のうちに連立交渉をまとめる必要がある。",
+        "evidence": "アイゼンコット氏は14日間の延長期間を含め最長42日間のうちに連立交渉をまとめる必要がある。",
+        "generated_at": "2026-11-08T17:58:39.605774+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGM080PC0Y6A101C2000000/",
@@ -4671,21 +4676,21 @@
         "owner": "42507596227-1",
         "fingerprint": "caaad35e4ca8641843369e054bd6bfff17344b30428bde1db92d334d619e5998",
         "url": "https://news.yahoo.co.jp/articles/bcc1c361783bb7fd6933f42830af31e58e6726a4",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-09",
         "owner": "42507596227-1",
         "fingerprint": "c25f2ddb9ed98a56036a615e3cec9f22fbecf5271b0f34b3452b16bc46582143",
         "url": "https://news.yahoo.co.jp/articles/257e18ccd27f9c762aa16b033fa07a58d3b4fa75",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-09",
         "owner": "42507596227-1",
         "fingerprint": "eb904f32ddeb2410d31f50b95e9a18515f05d5ab2bfa2c7d290a48c663518a9c",
         "url": "https://www.cnn.co.jp/world/35254562.html",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   },
