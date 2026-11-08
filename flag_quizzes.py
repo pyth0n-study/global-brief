@@ -1,15 +1,65 @@
-"""Small, verified local flag illustrations for the optional preview."""
-FLAGS = {
- 'POL': ('ポーランド', '0 0 8 5', '<path fill="#fff" d="M0 0h8v2.5H0z"/><path fill="#dc143c" d="M0 2.5h8V5H0z"/>', '上が白、下が赤の2本の横帯です。', 'https://www.gov.pl/web/diplomacy/polands-day-of-the-flag'),
- 'DEU': ('ドイツ', '0 0 5 3', '<path fill="#000" d="M0 0h5v1H0z"/><path fill="#d00" d="M0 1h5v1H0z"/><path fill="#ffce00" d="M0 2h5v1H0z"/>', '上から黒・赤・金の3本の横帯です。', 'https://www.gesetze-im-internet.de/flaggano_1996/i_.html'),
- 'FRA': ('フランス', '0 0 3 2', '<path fill="#000091" d="M0 0h1v2H0z"/><path fill="#fff" d="M1 0h1v2H1z"/><path fill="#e1000f" d="M2 0h1v2H2z"/>', '左から青・白・赤の3本の縦帯です。', 'https://www.elysee.fr/la-presidence/le-drapeau-francais'),
-}
+"""Bundled, ISO-matched flag quizzes; no runtime network or AI calls."""
+from functools import lru_cache
+import hashlib
+import json
+from pathlib import Path
+import re
+import uuid
+import xml.etree.ElementTree as ET
+
+DIRECTORY = Path(__file__).parent / 'static/flags'
+FLAGS = json.loads((DIRECTORY / 'manifest.json').read_text(encoding='utf-8'))
+ET.register_namespace('', 'http://www.w3.org/2000/svg')
+ET.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
+TAGS = {'svg', 'path', 'g', 'use', 'defs', 'circle', 'clipPath', 'ellipse', 'marker'}
+ATTRIBUTES = {'clip-path','cx','cy','d','fill','fill-opacity','fill-rule','height','id','marker-mid',
+    'markerHeight','markerWidth','r','rx','ry','stroke','stroke-linecap','stroke-linejoin',
+    'stroke-miterlimit','stroke-opacity','stroke-width','transform','viewBox','width','y',
+    '{http://www.w3.org/1999/xlink}href'}
+EXPLANATIONS = {'POL':'上が白、下が赤の2本の横帯です。', 'DEU':'上から黒・赤・金の3本の横帯です。',
+                'FRA':'左から青・白・赤の3本の縦帯です。'}
+
+
+@lru_cache(maxsize=64)
+def validated_svg(code):
+    if code not in FLAGS: return None
+    try:
+        raw = (DIRECTORY / FLAGS[code]['file']).read_text(encoding='utf-8')
+        if len(raw) > 100000 or '<!' in raw: return None
+        root = ET.fromstring(raw)
+        ids = {e.get('id') for e in root.iter() if e.get('id')}
+        for e in root.iter():
+            if e.tag not in {'{http://www.w3.org/2000/svg}' + t for t in TAGS}: return None
+            if any(k not in ATTRIBUTES for k in e.attrib): return None
+            for k, v in e.attrib.items():
+                if k.endswith('href') and (not v.startswith('#') or v[1:] not in ids): return None
+                if 'url(' in v and not re.fullmatch(r'url\(#[A-Za-z0-9_-]+\)', v): return None
+        return raw
+    except (OSError, ValueError, ET.ParseError): return None
 
 
 def flag_quiz(code):
-    if code not in FLAGS: return None
-    name, viewbox, drawing, explanation, source = FLAGS[code]
-    options = [v[0] for v in FLAGS.values()]
-    return dict(kind='flag', term=name, question='この国旗の国は？', options=options,
-                answer=options.index(name), explanation=explanation, source='国旗の出典：政府公式資料', url=source,
-                flag_svg=f'<svg viewBox="{viewbox}" role="img" aria-label="クイズの国旗">{drawing}</svg>')
+    raw = validated_svg(code)
+    if raw is None: return None
+    from article_presentation import COUNTRIES
+    name = FLAGS[code]['name']
+    row = next((r for r in COUNTRIES if r[1] == code), None)
+    if row is None or row[0] != name: return None
+    # Neighboring names make useful distractors; always keep exactly three choices.
+    wrong = [n for n in row[3] if n != name]
+    wrong += [v['name'] for v in FLAGS.values() if v['name'] != name and v['name'] not in wrong]
+    answer = int(hashlib.sha256(code.encode()).hexdigest()[:8], 16) % 3
+    options = wrong[:2]
+    options.insert(answer, name)
+    root = ET.fromstring(raw)
+    prefix = 'flag-' + uuid.uuid4().hex + '-'
+    ids = {e.get('id'): prefix + e.get('id') for e in root.iter() if e.get('id')}
+    for e in root.iter():
+        for k, v in list(e.attrib.items()):
+            if k == 'id': e.set(k, ids[v])
+            elif k.endswith('href'): e.set(k, '#' + ids[v[1:]])
+            elif v.startswith('url(#'): e.set(k, 'url(#' + ids[v[5:-1]] + ')')
+    root.set('role', 'img'); root.set('aria-label', 'クイズの国旗')
+    return dict(kind='flag', term=name, question='この国旗の国は？', options=options, answer=answer,
+                explanation=EXPLANATIONS.get(code, name + 'の国旗です。'), source='国旗の図柄：flag-icons（MIT）',
+                url=FLAGS[code]['source'], flag_svg=ET.tostring(root, encoding='unicode'))

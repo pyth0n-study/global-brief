@@ -1,0 +1,240 @@
+{
+  "ESP": {
+    "name": "スペイン",
+    "iso2": "es",
+    "upstream_name": "Spain",
+    "file": "ESP.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/es.svg"
+  },
+  "USA": {
+    "name": "アメリカ",
+    "iso2": "us",
+    "upstream_name": "United States of America",
+    "file": "USA.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/us.svg"
+  },
+  "ISR": {
+    "name": "イスラエル",
+    "iso2": "il",
+    "upstream_name": "Israel",
+    "file": "ISR.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/il.svg"
+  },
+  "KOR": {
+    "name": "韓国",
+    "iso2": "kr",
+    "upstream_name": "South Korea",
+    "file": "KOR.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/kr.svg"
+  },
+  "FRA": {
+    "name": "フランス",
+    "iso2": "fr",
+    "upstream_name": "France",
+    "file": "FRA.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/fr.svg"
+  },
+  "BRA": {
+    "name": "ブラジル",
+    "iso2": "br",
+    "upstream_name": "Brazil",
+    "file": "BRA.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/br.svg"
+  },
+  "MNG": {
+    "name": "モンゴル",
+    "iso2": "mn",
+    "upstream_name": "Mongolia",
+    "file": "MNG.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/mn.svg"
+  },
+  "CHN": {
+    "name": "中国",
+    "iso2": "cn",
+    "upstream_name": "China",
+    "file": "CHN.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/cn.svg"
+  },
+  "JPN": {
+    "name": "日本",
+    "iso2": "jp",
+    "upstream_name": "Japan",
+    "file": "JPN.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/jp.svg"
+  },
+  "IRN": {
+    "name": "イラン",
+    "iso2": "ir",
+    "upstream_name": "Iran",
+    "file": "IRN.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ir.svg"
+  },
+  "UKR": {
+    "name": "ウクライナ",
+    "iso2": "ua",
+    "upstream_name": "Ukraine",
+    "file": "UKR.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ua.svg"
+  },
+  "RUS": {
+    "name": "ロシア",
+    "iso2": "ru",
+    "upstream_name": "Russia",
+    "file": "RUS.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ru.svg"
+  },
+  "DEU": {
+    "name": "ドイツ",
+    "iso2": "de",
+    "upstream_name": "Germany",
+    "file": "DEU.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/de.svg"
+  },
+  "GBR": {
+    "name": "イギリス",
+    "iso2": "gb",
+    "upstream_name": "United Kingdom",
+    "file": "GBR.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/gb.svg"
+  },
+  "PRK": {
+    "name": "北朝鮮",
+    "iso2": "kp",
+    "upstream_name": "North Korea",
+    "file": "PRK.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/kp.svg"
+  },
+  "MLI": {
+    "name": "マリ",
+    "iso2": "ml",
+    "upstream_name": "Mali",
+    "file": "MLI.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ml.svg"
+  },
+  "IND": {
+    "name": "インド",
+    "iso2": "in",
+    "upstream_name": "India",
+    "file": "IND.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/in.svg"
+  },
+  "ECU": {
+    "name": "エクアドル",
+    "iso2": "ec",
+    "upstream_name": "Ecuador",
+    "file": "ECU.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ec.svg"
+  },
+  "TUR": {
+    "name": "トルコ",
+    "iso2": "tr",
+    "upstream_name": "Türkiye",
+    "file": "TUR.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/tr.svg"
+  },
+  "CAN": {
+    "name": "カナダ",
+    "iso2": "ca",
+    "upstream_name": "Canada",
+    "file": "CAN.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ca.svg"
+  },
+  "AUS": {
+    "name": "オーストラリア",
+    "iso2": "au",
+    "upstream_name": "Australia",
+    "file": "AUS.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/au.svg"
+  },
+  "ITA": {
+    "name": "イタリア",
+    "iso2": "it",
+    "upstream_name": "Italy",
+    "file": "ITA.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/it.svg"
+  },
+  "PHL": {
+    "name": "フィリピン",
+    "iso2": "ph",
+    "upstream_name": "Philippines",
+    "file": "PHL.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ph.svg"
+  },
+  "ZAF": {
+    "name": "南アフリカ",
+    "iso2": "za",
+    "upstream_name": "South Africa",
+    "file": "ZAF.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/za.svg"
+  },
+  "POL": {
+    "name": "ポーランド",
+    "iso2": "pl",
+    "upstream_name": "Poland",
+    "file": "POL.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/pl.svg"
+  },
+  "KEN": {
+    "name": "ケニア",
+    "iso2": "ke",
+    "upstream_name": "Kenya",
+    "file": "KEN.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/ke.svg"
+  },
+  "SOM": {
+    "name": "ソマリア",
+    "iso2": "so",
+    "upstream_name": "Somalia",
+    "file": "SOM.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/so.svg"
+  },
+  "CHL": {
+    "name": "チリ",
+    "iso2": "cl",
+    "upstream_name": "Chile",
+    "file": "CHL.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/cl.svg"
+  },
+  "PNG": {
+    "name": "パプアニューギニア",
+    "iso2": "pg",
+    "upstream_name": "Papua New Guinea",
+    "file": "PNG.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/pg.svg"
+  },
+  "IDN": {
+    "name": "インドネシア",
+    "iso2": "id",
+    "upstream_name": "Indonesia",
+    "file": "IDN.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/id.svg"
+  },
+  "VNM": {
+    "name": "ベトナム",
+    "iso2": "vn",
+    "upstream_name": "Vietnam",
+    "file": "VNM.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/vn.svg"
+  },
+  "THA": {
+    "name": "タイ",
+    "iso2": "th",
+    "upstream_name": "Thailand",
+    "file": "THA.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/th.svg"
+  },
+  "MYS": {
+    "name": "マレーシア",
+    "iso2": "my",
+    "upstream_name": "Malaysia",
+    "file": "MYS.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/my.svg"
+  },
+  "NZL": {
+    "name": "ニュージーランド",
+    "iso2": "nz",
+    "upstream_name": "New Zealand",
+    "file": "NZL.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/nz.svg"
+  }
+}
