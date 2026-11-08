@@ -78,3 +78,7 @@ article.description-open .read-more-hint{margin-top:8px}
 
 /* Keep the media and reading column centered on wide desktop screens. */
 @media(min-width:601px){main[data-story-feed]>article{padding-inline:max(7vw,calc((100vw - 1100px)/2))}.inline-quiz{left:max(7vw,calc((100vw - 1100px)/2));right:max(7vw,calc((100vw - 1100px)/2));max-width:none}}
+
+/* Separate the map from answer controls without changing the quiz footprint. */
+.inline-quiz[data-config]>.quiz-choices{margin-top:14px;flex-shrink:0}
+@media(max-width:600px){.inline-quiz[data-config]>.quiz-choices{margin-top:10px}}
