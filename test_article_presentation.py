@@ -98,7 +98,7 @@ class ExpandedQuizTests(unittest.TestCase):
             self.assertIsNone(term_quiz_for_article({'title': title}))
 
     def test_added_maps_do_not_match_parts_of_other_words(self):
-        for title, code in [('ケニアで裁判', 'KEN'), ('ソマリアの海賊問題', 'SOM'), ('南米チリで事故', 'CHL'), ('パプアニューギニアの代表処', 'PNG'), ('タイで会合', 'THA')]:
+        for title, code in [('ポーランドの広場で銃撃', 'POL'), ('ケニアで裁判', 'KEN'), ('ソマリアの海賊問題', 'SOM'), ('南米チリで事故', 'CHL'), ('パプアニューギニアの代表処', 'PNG'), ('タイで会合', 'THA')]:
             self.assertEqual(quiz_for_article({'title': title})['code'], code)
         for title in ['タイヤが直撃', 'チリソースの発売', 'マリーナのニュース']:
             self.assertIsNone(quiz_for_article({'title': title}))
