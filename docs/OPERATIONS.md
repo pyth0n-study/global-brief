@@ -72,7 +72,7 @@ GitHub Actions Secret `GEMINI_API_KEY` を利用します。課金設定は変�
 
 ## Wikidataの短い紹介
 
-`archive_pipeline.py` がニュース取得後に `wikidata_notes.refresh` を呼び、最新20記事に登場する対応対象の紹介を取得します。確認済み対象は `wikidata_notes.ENTITIES` の19件。新対象の追加時は対象IDと英語名・見出しの表記を確認してください。検索順位だけでは採用しません。
+`archive_pipeline.py` がニュース取得後に `wikidata_notes.refresh` を呼び、最新20記事に登場する対応対象の紹介を取得します。確認済み対象は `wikidata_notes.ENTITIES` の23件。新対象の追加時は対象IDと英語名・見出しの表記を確認してください。検索順位だけでは採用しません。
 
 有効期間は7日、定期処理では既知対象のバッチGETに加え、未登録対象を最大6語検索し、最大1回の詳細バッチGET（各15秒タイムアウト、maxlag=5）。再試行はせず、429・混雑・取得失敗時は処理を止めて1時間以上延期します。Wikidata側が混雑している場合は更新を延期し、有効な説明がなければ表示しません。日付は表示時に日本時間へ変換します。
 

@@ -190,6 +190,50 @@
       "fetched_day": "2026-11-08",
       "source": "Wikidata",
       "url": "https://www.wikidata.org/w/index.php?title=Q845339&oldid=2544215416"
+    },
+    "Q170481": {
+      "qid": "Q170481",
+      "label": "アジア太平洋経済協力",
+      "description": "アジア太平洋諸国の経済討論会",
+      "fetched_at": "2026-11-08T01:28:57.266978+00:00",
+      "english_label": "Asia-Pacific Economic Cooperation",
+      "revision": 2547805004,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q170481&oldid=2547805004"
+    },
+    "Q1764511": {
+      "qid": "Q1764511",
+      "label": "G7",
+      "description": "主要先進国の首脳が集い国際問題を討議する会議",
+      "fetched_at": "2026-11-08T01:28:57.266978+00:00",
+      "english_label": "G7",
+      "revision": 2551756394,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q1764511&oldid=2551756394"
+    },
+    "Q19771": {
+      "qid": "Q19771",
+      "label": "G20",
+      "description": "19か国とEU・AUの国際討論会",
+      "fetched_at": "2026-11-08T01:29:13.250114+00:00",
+      "english_label": "G20",
+      "revision": 2561608947,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q19771&oldid=2561608947"
+    },
+    "Q7768": {
+      "qid": "Q7768",
+      "label": "東南アジア諸国連合",
+      "description": "東南アジア諸国の地域協力機構",
+      "fetched_at": "2026-11-08T01:29:13.250114+00:00",
+      "english_label": "ASEAN",
+      "revision": 2565766578,
+      "fetched_day": "2026-11-08",
+      "source": "Wikidata",
+      "url": "https://www.wikidata.org/w/index.php?title=Q7768&oldid=2565766578"
     }
   },
   "lookups": {}

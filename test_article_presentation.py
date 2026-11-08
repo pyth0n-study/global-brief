@@ -30,7 +30,8 @@ class PresentationTests(unittest.TestCase):
     def test_missing_image_articles_have_explicit_country_quizzes(self):
         self.assertEqual(quiz_for_article({'title': '北朝鮮、無人機と放射砲で示威'})['code'], 'PRK')
         self.assertEqual(quiz_for_article({'title': 'マリで発見の火星隕石 水の存在示唆'})['code'], 'MLI')
-        for title in ('ソマリアでの出来事', 'マリーナのニュース', 'マリオの新作'):
+        self.assertEqual(quiz_for_article({'title': 'ソマリアでの出来事'})['code'], 'SOM')
+        for title in ('マリーナのニュース', 'マリオの新作'):
             self.assertIsNone(quiz_for_article({'title': title}))
 
     def test_original_is_retained(self):
@@ -56,7 +57,8 @@ class FallbackTests(unittest.TestCase):
     def test_explicit_abbreviations_and_new_countries(self):
         for title, code in [('露統計局にサイバー攻撃', 'RUS'), ('印首都のIT産業', 'IND'), ('英首相が演説', 'GBR'), ('フィリピン当局が発表', 'PHL'), ('エクアドルで豪雨', 'ECU')]:
             self.assertEqual(quiz_for_article({'title': title})['code'], code)
-        for title in ['インドネシアの報道', 'ガラパゴスで豪雨', '香港の医療', 'トランプ氏が演説']:
+        self.assertEqual(quiz_for_article({'title': 'インドネシアの報道'})['code'], 'IDN')
+        for title in ['ガラパゴスで豪雨', '香港の医療', 'トランプ氏が演説']:
             self.assertIsNone(quiz_for_article({'title': title}))
 
     def test_term_quiz_priority_and_headline_only(self):
@@ -81,3 +83,41 @@ class FallbackTests(unittest.TestCase):
         codes = {c['code'] for c in world_paths()}
         for row in COUNTRIES:
             self.assertIn(row[1], codes)
+
+
+class ExpandedQuizTests(unittest.TestCase):
+    def test_acronyms_and_full_width(self):
+        from term_quizzes import term_quiz_for_article
+        for title, term in [('APEC首脳会談へ調整', 'APEC'), ('ＡＰＥＣの会合', 'APEC'), ('G7外相会合に出席へ', 'G7'), ('G20首脳会合', 'G20'), ('ASEANの会合', 'ASEAN'), ('WHOが発表', 'WHO'), ('NATOの方針', 'NATO'), ('IMFの融資', 'IMF'), ('EUの政策', 'EU')]:
+            q = term_quiz_for_article({'title': title})
+            self.assertEqual(q['term'], term)
+            self.assertTrue(q['url'].startswith('https://'))
+            self.assertEqual(len(set(q['options'])), 3)
+            self.assertTrue(0 <= q['answer'] < 3)
+        for title in ['APECX社の発表', 'G70の会合', 'G7スマートフォン', '発表(APECニュース)', 'who is the winner']:
+            self.assertIsNone(term_quiz_for_article({'title': title}))
+
+    def test_added_maps_do_not_match_parts_of_other_words(self):
+        for title, code in [('ケニアで裁判', 'KEN'), ('ソマリアの海賊問題', 'SOM'), ('南米チリで事故', 'CHL'), ('パプアニューギニアの代表処', 'PNG'), ('タイで会合', 'THA')]:
+            self.assertEqual(quiz_for_article({'title': title})['code'], code)
+        for title in ['タイヤが直撃', 'チリソースの発売', 'マリーナのニュース']:
+            self.assertIsNone(quiz_for_article({'title': title}))
+
+    def test_new_map_pins_are_in_their_country_polygons(self):
+        import re
+        from article_presentation import COUNTRIES
+        from preview_visuals import world_paths
+        paths = {c['code']: c['path'] for c in world_paths()}
+        def contains(code, p):
+            x, y = p
+            for ring in re.findall(r'M([^M]+)', paths[code]):
+                pts = [tuple(map(float, m)) for m in re.findall(r'(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)', ring)]
+                hits = 0
+                for (ax, ay), (bx, by) in zip(pts, pts[1:]+pts[:1]):
+                    if (ay > y) != (by > y) and x < (bx-ax)*(y-ay)/(by-ay)+ax: hits += 1
+                if hits % 2: return True
+            return False
+        for _, code, _, _, region, pins in COUNTRIES[24:]:
+            self.assertTrue(contains(code, pins[1]), code)
+            x,y,w,h = map(float, region.split())
+            self.assertTrue(all(x <= px <= x+w and y <= py <= y+h for px,py in pins), code)

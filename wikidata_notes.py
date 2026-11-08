@@ -4,6 +4,7 @@ from datetime import datetime, timezone, timedelta
 import json
 from pathlib import Path
 import re
+import unicodedata
 
 import requests
 from headline_quizzes import clean_headline, mentions
@@ -34,20 +35,25 @@ ENTITIES.update({
     'Q52389': ('tariff', ('関税',)),
     'Q845339': ('atmospheric temperature', ('気温',)),
     'Q7795': ('Organization of the Petroleum Exporting Countries', ('OPEC', '石油輸出国機構')),
+    'Q170481': ('Asia-Pacific Economic Cooperation', ('APEC', 'アジア太平洋経済協力')),
+    'Q1764511': ('G7', ('G7', '主要7か国')),
+    'Q19771': ('G20', ('G20',)),
+    'Q7768': ('ASEAN', ('ASEAN', '東南アジア諸国連合')),
     'Q5440396': ('Board of Governors of the Federal Reserve System', ('FRB', '連邦準備制度理事会')),
 })
 
 
 
 def identified_terms(title):
-    title = clean_headline(title)
+    title = unicodedata.normalize('NFKC', clean_headline(title))
     # Fictional works / impersonations can share an otherwise exact name.
     if re.search(r'ドラマ|映画|小説|ゲーム|架空|同名|ものまね|なりすまし', title): return []
     found = []
     for qid, (_, words) in ENTITIES.items():
         matches = [(m.start(), w) for w in words for m in mentions(w, title)
                    if w not in ('FRB', 'CPI') or re.search(
-                       r'金融|金利|利上げ|利下げ|連邦準備|物価|消費者|インフレ|価格', title)]
+                       r'金融|金利|利上げ|利下げ|連邦準備|物価|消費者|インフレ|価格', title)
+                   if w not in ('G7', 'G20') or re.search(r'会合|首脳|外相|財務|外交|経済|サミット|大臣|閣僚|議長|国際', title)]
         if matches:
             position, word = min(matches, key=lambda x: (x[0], -len(x[1])))
             found.append((position, word, qid))
