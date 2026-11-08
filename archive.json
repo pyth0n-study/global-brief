@@ -4460,6 +4460,32 @@
         "fetched_day": "2026-11-08",
         "source": "Wikidata",
         "url": "https://www.wikidata.org/w/index.php?title=Q845339&oldid=2544215416"
+      },
+      "Q561968": {
+        "qid": "Q561968",
+        "label": "韓国総合株価指数",
+        "description": "大韓民国の株価指数",
+        "fetched_at": "2026-11-08T04:43:36.798574+00:00",
+        "english_label": "KOSPI",
+        "revision": 2550775917,
+        "fetched_day": "2026-11-08",
+        "source": "Wikidata",
+        "url": "https://www.wikidata.org/w/index.php?title=Q561968&oldid=2550775917",
+        "identity": {
+          "method": "exact-ja-role-v1",
+          "unique": true,
+          "term": "KOSPI",
+          "kind": "acronym",
+          "matched_names": [
+            "KOSPI",
+            "韓国総合株価指数"
+          ],
+          "formal_name": "韓国総合株価指数",
+          "types": [
+            "Q223371"
+          ],
+          "role": null
+        }
       }
     },
     "lookups": {}
