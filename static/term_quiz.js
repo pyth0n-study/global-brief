@@ -15,6 +15,7 @@ document.querySelectorAll('[data-term-config]').forEach(quiz => {
     if (answered) return;
     answered = true;
     if (config.kind === 'headline') quiz.querySelector('.term-word').textContent = config.options[config.answer];
+    if (config.kind === 'history') { const word = quiz.querySelector('.term-word'); word.textContent = config.options[config.answer]; word.hidden = false; }
     quiz.querySelectorAll('.quiz-choices button').forEach((button, index) => {
       button.disabled = true;
       button.classList.toggle('right', index === config.answer);

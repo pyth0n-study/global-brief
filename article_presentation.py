@@ -126,6 +126,9 @@ def prepare_article(article, prefer_acronym=False):
     if not quiz and not item['term_quiz']:
         from headline_quizzes import headline_quiz_for_article
         item['term_quiz'] = headline_quiz_for_article(item)
+    if not quiz and not item['term_quiz']:
+        from history_quizzes import history_quiz_for_article
+        item['term_quiz'] = history_quiz_for_article(item)
     from wikidata_notes import notes_for_article
     item['knowledge_notes'] = notes_for_article(item)
     from acronym_quizzes import acronym_quiz_for_article

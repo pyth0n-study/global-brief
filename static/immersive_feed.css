@@ -84,3 +84,5 @@ article.description-open .read-more-hint{margin-top:8px}
 @media(max-width:600px){.inline-quiz[data-config]>.quiz-choices{margin-top:10px}}
 
 .flag-art{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;padding:18px 0}.flag-art svg{flex:none;width:min(100%,420px);height:auto;max-height:100%;border:1px solid #ffffff55;filter:drop-shadow(0 8px 20px #0003)}.term-quiz:has(.flag-art){justify-content:flex-start}
+
+.history-quiz .term-question{white-space:pre-line;font-size:clamp(20px,2.4vw,30px);line-height:1.6}
