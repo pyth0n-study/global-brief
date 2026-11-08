@@ -83,4 +83,4 @@ article.description-open .read-more-hint{margin-top:8px}
 .inline-quiz[data-config]>.quiz-choices{margin-top:14px;flex-shrink:0}
 @media(max-width:600px){.inline-quiz[data-config]>.quiz-choices{margin-top:10px}}
 
-.flag-art{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;padding:18px 0}.flag-art svg{flex:none;width:min(100%,420px);height:auto;max-height:100%;border:1px solid #ffffff55;filter:drop-shadow(0 8px 20px #0003)}.term-quiz:has(.flag-art){justify-content:flex-start}.flag-preview-label{position:fixed;top:84px;right:7vw;z-index:21;font-size:10px;color:#d3edb8}
+.flag-art{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;padding:18px 0}.flag-art svg{flex:none;width:min(100%,420px);height:auto;max-height:100%;border:1px solid #ffffff55;filter:drop-shadow(0 8px 20px #0003)}.term-quiz:has(.flag-art){justify-content:flex-start}
