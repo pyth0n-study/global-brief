@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T17:47:09.630380+00:00",
-  "count": 403,
+  "updated_at": "2026-11-08T06:19:12.979327+00:00",
+  "count": 423,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -4072,6 +4072,206 @@
       "first_seen": "2026-11-07T17:47:09.614077+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3843793007112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=471f48b9207e68a665c4ccc90d75e0e2",
       "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1b74a02b2e7458248c32e29e8ff246a360b3054f",
+      "title": "マカオ司法警察局が東南アジア系海外労働者対象の防犯キャンペーン展開(マカオ新聞)",
+      "description": "マカオでは、「外僱」と呼ばれる海外（中国本土・香港・台湾を含む）からの労働者が多く就労しており、その数は今年（2026年）9月時点で18万人超に達している。 マカオの総人口は約68.9万人で、海外労働",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 13:50:31",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-00010004-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/21d9de438c7d203fd8c56c0bcc22cca984087420",
+      "title": "イタリア外相、ハッキング標的に ウクライナ支援が原因と指摘(共同通信)",
+      "description": "【キーウ共同】イタリアのタヤーニ外相は7日、「数日前からサイバー犯罪集団の標的とされ、個人情報がダークウェブ上に流されている」とX（旧ツイッター）で明らかにした。自国のウクライナ支援が原因だと言及し、",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 12:09:24",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5aa3c42f3be3cab4b92a231bd2ecd0a544ce7bdd",
+      "title": "今日の歴史（11月8日）(聯合ニュース)",
+      "description": "1965年：南ベトナムのグエン・カオ・キ首相が来韓1991年：盧泰愚（ノ・テウ）大統領が朝鮮半島の非核化を宣言1995年：国連安全保障理事会の非常任理事国に初選出2001年：金大中（キム・デジュン）大",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 15:00:01",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5fbb05933c4765dfde1cf5574c8a076e63f6714e",
+      "title": "ロ・ウ・米3者協議を前に 攻撃は続く キーウ市長「電力供給極めて厳しい」(テレビ朝日系（ANN）)",
+      "description": "ウクライナとロシア、アメリカによる3者協議が10日から始まるのを前に双方の攻撃が依然として続いています。 ロシア国防省は7日朝、ウクライナのミサイル製造企業やキーウ市内の橋や発電所を攻撃したと明らかに",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 13:30:21",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-00000051-ann-000-12-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/742d402fb4e16df17bcc77503c5ef17532af50ef",
+      "title": "米軍、イラン陸路監視強化 兵器輸送の阻止狙う(共同通信)",
+      "description": "【ワシントン共同】米中央軍は7日、イランの陸路の監視を強化すると発表した。米南部フロリダ州を拠点に、約20人で構成する「タスクフォース」を設置する。他の政府機関と連携し、陸路を利用した兵器や制裁対象の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 15:03:12",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8f5163245b80a8f43a8b2fb4a793d6bf9ee9a922",
+      "title": "北朝鮮製の弾道弾使用か ウクライナのエネ施設への攻撃(共同通信)",
+      "description": "【キーウ共同】ウクライナのゼレンスキー大統領は7日、ロシアが6日夜から7日朝にかけてウクライナの主要なエネルギー施設を攻撃した際に北朝鮮製の短距離弾道ミサイル「KN23」を使用した可能性があると明らか",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 14:30:02",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a0721dd8aa086bce1991388a748889aa0f03490a",
+      "title": "日本の芸術作品に“ご満悦”。米政治家ヒラリー・クリントン、来日写真を公開⇒ 10万いいね越えの反響(BuzzFeed Japan)",
+      "description": "来日した第67代国務長官のヒラリー・クリントン氏が、「現代アートの聖地」として知られる香川県の直島を訪問。世界的に有名な“日本の芸術作品”とのツーショット写真を公開し、話題です。【実際の写真】ヒラリー",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 12:05:02",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261107-10061779-bfj-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/be35ca88ff47e70ed275d4c1d407189d836d064a",
+      "title": "「最側近」交代…後任は”移民強硬派” 民主党主導の議会と対決姿勢(テレビ朝日系（ANN）)",
+      "description": "中間選挙での惨敗をうけ、注目されるトランプ政権の人事。トランプ大統領は、最側近のポストに強硬派の人物を充てると発表しました。有権者から「NO」を突きつけられた形となった“トランプ流”の政策は、このまま",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 15:54:14",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-90203724-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e97ad73f0640aa3cfaca3d612655af78785230f7",
+      "title": "ポーランドで銃撃、5人死亡(共同通信)",
+      "description": "【ベルリン共同】ポーランドのメディアは7日、同国南部クラクフ中心部の広場で銃撃があり、5人が死亡、約10人が負傷したと伝えた。警察は容疑者を拘束したとしている。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 15:41:23",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f572c949ecee6ea2ef6f59805ac2e2d68fd15579",
+      "title": "ポーランドで銃撃、5人死亡 南部クラクフ、容疑者拘束(共同通信)",
+      "description": "【ベルリン共同】ポーランドのメディアは7日、同国南部クラクフ中心部の広場で同日、銃撃があり、5人が死亡、約10人が負傷したと伝えた。警察は容疑者を拘束したとしている。 警察によると、容疑者は車から通行",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-07 15:42:18",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/30e9dbb34444dd0f6d6f0b25f7c54670",
+      "title": "ポーランドの広場で銃撃 5人死亡",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 16:56:28",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/51530ab946e181215981e0575c707488",
+      "title": "米首席補佐官交代 民主と対立激化か",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 15:04:07",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/75fadafb61e56aaebf141b4f15da03e5",
+      "title": "伊外相がハッキング標的に 原因言及",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 13:11:30",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/794df37edbfd81b522e1f1b7a3a84197",
+      "title": "北朝鮮の組織的ハッカー育成の実態",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 17:56:22",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/7ee42be5d3772ee612117bad98754a69",
+      "title": "米共和党が大敗 異変は選挙前から",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 12:55:13",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/856210b59a7b083add6d50cc6fb04fa9",
+      "title": "中国人の日本に関する情報源は 調査",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 12:20:53",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/e9ec85d7e2b4762a6317dc320f010ca0",
+      "title": "米イラン仲介 大きな進展とカタール",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-07 16:33:32",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM070K80X01C26A1000000/",
+      "title": "NZ総選挙、与党が僅差で優勢 結果確定は今月下旬に持ち越し",
+      "description": "【オークランド=今橋瑠璃華】ニュージーランド（NZ）で7日、議会（一院制、基本定数120）の総選挙が実施された。暫定集計ではラクソン首相率いる中道右派の国民党を中心とする連立与党3党が僅差で優勢となったものの、結果確定には時間を要する見通しだ。ラクソン氏は暫定集計発表後に演説し「連立政権を樹立できる可能性がある」と述べた。ただ海外在住の有権者らの約30万票の「特別票」の集計が終わる27日まで結",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-07 13:31:45",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3844461007112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=eda7d1a89e621cc5cbc8fd4062f9a023",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR02AJR0S6A101C2000000/",
+      "title": "トランプ敗北後も「米の外交・安保戻らず」 変わる脅威、自衛磨く欧州",
+      "description": "水、缶詰、懐中電灯、硬貨と紙幣の現金――。英政府が各家庭に備えるよう促すリストは詳細だ。目安は3日分。政府の支援が届かない事態を想定し、まず自分たちで持ちこたえる。SNSでは「いったい何が起きるのか」と不安の声も広がった。くしくも政府が呼びかけを始めたのは米中間選挙を目前に控えた10月下旬だった。ありふれた防災の呼びかけにみえるが、欧州を見渡せば、そこにはより大きな変化が浮かぶ。ロシアの脅威",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-07 17:00:00",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3821123002112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=fc2285ec8e195b0e69484e1b609642a7",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUB029EQ0S6A900C2000000/",
+      "title": "クレディセゾン、アジア開発銀行と提携 新興国で中小企業融資800億円",
+      "description": "クレディセゾンはアジアの中小企業への融資でアジア開発銀行（ADB）と提携する。ADBから3年間で最大5億ドル（約800億円）の資金を調達する。先行して進出したインドで培った独自の融資の審査モデルを他の新興国でも生かし、新たな収益源に育てる。ADBとこのほど基本合意書（MOU）を結んだ。ADBに加盟するアジアの新興国が融資の対象となる。インドネシアやフィリピンなど69の加盟国・地域がある。クレ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-07 17:00:00",
+      "first_seen": "2026-11-08T06:19:12.970099+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3542676002092026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=5d63fa97136836764f27410aa093b41f",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -4488,6 +4688,11 @@
         }
       }
     },
-    "lookups": {}
+    "lookups": {
+      "アジア開発銀行": {
+        "checked_at": "2026-11-08T06:19:12.981144+00:00",
+        "status": "unresolved"
+      }
+    }
   }
 }
