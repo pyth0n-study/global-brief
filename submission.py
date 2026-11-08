@@ -31,10 +31,10 @@ def home():
         if not articles:
             abort(404, description='現在、自動照合できた略語問題はありません。')
     flag_preview = request.path == '/preview/flags'
-    if flag_preview:
+    if request.path != '/articles':
         import secrets
         from flag_quizzes import flag_quiz
-        mode = request.args.get('quiz', '')
+        mode = request.args.get('quiz', '') if flag_preview else ''
         for item in articles:
             flag = flag_quiz(item.get('quiz_country'))
             if flag and (mode == 'flag' or (mode != 'map' and secrets.randbelow(2) == 0)):
