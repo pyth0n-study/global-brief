@@ -63,6 +63,21 @@ class SubmissionTests(unittest.TestCase):
             self.assertEqual(client.get(route).status_code, 404)
         self.assertEqual(client.post('/api/comment', json={}).status_code, 400)
 
+    def test_automatic_acronym_preview_renders_answer_source_without_photo(self):
+        from test_acronym_quizzes import AutomaticAcronymTests, ARTICLE, NOW
+        from wikidata_notes import notes_for_article
+        payload, _, _ = AutomaticAcronymTests().resolve()
+        notes = notes_for_article(ARTICLE, payload['wikidata'], NOW)
+        feed = {'captured_at': '2026-11-08', 'articles': [dict(ARTICLE,
+            url='https://example.org/test', image='https://example.org/photo.jpg')]}
+        with patch('submission.load_home_feed', return_value=feed), patch('wikidata_notes.notes_for_article', return_value=notes), patch('requests.get', side_effect=AssertionError('External request')):
+            response = self.module.app.test_client().get('/preview/acronyms')
+        self.assertEqual(response.status_code, 200)
+        page = response.get_data(as_text=True)
+        self.assertIn('自動略語クイズの動作確認', page)
+        self.assertIn('oldid=123', page)
+        self.assertNotIn('<img src="https://example.org/photo.jpg"', page)
+
     def test_about_returns_to_originating_view(self):
         client = self.module.app.test_client()
         listing = client.get('/articles').get_data(as_text=True)
