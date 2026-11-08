@@ -84,10 +84,3 @@ article.description-open .read-more-hint{margin-top:8px}
 @media(max-width:600px){.inline-quiz[data-config]>.quiz-choices{margin-top:10px}}
 
 .flag-art{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;padding:18px 0}.flag-art svg{flex:none;width:min(100%,420px);height:auto;max-height:100%;border:1px solid #ffffff55;filter:drop-shadow(0 8px 20px #0003)}.term-quiz:has(.flag-art){justify-content:flex-start}
-
-/* Preserve the entire source photo; use a dark blurred copy to fill the screen. */
-.photo-backdrop{position:absolute;inset:-28px;z-index:0;background-position:center;background-size:cover;background-repeat:no-repeat;filter:blur(24px) brightness(.38);opacity:0;pointer-events:none}
-article.has-photo>.photo-backdrop{opacity:1}
-article.show-diagram>.photo-backdrop{visibility:hidden}
-article>img{inset:auto 0 auto;top:calc(var(--site-header-height,90px) + 14px);width:min(86vw,1100px);height:var(--media-height,49dvh);margin-inline:auto;object-fit:contain;object-position:center;z-index:0}
-@media(max-width:600px){article>img{width:100%;max-width:none}}
