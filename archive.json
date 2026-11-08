@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T06:19:12.979327+00:00",
-  "count": 423,
+  "updated_at": "2026-11-08T17:58:33.929756+00:00",
+  "count": 443,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -4271,6 +4271,206 @@
       "published_at": "2026-11-07 17:00:00",
       "first_seen": "2026-11-08T06:19:12.970099+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3542676002092026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=5d63fa97136836764f27410aa093b41f",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1dce302dd19761252a4ddefacbabae05b343e08e",
+      "title": "米紙が見た「日本の建築へのアンチテーゼ」―東京・三田「蟻鱒鳶ル（ありますとんびる）」の物語(クーリエ・ジャポン)",
+      "description": "東京・三田にある異形の建物「蟻鱒鳶ル（ありますとんびる）」は、建築家の岡啓輔が21年にわたり協力者たちとともに造り上げてきたセルフビルド建築だ。多くの建物が数十年で取り壊される日本で、この建築物が発す",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 05:30:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000002-courrier-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/257e18ccd27f9c762aa16b033fa07a58d3b4fa75",
+      "title": "イスラエル新政権、反ネタニヤフ氏のアイゼンコット氏が組閣へ 前途は多難(CNN.co.jp)",
+      "description": "（CNN） イスラエルの総選挙を受けた新政権は、ネタニヤフ首相の政敵である中道政党ヤシャルの党首、アイゼンコット元参謀総長が組閣を担う見通しとなった。歴代首相で最長の在任記録を持つネタニヤフ氏は退陣に",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 04:15:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-35254562-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/48f1dc1b08153fec73cceee44238c65655eb1a26",
+      "title": "韓国型原潜「張保皐N」の妥当性調査を免除…来年に事業着手(中央日報日本語版)",
+      "description": "韓国政府が原子力潜水艦開発に向けた事業妥当性調査を免除して来年の事業着手にスピードを出すことにした。また、原潜の船体設計と建造は韓国の造船企業の競争入札で推進し、原潜の動力源である小型モジュール原子炉",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 04:25:07",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5fb6dc181f688065d752808045288bd3073e95b1",
+      "title": "北朝鮮のテコンドー文化遺産単独登録に…韓国野党「政府は何をしていたのか」(中央日報日本語版)",
+      "description": "テコンドーが北朝鮮のユネスコ人類無形文化遺産に先に名前を上げることが確実視され、韓国の国技の価値と歴史が奪われるのではないかとの懸念が出ている中、韓国野党「国民の力」は7日、「政府はいったい何をしてい",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 04:00:43",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000006-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/997e13b1416218b46b7bfaa1317e9b71c73e70eb",
+      "title": "楽天モンキーズの内野手4人、東北楽天の練習に参加 曽監督「守備が上達した」／台湾(中央社フォーカス台湾)",
+      "description": "（桃園中央社）台湾プロ野球・楽天モンキーズは10月30日から今月4日まで、内野手4人を東北楽天ゴールデンイーグルスの秋季練習に派遣した。曽豪駒監督は8日までに、参加した選手らは守備が上達したように感じ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 04:08:51",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000001-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/99862bc3d226b9fc1aea5d6eac5dfec54adb75d0",
+      "title": "移住労働者の送金の経済学［ユーレカ］(ハンギョレ新聞)",
+      "description": "移住労働者の送金をめぐる大統領の発言が大きな波紋を呼んだ。先月27日、李在明（イ・ジェミョン）大統領は農漁村の人手不足対策を議論している途中、「外国人労働者を呼び寄せても国家経済に大きな助けにはならな",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 04:08:17",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00057612-hankyoreh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a9d78b9046d3ef0a1eb67d438db3290059854079",
+      "title": "パラグアイ前大統領を訴追 大手銀行破綻問題で背任疑い(共同通信)",
+      "description": "【サンパウロ共同】南米パラグアイの検察は7日、大統領の地位を利用して破綻した大手デジタル銀行「ウエノバンク」に公的機関の資金を預けさせ損害を与えたとして、背任などの疑いでペニャ前大統領を訴追した。国会",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 03:59:24",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000054-kyodonews-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b16c4b8721ba804b4efa6a3d7fec5292f77b44c2",
+      "title": "閣僚らはジョーク、サバイバル用品店は特需…英国の災害対策めぐる意外な風景(中央日報日本語版)",
+      "description": "「マスカラ、コンシーラー、白ワイン1本」。レイナー英住宅相が9月、しばらく乗り切れるようにとしてジョークのように挙げた非常用品リストが約1カ月後に改めて注目された。英国政府が先月22日、国民に72時間",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 03:31:23",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000005-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bcc1c361783bb7fd6933f42830af31e58e6726a4",
+      "title": "来年の小学1年生が初の30万人割れ 60年で4分の1に＝韓国(聯合ニュース)",
+      "description": "【世宗聯合ニュース】韓国で2027学年度に小学校に入学予定の児童数が、初めて30万人を下回る見通しであることが8日、国家統計ポータルや韓国教育開発院の統計で分かった。40万人を割り込んでからわずか3年",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 04:48:12",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00541904-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/c403470d1c2fed52c08247b7c9b907fa73388485",
+      "title": "米、イランの核開発に関する情報に巨額の報酬提供へ トランプ氏は「壊滅」主張も(CNN.co.jp)",
+      "description": "（CNN） 米国はイランの核開発計画に関する情報に対し、最大2000万ドル（約32億円）の報奨金を提供すると発表した。トランプ大統領はイランの核関連能力を完全に壊滅させたと再三主張しているが、それとは",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 03:16:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-35254561-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/fcf31811cc7c5852e61a6f12983ae23e34b8607a",
+      "title": "ポーランド 第2の都市クラクフ 広場で無差別発砲 6人死亡 軍服姿「極右思想に傾倒」(テレビ朝日系（ANN）)",
+      "description": "ポーランド第二の都市クラクフで男が車から無差別に発砲し、これまでに6人が死亡、15人がけがをしました。 ポーランドの公共放送TVPによりますと、7日午後3時ごろ、クラクフ中心部の広場に入ってきた車から",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-08 03:23:04",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-00000034-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/641bd22e60db1c4297a68931dd0c1e67",
+      "title": "カナリア諸島で移民増 緊急事態宣言",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-08 05:10:38",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/79aa21f0853926772ff92c44941e7ec6",
+      "title": "NVIDIAトップと恋愛関係 スパイか",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-08 04:15:11",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/b1c7a9cdb2cffde3469d546fbb3f6d6a",
+      "title": "銀行破綻 パラグアイ前大統領を起訴",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-08 04:42:53",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/bf96242213af4adcee3d42a9623ffabc",
+      "title": "尹氏の職権乱用罪 13日に初公判",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-08 03:25:06",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f052ffd3dbf32034871ae7d2998561f8",
+      "title": "北の自走砲が見える公園 来園者増加",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-08 05:46:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/world/35254561.html",
+      "title": "米、イランの核開発に関する情報に巨額の報酬提供へ トランプ氏は「壊滅」主張も",
+      "description": "米国はイランの核開発計画に関する情報に対し、最大2000万ドル（約32億円）の報奨金を提供すると発表した。トランプ大統領はイランの核関連能力を完全に壊滅させたと再三主張しているが、それとは矛盾する動きとなる。 米国務省のプログラム「リウォーズ・フォー・ジャスティス（RFJ：正義のための報奨金）」は6日、ソーシャルメディアへの投稿を通じて、イランの核施設や関連設備、およびそれらに関与する人物についての情報...",
+      "source": "Cnn",
+      "published_at": "2026-11-08 03:16:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/08/92a702da6e1f194a51a94c89c8f689f0/gettyimages-2151147994.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/world/35254562.html",
+      "title": "イスラエル新政権、反ネタニヤフ氏のアイゼンコット氏が組閣へ 前途は多難",
+      "description": "イスラエルの総選挙を受けた新政権は、ネタニヤフ首相の政敵である中道政党ヤシャルの党首、アイゼンコット元参謀総長が組閣を担う見通しとなった。歴代首相で最長の在任記録を持つネタニヤフ氏は退陣に追い込まれる可能性が高まったものの、アイゼンコット氏の前途は多難だ。 アイゼンコット氏は14日間の延長期間を含め最長42日間のうちに連立交渉をまとめる必要がある。 ヘルツォグ大統領は8日、アイゼンコット氏に正式に組...",
+      "source": "Cnn",
+      "published_at": "2026-11-08 04:15:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/08/02a69450e2244ab33fec5e2fd2c34675/israel-election.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM080PC0Y6A101C2000000/",
+      "title": "中国の金保有量、24カ月連続で増加 10月末の外貨準備",
+      "description": "【北京=塩崎健太郎】中国人民銀行（中央銀行）が7日発表した10月末の外貨準備の内訳によると、金の保有量は前月末比1.1%増の約2435トンだった。24カ月連続の増加となった。増加率は9月の1.0%から拡大した。安全資産として金を積み増したとみられる。2022年11月から24年4月まで18カ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-08 04:42:19",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3844832008112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=a7c04432149e5fd030a0e4d2b4ff88c2",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR072620X01C26A1000000/",
+      "title": "仏急進左派メランション氏「最低賃金引き上げ」27年大統領選へ公約",
+      "description": "【パリ=児玉章吾】フランスの急進左派・不服従のフランス（LFI）のメランション氏は7日、来春の大統領選に向けた公約発表の集会を開いた。物価高や格差に不満を抱える若者や低所得層の取り込みへ、最低賃金の引き上げなど再分配政策を柱に据えた。集会はLFI支持層の移民系住民が多いパリ郊外セーヌサンドニ県のルブルジェで開き、およそ2万人が参加した。メランション氏は世論調査で極右・国民連合（RN）候補のマリ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-08 03:28:00",
+      "first_seen": "2026-11-08T17:58:33.918562+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3844698007112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b9f8a95f77aa8f0138591fe832674205",
       "watch_point": null
     }
   ],
