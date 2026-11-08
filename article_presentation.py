@@ -54,12 +54,20 @@ HEADLINE_ALIASES = {
     'DEU': ('独首相', '独政府'),
 }
 
+# New short forms require an explicit role and a word boundary. Never match
+# a lone 米 / 伊 / ロ / ウ, or infer nationality from a dateline.
+ROLE_HEADLINE_ALIASES = {
+    'USA': ('米首席補佐官', '米大統領首席補佐官', '米外相', '米国務長官'),
+    'ITA': ('伊外相', '伊首相', '伊政府'),
+}
 
 
 def quiz_for_article(article):
     # Headline only: a dateline in the description need not be the subject country.
     from headline_quizzes import clean_headline
-    title = clean_headline(article.get('title', ''))
+    import unicodedata
+    title = unicodedata.normalize('NFKC', clean_headline(article.get('title', '')))
+    alias_context = not re.search(r'ドラマ|映画|小説|ゲーム|架空|ものまね|なりすまし', title)
     def country_mention(word):
         if re.fullmatch(r'[ァ-ヺー]+', word):
             # Avoid incidental substrings: ソマリア / マリーナ / マリオ, etc.
@@ -67,11 +75,24 @@ def quiz_for_article(article):
         return re.search(re.escape(word), title)
     matches = [(match.start(), row) for row in COUNTRIES for word in row[2] + HEADLINE_ALIASES.get(row[1], ())
                if (match := country_mention(word))]
+    participants = []
+    if alias_context:
+        for row in COUNTRIES:
+            for word in ROLE_HEADLINE_ALIASES.get(row[1], ()):
+                match = re.search(r'(?<![一-龯ァ-ヺーA-Za-z0-9])' + re.escape(word), title)
+                if match: matches.append((match.start(), row))
+        # All three explicit tokens plus the diplomatic context are required.
+        match = re.search(r'(?<![一-龯ァ-ヺーA-Za-z0-9])([ロ露ウ米])[・･]([ロ露ウ米])[・･]([ロ露ウ米])(?:3|三)者(?:協議|会談)', title)
+        codes = {'ロ': 'RUS', '露': 'RUS', 'ウ': 'UKR', '米': 'USA'}
+        if match and {codes[t] for t in match.groups()} == {'RUS', 'UKR', 'USA'}:
+            participants = [codes[t] for t in match.groups()]
+            row = next(r for r in COUNTRIES if r[1] == participants[0])
+            matches.append((match.start(), row))
     if not matches:
         return None
     _, row = min(matches, key=lambda match: match[0])
     name, code, _, options, region, pins = row
-    return dict(name=name, code=code, options=options, region=region, pins=pins)
+    return dict(name=name, code=code, options=options, region=region, pins=pins, mentioned_countries=participants)
 
 
 def usable_image(url):

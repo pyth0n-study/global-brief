@@ -124,3 +124,18 @@ class ExpandedQuizTests(unittest.TestCase):
                     self.assertTrue(contains(neighbor, pin), neighbor)
             x,y,w,h = map(float, region.split())
             self.assertTrue(all(x <= px <= x+w and y <= py <= y+h for px,py in pins), code)
+
+
+class RoleAbbreviationTests(unittest.TestCase):
+    def test_explicit_roles_and_three_party_talks(self):
+        for title, code in [('米首席補佐官交代 民主と対立激化か','USA'), ('伊外相がハッキング標的に 原因言及','ITA'), ('伊首相が会見','ITA'), ('米国務長官が会談','USA')]:
+            self.assertEqual(quiz_for_article({'title':title})['code'],code)
+        for title, first in [('ロ・ウ・米3者協議を前に 攻撃は続く','RUS'), ('米・露・ウ３者会談を開催','USA')]:
+            q=quiz_for_article({'title':title})
+            self.assertEqual(q['code'],first)
+            self.assertEqual(set(q['mentioned_countries']),{'RUS','UKR','USA'})
+    def test_ambiguous_or_embedded_abbreviations_do_not_count(self):
+        for title in ['米の価格が上昇', '伊勢の祭り', '訪米首席補佐官が会見', '駐伊外相が発表', 'ロ・ウ・米のニュース', 'ロ・ウ・ウ3者協議', 'ゲーム内のロ・ウ・米3者協議', '架空の伊外相が登場']:
+            self.assertIsNone(quiz_for_article({'title':title}),title)
+        self.assertIsNone(quiz_for_article({'title':'最新の発表','description':'伊外相が会見'}))
+        self.assertIsNone(quiz_for_article({'title':'最新の発表(米首席補佐官ニュース)'}))
