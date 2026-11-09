@@ -98,7 +98,7 @@ class ExpandedQuizTests(unittest.TestCase):
             self.assertIsNone(term_quiz_for_article({'title': title}))
 
     def test_added_maps_do_not_match_parts_of_other_words(self):
-        for title, code in [('ポーランドの広場で銃撃', 'POL'), ('ケニアで裁判', 'KEN'), ('ソマリアの海賊問題', 'SOM'), ('南米チリで事故', 'CHL'), ('パプアニューギニアの代表処', 'PNG'), ('タイで会合', 'THA')]:
+        for title, code in [('エジプトで列車が衝突', 'EGY'), ('ポーランドの広場で銃撃', 'POL'), ('ケニアで裁判', 'KEN'), ('ソマリアの海賊問題', 'SOM'), ('南米チリで事故', 'CHL'), ('パプアニューギニアの代表処', 'PNG'), ('タイで会合', 'THA')]:
             self.assertEqual(quiz_for_article({'title': title})['code'], code)
         for title in ['タイヤが直撃', 'チリソースの発売', 'マリーナのニュース']:
             self.assertIsNone(quiz_for_article({'title': title}))
@@ -119,8 +119,9 @@ class ExpandedQuizTests(unittest.TestCase):
             return False
         for _, code, _, _, region, pins in COUNTRIES[24:]:
             self.assertTrue(contains(code, pins[1]), code)
-            if code == 'POL':
-                for neighbor, pin in zip(['DEU', 'POL', 'CZE'], pins):
+            neighbors = {'POL': ['DEU', 'POL', 'CZE'], 'EGY': ['LBY', 'EGY', 'SDN']}
+            if code in neighbors:
+                for neighbor, pin in zip(neighbors[code], pins):
                     self.assertTrue(contains(neighbor, pin), neighbor)
             x,y,w,h = map(float, region.split())
             self.assertTrue(all(x <= px <= x+w and y <= py <= y+h for px,py in pins), code)

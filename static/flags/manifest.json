@@ -236,5 +236,12 @@
     "upstream_name": "New Zealand",
     "file": "NZL.svg",
     "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/nz.svg"
+  },
+  "EGY": {
+    "name": "エジプト",
+    "iso2": "eg",
+    "upstream_name": "Egypt",
+    "file": "EGY.svg",
+    "source": "https://github.com/lipis/flag-icons/blob/v7.3.2/flags/4x3/eg.svg"
   }
 }
