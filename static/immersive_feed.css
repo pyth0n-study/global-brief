@@ -86,3 +86,30 @@ article.description-open .read-more-hint{margin-top:8px}
 .flag-art{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;padding:18px 0}.flag-art svg{flex:none;width:min(100%,420px);height:auto;max-height:100%;border:1px solid #ffffff55;filter:drop-shadow(0 8px 20px #0003)}.term-quiz:has(.flag-art){justify-content:flex-start}
 
 .history-quiz .term-question{white-space:pre-line;font-size:clamp(20px,2.4vw,30px);line-height:1.6}
+
+.has-history-cover > .visual { visibility: hidden; }
+.history-cover {
+  position: absolute;
+  inset: calc(var(--site-header-height, 90px) + 14px) 7vw auto;
+  z-index: 4;
+  width: min(86vw, 760px);
+  height: min(var(--media-height, 49dvh), 430px);
+  margin-inline: auto;
+  padding: clamp(14px, 3vw, 38px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(8px, 2vh, 18px);
+  text-align: left;
+  text-decoration: none;
+  color: #fff4df;
+  border: 1px solid #d1b681;
+  background: linear-gradient(135deg, #2e393d, #18262e 70%);
+  overflow: auto;
+}
+.history-cover[hidden], .history-quiz[hidden] { display: none; }
+.history-cover-label { font-size: 14px; letter-spacing: .12em; color: #ead2a0; }
+.history-cover-date { font-size: clamp(29px, 5vw, 64px); line-height: 1.05; }
+.history-cover-event { font-size: clamp(16px, 2.2vw, 27px); line-height: 1.45; }
+.history-cover-action { font-size: 14px; color: #ead2a0; }

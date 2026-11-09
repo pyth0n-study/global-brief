@@ -3,10 +3,11 @@ from collections import Counter
 from datetime import datetime, timezone
 import hashlib
 import re
+from unicodedata import normalize
 from urllib.parse import urlparse
 
 YEAR = re.compile(r'(?<!\d)([12]\d{3})年[：:]')
-COMPLETE = re.compile(r'(?:宣言|発表|締結|設立|発足|就任|訪問|来韓|来日|独立|加盟|開幕|開催|初選出|選出|承認|結成|実施|開通)(?:した|する|された|される)?[。．]?$')
+COMPLETE = re.compile(r'(?:宣言|発表|締結|設立|発足|就任|訪問|来韓|来日|独立|加盟|開幕|開催|初選出|選出|承認|結成|実施|開通|完工|国交樹立|創設|逮捕|潜入)(?:した|する|された|される)?[。．]?$')
 NAMED_ROLE = re.compile(r'.{2,}(?:首相|大統領|外相)(?:が|は)')
 EXPLICIT_EVENT = re.compile(
     r'(?:.{2,}(?:団|党|組合|協会|機構|委員会)(?:を)?結成'
@@ -15,16 +16,16 @@ EXPLICIT_EVENT = re.compile(
 )
 
 
-def history_quiz_for_article(article):
+def history_date(title):
     from headline_quizzes import clean_headline
-    title = clean_headline(article.get('title', ''))
-    if not re.fullmatch(r'(?:今日|きょう)の歴史[（(]\d{1,2}月\d{1,2}日[）)]', title): return None
-    url = article.get('url', '')
-    if urlparse(url).scheme not in {'https', 'http'} or not urlparse(url).netloc: return None
-    text = article.get('description') or ''
-    if len(text) > 5000 or re.search(r'[<>]', text): return None
+    match = re.fullmatch(r'(?:今日|きょう)の歴史\((\d{1,2}月\d{1,2}日)\)', normalize('NFKC', clean_headline(title)))
+    return match[1] if match else None
+
+
+def history_records(text):
+    if len(text) > 5000 or re.search(r'[<>]', text): return []
     markers = list(YEAR.finditer(text))
-    if not markers or text[:markers[0].start()].strip(): return None
+    if not markers or text[:markers[0].start()].strip(): return []
     counts = Counter(m[1] for m in markers)
     records = []
     current_year = datetime.now(timezone.utc).year
@@ -39,6 +40,29 @@ def history_quiz_for_article(article):
         # A single bounded entry must contain one event, not several sentences.
         if re.search(r'[。．].', body): continue
         records.append((year, body, text[marker.start():end].strip()))
+    return records
+
+
+def history_cover_for_article(article):
+    date = history_date(article.get('title', ''))
+    if not date:
+        return None
+    quiz = article.get('term_quiz') or {}
+    if quiz.get('kind') == 'history':
+        event = YEAR.sub('', quiz['evidence'], count=1).strip()
+        return dict(date=date, event=event, has_quiz=True)
+    records = history_records(article.get('description') or '')
+    return dict(date=date, event=records[0][1] if records else '', has_quiz=False)
+
+
+def history_quiz_for_article(article):
+    from headline_quizzes import clean_headline
+    title = clean_headline(article.get('title', ''))
+    if not history_date(title): return None
+    url = article.get('url', '')
+    if urlparse(url).scheme not in {'https', 'http'} or not urlparse(url).netloc: return None
+    text = article.get('description') or ''
+    records = history_records(text)
     if len(records) < 3: return None
     unique = [r for r in records if sum(other[1] == r[1] for other in records) == 1]
     if len(unique) < 3: return None

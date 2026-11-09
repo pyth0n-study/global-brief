@@ -1,11 +1,13 @@
 document.querySelectorAll('[data-term-config]').forEach(quiz => {
   const article = quiz.closest('article');
   const config = JSON.parse(quiz.dataset.termConfig);
+  const cover = config.kind === 'history' && article.querySelector('button.history-cover');
+  let started = !cover;
   let answered = false;
   const headline = article.querySelector('.headline-text');
   const originalTitle = headline.textContent;
   function show() {
-    quiz.hidden = article.classList.contains('has-photo');
+    quiz.hidden = !started || article.classList.contains('has-photo');
     article.classList.toggle('quiz-pending', !quiz.hidden && !answered);
     article.classList.toggle('quiz-done', !quiz.hidden && answered);
     if (config.kind === 'flag') headline.textContent = !quiz.hidden && !answered ? originalTitle.replaceAll(config.term, 'この国') : originalTitle;
@@ -38,6 +40,14 @@ document.querySelectorAll('[data-term-config]').forEach(quiz => {
     quiz.querySelector('.quiz-choices').append(button);
   });
   quiz.querySelector('.quiz-skip').addEventListener('click', () => finish(null));
+  if (cover) {
+    cover.addEventListener('click', () => {
+      started = true;
+      cover.hidden = true;
+      show();
+      quiz.querySelector('.quiz-choices button')?.focus({ preventScroll: true });
+    });
+  }
   article.querySelectorAll('button[data-kind]').forEach(button => button.addEventListener('click', () => { if (!answered && !quiz.hidden) finish(null); }));
   article.addEventListener('photo-ready', show);
   article.addEventListener('photo-unavailable', show);

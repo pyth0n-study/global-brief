@@ -8,6 +8,7 @@ from preview_visuals import fallback_visual, world_paths
 from timeline_library import attach_timelines, load_timelines
 from japan_connections import attach_japan_connections
 from grounded_focus import validate_focus
+from history_quizzes import history_cover_for_article
 from public_feed import load_home_feed
 
 submission = Blueprint('submission', __name__)
@@ -48,6 +49,12 @@ def home():
         focus = article.get('focus') or {}
         article['focus'] = validate_focus(focus.get('point'), focus.get('evidence'), article['title'], article['description'])
         article['visual'], article['visual_label'] = fallback_visual(article)
+        if request.path != '/articles':
+            cover = history_cover_for_article(article)
+            if cover:
+                article['history_cover'] = cover
+                article['image'] = ''
+                article['visual_label'] = ''
     if request.path == '/articles':
         from app import get_category, CATEGORY_COLORS
         for article in articles:
