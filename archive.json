@@ -5091,6 +5091,27 @@
         "fingerprint": "eb904f32ddeb2410d31f50b95e9a18515f05d5ab2bfa2c7d290a48c663518a9c",
         "url": "https://www.cnn.co.jp/world/35254562.html",
         "status": "accepted"
+      },
+      {
+        "day": "2026-11-10",
+        "owner": "42712494916-1",
+        "fingerprint": "370f9c2fe4c7a1f3c9877b3303800c0eba90047b27489f20cfe95a742c871cc7",
+        "url": "https://news.yahoo.co.jp/articles/32528f8e6b42e037f893bd66801eb125107636e2",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-10",
+        "owner": "42712494916-1",
+        "fingerprint": "93288e8ec461580d80148f0f75174bef56ad20a68958bbb546eb9a1eb7269d17",
+        "url": "https://www.nikkei.com/article/DGXZQOGM070K80X01C26A1000000/",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-10",
+        "owner": "42712494916-1",
+        "fingerprint": "87c0c17da9955b2b83445e7764457395680749a7ef02e57fcfe2307dafefa67d",
+        "url": "https://news.yahoo.co.jp/articles/5fbb05933c4765dfde1cf5574c8a076e63f6714e",
+        "status": "reserved"
       }
     ]
   },
