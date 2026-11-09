@@ -22,6 +22,13 @@ class HistoryTests(unittest.TestCase):
  def test_same_event_at_multiple_years_hidden(self):
   text='1965年：首相がその国に来韓1991年：首相がその国に来韓1995年：首相がその国に来韓'
   self.assertIsNone(history_quiz_for_article(dict(ARTICLE,description=text)))
+ def test_events_without_person_or_role(self):
+  text='1919年：満州で抗日武装独立運動団体の義烈団結成1938年：日本が朝鮮で経済警察制度を実施1966年：慶北線（慶尚北道・栄州―同・醴泉）鉄道が開通2001年：第6回南北閣僚級会談を金剛山旅館で開催'
+  q=history_quiz_for_article(dict(ARTICLE,title='今日の歴史（11月9日）',description=text))
+  self.assertEqual(set(q['options']),{'1919年','1938年','1966年'})
+  self.assertIn(q['evidence'],text)
+  self.assertTrue(q['evidence'].startswith(q['options'][q['answer']]+'：'))
+  self.assertIsNone(history_quiz_for_article(dict(ARTICLE,description='1919年：新たな出来事を発表1938年：重要な発表を承認1966年：関係者との会合を開催。')))
  def test_integration_does_not_change_source_or_photo(self):
   a=dict(ARTICLE,image='https://example.org/photo.jpg')
   item=prepare_article(a)

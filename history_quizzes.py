@@ -6,7 +6,13 @@ import re
 from urllib.parse import urlparse
 
 YEAR = re.compile(r'(?<!\d)([12]\d{3})年[：:]')
-COMPLETE = re.compile(r'(?:宣言|発表|締結|設立|発足|就任|訪問|来韓|来日|独立|加盟|開幕|開催|初選出|選出|承認)(?:した|する|された|される)?[。．]?$')
+COMPLETE = re.compile(r'(?:宣言|発表|締結|設立|発足|就任|訪問|来韓|来日|独立|加盟|開幕|開催|初選出|選出|承認|結成|実施|開通)(?:した|する|された|される)?[。．]?$')
+NAMED_ROLE = re.compile(r'.{2,}(?:首相|大統領|外相)(?:が|は)')
+EXPLICIT_EVENT = re.compile(
+    r'(?:.{2,}(?:団|党|組合|協会|機構|委員会)(?:を)?結成'
+    r'|.{2,}制度を実施|.{2,}鉄道が開通)'
+    r'(?:した|された)?[。．]?$'
+)
 
 
 def history_quiz_for_article(article):
@@ -36,12 +42,11 @@ def history_quiz_for_article(article):
     if len(records) < 3: return None
     unique = [r for r in records if sum(other[1] == r[1] for other in records) == 1]
     if len(unique) < 3: return None
-    # Ask only about an explicitly named person, not an omitted subject such as
-    # '非常任理事国に初選出'. Other complete entries can supply year distractors.
-    subjects = [r for r in unique if re.search(r'.{2,}(?:首相|大統領|外相)(?:が|は)', r[1])]
-    if not subjects: return None
+    # A named actor or a concrete target makes the event identifiable.
+    questions = [r for r in unique if NAMED_ROLE.search(r[1]) or EXPLICIT_EVENT.fullmatch(r[1])]
+    if not questions: return None
     seed = int(hashlib.sha256((title + text).encode()).hexdigest()[:8], 16)
-    year, body, evidence = subjects[seed % len(subjects)]
+    year, body, evidence = questions[seed % len(questions)]
     other_years = [r[0] + '年' for r in unique if r[0] != year]
     options = other_years[:2]
     answer = seed % 3
