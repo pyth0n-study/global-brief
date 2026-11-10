@@ -5523,21 +5523,21 @@
         "owner": "42889455557-1",
         "fingerprint": "4479e78208607ebe35abc2d49798914536dd031c7cc6a2b59624053456c7e0c8",
         "url": "https://www.nikkei.com/article/DGXZQOGR099LZ0Z01C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-11",
         "owner": "42889455557-1",
         "fingerprint": "daf7fff4d58fa8d836727b753706335afe3ea806068ec024827f473c57a30280",
         "url": "https://www.nikkei.com/article/DGXZQOGR09AP40Z01C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-11",
         "owner": "42889455557-1",
         "fingerprint": "94cba8fa0372c99f79dd95753c118337f25aeb8b7c0ea39589d35feb445dc138",
         "url": "https://news.yahoo.co.jp/articles/4115a9802b94e2244516a5be8a8a76d87eccc7e3",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
