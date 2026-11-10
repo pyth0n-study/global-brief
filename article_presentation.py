@@ -119,11 +119,14 @@ def prepare_article(article, prefer_acronym=False):
     from watch_points import validate_watch
     item['watch_point'] = validate_watch(item.get('watch_point'), description)
     item['display_title'] = re.sub(r'[（(][^（）()]{1,40}[）)]$', '', item['title']).strip()
-    quiz = quiz_for_article(item)
+    from term_quizzes import term_quiz_for_article
+    term_quiz = term_quiz_for_article(item)
+    # Explain these headline terms even when a country (such as the host) appears.
+    explain_headline_term = term_quiz and term_quiz['term'] in ('ウ戦', 'COP31')
+    quiz = None if explain_headline_term else quiz_for_article(item)
     item['quiz'] = quiz
     item['quiz_country'] = quiz['code'] if quiz else None
-    from term_quizzes import term_quiz_for_article
-    item['term_quiz'] = None if quiz else term_quiz_for_article(item)
+    item['term_quiz'] = None if quiz else term_quiz
     if not quiz and not item['term_quiz']:
         from headline_quizzes import headline_quiz_for_article
         item['term_quiz'] = headline_quiz_for_article(item)

@@ -86,6 +86,26 @@ class FallbackTests(unittest.TestCase):
 
 
 class ExpandedQuizTests(unittest.TestCase):
+    def test_headline_terms_take_priority_over_country_quizzes(self):
+        photo = 'https://example.com/photo.jpg'
+        for title, term, answer in (
+            ('ウ戦、ロシアと停戦協議へ', 'ウ戦', 'ロシアによるウクライナ侵略'),
+            ('トルコでＣＯＰ ３１が開幕', 'COP31', '気候変動への対策'),
+        ):
+            with self.subTest(title=title):
+                article = prepare_article({'title': title, 'image': photo})
+                quiz = article['term_quiz']
+                self.assertEqual(quiz['term'], term)
+                self.assertEqual(quiz['options'][quiz['answer']], answer)
+                self.assertIsNone(article['quiz_country'])
+                self.assertEqual(article['image'], photo)
+
+    def test_similar_spellings_do_not_trigger_headline_terms(self):
+        from term_quizzes import term_quiz_for_article
+        for title in ('新型COP310を発表', 'ABCOP31の仕様', '新作ショウ戦隊を発表', 'ウ戦隊の新作'):
+            with self.subTest(title=title):
+                self.assertIsNone(term_quiz_for_article({'title': title}))
+
     def test_acronyms_and_full_width(self):
         from term_quizzes import term_quiz_for_article
         for title, term in [('APEC首脳会談へ調整', 'APEC'), ('ＡＰＥＣの会合', 'APEC'), ('G7外相会合に出席へ', 'G7'), ('G20首脳会合', 'G20'), ('ASEANの会合', 'ASEAN'), ('WHOが発表', 'WHO'), ('NATOの方針', 'NATO'), ('IMFの融資', 'IMF'), ('EUの政策', 'EU')]:

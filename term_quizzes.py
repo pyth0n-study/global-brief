@@ -4,6 +4,14 @@ import unicodedata
 from headline_quizzes import clean_headline
 
 TERMS = [
+    dict(term='ウ戦', pattern=r'(?<![ァ-ヺー])ウ戦(?![隊闘略])', question='見出しの「ウ戦」が指す戦争は？',
+         options=['ロシアとジョージアの戦争', 'ロシアによるウクライナ侵略', 'イランとイラクの戦争'], answer=1,
+         explanation='この見出しの「ウ戦」はウクライナでの戦争を指します。2022年2月、ロシアはウクライナへの全面侵攻を始めました。',
+         source='外務省：ロシアによるウクライナ侵略', url='https://www.mofa.go.jp/mofaj/gaiko/bluebook/2022/html/chapter2_06_01.html'),
+    dict(term='COP31', pattern=r'(?<![A-Za-z0-9])COP\s*31(?![A-Za-z0-9])', question='COP31では主に何を話し合う？',
+         options=['国際貿易のルール', '核兵器の削減', '気候変動への対策'], answer=2,
+         explanation='COP31は、国連気候変動枠組条約の第31回締約国会議です。参加国は温室効果ガスの削減や気候変動への適応などを協議します。',
+         source='国連気候変動枠組条約：COP31', url='https://unfccc.int/cop31'),
     dict(term='OPEC', pattern=r'(?<![A-Za-z])OPEC(?![A-Za-z])', question='OPECが協調する政策は？',
          options=['航空輸送', '石油', '宇宙開発'], answer=1,
          explanation='OPEC（石油輸出国機構）は、加盟国の石油政策の調整を目的とする組織です。OPECプラスは非加盟の産油国も含む協力の枠組みです。',
