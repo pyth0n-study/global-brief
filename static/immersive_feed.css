@@ -16,6 +16,23 @@ main[data-story-feed]{position:fixed;inset:0;max-width:none;width:100%;height:10
 main::-webkit-scrollbar{display:none}
 main[data-story-feed]>article{width:100%;height:100dvh;min-height:100dvh;margin:0;padding:110px 7vw 36px;justify-content:flex-end;scroll-snap-align:start;scroll-snap-stop:always;border:0;border-radius:0;overflow:hidden;background:radial-gradient(ellipse at 65% 20%,#234e60,transparent 75%),#0a1c28}
 article>img{inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+@media(max-width:600px){
+  article.has-photo.wide-photo::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    z-index:-1;
+    background:var(--wide-photo) center / cover no-repeat;
+    filter:blur(18px) brightness(.45);
+    transform:scale(1.12);
+    pointer-events:none;
+  }
+  article.has-photo.wide-photo>img{
+    inset:calc(var(--site-header-height, 90px) + 4px) 0 auto;
+    height:var(--media-height, 49dvh);
+    object-fit:contain;
+  }
+}
 article>.visual{inset:0;height:100%;padding:0;align-items:flex-start;background:#0e2532}
 article .visual svg{width:100%;height:70%;min-height:0;max-height:none;margin-top:6vh}
 article:after{display:block;z-index:1;background:linear-gradient(180deg,#0003 0%,transparent 35%,#0008 65%,#000e 100%)}
@@ -83,7 +100,21 @@ article.description-open .read-more-hint{margin-top:8px}
 .inline-quiz[data-config]>.quiz-choices{margin-top:14px;flex-shrink:0}
 @media(max-width:600px){.inline-quiz[data-config]>.quiz-choices{margin-top:10px}}
 
-.flag-art{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;padding:18px 0}.flag-art svg{flex:none;width:min(100%,420px);height:auto;max-height:100%;border:1px solid #ffffff55;filter:drop-shadow(0 8px 20px #0003)}.term-quiz:has(.flag-art){justify-content:flex-start}
+.flag-art{
+  display:grid;
+  place-items:center;
+  flex:1 0 clamp(110px, 20dvh, 180px);
+  min-height:110px;
+}
+.flag-art svg{
+  width:min(100%, 420px);
+  height:100%;
+  filter:drop-shadow(0 8px 20px #0003);
+}
+article>.flag-quiz{justify-content:flex-start}
+@media(max-width:600px){
+  article.quiz-pending:has(>.flag-quiz)>h1{font-size:clamp(18px, 5vw, 22px);line-height:1.4}
+}
 
 .history-quiz .term-question{white-space:pre-line;font-size:clamp(20px,2.4vw,30px);line-height:1.6}
 

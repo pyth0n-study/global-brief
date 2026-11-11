@@ -1,4 +1,4 @@
-<div class="inline-quiz term-quiz{% if item.term_quiz.kind == 'headline' %} headline-quiz{% elif item.term_quiz.kind == 'history' %} history-quiz{% endif %}"{% if item.history_cover and item.history_cover.has_quiz %} id="history-quiz-{{ loop.index }}" hidden{% endif %} data-term-config='{{ item.term_quiz|tojson }}'>
+<div class="inline-quiz term-quiz{% if item.term_quiz.kind in ['headline', 'history', 'flag'] %} {{ item.term_quiz.kind }}-quiz{% endif %}"{% if item.history_cover and item.history_cover.has_quiz %} id="history-quiz-{{ loop.index }}" hidden{% endif %} data-term-config='{{ item.term_quiz|tojson }}'>
   <div class="quiz-top"><strong>{{ '見出しの空欄は？' if item.term_quiz.kind == 'headline' else ('歴史クイズ' if item.term_quiz.kind == 'history' else ('国旗クイズ' if item.term_quiz.kind == 'flag' else 'ニュースの用語クイズ')) }}</strong><button type="button" class="quiz-skip">スキップ</button></div>
   {% if item.term_quiz.kind == 'flag' %}<div class="flag-art">{{ item.term_quiz.flag_svg|safe }}</div>{% endif %}
   <div class="term-word" {% if item.term_quiz.kind in ['flag', 'history'] %}hidden{% endif %}>{{ '［？］' if item.term_quiz.kind == 'headline' else item.term_quiz.term }}</div>
