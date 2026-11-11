@@ -103,8 +103,8 @@ article.description-open .read-more-hint{margin-top:8px}
 .flag-art{
   display:grid;
   place-items:center;
-  flex:1 0 clamp(110px, 20dvh, 180px);
-  min-height:110px;
+  flex:1 0 0;
+  min-height:clamp(120px, 23dvh, 200px);
 }
 .flag-art svg{
   width:min(100%, 420px);
@@ -112,9 +112,27 @@ article.description-open .read-more-hint{margin-top:8px}
   filter:drop-shadow(0 8px 20px #0003);
 }
 article>.flag-quiz{justify-content:flex-start}
+.flag-quiz .quiz-feedback:empty{display:none}
 @media(max-width:600px){
-  article.quiz-pending>.flag-quiz{padding:8px 0;gap:8px}
+  article.quiz-pending>.flag-quiz{padding:4px 0;gap:6px}
+  article.quiz-pending>.flag-quiz:not([hidden]){
+    display:grid;
+    grid-template-columns:minmax(0, 1fr) auto;
+    grid-template-rows:minmax(120px, 1fr) auto auto;
+    justify-content:stretch;
+  }
+  .quiz-pending .flag-art{grid-area:1 / 1 / 2 / -1;min-height:0}
+  .quiz-pending .flag-quiz .quiz-top{grid-area:2 / 2}
+  .quiz-pending .flag-quiz .quiz-top strong{display:none}
+  .quiz-pending .flag-quiz .term-question{grid-area:2 / 1;align-self:center}
+  .quiz-pending .flag-quiz .quiz-choices{grid-area:3 / 1 / 4 / -1}
   article.quiz-pending:has(>.flag-quiz)>h1{font-size:clamp(18px, 5vw, 22px);line-height:1.4}
+  article.quiz-pending:has(>.flag-quiz) .headline-text{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    overflow:hidden;
+  }
 }
 
 .history-quiz .term-question{white-space:pre-line;font-size:clamp(20px,2.4vw,30px);line-height:1.6}
@@ -145,3 +163,38 @@ article>.flag-quiz{justify-content:flex-start}
 .history-cover-date { font-size: clamp(29px, 5vw, 64px); line-height: 1.05; }
 .history-cover-event { font-size: clamp(16px, 2.2vw, 27px); line-height: 1.45; }
 .history-cover-action { font-size: 14px; color: #ead2a0; }
+
+main[data-layout="immersive"]>article.has-photo.wide-photo{
+  justify-content:flex-start;
+  padding-top:calc(var(--site-header-height, 90px) + 4px);
+}
+main[data-layout="immersive"]>article.has-photo.wide-photo>img{
+  position:relative;
+  inset:auto;
+  order:-2;
+  width:100%;
+  height:auto;
+  min-height:0;
+  flex:0 1 auto;
+  object-fit:contain;
+  margin-top:auto;
+}
+main[data-layout="immersive"]>article.has-photo.wide-photo>h1{
+  order:-1;
+  margin:12px 0 8px;
+}
+main[data-layout="immersive"]>article.has-photo.wide-photo>nav{margin-top:12px}
+main[data-layout="immersive"]>article.has-photo.wide-photo>.credit{
+  margin-top:auto;
+  padding-top:12px;
+}
+main[data-layout="immersive"]>article.has-photo.wide-photo::after{
+  background:linear-gradient(180deg,#0004,transparent 20%,#0003 52%,#000e 100%);
+  z-index:0;
+}
+@media(max-width:600px){
+  main[data-layout="immersive"]>article.has-photo.wide-photo>img{
+    width:100vw;
+    margin-inline:-23px;
+  }
+}
