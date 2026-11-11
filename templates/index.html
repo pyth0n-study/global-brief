@@ -17,7 +17,6 @@
 
   <header>
     <h1>Global Brief</h1>
-    <p>世界のいまを、3行で。</p>
     {% if submission_mode %}<a href="/background" style="color:inherit">背景を知る ↗</a>{% endif %}
     {% if submission_mode %}<p style="font-size:12px">更新 {{ captured_at }} · 12時間遅延</p><a href="/" style="color:inherit">← 縦型で読む</a> · <a href="/about?from=list" style="color:inherit">このサイトについて</a>{% endif %}
     <button id="dark-toggle" onclick="toggleDark()" aria-label="ダークモード切替">🌙</button>
