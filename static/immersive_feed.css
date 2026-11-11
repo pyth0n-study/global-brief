@@ -98,7 +98,24 @@ article.description-open .read-more-hint{margin-top:8px}
 
 /* Separate the map from answer controls without changing the quiz footprint. */
 .inline-quiz[data-config]>.quiz-choices{margin-top:14px;flex-shrink:0}
-@media(max-width:600px){.inline-quiz[data-config]>.quiz-choices{margin-top:10px}}
+@media(max-width:600px){
+  .inline-quiz[data-config]>.quiz-choices{margin-top:8px}
+  article.quiz-pending>.inline-quiz[data-config]{
+    position:relative;
+    inset:auto;
+    width:100%;
+    height:auto;
+    flex:1 1 0;
+    min-height:0;
+    overflow-y:auto;
+  }
+  article.quiz-pending>.inline-quiz[data-config]>svg{
+    height:auto;
+    flex:1 0 0;
+    min-height:120px;
+  }
+  article.quiz-pending>.inline-quiz[data-config]>.quiz-feedback:empty{display:none}
+}
 
 .flag-art{
   display:grid;
@@ -126,8 +143,11 @@ article>.flag-quiz{justify-content:flex-start}
   .quiz-pending .flag-quiz .quiz-top strong{display:none}
   .quiz-pending .flag-quiz .term-question{grid-area:2 / 1;align-self:center}
   .quiz-pending .flag-quiz .quiz-choices{grid-area:3 / 1 / 4 / -1}
-  article.quiz-pending:has(>.flag-quiz)>h1{font-size:clamp(18px, 5vw, 22px);line-height:1.4}
-  article.quiz-pending:has(>.flag-quiz) .headline-text{
+  article.quiz-pending:has(>.flag-quiz, >.inline-quiz[data-config])>h1{
+    font-size:clamp(18px, 5vw, 22px);
+    line-height:1.4;
+  }
+  article.quiz-pending:has(>.flag-quiz, >.inline-quiz[data-config]) .headline-text{
     display:-webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:3;
