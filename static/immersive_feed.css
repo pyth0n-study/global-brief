@@ -113,6 +113,7 @@ article.description-open .read-more-hint{margin-top:8px}
 }
 article>.flag-quiz{justify-content:flex-start}
 @media(max-width:600px){
+  article.quiz-pending>.flag-quiz{padding:8px 0;gap:8px}
   article.quiz-pending:has(>.flag-quiz)>h1{font-size:clamp(18px, 5vw, 22px);line-height:1.4}
 }
 
