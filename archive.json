@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T19:51:43.285064+00:00",
-  "count": 523,
+  "updated_at": "2026-11-11T06:46:09.675680+00:00",
+  "count": 543,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -5281,6 +5281,206 @@
       "published_at": "2026-11-10 06:53:23",
       "first_seen": "2026-11-10T19:51:43.273904+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3856149010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=51e2615d6f195786d797caca381d8b13",
+      "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/u-s-iran-exchange-strikes-on-islands-as-they-fight-for-control-of-strait-083e5e7b",
+      "title": "米・イラン、島へ攻撃の応酬 ホルムズ海峡支配巡り",
+      "description": "米国とイランはホルムズ海峡の支配を巡って戦いを続けており、ここ数日は海峡内の島々を攻撃し合っている。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-10 15:03:00",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/04cbe07d68059528c8ca570c77029f596aee5ebd",
+      "title": "「根拠がない」サイバー攻撃を否定 仏発表受け「無責任で卑劣」とイラン外務省が非難(テレビ朝日系（ANN）)",
+      "description": "フランス政府が大規模なサイバー攻撃に関してイランの革命防衛隊が関与したと発表したのを受け、イラン外務省は「根拠がない」と否定しました。 イランの外務省は10日、「イランがフランス国内で発生したとされる",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 16:09:27",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/166b9d3f2733d0c57a5678c8992be4d9d1aacdb4",
+      "title": "香港の無印良品で「宮崎スギ」特別展 五感体験や木育推進も(みんなの経済新聞ネットワーク)",
+      "description": "宮崎県産材「宮崎スギ」をテーマにした特別展示「FROM FOREST TO FORM－Nature, Craft and the Living Soul of Miyazaki Wood（由林至物――",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 16:28:29",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000001-minkei-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3554f1f64e1ee61cd1e30c9a65940e8bdd24e526",
+      "title": "イラン戦争の責任…ヘグセス国防長官に“弾劾決議案” カギ握るのが“新首席補佐官”(テレビ朝日系（ANN）)",
+      "description": "アメリカのヘグセス国防長官に対する弾劾訴追決議案が、身内の共和党議員から提出されました。【画像】イラン戦争の責任…ヘグセス国防長官に“弾劾決議案” カギ握るのが“新首席補佐官”アメリカ トランプ大統領",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 17:30:36",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-90203944-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3eae4376133cbf7e18678ba3e0950338c1bc9dcd",
+      "title": "米アンソロピック 上場で10兆円調達か(テレビ朝日系（ANN）)",
+      "description": "AI（人工知能）開発企業のアンソロピックは10日、IPO（新規株式公開）による調達額が最大で10兆円余りになることを明らかにしました。 アンソロピックがアメリカの証券取引委員会に提出した資料によります",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 17:33:50",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/475c390bed9f63848b970f41de236c40eeb07ca8",
+      "title": "イラン高官が米副大統領と会談否定 「対応は偽りだ」原油価格下げるのが目的と非難(テレビ朝日系（ANN）)",
+      "description": "アメリカとの戦闘終結に向けた交渉が膠着（こうちゃく）するなか、バンス副大統領と会談すると報じられたイランの国家安全保障最高評議会のレザイ事務局長が、「事実無根だ」と否定しました。 レザイ事務局長は10",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 18:35:49",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5adc6adce7d3ab81b703c5d137b20d3d8381ebee",
+      "title": "ロ・ウ・米3者協議の初日終了 安全保障議論か「成果は期待できないが…」(テレビ朝日系（ANN）)",
+      "description": "ロシアとウクライナに仲介役のアメリカが参加し、3者による和平に向けた協議が中東アブダビで始まりました。 協議はアラブ首長国連邦のアブダビで2日間開かれ、双方の大統領側近ら実務担当者とアメリカのウィトコ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 16:08:40",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000002-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b3c058681c71bc3ef3b1b6ebe24c586e7cd3a86d",
+      "title": "“冷蔵庫サイバー攻撃”イラン・革命防衛隊の犯行か…フランス政府が断定 国際手配へ(テレビ朝日系（ANN）)",
+      "description": "フランス政府は、先月相次いだスーパーマーケットなどへのサイバー攻撃について、イランの革命防衛隊によるものだと非難しました。フランス政府が突き止めたとする“実行部隊”。フランス バロ外相「イランの革命防",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 15:15:34",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-90203937-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/c6c5dbb2101d059e5388fad540384d6d8b652a30",
+      "title": "米国防長官 自身への弾劾は「失敗するだろう」 イラン攻撃は合法な作戦と主張(テレビ朝日系（ANN）)",
+      "description": "アメリカのヘグセス国防長官は議会下院に提出された自身への弾劾訴追決議案について「失敗するだろう」と牽制（けんせい）しました。ヘグセス国防長官「アメリカの250年の歴史で合法的な軍事作戦を遂行したことを",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 16:06:53",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000001-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/fac17ee7e7bba92ec808dd48c3df9bb1334d4872",
+      "title": "今日の歴史（11月11日）(聯合ニュース)",
+      "description": "1945年：呂運亨（ヨ・ウンヒョン）を党首に朝鮮人民党結党1946年：国立博物館オープン1950年：北朝鮮軍に協力した韓国人を処罰する「反逆者処罰措置令」を公布1961年：国家再建最高会議の朴正熙（パ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-10 15:00:01",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ba5c5df361354948c691b6d743ac70c9",
+      "title": "米長官 イラン大規模軍事作戦は不要",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-10 15:48:30",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ea645fc8810a280bb29dc8db9dc5f777",
+      "title": "米露ウ協議初日終了 成果期待できず",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-10 16:51:41",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f5e47304f1d50a0298a590d2998c066d",
+      "title": "ウ攻撃再開で露石油精製能力3割減か",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-10 18:01:46",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB100KJ0Q6A111C2000000/",
+      "title": "[FT]経営者は法の規範に従え 米政権の腐敗への沈黙、猛省を",
+      "description": "11月3日の米国の中間選挙には少なくとも2つの勝利があった。1つ目の勝利は明白で、米民主党が連邦議会の多数派を奪取した。トランプ米大統領に対する抗議票とリベラル派団体「インディビジブル」のような草の根ネットワークが「ノー・キングス（王様はいらない）」運動で発揮した組織力を追い風にした。トランプ氏をとがめなかった経済界2つ目は法の支配の勝利だ。これは民主党が米国を席巻した「ブルーウエーブ（青",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 17:00:00",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3852865010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=391&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e73a996792fd551ac13139a2c55470eb",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM16AE00W6A011C2000000/",
+      "title": "韓国の親世代「日本の女性と結婚を」 Z世代の交流で変わる意識",
+      "description": "「息子と結婚してくれる日本人女性はいないでしょうか」。韓国人男性向けに日本人女性との国際結婚を専門とする相談所「Marry J Bridal」（ソウル）には親世代からの問い合わせが増え、最近は全体の2割を占める。代表の鄭鎬允（ジョン・ホユン、58）は結婚適齢期の子を持つ60歳前後の世代には「豊かな国で育った日本人女性はよい家族になるとの期待があるようだ」と分析する。足元では日韓カップルの結婚",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 17:00:00",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3804484029102026000000-3.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e4f30b22941c4ef90ce75845df7a6061",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN10C8E0Q6A111C2000000/",
+      "title": "米家計債務、過去最大の約3000兆円 住宅・自動車ローンは延滞増",
+      "description": "【ニューヨーク=佐藤璃子】ニューヨーク連銀が10日発表した四半期報告書によると、7〜9月期の米国の家計債務総額は約19兆1050億ドル（約3000兆円）と前年同期から2.8%増加し、過去最大に達した。住宅、自動車ローンで延滞増の傾向が目立つ。債務別でみると、クレジットカードの債務残高が前年同期比で4.2%増の1兆2850億ドル、自動車ローンは4.8%増の1兆7340億ドル、学生ローンは0.2%",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 18:26:19",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3858934010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=465&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2e991ddcf8e76ff8ff6734095e699634",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN10CA30Q6A111C2000000/",
+      "title": "中国、3カ国首脳会談で台本読み上げ要求か 米側が難色と報道",
+      "description": "【ワシントン=共同】米紙ウォール・ストリート・ジャーナル（WSJ）電子版は9日、来週に中国での開催が取り沙汰される米国、中国、ロシア3カ国の首脳会談について中国側が、各首脳が台本を読み上げるだけで踏み込んだ議論はしない形式を求めていると報じた。米側は難色を示し、会談実現が不透明になっているという。3者による正式な会談が実現すれば初めて。トランプ米大統領は、米中ロによる核軍縮を協議したい意向を示",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 15:43:02",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3858837010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=d4773f84949e8420579609914e0bc732",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR10BX90Q6A111C2000000/",
+      "title": "ネタニヤフ氏、トランプ氏に連日電話とFT報道 イラン再攻撃を説得",
+      "description": "【アンタルヤ（トルコ南部）=渡辺夏奈】イスラエルのネタニヤフ首相が再度イランを攻撃するよう、トランプ米大統領の説得を試みている。英フィナンシャル・タイムズは9日、関係者の話として、ネタニヤフ氏が連日トランプ氏に電話し、イラン攻撃の再開を求めていると伝えた。ネタニヤフ氏は10月下旬の総選挙に勝てずに首相留任が危ぶまれており、危機を演出して延命を図る。これまでもイランを再攻撃するよう、トランプ氏に",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 18:12:40",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3858896010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=473&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=796c3a497a78f4213700c1bc620c66de",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR10C580Q6A111C2000000/",
+      "title": "仏銀の伊銀合併、メローニ首相が介入措置「ゴールデンパワー」検討",
+      "description": "【フランクフルト=五艘志織】フランス金融大手クレディ・アグリコルが同社のイタリア事業とイタリアの銀行バンコBPMの統合を提案し、イタリアで波紋を呼んでいる。メローニ首相は10日、外資によるM&A（合併・買収）などに介入できる「ゴールデンパワー規制」の適用を検討すると明らかにした。クレディ・アグリコルは現状、イタリアのバンコBPM株の約3割を保有する筆頭株主。クレディ・アグリコルが9日、同社のイ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 17:30:59",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3858861010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=469&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=01de145efb6669ae877c95e8d010409b",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR10CA90Q6A111C2000000/",
+      "title": "日本の化石燃料使う製品の輸出、35年に14兆円減少 英機関分析",
+      "description": "【ロンドン=千葉大史】英シンクタンク「エンバー」は11日、化石燃料に関連した製品の日本からの輸出金額が2035年までに900億ドル（約14兆2750億円）減少する可能性があると発表した。アジアで関連製品の需要が減るとして、日本に電動化を促した。同日発表したリポートによると、日本の関連製品の輸出額は24年時点でエンジン車が640億ドル、ハイブリッド車が300億ドル、エンジン・部品が240億ドルな",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-10 17:15:58",
+      "first_seen": "2026-11-11T06:46:09.664123+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3858905010112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=0be08f5d02834fb2b3b47a85cf7a5172",
       "watch_point": null
     }
   ],
