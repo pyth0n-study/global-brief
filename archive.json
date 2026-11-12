@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T19:43:45.013529+00:00",
-  "count": 563,
+  "updated_at": "2026-11-12T07:25:18.360444+00:00",
+  "count": 583,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -5686,6 +5686,206 @@
       "published_at": "2026-11-11 06:38:05",
       "first_seen": "2026-11-11T19:43:44.975959+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3862000011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=63ffb910d33accab107bbe8840362f24",
+      "watch_point": null
+    },
+    {
+      "url": "https://japan.hani.co.kr/arti/international/57648.html",
+      "title": "サウジ国営放送「米国とイラン、ウラン濃縮制限など合意迫る」",
+      "description": "米国とイランがカタールとパキスタンの仲介により、ウラン濃縮の制限や凍結資金の解除などを骨子とする予備合意に近づていることが報じられた。 9日（現地時間）、サウジアラビア国営アル・アラビーヤ放送は",
+      "source": "Hani",
+      "published_at": "2026-11-11 14:12:00",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://img.hani.co.kr/imgdb/japan/news/resize/2026/1111/179440633320_20261111.JPG",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/02cfb8ea6362326aa23c8e0c98bab4735c7bb0c7",
+      "title": "マカオ税関が運び屋による密輸事案を直近1週間で21件摘発…大量のたばこ類や未検疫食材など発見(マカオ新聞)",
+      "description": "澳門海關（マカオ税関）は11月8日、「水客」と呼ばれる違法な越境”運び屋”行為に対し、スマート技術を活用するなど水際における密輸品の出入りに対する取り締まりを厳格化して臨む中、直近1週間（10月30日",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 13:50:01",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00010004-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2363ab258d5065d21b67e01205beb61e4313dce6",
+      "title": "クシュナー氏「良い第一歩」“領土問題”も議題に 米・ロ・ウ和平へ向けた協議終了(テレビ朝日系（ANN）)",
+      "description": "ロシアとウクライナ、アメリカの3者による和平に向けた協議が終了し、アメリカの特使が双方の首脳と直接話し合うことが明らかになりました。協議は2日間の日程で「ヨーロッパの新たな安全保障体制」などが議題にな",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 14:30:10",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000099-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2e8ebada23ced504621cad9749490d295a1735ac",
+      "title": "今日の歴史（11月12日）(聯合ニュース)",
+      "description": "1920年：日本が国境地帯の独立軍攻撃に備えた軍事物資調達のため朝鮮徴発令を公布1961年：国家再建最高会議の朴正熙（パク・チョンヒ）議長が訪米途中に日本に寄り池田勇人首相と会談、韓日国交正常化で合意",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 15:00:01",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6542c4d131b8c4aa825e24b5f24e570eb1eac979",
+      "title": "米中外相が電話会談(共同通信)",
+      "description": "【北京共同】新華社によると、中国の王毅外相は11日、ルビオ米国務長官と電話会談した。今月中国で予定される首脳会談などについて意見交換したとみられる。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 15:12:44",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/69f294c1e6515635bfe8b66bfeb3947e8805360d",
+      "title": "史上初“米中ロ会談”実現は？中間選挙大敗で“外交成果”急ぐトランプ氏(テレビ朝日系（ANN）)",
+      "description": "中間選挙で大惨敗をしたトランプ大統領が今後、外交政策で挽回を図るという見方が強まっています。来週にはロシアが呼び掛ける形で、米中ロの3カ国首脳会談も模索されています。ただ、様々な思惑が交錯する中で、簡",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 16:54:16",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261112-90204041-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/70648dd3d379f2fe17e369b22c56a2f351dd9618",
+      "title": "G7、ロシアへの武器供与で中国非難(共同通信)",
+      "description": "【パリ共同】G7外相は11日に発表した共同声明で、ウクライナに侵攻するロシアに武器や軍事訓練を提供しているとして中国を非難した。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 13:38:27",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/fa06460185fab787d5b61d6d6054255f039d47fc",
+      "title": "イタリアの学校に爆破予告…300校で避難 “アンドロポフ”名乗るメール欧州で再び(テレビ朝日系（ANN）)",
+      "description": "ヨーロッパ各地で爆破予告が相次ぐなか、今度はイタリアで少なくとも300の学校に爆破予告がありました。 爆破予告は11日、イタリアの少なくとも300の学校にメールで送られ、それぞれの学校で生徒らを避難さ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-11 14:26:45",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261111-00000098-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/24beef51847f617d1b230010d24a9a41",
+      "title": "ギブラン副大統領が辞任 学歴疑惑で",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-11 15:29:07",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/293327a48ca97801ec33c7ca8cb5a582",
+      "title": "米中外相が電話会談 意思疎通強化へ",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-11 16:17:16",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/b39ca02e080e8e9f16b583f8bc0f0264",
+      "title": "伊で6300校に爆破予告 学生ら避難",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-11 17:56:06",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d12977852fefead0928bddf3841d4c2f",
+      "title": "米露ウ協議 領土問題の溝埋まらず",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-11 14:55:46",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB11COO0R11C26A1000000/",
+      "title": "米中外相が電話会談 首脳会談の地ならし",
+      "description": "【北京=共同】中国の王毅外相は11日、ルビオ米国務長官と電話会談した。中国外務省が発表した。今月18〜19日に中国・深圳で開かれるアジア太平洋経済協力会議（APEC）首脳会議に合わせた首脳会談の地ならしをしたとみられる。外務省によると、王氏は「中国の対米政策は安定性と一貫",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 16:09:27",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865453011112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=3ba07fc36c526ee03c6130da5401f4d6",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM16AEC0W6A011C2000000/",
+      "title": "「釣り道具、日本製が一番」 趣味も日韓の距離近く",
+      "description": "「カンバレ、オッカサン」。韓国人がこう発音する日本酒が静かなブームを巻き起こしている。韓国の酒輸入会社、泰山酒類が新潟県の白龍酒造に依頼して開発したパック酒「がんばれ母ちゃん」が2月から店頭に並んでいる。販売は韓国限定だ。韓国で20年前から輸入される「がんばれ父ちゃん」の根強い人気を受けた後継の新商品だ。1本2万ウォン（約2200円）ほどでコンビニや日本風居酒屋に並び、長年愛飲されてきた。",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 17:00:00",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3804493029102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=522&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=4b7ca6888f342be48770d72d1149294e",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR11ASN0R11C26A1000000/",
+      "title": "ウクライナ巡る3カ国協議、最大規模の捕虜交換で合意 米特使訪ロへ",
+      "description": "ロシアとウクライナの和平に向け、米国を交えた3カ国の実務者協議が11日に終了した。大規模な捕虜交換を近く実施することで合意した。争点となる戦後の安全保障や領土問題を巡る実質的な進展は明らかになっていない。交渉に参加した米国のウィットコフ和平交渉担当特使とトランプ米大統領の娘婿クシュナー氏は12日にロシアを訪問しプーチン大統領と会談する。その後アイルランドでウクライナのゼレンスキー大統領とも会う",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 14:56:46",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865179011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=0031975d7e415a6fa18702c552bc0ebb",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR11BVP0R11C26A1000000/",
+      "title": "G7外相会合、ウクライナ停戦交渉「米の取り組み支持」 共同声明",
+      "description": "【パリ=児玉章吾】主要7カ国（G7）議長国のフランスは11日、外相会合の成果をまとめた共同声明を公表した。ロシアによるウクライナ侵略に関し「交渉を通じて和平を実現しようとする米国の現在の取り組みを支持する」と宣言した。外相会合は9〜10日にパリで開いた。米国で与党・共和党が大敗した3日投開票の中間選挙後、G7高官が一堂に会する初の場となった。10日の会合にはウクライナのシビハ外相も出席した。共",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 13:55:15",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865211011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2195ff897902ec9dc968947dcc6afcc6",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR11CF70R11C26A1000000/",
+      "title": "ドイツ軍、女性兵士の7割が性的発言被害 国防相が34項目の対策",
+      "description": "【ベルリン=杜師康佑】ドイツ国防省は11日、ドイツ連邦軍に所属する女性兵士の72%が兵役期間中に性的な発言を受けたという調査結果を発表した。ピストリウス国防相はカウンセリング窓口の設置など34項目の対策を示し、被害の防止を急ぐ。調査は国防省系列の研究機関を通じて2026年7月から8月にかけて実施した。アンケートは全ての階級の兵士4万5000人を対象に行われ、回答率は18%だった。グループインタ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 17:29:04",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865413011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=8a0b2cf6426df296903af6855ae90b5f",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR11CFE0R11C26A1000000/",
+      "title": "中東湾岸の原油生産、衝突前水準に迫る シャトル運航や迂回路駆使",
+      "description": "【カイロ=古賀雄大】中東の原油生産が回復している。石油輸出国機構（OPEC）が11日発表した石油市場月報によると、湾岸産油国の10月の生産量は日量2080万バレルと、米イラン軍事衝突以降で最大となった。月報のデータから、湾岸産油国のうち米国との衝突の当事国であるイランとデータのないカタールを除く6カ国のデータを集計した。6カ国の合計生産量は衝突直前の2月に2130万バレルだったが、4月は117",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 18:53:53",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865366011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=391&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=7444b42d41a501dba88eec7dd946fed5",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR11CRJ0R11C26A1000000/",
+      "title": "ウクライナ和平、欧州安保秩序の再編が焦点に 米ロ主導に欧州警戒",
+      "description": "【ウィーン=金子夏樹】ウクライナとロシア、米国は10〜11日にアラブ首長国連邦（UAE）のアブダビで開いた高官協議で、欧州全体の安全保障体制の再構築を主要な議題に据えた。和平協議の停滞にいらだつトランプ米大統領はロシアとの取引に傾く。ウクライナと欧州はロシアのペースで交渉が進むことに警戒を強める。ロシア代表団を率いたメジンスキー大統領補佐官は11日の協議後に「欧州の安保体制が中心の議題となった",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 17:31:14",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865501011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=586c87d748805b78aacd4e9c523a0568",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC11CBQ0R11C26A1000000/",
+      "title": "イタリアの6300校に爆破予告、英国でも 旅客機や報道機関に次ぎ",
+      "description": "【ロンドン=鈴木麻佑子】イタリアで11日、学校約6300校に爆破予告のメールが届いた。英国の北アイルランドやスコットランドの複数の学校も同様の脅迫を受けた。欧州では11月に入ってから旅客機や報道機関に爆破予告が相次いでおり、同じ送り主とされるメールも確認されている。ロイター通信が報じた。イタリアの学校では爆破予告を受け、休校や避難の措置がとられた。メールの中にはイタリアのメローニ首相を標的にす",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-11 16:30:11",
+      "first_seen": "2026-11-12T07:25:18.347142+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3865433011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=1963356daab9542c26a4dba751897fbc",
       "watch_point": null
     }
   ],
