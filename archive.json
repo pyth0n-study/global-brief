@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T20:08:02.853388+00:00",
-  "count": 603,
+  "updated_at": "2026-11-13T06:57:20.686883+00:00",
+  "count": 623,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -6092,6 +6092,206 @@
       "first_seen": "2026-11-12T20:08:02.845404+00:00",
       "image": null,
       "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/30f1833f40fdd0b0d6e194418df56398b7690478",
+      "title": "米首都で銃撃、5人負傷 ホワイトハウス北東(共同通信)",
+      "description": "【ワシントン共同】AP通信によると、米首都ワシントン中心部のジムで12日朝、5人が銃撃され、負傷する事件が発生した。容疑者はまだ拘束されておらず、警察は市民に発生現場に近づかないよう求めた。【写真】米",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 15:07:04",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-00000001-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/65b8ec30b83c6c4db0de0764f83e94f1a813bc93",
+      "title": "米首都銃撃で容疑者死亡(共同通信)",
+      "description": "【ワシントン共同】米首都ワシントンで発生した銃撃事件で、複数の米メディアは12日、自らを撃った容疑者が死亡したと伝えた。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 16:19:12",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6a19c3026198bec547a2430041f39c1e8f060375",
+      "title": "米首都銃撃で1人死亡、4人負傷と警察(共同通信)",
+      "description": "【ワシントン共同】米首都ワシントン中心部で発生した銃撃事件で、警察幹部は12日、1人が死亡、4人が負傷したと明らかにした。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 15:45:50",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6dbf6200c15b2098526c6bd8aafb98f5e1219a9b",
+      "title": "ロシア当局による記者拘束から1カ月…北海道新聞が記者の実名を公表(テレビ朝日系（ANN）)",
+      "description": "日本人記者が、ロシアの治安機関・FSBに拘束されてから、間もなく1カ月。木原官房長官「当該邦人の健康状態には問題がないということを確認。今後とも、さまざまな機会を捉えて、即時解放を含め、日本政府として",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 15:03:15",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-90204124-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8f81625e96e3406b660c8eed1398b31643b3492e",
+      "title": "エヌビディア フアンCEOが辞任 不倫疑惑報道の中で突然の退任に株価は急落(テレビ朝日系（ANN）)",
+      "description": "アメリカの半導体大手、エヌビディアは不倫疑惑が報じられている創業者のジェンスン・フアンCEOが辞任したと発表しました。 エヌビディアは12日、フアン氏がCEOと取締役を辞任し、後任が決まるまでの間、C",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 17:36:46",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9338c8ba8423d70095e0d1085771bebfd023571d",
+      "title": "エヌビディアのフアンCEOが辞任 中国スパイ疑惑の女性と不倫、衝撃の転落(CNN.co.jp)",
+      "description": "（CNN） 米半導体大手エヌビディアを世界有数の時価総額を誇る企業へと成長させた創業者、ジェンスン・フアン氏が33年間務めた最高経営責任者（CEO）の座を退いた。フアン氏は米当局がスパイとみなす女性と",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 15:01:00",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-35254806-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b93a6c20797e3fde30b00b3177583d7b8586fbc3",
+      "title": "ニューヨークで3階建ての建物倒壊 死者8人に 18人負傷 雨の中救助活動続く(テレビ朝日系（ANN）)",
+      "description": "ニューヨークで3階建ての建物が倒壊した事故で、これまでの死者は子ども2人を含む8人に上っています。救助活動は雨のなか、現在も続いています。 ニューヨークのブルックリンで11日、3階建ての建物が隣接する",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 18:13:45",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e50395b08291bad4f642e433d96199f596f53e8c",
+      "title": "米・エヌビディアのフアンCEOが辞任(ABEMA TIMES)",
+      "description": "アメリカの半導体大手エヌビディアのCEOジェンスン・フアン氏が辞任したと、エヌビディアが発表しました。【映像】後任は最高財務責任者のコレット・クレス氏 後任が決まるまでの暫定CEOには、最高財務責任者",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 15:21:15",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-10288643-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/fff13956679c1e700170fa0419f94a4171cebed4",
+      "title": "エヌビディアCEOの“スパイ不倫”疑惑 トランプ氏が習近平氏と直接議論？「『機密の流出はない』と言われるだけ」でも…トランプ氏に都合がいいワケ 国際政治学者が解説(ABEMA TIMES)",
+      "description": "アメリカの半導体大手NVIDIA（エヌビディア）のCEOであるジェンスン・フアン氏と不倫関係にあり中国のスパイ疑惑が持たれている女性とのツーショット映像が波紋を広げている。【映像】ピンクドレスの女性の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-12 17:27:16",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-10288638-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/9fef313c8b3d0f6e782d3fda25ce729d",
+      "title": "米首都で銃撃事件 1人死亡4人負傷",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-12 16:02:19",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/c80cdde3fbc7434ffc90d3d4c10cff36",
+      "title": "インドネシア副大統領辞任 正式発表",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-12 17:43:29",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d764e6f2c6742ddc5be95b2c737c0c94",
+      "title": "トランプ氏 メキシコに関税倍増警告",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-12 16:48:55",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB118EN0R11C26A1000000/",
+      "title": "[FT]習主席、米ロ失敗に学ぶか 強権指導者が握る開戦判断",
+      "description": "ロシアが2022年2月にウクライナの首都キーウを制圧できなかったことについて語るトランプ米大統領の口調は、残念がっていることが聞き逃しようもないほどだ。26年10月20日、ホワイトハウスでこの点に思いを巡らせていたトランプ氏は、記者たちを前にこう語った。「コンクリートで舗装された幹線道路に1000台の戦車を走らせていた。（中略）彼らを制止するものは何もない。戦争は一日で終わっていただろう。とこ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 17:00:00",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3863468011112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=391&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2cc1c503c4c74e27355d76c1daaea49f",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB1588G0V11C26A0000000/",
+      "title": "加盟国で石油融通へ転換 ASEAN事務局長、エネルギー危機再燃に備え",
+      "description": "東南アジア諸国連合（ASEAN）は15日から、フィリピンの首都マニラで日米中なども交えた首脳会議を開く。ASEANが直面する課題と日本を含めた多国間協力の具体策についてカオ・キムホン事務局長に聞いた。――中東の情勢悪化によってASEANのエネルギー調達の課題が浮き彫りになった。「石油の供給不足と価格高騰に耐えるために域内に共同備蓄体制を築くことが重要だ。これまで各国が個別に備蓄量を決定してき",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 17:00:00",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3812607031102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=696&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b978b71f7762a8d1034383121497196d",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB309QE0Q6A031C2000000/",
+      "title": "合理性失う「巨大」AI モデルの連携、日本に勝機",
+      "description": "世界の人工知能（AI）開発では「フロンティアAI」と呼ばれる最先端モデルの規模を競う動きが続いている。しかし、こうした「単一巨大モデルですべてをこなす」戦略は経済合理性を失いつつある。今後の競争の軸はモデルの規模ではなく、特性が異なるモデルを用途に応じて使い分け、連携させる技術へと移る。当社が開発する「Fugu（フグ）」は複数のモデルを連携させる基盤モデルだ。人間が事前に決めた方法で処理を割",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 17:00:00",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3816637002112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=29a7ce8af40f5a550742c839ddd74ca9",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM12C2K0S6A111C2000000/",
+      "title": "シンガポール、NVIDIAスパイ疑惑の女性の再入国禁止 25年に米国が調査",
+      "description": "【シンガポール=佐藤史佳】シンガポール政府は12日、米エヌビディアのジェンスン・ファン前最高経営責任者（CEO）へのスパイ疑惑が浮上している女性について、2026年2月に再入国の禁止措置をとっていたと発表した。シンガポール内務省の発表資料によると、同国警察と税関は2025年2月、女性と女性が関係するシンガポール企業メガスピード・インターナショナルに関して、サーバー購入に関する虚偽申告の疑いで調",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 15:41:58",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871796012112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=8395734e5818c07d28f33be227b25d9f",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN06CJF0W6A101C2000000/",
+      "title": "米仮想通貨業界に迫る民主党の調査の手 トランプ氏との蜜月にも影",
+      "description": "【ニューヨーク=佐藤璃子】米中間選挙で民主党が勝利したことを受け、米暗号資産（仮想通貨）業界に「青い逆風」が吹き始めた。業界は仮想通貨に懐疑的な有力民主候補の再選を阻もうと巨額の資金を投じたが阻止できなかった。早くも大手仮想通貨企業に資料提出を求める動きも出るなど監視の目が強まっている。仮想通貨懐疑派の議員が返り咲き仮想通貨業界はトランプ米政権下で業界振興に向けた法案成立の後押しなどに向け多",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 18:54:25",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871983012112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=25d720088f31253b3781fb1f845805c1",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN12CJF0S6A111C2000000/",
+      "title": "米首都ワシントンで銃撃、5人負傷 ホワイトハウス北東",
+      "description": "【ワシントン共同】米首都ワシントン中心部のジムで12日朝、銃撃事件が発生し、警察幹部は1人が死亡、4人が負傷したと明らかにした。容疑者は建物内に立てこもった後、自らを撃ったという。複数の米メディアによると、容",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 16:25:56",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871948012112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=79df72eb0cac1390f217197c43bfd9a7",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN12CLN0S6A111C2000000/",
+      "title": "トランプ氏、NVIDIAのCEO後任「アップルのクック会長しかいない」",
+      "description": "【ワシントン=八十島綾平】トランプ米大統領は12日、米半導体大手エヌビディアのジェンスン・ファン最高経営責任者（CEO）が辞任したことを受け、「後任はアップルのティム・クック会長しかいない」と語った。エヌビディアがファン氏の辞任を発表した後に自身のSNSで表明した。トランプ氏は投稿でファン氏が「素晴らしい仕事をしてきた」とたたえたうえで「レジェンド（伝説）の代わりにはレジェンドを」と述べた。",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 16:48:13",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871953012112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=f8191292236edb1691581b2b5468626b",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR06BXZ0W6A101C2000000/",
+      "title": "原発3倍目標38カ国、3年で賛同国1.5倍 アフリカや欧州がけん引",
+      "description": "【アンタルヤ（トルコ南部）=千葉大史】2050年までに世界の原発の設備容量を20年比で3倍にする目標への賛同国が39カ国に増えた。発足後3年で5割超増えた。脆弱なインフラの克服を目指すアフリカ、脱ロシア依存を進める欧州が拡大をけん引する。フランス政府が12日にトルコで開催中の第31回国連気候変動枠組み条約締約国会議（COP31）のイベントで発表した。25年のCOP30時点（33カ国）から新たに",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-12 16:10:10",
+      "first_seen": "2026-11-13T06:57:20.675902+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3852217009112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=a308e84891f198c20bfc85f1bdff9e15",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -6646,6 +6846,6 @@
         "status": "unresolved"
       }
     },
-    "deferred_until": "2026-11-12T21:08:02.855754+00:00"
+    "deferred_until": "2026-11-13T07:57:20.689657+00:00"
   }
 }
