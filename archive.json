@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T06:43:47.892708+00:00",
-  "count": 663,
+  "updated_at": "2026-11-14T18:17:44.956334+00:00",
+  "count": 683,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -6697,6 +6697,206 @@
       "first_seen": "2026-11-14T06:43:47.883248+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3878422013112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=6300187370a5998de3cce24e8ed72759",
       "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/behind-the-nvidia-affair-sits-a-vast-chinese-spying-machine-8c3fb943",
+      "title": "エヌビディア問題の背後に潜む中国の巨大スパイ網",
+      "description": "米当局者は現在、中国のスパイたちがAIブームの立役者の一人を手中に収めるという大がかりな策略を画策したのではないかと懸念している。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-14 05:50:00",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/05a59948e0a0627c5a8ee73b332f0a40381eb2ac",
+      "title": "Outlookなど大規模障害 マイクロソフトが個人向けサービスの完全復旧を発表(テレビ朝日系（ANN）)",
+      "description": "",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 05:39:30",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/25c4005b85411a288f472229d487b0db21302114",
+      "title": "木村拓哉、台北でバースデー公演 ファンとステージで交流も／台湾(中央社フォーカス台湾)",
+      "description": "（台北中央社）歌手で俳優の木村拓哉が13日、台北市の台北流行音楽センターで公演を行った。折しもこの日は木村の54歳の誕生日で、公演中には主催者側が用意したバースデーケーキのイチゴを味わった他、自身と同",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 04:50:50",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00000001-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/260dc6c18cf73a90c422cd8dfed29ab28676da19",
+      "title": "米中間選挙に「介入」したイーロン・マスク…「選挙をカネで買う」はなぜ失敗した？(ニューズウィーク日本版)",
+      "description": "大富豪の実業家イーロン・マスクは大金を投じて中間選挙に影響を及ぼそうとしたが、非常に高くつく失敗に終わったようだ。【画像】日本は意外にも...「世界で嫌われている国」ランキング、2位はアメリカマスクは",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 04:10:10",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00010002-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3fef072167e0eea680a7c97154e39070b997e6fd",
+      "title": "ASEAN外相、ミャンマー協議 会議復帰向け、フィリピンで(共同通信)",
+      "description": "【マニラ共同】東南アジア諸国連合（ASEAN）は14日、フィリピンの首都マニラで外相会議を開いた。ミャンマーの2021年の軍事クーデター後、ASEANは同国首脳や閣僚を主要会議から排除してきた。今回の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 03:58:43",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/42b6eb63c07437c2d9b95bbf278414389d612be5",
+      "title": "［APBC］日本に敗れた韓国監督「打者は粘り強い姿を見せた…投手は良い経験」(中央日報日本語版)",
+      "description": "2026アジアプロ野球チャンピオンシップ（APBC）の日本戦で惜しくも敗れた韓国代表の崔元豪（チェ・ウォンホ）監督は、投打でそれぞれ力を発揮した選手たちを称えた。韓国代表は13日、東京ドームで行われた",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 04:35:06",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00000008-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/502612daa5d449d2ef1db7b2c1eeb23b25ab0432",
+      "title": "中国でニセ「白い恋人」製造拠点を摘発 北海道みやげを模倣販売(テレビ朝日系（ANN）)",
+      "description": "北海道の人気のお菓子「白い恋人」。その偽物を作っていた中国の工場が摘発されました。■中国のニセモノ製造拠点を摘発 北海道みやげの定番といえば、「白い恋人」。来月で誕生から50年を迎えます。 当時、大手",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 04:16:36",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00000042-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/7c99c32a91591799ca2f1b141215ff0414e0cda2",
+      "title": "バイデン氏、回顧録で恨み節 24年の大統領選撤退(共同通信)",
+      "description": "【ワシントン共同】米紙ワシントン・ポストは13日、民主党のバイデン前大統領（83）が17日出版予定の回顧録で2024年大統領選に再選を目指して出馬したことを正当化し、撤退に追い込んだ民主党指導部への恨",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 06:11:28",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8e160476345d193709302017c41c77178a59ca28",
+      "title": "第73回マカオグランプリ開幕間近…「公道サーキット」周辺の交通規制や渋滞に要注意(マカオ新聞)",
+      "description": "マカオで年に一度開催されるモータースポーツの祭典「マカオグランプリ」の開幕が間近に迫っている。今年（2026年）の第73回大会は11月19〜22日の4日間にわたって開催される予定。 マカオグランプリは",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 04:10:34",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00010001-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b11917aee927ac0e905a5c879fe90018ec86e89b",
+      "title": "ホワイトハウス、米ロ中首脳の歴史的会談を実施すると発表 トランプ大統領、プーチン大統領、習主席が来週中国に集まると(BBC News)",
+      "description": "米ホワイトハウスは13日、アメリカのドナルド・トランプ大統領、ロシアのウラジーミル・プーチン大統領、中国の習近平国家主席が19日、中国で首脳会談に臨むと発表した。ホワイトハウス報道官は記者団との電話会",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 05:46:00",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-61147296-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d10ef315e1929d3741b90eb4e336d2438019031b",
+      "title": "【解説】 強硬姿勢を崩さないプーチン氏、ウクライナ和平の条件を一段と拡大(BBC News)",
+      "description": "スティーヴ・ローゼンバーグ・ロシア編集長（モスクワ）ウクライナに「永遠の平和」がもたらされることを望んでいる――。ロシアのウラジーミル・プーチン大統領はそう言う。しかし、約5年前に隣国ウクライナへの全",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 06:08:00",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-59482321-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d7d474f717fb63c869f1c40f5d26ae0021f9da8c",
+      "title": "イランが湾岸地域の米軍施設を攻撃、2カ月ぶり 合意の望み薄れる中(CNN.co.jp)",
+      "description": "（CNN） イランは米国による攻撃への報復として、バーレーンにある米軍施設を狙った攻撃を13日未明に実施したと発表した。イランが湾岸諸国の軍事施設への攻撃を試みたのは2カ月以上ぶり。【映像】イラン、地",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 04:18:00",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-35254881-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e778a797bc19124a7793bd9524cf9169ab30b158",
+      "title": "全米の空港で航空機に約4時間の地上待機命令 「通信障害」と運輸長官は説明(BBC News)",
+      "description": "米連邦航空局（FAA）は東部時間13日午後3時半（日本時間14日午前5時半）すぎ、全米の空港で全ての出発便に対し、地上待機命令を出した。政府高官は「異常事態と安全上の理由」のためで、「通信障害」が原因",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 03:42:00",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-57725093-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f0d93b93b1a6af650021243cb09933d66e24a445",
+      "title": "エヌビディア株が急落すると、米個人投資家が30分で1億1100万ドル買い越し(中央日報日本語版)",
+      "description": "ジェンスン・フアン前最高経営責任者（CEO）の辞任の余波でエヌビディアの株価が急落すると、米国の個人投資家が大規模な押し目買いに動いた。ロイター通信やウォールストリートジャーナル（WSJ）などによると",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-14 03:58:58",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00000007-cnippou-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/0a22fb032cf0ac3768bab74798db8672",
+      "title": "北ハッカー集団 FBIが警告した手口",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-14 04:33:49",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/18471d483fd3294b6efabf6f7f254739",
+      "title": "米財務長官 商務省を公然と批判",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-14 05:12:57",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/31102ac2cbdb826fe6febe22e0ba4e79",
+      "title": "ケニアで建設中のビル崩落 6人死亡",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-14 04:36:02",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/518a7c1669e02783ae611121bf3eb29d",
+      "title": "コンゴ民主 エボラと過激派の二重苦",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-14 05:49:27",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/9cdbddbcdc17af9146b120f9de9f2d46",
+      "title": "全米空港で待機 1.5万便以上に影響",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-14 04:39:32",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/usa/35254881.html",
+      "title": "イランが湾岸地域の米軍施設を攻撃、2カ月ぶり 合意の望み薄れる中",
+      "description": "イランは米国による攻撃への報復として、バーレーンにある米軍施設を狙った攻撃を13日未明に実施したと発表した。イランが湾岸諸国の軍事施設への攻撃を試みるのは2カ月以上ぶり。 米中央軍は13日のこれより後、バーレーンに向けて発射されたイランのドローン（無人機）2機を米軍が撃墜したと明らかにした。負傷者や被害の報告はないという。 イランの半国営タスニム通信によると、イスラム革命防衛隊（IRGC）は「革命防衛隊...",
+      "source": "Cnn",
+      "published_at": "2026-11-14 04:18:00",
+      "first_seen": "2026-11-14T18:17:44.943877+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/14/b9a13d34fd9510b5174f0b7797a845ab/gettyimages-2242508834.jpg",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -7082,16 +7282,6 @@
         "source": "Wikidata",
         "url": "https://www.wikidata.org/w/index.php?title=Q7817&oldid=2555598525"
       },
-      "Q8333": {
-        "qid": "Q8333",
-        "label": "連邦捜査局",
-        "description": "アメリカ合衆国の警察機関",
-        "fetched_at": "2026-11-07T16:37:58.763803+00:00",
-        "english_label": "Federal Bureau of Investigation",
-        "revision": 2565581127,
-        "source": "Wikidata",
-        "url": "https://www.wikidata.org/w/index.php?title=Q8333&oldid=2565581127"
-      },
       "Q8901": {
         "qid": "Q8901",
         "label": "欧州中央銀行",
@@ -7248,9 +7438,35 @@
         "fetched_day": "2026-11-10",
         "source": "Wikidata",
         "url": "https://www.wikidata.org/w/index.php?title=Q1764511&oldid=2551756394"
+      },
+      "Q7768": {
+        "qid": "Q7768",
+        "label": "東南アジア諸国連合",
+        "description": "東南アジア諸国の地域協力機構",
+        "fetched_at": "2026-11-14T18:17:44.959778+00:00",
+        "english_label": "ASEAN",
+        "revision": 2567474238,
+        "fetched_day": "2026-11-15",
+        "source": "Wikidata",
+        "url": "https://www.wikidata.org/w/index.php?title=Q7768&oldid=2567474238"
+      },
+      "Q8333": {
+        "qid": "Q8333",
+        "label": "連邦捜査局",
+        "description": "アメリカ合衆国の警察機関",
+        "fetched_at": "2026-11-14T18:17:44.959778+00:00",
+        "english_label": "Federal Bureau of Investigation",
+        "revision": 2565581127,
+        "fetched_day": "2026-11-15",
+        "source": "Wikidata",
+        "url": "https://www.wikidata.org/w/index.php?title=Q8333&oldid=2565581127"
       }
     },
     "lookups": {
+      "APBC": {
+        "checked_at": "2026-11-14T18:17:44.959778+00:00",
+        "status": "unresolved"
+      },
       "AI": {
         "checked_at": "2026-11-14T06:43:47.895479+00:00",
         "status": "unresolved"
