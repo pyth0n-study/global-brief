@@ -6666,7 +6666,12 @@
       "published_at": "2026-11-13 17:00:00",
       "first_seen": "2026-11-14T06:43:47.883248+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3872085012112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=435&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=8620814a0c972622cbb0ffa86ab811c2",
-      "watch_point": null
+      "watch_point": {
+        "text": "中国が求める人工知能（AI）半導体の輸出を巡り米連邦議会で厳格にするよう求める声が強まっており、両国の貿易交渉に波及しかねない。",
+        "evidence": "中国が求める人工知能（AI）半導体の輸出を巡り米連邦議会で厳格にするよう求める声が強まっており、両国の貿易交渉に波及しかねない。",
+        "generated_at": "2026-11-14T18:17:51.941834+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGN12CYR0S6A111C2000000/",
@@ -6786,7 +6791,12 @@
       "published_at": "2026-11-14 04:10:34",
       "first_seen": "2026-11-14T18:17:44.943877+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00010001-macau-000-1-view.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "今年（2026年）の第73回大会は11月19〜22日の4日間にわたって開催される予定。",
+        "evidence": "今年（2026年）の第73回大会は11月19〜22日の4日間にわたって開催される予定。",
+        "generated_at": "2026-11-14T18:17:50.011145+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.yahoo.co.jp/articles/b11917aee927ac0e905a5c879fe90018ec86e89b",
@@ -7222,21 +7232,21 @@
         "owner": "43625778677-1",
         "fingerprint": "ec3dc4f7ad03662af6bda2fa39d07a2756b8620589767f3bba5d48ef8d005947",
         "url": "https://news.yahoo.co.jp/articles/8e160476345d193709302017c41c77178a59ca28",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-15",
         "owner": "43625778677-1",
         "fingerprint": "3c8839b09592b72295046a7221cbb23dd70cb969dfdab3eb3706145b4f6a7bf9",
         "url": "https://news.yahoo.co.jp/articles/c9e7ae136f63696a21eddbe7c1c2af80ddd0b7d5",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-15",
         "owner": "43625778677-1",
         "fingerprint": "c00b6dd195551b00fff430fc8b3e0fdb8344a6e188bbbcb9b4b4591638f535be",
         "url": "https://www.nikkei.com/article/DGXZQOGN12CG80S6A111C2000000/",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   },
