@@ -8,9 +8,6 @@
       tab.tabIndex = selected ? 0 : -1;
       document.getElementById(tab.getAttribute('aria-controls')).hidden = !selected;
     });
-    document.querySelector('input[name="tab"]').value = name;
-    const clear = document.querySelector('.clear-filters');
-    if (clear) clear.href = '/background?tab=' + name;
     if (updateUrl) {
       const url = new URL(location.href);
       if (name === 'archive') url.searchParams.set('tab', 'archive');

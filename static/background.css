@@ -9,4 +9,10 @@
 .context-tabs [aria-selected="true"]{background:#22364e;color:#fff;box-shadow:inset 0 -2px #c9b58d}
 .context-tabs span{margin-left:7px;color:#c9b58d;font-size:11px}
 [role="tabpanel"]{margin-top:30px;outline:none}
+#basics{margin-top:0}
+#archive form{margin-bottom:16px}
+.guide summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px}
+.guide summary strong{margin:0;line-height:1.45}
+.guide-chevron{width:8px;height:8px;flex:none;border-right:2px solid #c9b58d;border-bottom:2px solid #c9b58d;transform:rotate(45deg);margin:0 3px 4px 0}
+.guide[open] .guide-chevron{transform:rotate(225deg);margin-bottom:0}
 @media(max-width:600px){.context-tabs{gap:3px;padding:4px}.context-tabs [role="tab"]{font-size:12px;padding:10px 5px;min-height:58px}.context-tabs span{display:block;margin:2px 0 0;font-size:10px}}
