@@ -7647,6 +7647,27 @@
         "fingerprint": "c00b6dd195551b00fff430fc8b3e0fdb8344a6e188bbbcb9b4b4591638f535be",
         "url": "https://www.nikkei.com/article/DGXZQOGN12CG80S6A111C2000000/",
         "status": "accepted"
+      },
+      {
+        "day": "2026-11-16",
+        "owner": "43749684843-1",
+        "fingerprint": "e6ad470418781e5504196435868b00c0466fe0ddfd6018bd5646d54de98201f1",
+        "url": "https://jp.wsj.com/articles/iran-attacks-bahrain-as-conflict-escalates-e5b5f4eb",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-16",
+        "owner": "43749684843-1",
+        "fingerprint": "445b7f9358a1229a3e18f562a8a939b97515807d4edcc88711203dceb2fc80b9",
+        "url": "https://news.yahoo.co.jp/articles/2189de61393bd5f1070f21dd14904b7f1b476100",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-16",
+        "owner": "43749684843-1",
+        "fingerprint": "40af54a5c894cef5715dfd1c16272c85361d6b1af060a1bbfdf477e3a88b5cca",
+        "url": "https://news.yahoo.co.jp/articles/b1866ae00eaea50dcfa53cb1496346adfaa12d1c",
+        "status": "reserved"
       }
     ]
   },
