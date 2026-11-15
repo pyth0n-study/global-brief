@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T06:48:43.641561+00:00",
-  "count": 703,
+  "updated_at": "2026-11-15T18:58:00.797053+00:00",
+  "count": 723,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -7107,6 +7107,206 @@
       "first_seen": "2026-11-15T06:48:43.632745+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3879436014112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=8916c81286f2b730f0488a07ce96fa85",
       "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/iran-attacks-bahrain-as-conflict-escalates-e5b5f4eb",
+      "title": "イラン、バーレーンを攻撃 紛争激化の中",
+      "description": "イランは15日早朝、バーレーンを攻撃した。戦争終結に向けた交渉が行き詰まる中、イランと米国の小競り合いが続く。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-15 06:24:00",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2189de61393bd5f1070f21dd14904b7f1b476100",
+      "title": "ASEAN開幕 高市総理も外遊へ 2年ぶり日米印豪のクアッド首脳会議も(テレビ朝日系（ANN）)",
+      "description": "フィリピンでASEAN（東南アジア諸国連合）関連首脳会議が始まります。去年に続き、高市総理やトランプ大統領も出席予定で、APECにつながる外交ウィークが始まりました。 マニラで15日朝、ASEAN各国",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 06:20:00",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000024-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/468f8279153378a6cb4894f83a3c75191b0bc6ee",
+      "title": "高雄市長選 各候補がテレビで政見発表 政策やビジョン訴える／台湾(中央社フォーカス台湾)",
+      "description": "（高雄中央社）28日投開票の南部・高雄市長選は、テレビ政見発表会が14日行われ、与党・民進党公認の頼瑞隆（らいずいりゅう）立法委員（国会議員）や最大野党・国民党公認の柯志恩（かしおん）立法委員ら候補者",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 05:06:22",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000001-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/84dfc695a3f245ab731f0bb924cc82886db3b3a7",
+      "title": "全米の空港で一時地上待機命令 影響続く 欠航・遅延1万5000便近くに(テレビ朝日系（ANN）)",
+      "description": "全米の空港で航空機の離陸が一時、できなくなった問題で、影響は翌日の14日も残り、欠航や遅延となった便は1万5000近くになりました。【連邦航空局ベッドフォード長官】「14日も遅延や欠航は発生するだろう",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 05:53:13",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010005-annd-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9da4ef9b27ee367e7566f1201b0b32fc7f57279b",
+      "title": "米地裁、改修工事に待った トランプ氏表明の公共ゴルフ場(共同通信)",
+      "description": "【ワシントン共同】米ワシントンの連邦地裁は14日、トランプ大統領が表明したホワイトハウス近くの公共ゴルフ場の改修工事に事実上待ったをかけた。ゴルフ場を含む公園を15日から閉鎖する計画に関し、法令で定め",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 05:55:07",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b1866ae00eaea50dcfa53cb1496346adfaa12d1c",
+      "title": "イランがバーレーンの米軍施設攻撃 ホルムズ海峡の敵対行為にドローンで報復と主張(テレビ朝日系（ANN）)",
+      "description": "アメリカとの戦闘終結に向けた交渉が膠着（こうちゃく）するなか、イランの革命防衛隊は中東バーレーンにあるアメリカ軍の施設を複数のドローンで攻撃したと発表しました。 イランメディアは15日、バーレーンにあ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 06:05:56",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/ca1163cfdacfeddafc9ef51470a7f642da2e6c81",
+      "title": "全米規模の運航停止措置、原因について判明していること(CNN.co.jp)",
+      "description": "（CNN） 13日、システム障害により全米のフライトが数時間にわたって運航停止となり、数千便が遅延または欠航する事態となった。これにより、週末を控えた多くの乗客の旅行計画に大きな混乱が生じた。写真特集",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 05:15:00",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254903-cnn-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/cddb6800a91772c09e6457acc2a8cb2f7ba5c092",
+      "title": "韓国税理士試験でAI使って首席合格 証書の効力停止へ(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国政府は税理士試験で人工知能（AI）を用いて不正行為を行った首席合格者の合格証書の効力停止を進める。 財政経済部は15日、不正行為を認めた首席合格者について、「合格証書の効力を",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 05:17:10",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00542419-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d88b03ad797e4cfe9afc584673394c39e59739fb",
+      "title": "マカオ、学校・託児所の入口付近を禁煙ゾーンとする措置の対象を37ヶ所まで拡大(マカオ新聞)",
+      "description": "マカオ政府は、目標として掲げる『マカオ健康ブルーマップ』における喫煙率低減目標の実現に向けた取り組みとして、立法、法執行、教育・啓発、禁煙奨励など多角的な戦略を講じ、各種たばこ規制政策や措置を実施して",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 06:20:02",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010002-macau-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e0ff1bd6e4c17ea7d5e653aa25f6a1406e7f8362",
+      "title": "韓国の中小企業中央会 東京で19日にフォーラム(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国の中小企業中央会は15日、東京都港区のホテル「ヒルトン東京お台場」で19日に「2026白頭フォーラム」を開催すると伝えた。 今年17回目を迎えるフォーラムには業種別の中小企業",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 06:01:28",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00542423-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e47ba1f6231b5bf6393c1be5dbdfb3be596c0267",
+      "title": "アフリカの可能性生み出す 地図決議でトーゴ臨時大使(共同通信)",
+      "description": "国連総会が9月、世界各地の実際の面積を反映した「イコールアース図法」の地図採用を促すアフリカ各国主導の決議を採択した。各国の代表役を務めたのはトーゴだ。ケケリ・ムビ駐日臨時代理大使は取材に、地図でアフ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-15 06:50:49",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000055-kyodonews-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/43f488786eb28c2b982807fb0981944f",
+      "title": "税理士試験でAI使い首席合格 韓国",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-15 06:49:09",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/6e319b498e99ae1faacf427d4c291ef6",
+      "title": "気候変動で2億人超が住まい失う恐れ",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-15 04:50:08",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/b55a98bd81483eae85a271abf1ee78e7",
+      "title": "ウ大統領 スペースX通信制限を批判",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-15 05:11:19",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/c85129ef69e991b7d9ec6ccaeaba99a2",
+      "title": "ブラックホールの謎巡り 世界初観測",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-15 06:45:55",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/e3f6458e371bde2d3cad7eba74ebd845",
+      "title": "金正恩氏の最側近がモスクワ入り",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-15 05:32:00",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f7664eeff1d44196cb90b901c56033a6",
+      "title": "米中露会談「第2のヤルタ会談」懸念",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-15 04:38:42",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/business/35254905.html",
+      "title": "コーヒーメーカーの新たな売りは「プラスチック不使用」、マイクロプラスチック懸念で続々新製品",
+      "description": "長年、高級コーヒーメーカーの売りは多彩な機能や装備だった。しかし今、消費者が注目しているのは、逆に「何が使われていないか」だ。 マイクロプラスチックに対する懸念やサステナビリティー（持続可能性）への関心が高まる中、プラスチック不使用のコーヒーカプセルやコーヒーメーカーが相次いで発売されている。 コーヒー会社や家電メーカーはここ数カ月、新型のコーヒーメーカーや改良型カプセルを発売している。キュー...",
+      "source": "Cnn",
+      "published_at": "2026-11-15 05:51:00",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/15/3e640efe7e4dde8ffad193af8bdeb23e/alta-llifestyle-3qbrewing.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/usa/35254903.html",
+      "title": "全米規模の運航停止措置、原因について判明していること",
+      "description": "13日、システム障害により全米のフライトが数時間にわたって運航停止となり、数千便が遅延または欠航する事態となった。これにより、週末を控えた多くの乗客の旅行計画に大きな混乱が生じた。 連邦航空局（FAA）の運航業務はすでに正常に戻っているが、システムが復旧する過程で、全米各地の空港では長い行列ができたり、大幅な遅延が発生したりしているとの報告が上がっている。 ダフィー運輸長官は14日午前に記者会見を開き...",
+      "source": "Cnn",
+      "published_at": "2026-11-15 05:15:00",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/15/2908da695fb5a761d7f0438cbb80191c/ap26318459789739.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB1516Q0V11C26A1000000/",
+      "title": "北朝鮮、中国人観光に防疫の障壁 新鴨緑江大橋開通1カ月",
+      "description": "【丹東=共同】中国遼寧省丹東と北朝鮮新義州を結ぶ「中朝鴨緑江大橋」が10月に開通してから15日で1カ月。橋を通じたトラックの往来が活発化した一方、北朝鮮への中国人観光客の本格的な受け入れには至っていない。中朝を行き来する消息筋によると、北朝鮮では新型コロナウイルス禍の防疫措置が完全には解除されておらず、渡航の障壁になっているという。今年に入り中国の旅行会社は北朝鮮ツアーの宣伝を始めたが、間も",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-15 06:25:28",
+      "first_seen": "2026-11-15T18:58:00.784303+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3880730015112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=452&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=75c8fcab98ff48932cf77be4271307a7",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -7684,12 +7884,12 @@
       }
     },
     "lookups": {
-      "APBC": {
-        "checked_at": "2026-11-14T18:17:44.959778+00:00",
+      "AI": {
+        "checked_at": "2026-11-15T18:58:00.800692+00:00",
         "status": "unresolved"
       },
-      "AI": {
-        "checked_at": "2026-11-14T06:43:47.895479+00:00",
+      "APBC": {
+        "checked_at": "2026-11-14T18:17:44.959778+00:00",
         "status": "unresolved"
       },
       "EV": {
@@ -7713,6 +7913,6 @@
         "status": "unresolved"
       }
     },
-    "deferred_until": "2026-11-15T07:48:43.643922+00:00"
+    "deferred_until": "2026-11-15T19:58:00.800692+00:00"
   }
 }
