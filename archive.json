@@ -8073,6 +8073,27 @@
         "fingerprint": "40af54a5c894cef5715dfd1c16272c85361d6b1af060a1bbfdf477e3a88b5cca",
         "url": "https://news.yahoo.co.jp/articles/b1866ae00eaea50dcfa53cb1496346adfaa12d1c",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-17",
+        "owner": "43968941631-1",
+        "fingerprint": "98da69f9faeedb07bf135064cb6650443f29a6f9eac1cd4cd7797032d435808e",
+        "url": "https://news.yahoo.co.jp/articles/99470c6cec81a339bb306eb96c9115fbae86baef",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-17",
+        "owner": "43968941631-1",
+        "fingerprint": "ed73cd507260c6efb252ca771fb9511a3ea6bc40c1b41f982658700808eaf07d",
+        "url": "https://news.yahoo.co.jp/articles/afa4b8504eda2b68d562a3ceb81599dfe8243691",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-17",
+        "owner": "43968941631-1",
+        "fingerprint": "b29c15d44c4aaf81331b3f02d437291be7b216aba75dd2485b01950d682dd9c0",
+        "url": "https://news.yahoo.co.jp/articles/5574e046ad439ca92518f4e1dac041494f918835",
+        "status": "reserved"
       }
     ]
   },
