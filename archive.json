@@ -7351,7 +7351,12 @@
       "published_at": "2026-11-15 13:27:24",
       "first_seen": "2026-11-16T06:48:36.462283+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000036-ann-000-1-thumb.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "米ホワイトハウスは13日、トランプ大統領が11月19日に中国・深センで、習近平国家主席、ロシアのプーチン大統領と会談する予定だと明らかにした。",
+        "evidence": "米ホワイトハウスは13日、トランプ大統領が11月19日に中国・深センで、習近平国家主席、ロシアのプーチン大統領と会談する予定だと明らかにした。",
+        "generated_at": "2026-11-16T22:19:58.771357+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.yahoo.co.jp/articles/7479f32ace432f2cb014f7ac5b14540e4ce7b9f6",
@@ -7371,7 +7376,12 @@
       "published_at": "2026-11-15 16:13:43",
       "first_seen": "2026-11-16T06:48:36.462283+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "ロシアの仕業だとして、同国との国境を12月1日から閉鎖する方針を明らかにした。",
+        "evidence": "ロシアの仕業だとして、同国との国境を12月1日から閉鎖する方針を明らかにした。",
+        "generated_at": "2026-11-16T22:19:47.531995+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.yahoo.co.jp/articles/b9df98c5ba52aba08d8f7f33d15d3eb06bdbd69b",
@@ -7601,7 +7611,12 @@
       "published_at": "2026-11-16 09:54:14",
       "first_seen": "2026-11-16T22:19:38.025321+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-90204421-ann-000-1-view.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "エヌビディアのジェンスン・フアン前CEOが側近らと復帰の可能性を協議しているとイギリスメディアが報じました。",
+        "evidence": "エヌビディアのジェンスン・フアン前CEOが側近らと復帰の可能性を協議しているとイギリスメディアが報じました。",
+        "generated_at": "2026-11-16T22:19:43.569201+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.yahoo.co.jp/articles/9cc5dfafad08679413e3ec69a5e31b64b9aaf402",
@@ -8079,21 +8094,21 @@
         "owner": "43968941631-1",
         "fingerprint": "98da69f9faeedb07bf135064cb6650443f29a6f9eac1cd4cd7797032d435808e",
         "url": "https://news.yahoo.co.jp/articles/99470c6cec81a339bb306eb96c9115fbae86baef",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-17",
         "owner": "43968941631-1",
         "fingerprint": "ed73cd507260c6efb252ca771fb9511a3ea6bc40c1b41f982658700808eaf07d",
         "url": "https://news.yahoo.co.jp/articles/afa4b8504eda2b68d562a3ceb81599dfe8243691",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-17",
         "owner": "43968941631-1",
         "fingerprint": "b29c15d44c4aaf81331b3f02d437291be7b216aba75dd2485b01950d682dd9c0",
         "url": "https://news.yahoo.co.jp/articles/5574e046ad439ca92518f4e1dac041494f918835",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   },
