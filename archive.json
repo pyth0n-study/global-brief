@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T22:19:38.039038+00:00",
-  "count": 763,
+  "updated_at": "2026-11-17T08:08:13.238034+00:00",
+  "count": 783,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -7727,6 +7727,206 @@
       "first_seen": "2026-11-16T22:19:38.025321+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3886978016112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=978&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=112377e541a587db85d70e6cb4b832f6",
       "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/182f3f7c6d237cf9133536c3aaf9435da1d9c95a",
+      "title": "中国で急拡大“プリンター農場” 3Dプリンター並べ一斉稼働 APEC深センで注目(テレビ朝日系（ANN）)",
+      "description": "APEC首脳会議が開かれる中国・深センで新たな産業として「3Dプリンター」が急成長を遂げ、大量のプリンターを稼働する“プリンター農場”も登場しています。 ここではプラスチックなどを溶かして造形する「3",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 17:53:17",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/24679774f78f92083b361064a0677cf865acdb84",
+      "title": "韓国税理士試験 首席合格者が不正 AI使用を告白(テレビ朝日系（ANN）)",
+      "description": "韓国で税理士試験をトップ成績で合格した男性が「AIを使った不正行為だった」と認めました。 男性は15日、代理人弁護士のYouTubeチャンネルに出演し、今年行われた税理士試験での不正行為を認め、警察に",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 18:38:21",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/4cab795adfcdbbd31502793b3f96cc94d59f321a",
+      "title": "米地裁、留学ビザ期間制限規則を取り消し(共同通信)",
+      "description": "【ニューヨーク共同】米東部マサチューセッツ州の連邦地裁は16日、留学生ビザ（査証）や報道関係者向けのビザで米国に滞在できる期間を制限するトランプ政権の規則変更について、取り消しを命じた。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 19:32:41",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/608fe57c065486f34c6c0a85472e0c19560c5fa8",
+      "title": "ロシアに過去最大規模の攻撃 1336機を撃墜 ウクライナは石油施設攻撃を発表(テレビ朝日系（ANN）)",
+      "description": "和平に向けた協議が再開されるなか、ウクライナがロシアやクリミアに対して過去最大規模の攻撃を行った模様です。 ロイター通信によりますと、ロシア国防省は15日から16日にかけて16の地域にウクライナのドロ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 17:25:28",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a0c5ff1a2ee3a81abb4b1fdea804b437fdbddbbb",
+      "title": "エヌビディア事件だけではない、長い米国のスパイの歴史、女性絡みの事件を振り返る(Wedge（ウェッジ）)",
+      "description": "米半導体大手エヌビディアの創業者のジェンスン・フアン最高経営責任者（CEO）が11月12日、辞任した。不倫相手で中国人実業家のアリス・フアンにスパイ疑惑が持ち上がっており、それを受けてのことである。【",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 20:00:36",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261117-00141298-wedge-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bac841cb815f87d88225afe411e2bede075a737b",
+      "title": "ルペン有利に傾くか…フランス「大暴動」の背景とは？大統領選挙への影響は(Wedge（ウェッジ）)",
+      "description": "2026年10月18日付 Economist は、同月17日にフランス各地で起こった暴動の背景を分析し、暴力は左右双方の急進派を利すると指摘する解説記事を掲載している。 リモージュでは19世紀来の市庁",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 20:00:36",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261117-00141283-wedge-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d81d658fb8561c3ba80d90f57a12e982b5250c34",
+      "title": "トランプ氏「金正恩氏と会うかも」 米中ロ首脳会談ではウクライナ情勢も協議へ(テレビ朝日系（ANN）)",
+      "description": "アメリカのトランプ大統領は訪問先の中国で北朝鮮の金正恩総書記と「会うかもしれない」と述べました。アメリカ トランプ大統領「金正恩氏とも会うかもしれない。多くの成果をあげる機会になる」 トランプ大統領は",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-16 18:15:39",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/084f87198719b796f00a1c2da107f9f1",
+      "title": "米中露首脳会談 共同声明巡り協議",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-16 17:46:17",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/a0afb07dac583c45f5794b4cd43a5ad1",
+      "title": "露 英が権利侵害なら深刻な結果",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-16 19:32:23",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB13AE50T11C26A1000000/",
+      "title": "ネパール、「後発発展途上国」卒業を3年延期 貿易優遇を維持",
+      "description": "国連はこのほど、ネパールの「後発発展途上国（LDC）」からの卒業に関する準備期間を3年延長することを決めた。同国経済は自然災害や中東情勢の悪化などが原因で疲弊しており、先進国などから関税面で優遇されるLDCからの脱却は時期尚早と判断した。 ■この記事はNikkei Asiaの英文記事の抄訳です。原文はこちらでお読みいただけます（会員登録が必要です） Buffer or crutch? Nepal clings to 'least developed country' perks",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 20:00:00",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3877766013112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=bee9a26937223a9da78fdffe3e0ecc20",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCD1435U0U6A111C2000000/",
+      "title": "「建国の父」の幻影を追う大統領 インドネシアの危うい大国意識",
+      "description": "きょうまでフィリピンで開かれている東南アジア諸国連合（ASEAN）関連の首脳会議に臨んでいても、心中は穏やかでないだろう。内憂外患の渦中にいるインドネシアのプラボウォ大統領のことだ。経済停滞に批判が強まるなか、さらなる「内憂」はマニラに出発する直前に起きた。2024年の大統領選でコンビを組んだギブラン副大統領が11月12日に辞任。職位に必要な高卒以上の学歴証明を最高裁判所が無効と判断し、国会で",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 20:00:00",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3880998015112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=512eab76cd053924d1492d5e60d63e13",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQODK1246E0S6A111C2000000/",
+      "title": "高市首相を「呼び捨て」にした中国 原潜とNVIDIAを結ぶ糸",
+      "description": "日本語の「呼び捨て」を中国語に訳すのは難しい。人の名を直接呼ぶ「直呼」という言葉はある。しかし、それだけで相手を軽んじたり、無礼に扱ったりする意味にはならない。中国共産党の機関紙である人民日報をみると、習近平（シー・ジンピン）国家主席ですら見出しでは単に「習近平」と表記される場合が多い。たまに「総書記」や「同志」が添えられるくらいだ。本文ではふつう「国家主席習近平」といった具合に、肩書のあ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 20:00:00",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3882476016112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=431&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=d0944763b2a4daaa0f472d044dc71e73",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN08BUV0Y6A001C2000000/",
+      "title": "「AIネーティブ」な法律事務所、半年で倍増 米国中心に定額料金浸透",
+      "description": "【ニューヨーク=吉田圭織】米国を中心に「AI（人工知能）ネーティブ」と呼ばれる新しいタイプの法律事務所が増えている。AIで作業を効率化して、サービスを迅速に低料金で提供するとうたう。弁護士が費やした時間に応じた料金ではなく、案件の難易度に応じた定額料金の導入が特徴だ。「必ず大手の座を奪うだろう。そうだと確信している」。AIネーティブの法律事務所、モーリッツのパミール・エサス最高経営責任者（CE",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 19:00:00",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3878787013112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=c92d5f4f4d4a6bdc2bfe744817f07b80",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN16APZ0W6A111C2000000/",
+      "title": "ビットコイン急落、最高値の半値6万ドル台 「極度の恐怖」広がる",
+      "description": "【ニューヨーク=佐藤璃子】代表的な暗号資産（仮想通貨）ビットコインの価格が低迷している。人工知能（AI）関連を中心とするテック株安でリスク選好姿勢が後退し、2025年10月につけた最高値（12万6000ドル台）の半値水準で推移する。大規模ハッキングを受けたセキュリティー不安や、米中間選挙での民主党大勝に伴う規制強化への懸念も相場の重荷となっている。英LSEGによると、ビットコイン価格は米東部",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 19:43:17",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3888861016112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=412&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=d1ce195e1072a2acdd6b2d56522a935c",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN16AXL0W6A111C2000000/",
+      "title": "トランプ氏、NVIDIAのファン氏復帰「悪くない考え」と見解",
+      "description": "【ワシントン=八十島綾平】トランプ米大統領は16日、辞任した米半導体大手ジェンスン・ファン前最高経営責任者（CEO）の復帰の可能性について問われ、「悪くない考えだ」と述べた。米ホワイトハウスで記者団に答えた。トランプ氏は「多くの人がジェンスン（・ファン氏）の復帰を",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 19:48:09",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3888874016112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=35dc15b63244432227d5b7f30b59f328",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN16AYX0W6A111C2000000/",
+      "title": "米商務省、先端半導体の「遠隔利用」を規制 NVIDIAの疑惑に対応",
+      "description": "【ワシントン=八十島綾平】米商務省は16日、人工知能（AI）向け先端半導体の輸出規制の強化案を発表した。中国企業が遠隔利用する第三国のデータセンター向けに先端半導体を輸出する場合、商務省の許可をとるよう求める。中国企業が東南アジアのデータセンターにアクセスし、米国製の先端半導体を遠隔利用する事態を防ぐ。米半導体大手エヌビディアの製品が、シンガポール拠点のメガスピード・インターナショナルのデータ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 19:36:30",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3888784016112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=267267ae9f85f8c51983c554e01e427b",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN16B9H0W6A111C2000000/",
+      "title": "全米の空港で離陸停止、L3ハリスの機材が原因の可能性 当局が指摘",
+      "description": "【ヒューストン=赤木俊介】13日に全米の空港で航空機の離陸が一時停止した問題で、米連邦航空局（FAA）は米防衛大手L3ハリス・テクノロジーズが設置した機材が通信システムの不具合を引き起こした可能性を指摘した。FAAは通信ネットワークにデータが過剰に流れ込み、航空機との通信やレーダーの表示に異常が生じたと15日の声明で説明した。L3ハリスは問題が発生した13日に米南部アーカンソー州のFAAの施設",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 20:01:23",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3888825016112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=dcb06961707ce2e949f54f91facb7ffd",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR030890T01C26A1000000/",
+      "title": "仏大統領選、中道・右派の候補者統一が難航 予備選実施めぐり対立",
+      "description": "【パリ=児玉章吾】2027年春の仏大統領選を控え、マクロン大統領の後継を狙う中道や右派候補の統一が難航している。候補者統一のための予備選実施を巡って主要候補が折り合えず、極右と急進左派の両極の候補が相対的に優位に立っている。与党で中道のアタル元首相は12日の仏報道番組で、自身が10月下旬に提案した予備選が極右と急進左派の2候補による決選投票の阻止に向けた「解決策となる」と訴えた。「票の分散を防",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 20:00:00",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3845380008112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=3622f4b2712355d8dc46585c760d5b37",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR143EO0U6A111C2000000/",
+      "title": "米中ロ首脳「共同声明を準備」とロシア高官、 中ロは18日に会談へ",
+      "description": "ロシアのウシャコフ大統領補佐官は16日、プーチン大統領が18〜19日に中国・深圳を訪問すると発表した。アジア太平洋経済協力会議（APEC）首脳会議にあわせて19日に予定する米中ロ首脳会談の後に共同声明が発表される見込みだと明らかにした。タス通信などが伝えた。議題と共同声明の文案を調整しているという。発表に至らない場合は3首脳がそれぞれ会談の評価を示すと説明した。ウシャコフ氏は初の米中ロ会談は",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 18:11:29",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3880240015112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=6b0df83cb88dfc08e97277ff6bd59323",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR16AKK0W6A111C2000000/",
+      "title": "メルセデス、労働条件巡り従業員と対立 投資凍結や工場閉鎖を示唆",
+      "description": "【ベルリン=杜師康佑】独高級車大手メルセデス・ベンツグループで労働条件を巡る労使対立が続いている。生産性向上に向け、同じ賃金で長時間働く計画案に従業員側が激しく反発する。経営側はドイツ国内への新規投資凍結や工場閉鎖を示唆するなど双方の溝は深い。「経営陣はドイツの拠点への今後の投資を全て停止することを決めた」。独経済紙ハンデルスブラットによるとメルセデスは12日、社内向けサイトに掲載した幹部イン",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-16 17:09:39",
+      "first_seen": "2026-11-17T08:08:13.225127+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3888605016112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=742926d55fa7d9fd329729fced4af320",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -8343,6 +8543,17 @@
         "fetched_day": "2026-11-17",
         "source": "Wikidata",
         "url": "https://www.wikidata.org/w/index.php?title=Q1065&oldid=2568248852"
+      },
+      "Q170481": {
+        "qid": "Q170481",
+        "label": "アジア太平洋経済協力",
+        "description": "アジア太平洋諸国の経済討論会",
+        "fetched_at": "2026-11-17T08:08:13.241891+00:00",
+        "english_label": "Asia-Pacific Economic Cooperation",
+        "revision": 2570037554,
+        "fetched_day": "2026-11-17",
+        "source": "Wikidata",
+        "url": "https://www.wikidata.org/w/index.php?title=Q170481&oldid=2570037554"
       }
     },
     "lookups": {
