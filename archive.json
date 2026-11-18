@@ -8301,7 +8301,12 @@
       "published_at": "2026-11-17 16:53:29",
       "first_seen": "2026-11-18T07:42:49.320568+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3888884017112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=10988f5bf7124f04b5ead318cf90e2b2",
-      "watch_point": null
+      "watch_point": {
+        "text": "日本の個人投資家に人気の投資信託「オルカン」が連動する指数には12月1日付で採用される見通しだが、S&P500種株価指数には少なくとも1年間は組み入れられない見通しだ。",
+        "evidence": "日本の個人投資家に人気の投資信託「オルカン」が連動する指数には12月1日付で採用される見通しだが、S&P500種株価指数には少なくとも1年間は組み入れられない見通しだ。",
+        "generated_at": "2026-11-18T20:43:27.674717+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGR17B0K0X11C26A1000000/",
@@ -8941,21 +8946,21 @@
         "owner": "44393923040-1",
         "fingerprint": "da19ad82db7039d14107449c2f8421004cb17cc63e3a745ce4bba97b24c271ee",
         "url": "https://www.nikkei.com/article/DGXZQOGN16BE90W6A111C2000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-19",
         "owner": "44393923040-1",
         "fingerprint": "bff4474e2e42b312a5e107fedf6bb62cd1e24551c9ed30a1a209cbbee405fe25",
         "url": "https://www.nikkei.com/article/DGXZQOGR17BGE0X11C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-19",
         "owner": "44393923040-1",
         "fingerprint": "664a611c197c3ce41f12a2c805a983e2d1e96e01324e048d819a86945520eac7",
         "url": "https://www.nikkei.com/article/DGXZQOGR16AKK0W6A111C2000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
