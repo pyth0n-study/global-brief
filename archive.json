@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T07:38:54.205033+00:00",
-  "count": 863,
+  "updated_at": "2026-11-19T20:48:21.205936+00:00",
+  "count": 883,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -8736,6 +8736,206 @@
       "published_at": "2026-11-18 15:24:13",
       "first_seen": "2026-11-19T07:38:54.193638+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3902222018112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=02629b16b2b48ffeba30082c61a599f0",
+      "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/trump-xi-and-putin-convene-first-ever-summit-as-world-order-shifts-53f50875",
+      "title": "米中ロ、初の首脳会談を開催 世界秩序の転換期に",
+      "description": "トランプ米大統領は19日に中国の習主席、ロシアのプーチン大統領と会談する。3大核保有国首脳による前例のない結束の演出となる。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-19 08:41:00",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/09baf9dacc41b620be08d129226f4ef239aaad7e",
+      "title": "米中ロ首脳会談始まる(共同通信)",
+      "description": "【深セン共同】米国と中国、ロシア3カ国による首脳会談が19日、中国・深センで始まった。中国国営通信新華社が報じた。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:29:59",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/0cb809fe170d653f567ba4af5fc68147b260ed09",
+      "title": "史上初の米中ロ首脳会談 大国主導に警戒 焦点は核軍縮とイラン情勢(テレビ朝日系（ANN）)",
+      "description": "19日、史上初のアメリカ、中国、ロシアの首脳会談が開かれる。大国だけで国際秩序を決めてしまうのではとの警戒感も広がるなか、3首脳の思惑とは。【画像】中国の空港で“出迎え格差” 各国首脳は音楽と踊りによ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:27:17",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-90204698-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1c6fd9deb3484059878d492b72a376ab0cd88e43",
+      "title": "米中ロ首脳会談は「画期的」と中国主席(共同通信)",
+      "description": "【深セン共同】中国の習近平国家主席は19日、米中ロ首脳会談で「3カ国の最高指導者が史上初めて一堂に会したことは画期的だ」と述べた。新華社が報じた。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:41:09",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5720130d413a0e304eecc3bace5c9fdaf5fd7c2b",
+      "title": "【ヤフコメで話題】「AI時代のホワイトカラー雇用に危機感」「人間に求められる資質の変化」 - AI普及とホワイトカラーの将来を巡る議論(Yahoo!ニュース オリジナル THE PAGE)",
+      "description": "AIの普及によるホワイトカラーの雇用への影響について、Yahoo!ニュースのコメント欄で話題になっています。コメントでは、AIが頭脳労働を代替し始めている現状や、米国でホワイトカラーの仕事がAIに置き",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:26:48",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00000044-wordleafai-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8962d588dfe3a4c8babf8948dd2e2058d30e0883",
+      "title": "イスラエルのネタニヤフ首相が死亡? 繰り返し拡散する誤情報【ファクトチェック】(日本ファクトチェックセンター)",
+      "description": "イスラエルのネタニヤフ首相が死亡したと示唆する投稿が拡散しましたが、誤りです。投稿の拡散後も、首相本人やイスラエル首相府の公式アカウントや大手報道機関で、ネタニヤフ首相の動向が伝えられたり、共同会見す",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:32:02",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010001-jfactc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9fb4454faf2850315506f6423dc145553d896361",
+      "title": "【速報】「中ロ米の最高指導者が初めて会談したことは画期的な意義」と習主席 新華社(テレビ朝日系（ANN）)",
+      "description": "",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:43:38",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010031-annd-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/aa9afbbb7832d09da4d1d8fb724e9e7c99ccda1b",
+      "title": "米中ロの3首脳が会談 トランプ氏は習氏、プーチン氏と個別会談も(BBC News)",
+      "description": "アメリカのドナルド・トランプ大統領と中国の習近平国家主席は19日、中国の深圳で首脳会談を行った。トランプ氏はこの日、ロシアのウラジーミル・プーチン大統領とも非公式の会談を行った。夕方には米中ロの3首脳",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:36:00",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-59841160-bbc-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/b3e13bd640436d6cc21eeb8f908e1d0482b77252",
+      "title": "【速報】中国・深センで史上初の米中ロ首脳会談始まる 核軍縮やイラン情勢など議論か(テレビ朝日系（ANN）)",
+      "description": "速報です。アメリカと中国、ロシアの3首脳による史上初の会談が先ほどから始まりました。戦後の世界秩序が大きな曲がり角を迎える懸念も出ています。トランプ大統領と習近平国家主席、プーチン大統領は、先ほどAP",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:31:46",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010030-annd-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bbf9554a5f6197b8d12d28396d82c63f19d8e07d",
+      "title": "台北市立動物園、ケープペンギンの「散歩」初実施 想定上回る人出／台湾(中央社フォーカス台湾)",
+      "description": "（台北中央社）台北市立動物園は19日、ケープペンギンに通常の飼育エリア外を歩かせるイベント「ペンギンの散歩」を初めて実施した。園側の想定を上回る人出で、今後は整理券の配布なども検討するという。イベント",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:31:25",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00000007-ftaiwan-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/bf0cdb353bff7f928d06d7e32a86c27b19fc347c",
+      "title": "習近平は笑顔で握手も…高市首相を空港で「冷遇」？ 中国が見せた「歓迎格差」(ニューズウィーク日本版)",
+      "description": "中国・深圳で11月18日に行われたアジア太平洋経済協力会議（APEC）の歓迎夕食会で、高市早苗首相と習近平国家主席が握手を交わした。【動画で比較】高市首相とトランプ大統領の歓迎の様子の違い香港紙サウス",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:31:38",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010009-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/c2493db29a51e8fbb514b16ad0d09b5c4432f309",
+      "title": "北朝鮮ハッカーが「世界屈指の能力」を持つ理由…ロシアやイランとも違う「マフィア」的構図(ニューズウィーク日本版)",
+      "description": "暗号資産取引所バイナンスの資産約63億ドルが盗まれた事件について、FBIや専門家は北朝鮮政府が支援するハッカー集団トレーダートレーターの犯行だとみている。●日本を標的にする「サイバー攻撃者」ランキング",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:40:10",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010010-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/ca2f104eeda2f6500fd121511e5242f81bd2ff85",
+      "title": "100体超の人型ロボットが一斉にダンス、金網の中では格闘技も…中国がAPECで披露した驚きの光景(ニューズウィーク日本版)",
+      "description": "広場にずらりと並んだ人型ロボットが、音楽に合わせて一斉に踊り始める。腕を振り、足を動かし、100体を超えるロボットが集団でダンスを披露する光景は、まるでSF映画のワンシーンのようだ。【映像】100体超",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:31:10",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010008-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/dbd9beb848611318bcabc3ee590e67d5933a1055",
+      "title": "【速報】史上初 米中ロ首脳会談始まる 戦後の世界秩序大きな転換点か(テレビ朝日系（ANN）)",
+      "description": "アメリカと中国、ロシアの3首脳による史上初の会談が19日午後から始まりました。戦後の世界秩序が大きな曲がり角を迎える懸念も出ています。 トランプ大統領と習近平国家主席、プーチン大統領は、APECが開か",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:31:14",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e22eb0f00af60f86186ea94c4698eecd205df72b",
+      "title": "史上初の米中露首脳会談、始まる 中国・深圳で 習近平氏が主宰(産経新聞)",
+      "description": "【深圳＝本間英士、三塚聖平】トランプ米大統領と中国の習近平国家主席、ロシアのプーチン大統領による史上初の米中露3カ国の首脳会談が19日午後、中国・深圳で始まった。中国国営新華社通信が伝えた。中国国営中",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:35:23",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f3b5048c914804a55473f9add6c739a19b0cbc69",
+      "title": "米中首脳会談 習主席「両国関係を発展させる」(ABEMA TIMES)",
+      "description": "今年で3回目となる米中首脳会談が先ほど終了しました。 会談で中国の習近平国家主席は、「トランプ氏と協力し、両国関係を発展させていく」と強調したということです。【映像】習主席「両国関係を発展させていく」",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 08:45:32",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-10290591-abemav-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/13b7ee6bd88171549d57756019bc8fbb",
+      "title": "米中首脳会談 習氏が関係発展を強調",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-19 08:36:03",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/style/arts/35255164.html",
+      "title": "「子羊の目が不気味」、復元された15世紀絵画に戸惑いの声 20年ベルギー",
+      "description": "本来の姿に戻った子羊の目が不気味――。ベルギーで復元作業が進められた15世紀の祭壇画をめぐり2020年、美術愛好家から戸惑いの声が上がる出来事があった。 復元が行われたのは、ヤン・ファン・エイクと兄フーベルトによる「ヘントの祭壇画」のパネルのひとつ。祭壇画は完成直後に上塗りされたが、ベルギーでは本来のデザインを復元するプロジェクトが進行中で、その一環として19年12月に子羊を描いた部分が公開された。 同絵...",
+      "source": "Cnn",
+      "published_at": "2026-11-19 08:44:00",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://www.cnn.co.jp/storage/2026/11/19/317f726d1b3dce856cb4534c55d2cccf/200122110749-mystic-lamb.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM193DD0Z11C26A1000000/",
+      "title": "韓国・李在明大統領、プーチン氏と10分ほど対話 APEC夕食会",
+      "description": "【ソウル=小林恵理香】韓国の李在明（イ・ジェミョン）大統領は18日、中国・深圳でアジア太平洋経済協力会議（APEC）首脳会議の夕食会でロシアのプーチン大統領と10分ほど話した。両氏の対話は李氏が2025年6月に大統領就任して以来初めて。韓国大統領府によると、両氏は韓国とロシアの関係について「問題ない領域で協力の道を探り、関係をしっかり管理していく」方針で一致した。朝鮮",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 08:32:32",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3905439019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=6f7130ff68ed3048a99774be7b332294",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN197ME0Z11C26A1000000/",
+      "title": "トランプ氏、米中貿易「均衡ある関係になった」 習氏と今年3回目会談",
+      "description": "【深圳=川手伊織】トランプ米大統領は19日、中国の習近平（シー・ジンピン）国家主席と個別に今年3回目の対面会談に臨んだ。習氏と「特別な関係だ」と語り、双方の関税引き下げを目指す貿易委員会により「均衡のとれた両国関係になった」と語った。中国広東省深圳市で開いたアジア太平洋経済協力会議（APEC）首脳会議に合わせて会談した。トランプ氏は習氏に「信じられないほど温かい歓迎だ」と謝意を示した。習氏は1",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 08:31:18",
+      "first_seen": "2026-11-19T20:48:21.196287+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3907114019112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=3b2805926acacbcfc54bf9c3b9e26428",
       "watch_point": null
     }
   ],
