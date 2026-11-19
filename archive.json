@@ -8836,7 +8836,12 @@
       "published_at": "2026-11-19 08:31:25",
       "first_seen": "2026-11-19T20:48:21.196287+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00000007-ftaiwan-000-1-view.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "園側の想定を上回る人出で、今後は整理券の配布なども検討するという。",
+        "evidence": "園側の想定を上回る人出で、今後は整理券の配布なども検討するという。",
+        "generated_at": "2026-11-19T20:48:27.440418+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://news.yahoo.co.jp/articles/bf0cdb353bff7f928d06d7e32a86c27b19fc347c",
@@ -8926,7 +8931,12 @@
       "published_at": "2026-11-19 08:32:32",
       "first_seen": "2026-11-19T20:48:21.196287+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3905439019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=430&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=6f7130ff68ed3048a99774be7b332294",
-      "watch_point": null
+      "watch_point": {
+        "text": "韓国大統領府によると、両氏は韓国とロシアの関係について「問題ない領域で協力の道を探り、関係をしっかり管理していく」方針で一致した。",
+        "evidence": "韓国大統領府によると、両氏は韓国とロシアの関係について「問題ない領域で協力の道を探り、関係をしっかり管理していく」方針で一致した。",
+        "generated_at": "2026-11-19T20:48:26.948366+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGN197ME0Z11C26A1000000/",
@@ -9367,21 +9377,21 @@
         "owner": "44612337738-1",
         "fingerprint": "1a840639db58b5ca24784f0c526baae40b3645a96294da910b3b1e79bf1e3b4d",
         "url": "https://www.nikkei.com/article/DGXZQOGM193DD0Z11C26A1000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-20",
         "owner": "44612337738-1",
         "fingerprint": "fc423414a76366dd9daf7acff5e7034b53fb3931e7bc95fefc3c5a8ae79d5252",
         "url": "https://news.yahoo.co.jp/articles/bbf9554a5f6197b8d12d28396d82c63f19d8e07d",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-20",
         "owner": "44612337738-1",
         "fingerprint": "cd5a89e349b1ef25ee61a485e0fe2ce9938c1c608bf103bf9d611aa105881b95",
         "url": "https://www.nikkei.com/article/DGXZQOGN197ME0Z11C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
