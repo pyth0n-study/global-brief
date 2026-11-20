@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T20:48:21.205936+00:00",
-  "count": 883,
+  "updated_at": "2026-11-20T07:29:43.578395+00:00",
+  "count": 903,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -8947,6 +8947,206 @@
       "first_seen": "2026-11-19T20:48:21.196287+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3907114019112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=3b2805926acacbcfc54bf9c3b9e26428",
       "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/trump-xi-putin-end-historic-summit-with-denunciation-of-nuclear-war-53f50875",
+      "title": "米中ロ首脳、核リスク低減で合意 会談後に共同宣言",
+      "description": "トランプ米大統領は19日、中国の習国家主席、ロシアのプーチン大統領と会談した。3氏は核拡散防止へ対話することなどで一致した。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-19 18:57:00",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/09dde09a0625f64255d187e88ecbf56ff1116022",
+      "title": "仏デモ便乗暴動 被害360億円に 仏保険連盟が発表 95％以上が店舗や企業に集中(テレビ朝日系（ANN）)",
+      "description": "先月17日に国内各地で発生した抗議デモに便乗した暴動や略奪による被害について、フランス保険連盟は損害額が約360億円に達する見通しだと発表しました。 先月17日から18日にかけてフランス各地で抗議デモ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 15:17:29",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00000000-ann-000-5-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1cd02ca80338b842b4b033d8417d03137acaa6f9",
+      "title": "英辞典今年の言葉は「人」 ケンブリッジ、AI念頭に(共同通信)",
+      "description": "【ロンドン共同】英ケンブリッジ大が出版する「ケンブリッジ辞典」は19日までに、今年の言葉に「人間の」「人間らしい」を意味する形容詞の「human（ヒューマン）」を選んだ。人工知能（AI）の急速な開発が",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 18:22:07",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3c603dbe5cc265b094e2824dab195ddf1b9a0554",
+      "title": "EUの欧州委員会にサイバー攻撃 AIツール悪用か「職員の情報流出は未確認」と説明(テレビ朝日系（ANN）)",
+      "description": "EU（ヨーロッパ連合）の行政の中枢を担う欧州委員会が、サイバー攻撃を受けていたことが分かりました。 欧州委員会によりますと、先月22日にサイバー攻撃の兆候があり、26日に複数の内部システムで攻撃の事実",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 15:34:46",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00000001-ann-000-6-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/4ffc33769582843178b5b3df3387bb0d732aba04",
+      "title": "プーチン氏「米中ロは成功」従来の主張繰り返す “高市総理との会話”は一切言及せず(テレビ朝日系（ANN）)",
+      "description": "米中ロ首脳会談後に会見したロシアのプーチン大統領は会談について「成功だった」と述べ、ロシア側の主張が一定の理解を得たとの認識を示しました。 プーチン大統領は「トランプ氏も習氏もウクライナの戦闘を終わら",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 17:56:57",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5de9f34d4c733c654279844c19a0f84b21f4f1a4",
+      "title": "クシュナー氏「米大統領は平和可能と確信」(共同通信)",
+      "description": "【ベルリン共同】トランプ米大統領の娘婿クシュナー氏は19日の記者会見で、中国で開かれた米中ロ首脳会談を念頭に、トランプ氏はウクライナでの「平和が実現可能だとの確信を持って現地を後にしたと信じている」と",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 18:17:24",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/85bc6234cecf24a879e8d062f880559d420a84b2",
+      "title": "米、ウクライナ和平で押し付け望まずと説明(共同通信)",
+      "description": "【ベルリン共同】トランプ米大統領の娘婿クシュナー氏は19日、ウクライナを支援する有志国連合の首脳級会合後の記者会見で、ウクライナ和平交渉を巡り「トランプ氏には一方的に何かを押し付けるつもりはないことを",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 18:17:02",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/8a5d7e3690ce1c126dfbacc5219325d31d1c7d06",
+      "title": "田嶋氏 会長選の立候補受理 「FIFAを良くしていきたい」 推薦を自ら依頼(テレビ朝日系（ANN）)",
+      "description": "FIFA会長選挙への立候補が受理された日本サッカー協会の田嶋幸三名誉会長が取材に応じ、「FIFAをよくしていく」と選挙戦に向けた抱負を述べました。田嶋名誉会長「この選挙に勝つっていうことはもちろん、F",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 16:27:45",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-00000002-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/92de83e1ae857e9a647b473ebe8e01d4997ac70d",
+      "title": "米中露3カ国史上初の首脳会談 中露は「戦勝国」強調 トランプ氏は核兵器削減など提起(産経新聞)",
+      "description": "【深圳＝三塚聖平、本間英士】トランプ米大統領、中国の習近平国家主席、ロシアのプーチン大統領は19日、中国・深圳で史上初の米中露首脳会談を行った。権威主義大国の中露に、自由主義陣営の盟主を自任してきた米",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 15:38:26",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/baab49b392d71115a3cc8878eed2b762daa874f4",
+      "title": "年内にイラン対応の判断せずとトランプ氏(共同通信)",
+      "description": "【ワシントン共同】トランプ米大統領は19日、ニュースサイトのアクシオスのインタビューで、イランへの対応に関し、今年中には判断しない考えを示した。「いかなる決断も急いでいない。年が明けた後にどうなるか見",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 19:13:19",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d2df14026a7654a956549b351f18909b0df50328",
+      "title": "3大国が描く『国際秩序』“核軍縮”の必要性に言及…“史上初”米中ロ首脳会談(テレビ朝日系（ANN）)",
+      "description": "史上初めてアメリカ、中国、ロシアが集った首脳会談。会談の舞台となったのは、中国・深センにある政府の迎賓施設『麒麟山荘』です。【画像】3大国が描く『国際秩序』“核軍縮”の必要性に言及…“史上初”米中ロ首",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-19 16:48:16",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261120-90204751-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/4119ef5247c1129e8c17e9b43bcad183",
+      "title": "COP31合意草案 脱化石言及なし",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-19 15:46:00",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/4b836491d4e0194a7febbb4cef0debea",
+      "title": "サウジ首都にフーシのミサイル飛来",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-19 17:33:15",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/ef82ed094db6f83c143032f98f271ec8",
+      "title": "欧州委 10月にサイバー攻撃受け調査",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-19 16:33:16",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB18A670Y6A111C2000000/",
+      "title": "[FT]仕事全てAIに見せる？ 高すぎる透明性には抵抗も",
+      "description": "新たな機械の時代を迎えたというのに、相変わらず極めて多くの会議が必要らしいというのは皮肉な話の一つだ。人工知能（AI）開発の米企業アンソロピックの社内では当然ながらAIの導入がかなり進んでいるが、社員が会議に費やす時間の中央値が1年前に比べて20%増加している。人間同士がやり取りをする必要性がAIにより薄れたわけではないが、その在り方は変化した。つまり、人々は今や機械が読み取れる形で互いにコ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 17:00:00",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3902257018112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=9d31244245b66c139ede7d8a9c1d0fa3",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCD196DP0Z11C26A1000000/",
+      "title": "米中ロの大国外交、大戦の火種に よみがえるミュンヘン会談の失敗",
+      "description": "米中ロ3首脳による握手は、大国外交への警戒を込めて「新ヤルタ」と呼ばれる。第2次世界大戦末期、米英とソ連（現ロシア）が集まり戦後処理の大枠を決めたヤルタ会談にちなんだ。トランプ米大統領、中国の習近平（シー・ジンピン）国家主席、ロシアのプーチン大統領による顔合わせは、旧ヤルタに比べれば取るに足らない外交芝居だ。世界を束ねる指導力や構想力は乏しい。核軍縮やウクライナ停戦、イラン問題でも大きな進展は",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 17:00:00",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909095019112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=9112f4c42d5359e08d41e085fff94571",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN19D0T0Z11C26A1000000/",
+      "title": "マスク氏「私はMAGAじゃない」 共和党へ700億円献金を後悔",
+      "description": "【ヒューストン=赤木俊介】米起業家イーロン・マスク氏は18日、米中間選挙で与党・共和党へ5億ドル近く献金したことは「愚かだった」と振り返った。「私はMAGA（アメリカを再び偉大に）ではない」とも述べ、トランプ米政権から距離を置いた。米紙ニューヨーク・タイムズが主催する「ディールブック・サミット」で語った。マスク氏はアジア太平洋経済協力会議（APEC）に出席したトランプ米大統領に同行し訪中してい",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 18:34:45",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909723019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e2162b798021139f7b2d08e5a23cc64b",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR19C4Y0Z11C26A1000000/",
+      "title": "プーチン氏、ヤルタ会談「何が悪い」 現実受け入れ必要と反論",
+      "description": "ロシアのプーチン大統領は19日、訪問先の中国・深圳で記者会見した。初の米中ロ首脳会談を「外交史に残る1ページだ」と評価した。第2次世界大戦後の世界秩序を決めたヤルタ会談の再来を懸念する見方について「ヤルタの何が悪いのか」と反論した。プーチン氏は1945年のヤルタ会談について「ナチズムへの勝利の象徴だ」と述べた。会談が国連創設につながり「おかげで80年間、世界は大規模な軍事的混乱なしに存在してい",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 15:56:01",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909521019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=462&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b76f9b13050386c2d85563e81c1d56af",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR19COS0Z11C26A1000000/",
+      "title": "ジェノサイド初認定、国際司法の転機 ガザ訴訟への影響焦点に",
+      "description": "【ハーグ=中山真】国際司法裁判所（ICJ）が19日、大量虐殺（ジェノサイド）実行の国家責任を問う初の判決をミャンマーに言い渡した。判決の履行に課題はあるものの、国際司法の転機と言える。パレスチナ自治区ガザでのイスラエルの軍事行動を巡る訴訟に及ぼす影響が焦点となる。「ICJが国家によるジェノサイド実行責任という『犯罪中の犯罪』を認定した史上初の判決だ。この勝利はロヒンギャのものだ」。イスラム系少",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 18:43:29",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909615019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=f3785968a5d37e2d681052f17bd94929",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUB19C7Y0Z11C26A1000000/",
+      "title": "米中ロ首脳会談、識者の見方「パフォーマンス、繰り返せば反発も」",
+      "description": "米国のトランプ大統領、中国の習近平（シー・ジンピン）国家主席、ロシアのプーチン大統領の3首脳が19日、中国・深圳で初めて会談した。核リスクの低減などに向けて対話の枠組みを設けることなどで合意した。専門家に会談の評価を聞いた。「核リスクの低減、具体的措置なく空虚」 ストックホルム国際研究所（SIPRI）のテュッティ・エラスト上席研究員今回の会合によって、軍備管理が進展する見通しが何らかの形で変",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-19 17:36:34",
+      "first_seen": "2026-11-20T07:29:43.557087+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909682019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=acb65a7d2f27fd7640f77eaf77c53fd2",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -9491,17 +9691,6 @@
         "source": "Wikidata",
         "url": "https://www.wikidata.org/w/index.php?title=Q261703&oldid=2555788169"
       },
-      "Q458": {
-        "qid": "Q458",
-        "label": "欧州連合",
-        "description": "ヨーロッパ諸国による政治経済の統合を目指した国家連合",
-        "fetched_at": "2026-11-07T17:03:54.293251+00:00",
-        "english_label": "European Union",
-        "revision": 2562960941,
-        "fetched_day": "2026-11-08",
-        "source": "Wikidata",
-        "url": "https://www.wikidata.org/w/index.php?title=Q458&oldid=2562960941"
-      },
       "Q52389": {
         "qid": "Q52389",
         "label": "関税",
@@ -9707,6 +9896,6 @@
         "status": "unresolved"
       }
     },
-    "deferred_until": "2026-11-18T08:42:49.334735+00:00"
+    "deferred_until": "2026-11-20T08:29:43.581747+00:00"
   }
 }
