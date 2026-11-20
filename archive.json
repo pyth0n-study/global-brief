@@ -7491,7 +7491,12 @@
       "published_at": "2026-11-15 12:31:26",
       "first_seen": "2026-11-16T06:48:36.462283+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3881428015112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=464&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2451529fc576d2caaf49904669d02d1b",
-      "watch_point": null
+      "watch_point": {
+        "text": "任期は5年で、結果は数日中にも判明する見通し。",
+        "evidence": "任期は5年で、結果は数日中にも判明する見通し。",
+        "generated_at": "2026-11-20T20:32:15.052526+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOCB152MI0V11C26A1000000/",
@@ -9136,7 +9141,12 @@
       "published_at": "2026-11-19 18:43:29",
       "first_seen": "2026-11-20T07:29:43.557087+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3909615019112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=f3785968a5d37e2d681052f17bd94929",
-      "watch_point": null
+      "watch_point": {
+        "text": "パレスチナ自治区ガザでのイスラエルの軍事行動を巡る訴訟に及ぼす影響が焦点となる。",
+        "evidence": "パレスチナ自治区ガザでのイスラエルの軍事行動を巡る訴訟に及ぼす影響が焦点となる。",
+        "generated_at": "2026-11-20T20:32:13.761238+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOUB19C7Y0Z11C26A1000000/",
@@ -9798,21 +9808,21 @@
         "owner": "44812203569-1",
         "fingerprint": "cd660829e4def8e6110ccdbfd25e9b0b306f246d6fa7abe91194cedfa5068b98",
         "url": "https://www.nikkei.com/article/DGXZQOGR19COS0Z11C26A1000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-21",
         "owner": "44812203569-1",
         "fingerprint": "e821682cc38597341cfc98d70a2528ab332686217282627a21a2c9baa3b583b9",
         "url": "https://news.yahoo.co.jp/articles/09dde09a0625f64255d187e88ecbf56ff1116022",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-21",
         "owner": "44812203569-1",
         "fingerprint": "4e007413fa750c7699b3cc9d6c96d5d1e1a6a691205610e67ece2f69606934aa",
         "url": "https://www.nikkei.com/article/DGXZQOCB152EL0V11C26A1000000/",
-        "status": "reserved"
+        "status": "accepted"
       }
     ]
   },
