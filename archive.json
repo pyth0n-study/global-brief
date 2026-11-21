@@ -10229,21 +10229,21 @@
         "owner": "44941136844-1",
         "fingerprint": "c6672d7874eb32c601eda2e2cb67401b6b8b68992722c8cc260cf20c97002640",
         "url": "https://news.yahoo.co.jp/articles/427ee939be3cbda18869c5da8b5ef7067c71f368",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-22",
         "owner": "44941136844-1",
         "fingerprint": "24ac4ee43e8aba5912974e37d9961ba3fdf505ef254e40f7f0054600591b1692",
         "url": "https://www.cnn.co.jp/usa/35255254.html",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-22",
         "owner": "44941136844-1",
         "fingerprint": "311f3c754ed2199da3ae44794778d832b065b8bcc4ba4c03ff1a0f610f25a2e4",
         "url": "https://www.nikkei.com/article/DGXZQOCB1436E0U6A111C2000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
