@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T20:32:07.670879+00:00",
-  "count": 923,
+  "updated_at": "2026-11-21T07:25:11.739148+00:00",
+  "count": 943,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -9357,6 +9357,206 @@
       "first_seen": "2026-11-20T20:32:07.657124+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3914608020112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=482&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2c86c5fd35e72ce156844d2fb39aeb81",
       "watch_point": null
+    },
+    {
+      "url": "https://japan.hani.co.kr/arti/international/cn_tw/57724.html",
+      "title": "米中ロの天下の中心に立つ「皇帝」と動かぬ官吏たち",
+      "description": "18～19日に中国深センで開催されるアジア太平洋経済協力（APEC）首脳会議を前に、予想外の2つの重大変数にスポットライトが当たっている。1つは習近平主席、トランプ大統領、プーチン大統領による「世紀の首脳会談",
+      "source": "Hani",
+      "published_at": "2026-11-20 17:14:00",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://img.hani.co.kr/imgdb/japan/news/resize/2026/1121/179519484256_20261121.JPG",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1e16c8e05524ea552813f169121e5897d22addda",
+      "title": "米中首脳、軍事AIへの人間関与で一致(共同通信)",
+      "description": "【ワシントン共同】ベセント米財務長官は20日、CNBCテレビに対し、トランプ大統領が中国の習近平国家主席との会談で、人工知能（AI）が関わる軍事上の意思決定には人間が常に関与すべきだとの認識で一致した",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 16:05:51",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2fef6bae1a85a1e5186ddd807205630473214f9a",
+      "title": "軍事AIの人間関与で一致 米中首脳、米長官が表明(共同通信)",
+      "description": "【ワシントン共同】ベセント米財務長官は20日のCNBCテレビのインタビューで、トランプ大統領が中国の習近平国家主席と19日に行った会談で、人工知能（AI）が関わる軍事上の意思決定には常に人間が関与すべ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 16:20:42",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/3938844f0718d684d6629aed6cb66ca96001c032",
+      "title": "露軍の巡航ミサイルがポーランド領内に落下 付近では英仏主導の有志国連合部隊が演習中(産経新聞)",
+      "description": "【ロンドン＝黒瀬悦成】ポーランド政府は20日、ロシア軍の巡航ミサイル2発とジェット推進式ドローン（無人機）とみられる飛行体1機がポーランド領内に落下したと発表した。同国のコシニャクカミシュ副首相兼国防",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 15:13:43",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/497dac6e201b8c9865c43d8e4a7c5daa096a989b",
+      "title": "「ICCの権力は見せかけ」とトランプ氏(共同通信)",
+      "description": "【ワシントン共同】トランプ米大統領は20日の記者会見で、国際刑事裁判所（ICC）を巡り「裏付けとなる力がなく、見せかけの権力だ」と主張した。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 19:17:05",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/75720a29820ed03dcd182850683d044d91e56bd0",
+      "title": "中国主席とAI安全策整備で合意と米大統領(共同通信)",
+      "description": "【ワシントン共同】トランプ米大統領は20日、記者会見し、急速な技術進歩に伴うリスク増大が指摘される人工知能（AI）について、中国の習近平国家主席と安全策の整備で合意したと明らかにした。",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 18:00:39",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/986f9043181d2fa718ca61b68a3797cb8d7f1404",
+      "title": "作曲家の久石譲さんに名誉博士号 イギリス王立音楽大学 日本人初「この上ない栄誉」(テレビ朝日系（ANN）)",
+      "description": "作曲家や指揮者として活躍する久石譲さんが、イギリスの名門・王立音楽大学から名誉博士号を授与されました。 ロンドンで20日に開かれた授与式で、久石さんは教員らと対談したほか、学生による自身の楽曲の演奏を",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 16:21:11",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000000-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a468b8ac4c9f4becc964c3b8da02ca1529db5a95",
+      "title": "今日の歴史（11月21日）(聯合ニュース)",
+      "description": "1941年：朝鮮総督府が国民勤労報国協力令を公布1948年：国会が米軍駐留要請決議を可決1968年：市・道民証を廃止し、住民登録証発行1972年：大統領選の直接選挙制廃止などを盛り込んだ第7次改憲案（",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 15:00:02",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a9288010f4045c0f906b564c1e4dd64d527f8e8b",
+      "title": "アンソロピック株急落 上場翌日に一時12％安 AI株に売り波及(テレビ朝日系（ANN）)",
+      "description": "アメリカのAI（人工知能）開発企業アンソロピックの株価が上場翌日の20日、一時前の日の終値に比べて約12％下落しました。これを受けて、AI関連銘柄が全面安の展開となっています。 アンソロピックは19日",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 17:45:39",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/ace79b0a2ff4d95e56c718a7b11a2db2f43d98bb",
+      "title": "EU・英首脳会議 3分野で合意 食品の輸出入簡素化や若者10万人の受け入れなど(テレビ朝日系（ANN）)",
+      "description": "EU（ヨーロッパ連合）とイギリスは首脳会議を開き、食品の輸出規制の緩和など関係の再構築に向けた3つの分野で合意しました。 20日にベルギーのブリュッセルで開かれたEUとイギリスの首脳会議で合意されたの",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 17:33:12",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/ce7da32a27f9714b8e70827b74ce36fafa71bbcd",
+      "title": "ウクライナに“過去最大規模”の攻撃 8人死亡 ロシア報復警告後…首都の橋にも被害(テレビ朝日系（ANN）)",
+      "description": "ウクライナでロシア軍の攻撃により、橋やエネルギー施設などに被害が出ました。ゼレンスキー大統領は「過去最大規模の攻撃だ」と非難しています。 ゼレンスキー大統領はSNSへの投稿で、19日夜から20日にかけ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 18:44:23",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/dc6202e9c4b0984119ac5f7d21183da7b660f849",
+      "title": "ヨーロッパ各地で学生ら大規模デモ「防衛費より教育」生活環境の改善と未来の投資訴え(テレビ朝日系（ANN）)",
+      "description": "ヨーロッパ各地で20日、防衛費の拡大に反対し教育や生活環境の改善を求める学生らによる大規模な抗議デモが行われました。 フランスでは学生団体に加え教職員や研究者の労働組合も加わり、政府に対して軍拡路線で",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-20 17:27:04",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/252312194432d830312f84ac654ff187",
+      "title": "久石譲さんに名誉学位 英王立音楽大",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-20 17:13:22",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/29df86c8e774f19819cf21a604462f0d",
+      "title": "フジモリ氏 日本訪問は有意義だった",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-20 15:19:58",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/6a123d765cc67e901dc252a233d6a92f",
+      "title": "米中首脳 軍事AIへの人間関与で一致",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-20 16:28:33",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/6a16bb337c04f19f669a3124f9c9aeb9",
+      "title": "防衛費より教育 欧州各地でデモ",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-20 18:11:48",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/76522722bd73cb361c7edbe5a7f1a4d0",
+      "title": "iPSからT細胞の「種」京大が作製",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-20 16:33:35",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOFL20C1Z0Q6A121C2000000/",
+      "title": "NYダウ反発で始まる、消費関連株に買い ナスダックは続落",
+      "description": "【NQNニューヨーク=加治屋雄基】20日の米株式市場でダウ工業株30種平均は5営業日ぶりに反発して始まり、午前9時35分現在は前日比119ドル56セント高の4万9216ドル62セントで推移している。世界的に人工知能（AI）関連株への売り圧力が強まるなか、ディフェンシブ銘柄の一角に買いが入っている。上げ幅は400ドルを超える場面もあった。ただ、AI・半導体関連株は売られ、ダウ平均の上値は重い。ア",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-20 15:30:27",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3916483020112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=a847466b3cacb53c29b62e2a15f93a7a",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN20CPF0Q6A121C2000000/",
+      "title": "米サイバー長官が辞任、AI政策など担当 システム障害との関連は不明",
+      "description": "【ワシントン=八十島綾平】米ホワイトハウスは20日、国家サイバー長官室（ONCD）のケアンクロス長官が辞任し、後任の長官に米国防総省で最高情報責任者（CIO）を務めたキルステン・デイビス氏が就くと発表した。 ONCDは米政府の人工知能（AI）政策やサイバー攻撃対策の立案を担う部門で、陣容拡大が続いていた。全米でシステム障害が相次ぎONCDの重要性が増す中でのトップ辞任となったが、関連は不明だ。",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-20 19:04:23",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3916619020112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=1ad419ed583c6be4efc180910a63ce8e",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC16A3Q0W6A111C2000000/",
+      "title": "英EU、ぎくしゃく関係を｢リセット｣ 若者20万人交流や貿易拡大で合意",
+      "description": "英国と欧州連合（EU）は20日の首脳会談で、若者の交流拡大や食料品の貿易手続きの簡素化などで合意した。英国のEU離脱（ブレグジット）で双方はぎくしゃくした関係が続いてきた。今回の合意で人の移動や貿易の障壁を減らし、再構築を進める。双方は2020年の英国のEU離脱後、2回目となる首脳会合をブリュッセルで開いた。バーナム英首相とEUのフォンデアライエン欧州委員長、コスタ大統領が出席した。英首相「旧友と再び建設的な関係を」",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-20 18:27:13",
+      "first_seen": "2026-11-21T07:25:11.725949+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3916538020112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=97ee5bcc527960614c2ac16cffb8185f",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -10131,6 +10331,6 @@
         "status": "unresolved"
       }
     },
-    "deferred_until": "2026-11-20T21:32:07.675100+00:00"
+    "deferred_until": "2026-11-21T08:25:11.743357+00:00"
   }
 }
