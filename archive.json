@@ -10644,6 +10644,27 @@
         "fingerprint": "311f3c754ed2199da3ae44794778d832b065b8bcc4ba4c03ff1a0f610f25a2e4",
         "url": "https://www.nikkei.com/article/DGXZQOCB1436E0U6A111C2000000/",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-23",
+        "owner": "45063056079-1",
+        "fingerprint": "d4257267f9977056d078f6c4e5b3a7a8b81facf480e8fc4a427a745a52c7c1e3",
+        "url": "https://news.yahoo.co.jp/articles/6115dbff82b181aab2ec7a17d53dd19a923def69",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-23",
+        "owner": "45063056079-1",
+        "fingerprint": "9b3db8aa19431e37c6ee13f2533ce21fe2d0e786e567a5165557ed8bb470fb24",
+        "url": "https://www.nikkei.com/article/DGXZQOGR167SM0W6A111C2000000/",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-23",
+        "owner": "45063056079-1",
+        "fingerprint": "dfedea354661dc515182bed6a1ee3cc6cbbc3610f440637f2c162aa583d900b3",
+        "url": "https://news.yahoo.co.jp/articles/d7903db426cd06988f112db127f947db91e2a4e9",
+        "status": "reserved"
       }
     ]
   },
