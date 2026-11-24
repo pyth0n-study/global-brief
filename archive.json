@@ -10536,7 +10536,12 @@
       "published_at": "2026-11-23 12:03:44",
       "first_seen": "2026-11-24T00:04:21.162846+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3920177023112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=8916366533f0926acda1e1fea076196a",
-      "watch_point": null
+      "watch_point": {
+        "text": "国会議員と地方代表議員で構成する国民協議会が12月11日に決定する。",
+        "evidence": "国会議員と地方代表議員で構成する国民協議会が12月11日に決定する。",
+        "generated_at": "2026-11-24T00:04:26.185381+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://www.nikkei.com/article/DGXZQOGM231UC0T21C26A1000000/",
@@ -11072,21 +11077,21 @@
         "owner": "45294081974-1",
         "fingerprint": "fc75d422679ecae93d7cf22372d894d3ff63e68873745232d70a79eb9e6a49bc",
         "url": "https://www.nikkei.com/article/DGXZQOGM231I30T21C26A1000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-24",
         "owner": "45294081974-1",
         "fingerprint": "8251f5010c9e2e179448a2063ea0e08cc01ef263a528d2bb4d7584e66c5cfe56",
         "url": "https://news.yahoo.co.jp/articles/ee78366bc30d0effd5fc6ffcca867e5d406d12d9",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-24",
         "owner": "45294081974-1",
         "fingerprint": "1289b093434e1d6803e8834aae3246a8e15cc6e2bbba5f314ae3fd5886c17233",
         "url": "https://www.nikkei.com/article/DGXZQOGR2323Q0T21C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
