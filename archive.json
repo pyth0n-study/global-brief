@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T07:53:20.305844+00:00",
-  "count": 1023,
+  "updated_at": "2026-11-24T00:04:21.179140+00:00",
+  "count": 1043,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -10356,6 +10356,206 @@
       "published_at": "2026-11-22 13:09:59",
       "first_seen": "2026-11-23T07:53:20.292157+00:00",
       "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/201404ae559bd148676ba25c5014099393e2b461",
+      "title": "ロシア、核衛星を年内打ち上げか 弾頭搭載、情報機関警戒と独報道(共同通信)",
+      "description": "【ベルリン共同】南ドイツ新聞などドイツのメディア3社は共同で23日、ロシアが年内にも核弾頭を搭載した衛星を打ち上げようとしているとの欧米情報機関の見方を報じた。欧米の軍や情報機関はロシアが核搭載衛星の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:23:54",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000088-kyodonews-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2f0607104bbe1f0e3bf9f862b6ca59acdfb0e359",
+      "title": "中国軍、配送大手の調達資格停止 「規則違反」(共同通信)",
+      "description": "【北京共同】中国軍は23日までに、中国の配送大手「順豊速運」などについて、軍の調達への参加資格を一時停止したと発表した。「規則違反があった」としているが、違反の具体的な内容は明らかにされていない。調達",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:17:57",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/50a9fe18ef314565ed712b17752c54b7dc01f4a8",
+      "title": "韓日・日韓議連 30日に東京で合同総会開催(聯合ニュース)",
+      "description": "【東京聯合ニュース】超党派の国会議員でつくる韓日議員連盟と日韓議員連盟が30日に東京で合同総会を開催する。 韓日議連は23日、日韓議連の主催により30日に衆議院議員会館で開かれる「第46回韓日・日韓議",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:06:42",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00543056-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5b1550a14bbdc75088e60ed774f2108985e66627",
+      "title": "「救いようがない」トランプ氏、習近平氏の前での“まさかの行動”に米国民からも呆れ声。会場の一角では異様な光景も(BuzzFeed Japan)",
+      "description": "中国・深センで11月19日（現地時間）、アジア太平洋経済協力会議（APEC）の首脳会議が行われ、アメリカのドナルド・トランプ大統領が出席した。習近平国家主席が演説をする中、トランプ氏の“ある仕草”が波",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 11:10:36",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00010000-bfj-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9c3736553d269a06eef6be07cd876ae1fb0c0e55",
+      "title": "住宅街に突然、巨大な野生ゾウが出現…道路を悠然と歩き、3歳児を抱いた父親を襲う衝撃の光景(ニューズウィーク日本版)",
+      "description": "住宅や商店が並ぶ夜の街。道路には車が停まり、一見するとごく普通の街並みだ。ところが、その道路を歩いているのは巨大な野生のゾウだった。【映像】住宅や車が並ぶ道路に巨大なゾウが…街中を歩き回り、親子を襲撃",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 11:30:27",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00010004-newsweek-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a34507f9b2c35337834fa84b6ae5ef9dc880b148",
+      "title": "欧州に軸足移すウクライナ 米との関係が不穏に 対ロシア継戦を支えるドローン進化(テレビ朝日系（ANN）)",
+      "description": "トランプ氏への不満をにじませるゼレンスキー大統領。歴史的な会談を終えた後もロシアへの攻撃を続けています。その背景に何があるのでしょうか。 燃えているのは、ロシア船籍の船です。補給のために寄港した北アフ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:18:19",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000049-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/d64cc0118c1f1a83ff6e2bb97089e87bd3c95101",
+      "title": "フアン氏不倫相手 中国諜報機関と“接触”(ABEMA TIMES)",
+      "description": "アメリカのIT大手エヌビディアのフアン前CEOと不倫関係にあった中国人女性が、1年以上にわたり、中国の諜報機関と連絡を取っていたと報じられました。【映像】不倫相手のアリス・フアン氏 1年以上にわたり中",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:45:30",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-10291499-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/de1ca91c5865128fa698313877ca832ec2aa1e82",
+      "title": "韓国国防広報院と聯合ニュースTVが協約 協力強化へ(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国国防部傘下の国防広報院と聯合ニュースTVは23日、ソウルの聯合ニュースTV本社で、メディアコンテンツ分野での交流と放送協力の強化に向けた業務協約（MOU）を締結した。 協約に",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 11:52:10",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00543061-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/dec8b2269809b96fa21f9c8f4f84b741c7cb5bd2",
+      "title": "懸賞金8億円“麻薬王”拘束 FBIの最重要指名手配犯(テレビ朝日系（ANN）)",
+      "description": "懸賞金は日本円でおよそ8億円でした。アメリカのFBIが最重要指名手配犯に指定していた麻薬組織トップが拘束されました。地元メディア アドリアン・イバラ記者「今のところ上空を旋回するヘリだけが見えます。私",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 11:04:36",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000052-ann-000-1-thumb.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/e8dc10dfffcd4862501f0848dc794a5822f6a97b",
+      "title": "韓国・モンゴル外相会談 重要鉱物分野の協力拡大を協議(聯合ニュース)",
+      "description": "【ソウル聯合ニュース】韓国の趙顕（チョ・ヒョン）外交部長官は23日午前、ソウルでモンゴルのバトツェツェグ外相と会談し、重要鉱物分野での協力拡大などを協議した。 外交部によると、趙氏は会談で、今年7月の",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:51:45",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00543058-yonh-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/ee78366bc30d0effd5fc6ffcca867e5d406d12d9",
+      "title": "COP31、トルコで閉幕 17年ぶり交渉決裂「脱化石燃料」巡り意見対立、成果出せず(産経新聞)",
+      "description": "トルコ南部アンタルヤで9日から開かれていた国連気候変動枠組み条約第31回締約国会議（COP31）は22日、合意文書を採択できず、交渉が決裂し閉幕した。合意文書なく閉幕したのは2009年にデンマークで開",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 11:51:12",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f3c99fe425693a48abcb84afbc07b5a03c0ed17b",
+      "title": "財産分与全額支払う意向 韓国SK会長、離婚訴訟(共同通信)",
+      "description": "【ソウル共同】韓国の財閥SKグループの崔泰源会長が、元妻の盧素英氏との離婚を巡る財産分与訴訟で、ソウル高裁が命じた9440億ウォン（約1110億円）を全額支払う意向を示した。長期化する紛争の終結に向け",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-23 10:34:12",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000089-kyodonews-000-2-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/bc86590759523e179a73e1d1f406e782",
+      "title": "イスラム教人口 キリスト教逆転予測",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-23 10:54:51",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/cc8822206c7512b81873b7c0d6905e0d",
+      "title": "露が核衛星を年内打ち上げか 独報道",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-23 10:48:22",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/d934b4c6c19e899411e77eb1a2cdcd8f",
+      "title": "中国外交ブレーン 日本への「忠告」",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-23 11:35:01",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/f4ad8c3a7f3bac33151745ab270d2b40",
+      "title": "中国情報機関と接触？前CEO不倫相手",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-23 11:46:55",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.cnn.co.jp/fringe/35255296.html",
+      "title": "野生のオオカミが道具を「使用」か、初めて撮影 遊びではなく明確な行動",
+      "description": "カナダ・ブリティッシュコロンビア州中部の沿岸部に生息する野生のメスオオカミが、水中に仕掛けられたカニ用のわなを引き寄せて餌を食べる様子が撮影された。これまでに観察されたことのない行動であり、オオカミによる道具の使用を記録した初の事例となる可能性がある。分析をまとめた研究論文が昨年発表された。 このわなは、先住民ヘイルツク族による環境管理プログラムの一環で仕掛けられたもの。欧州原産の侵略的外来種...",
+      "source": "Cnn",
+      "published_at": "2026-11-23 10:00:00",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://www.cnn.co.jp/storage/2025/11/26/b7e971fac24fa8740620f071553c9315/large--placeofwolves-ca-00-01-43-07-still003.jpg",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM231I30T21C26A1000000/",
+      "title": "インドネシア、副大統領候補に前外相と農相 12月に決定へ",
+      "description": "【ジャカルタ=押切智義】インドネシアのプラボウォ大統領は23日、副大統領候補としてスギオノ調整相（人材開発・文化担当）とアムラン農相を指名した。ジョコ前大統領の長男ギブラン氏が12日に辞任して空席になっていた。国会議員と地方代表議員で構成する国民協議会が12月11日に決定する。ギブラン氏は副大統領立候補の要件である高校卒業資格が証明できず、批判が高まり辞任に追い込まれた。スギオノ氏はプラボウ",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-23 12:03:44",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3920177023112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=8916366533f0926acda1e1fea076196a",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM231UC0T21C26A1000000/",
+      "title": "中国政府と輸出入銀、「台商」支援へ金融協定 台湾統一地方選にらむ",
+      "description": "【北京=田島如生】中国国務院台湾事務弁公室（国台弁）は23日、中国大陸で事業を営む台湾企業「台商」などを支援するため政府系の中国輸出入銀行と協定を結んだ。中国国営中央テレビ（CCTV）が伝えた。台湾で28日投開票する統一地方選をにらみ、野党・国民党を支える狙いだ。国民党は台商などを支持基盤とし、中国との対話路線を掲げる。中国共産党の習近平（シー・ジンピン）総書記（国家主席）と国民党の鄭麗文主席",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-23 10:49:21",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3920134023112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=e7ac5134cd0c0031a931390495417879",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR2323Q0T21C26A1000000/",
+      "title": "ロシア、核弾頭搭載の衛星を年内打ち上げか 情報機関が警告と独報道",
+      "description": "【ベルリン=杜師康佑】ドイツの公共放送WDRなどは23日、ロシアが年内にも核弾頭を搭載した衛星の打ち上げを検討しているとの欧米情報機関の見方を報じた。起爆により他国の人工衛星を破壊する能力を確保しようとしているとみられる。WDRとNDR、南ドイツ新聞の3社が報じた。報道によると、この衛星は「スプートニク",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-23 11:41:20",
+      "first_seen": "2026-11-24T00:04:21.162846+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3920173023112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b68d0a9e1a3223e39007aed87d7aa422",
       "watch_point": null
     }
   ],
