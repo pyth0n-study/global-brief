@@ -11492,6 +11492,27 @@
         "fingerprint": "1289b093434e1d6803e8834aae3246a8e15cc6e2bbba5f314ae3fd5886c17233",
         "url": "https://www.nikkei.com/article/DGXZQOGR2323Q0T21C26A1000000/",
         "status": "insufficient"
+      },
+      {
+        "day": "2026-11-25",
+        "owner": "45502485323-1",
+        "fingerprint": "a31a6a17dfd0a14de05bd230bf0821e879b38a7ec1c44d8c6c8f3b1b62810b96",
+        "url": "https://news.yahoo.co.jp/articles/c673dcddf49aff389bb03d30ed089546b1668ef6",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-25",
+        "owner": "45502485323-1",
+        "fingerprint": "9bd4cea7e812e1ada025a2c1c019fd5543da0209445fc53c4353030bf1562aba",
+        "url": "https://news.yahoo.co.jp/articles/bb67a3453ab31d863b1966cdaa9c7ada32aed49f",
+        "status": "reserved"
+      },
+      {
+        "day": "2026-11-25",
+        "owner": "45502485323-1",
+        "fingerprint": "043594af7691828c2a7049fca4b3693303d796eddc60235800287f5bcc415d88",
+        "url": "https://news.yahoo.co.jp/articles/e11819f8ce9ba23b7b33b3a74ecdae2a263534c0",
+        "status": "reserved"
       }
     ]
   },
