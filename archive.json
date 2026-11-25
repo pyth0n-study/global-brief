@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T22:36:28.129899+00:00",
-  "count": 1083,
+  "updated_at": "2026-11-25T08:51:10.028473+00:00",
+  "count": 1103,
   "articles": [
     {
       "url": "https://news.livedoor.com/article/detail/32679556/",
@@ -10962,6 +10962,206 @@
       "first_seen": "2026-11-24T22:36:28.120756+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3927065024112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=10dc8721a016e11edbd7cd5eae593456",
       "watch_point": null
+    },
+    {
+      "url": "https://jp.wsj.com/articles/yemens-houthis-take-second-swipe-at-tallest-tower-in-saudi-capital-f189a493",
+      "title": "フーシ派、サウジ首都の高層ビルを再び攻撃",
+      "description": "イエメンの親イラン武装組織フーシ派が発射した飛翔体が24日、サウジの首都リヤドにある高層ビルに命中した。",
+      "source": "Wsj日本版",
+      "published_at": "2026-11-24 17:01:00",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5a2806499cd077a4a1d9ec0c01368b9bf5bff46d",
+      "title": "ハンガリー首相初訪問 ウクライナで首脳会談(共同通信)",
+      "description": "【キーウ共同】ハンガリーのマジャル首相は24日、ウクライナ西部ザカルパチア州ウジゴロドを訪問し、ゼレンスキー大統領と会談した。ウクライナのメディアが報じた。マジャル氏が5月に首相に就任して以来、ウクラ",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-24 16:00:19",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/911e12faed71e5a29b19482da493b67465197411",
+      "title": "トランプ大統領「私が介入した」わずか11日『NVIDIA』フアンCEO“電撃復帰”の背景(テレビ朝日系（ANN）)",
+      "description": "失意から一転、アメリカの半導体大手『エヌビディア』創設者のジェンスン・フアン氏がCEOに復帰しました。女性問題などで失脚してから11日での電撃復帰です。AI業界はこれを熱烈に歓迎。世界の株式市場も反応",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-24 16:36:17",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-90205152-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f34253464f5a3a69d298b91aa07c0ecd67446a8b",
+      "title": "総選挙直前に1万人以上の移民上陸 スペイン領カナリア諸島サンチェス政権に打撃(テレビ朝日系（ANN）)",
+      "description": "アフリカ沖の大西洋にあるスペイン領カナリア諸島に今月だけで1万人以上の移民が上陸しています。今月29日に予定されるスペインの総選挙にも影響を与える可能性があります。【画像】総選挙直前に1万人以上の移民",
+      "source": "Yahoo Japan",
+      "published_at": "2026-11-24 18:00:38",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-90205153-ann-000-1-view.jpg?exp=10800",
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/15211b3de694fe16cbb911b238126014",
+      "title": "フーシ攻撃 リヤド金融街で11人負傷",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-24 17:40:11",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/18ee26d28440a720b45db29862b9661e",
+      "title": "米民主 下院で1992年上回る259議席",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-24 19:46:39",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/69af349e78a081e7b1baac06756e85f7",
+      "title": "ゼレンスキー氏 露船は正当な標的",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-24 16:50:46",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/9474c1fcebec2e0b8f3f72afb4215f3d",
+      "title": "米で鳥インフル3人感染 1人死亡",
+      "description": "",
+      "source": "Ｄメニューニュース｜nttドコモ（docomo）のポータルサイト",
+      "published_at": "2026-11-24 20:50:32",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": null,
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCD207BR0Q6A121C2000000/",
+      "title": "習氏に毛沢東称号の怪、米中ロ宣言に27年占う暗号埋めたトランプ氏",
+      "description": "中国国家主席の習近平（シー・ジンピン）が、中国建国の父としてカリスマ性を持つ毛沢東と同じ「チェアマン」という称号で記された――。19日、世界中のチャイナウオッチャーらがざわついた。これは中国発表の文書ではない。米大統領トランプの大統領府（ホワイトハウス）が、習の英語肩書として「チェアマン」を使ったのだ。極めて異例で、1980年代以降の中国国家主席の公式英訳としては、初めてとみられる。「チェア",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:00:00",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3923848024112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=405&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=b4fc2a8bec3baed98b8b0438440be95c",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOFD126JZ0S6A111C2000000/",
+      "title": "中小製造業の東南アジア進出、地銀が伴走 あいちFGが現地行と提携",
+      "description": "あいちフィナンシャルグループ（FG）は顧客の海外拠点の展開を進める。インドネシアとインドに2027年から行員を派遣し、行員滞在国を4カ国に増やす。26年上期の海外融資額は前年同期と比べ10倍に伸びた。ものづくり愛知の中小製造業の海外事業支援を新たな収益の柱に育てる。27年1月からインドネシアで提携する現地銀行に、27年4月からインドの日本貿易振興機構（JETRO）のニューデリー事務所に行員を派",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:00:00",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3921841024112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=391&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=613a50825eba73fe695d46c9a36e7fc6",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGM091GL0Z00C26A8000000/",
+      "title": "オーストラリア、原潜産業育成の長期戦 40兆円「史上最大の投資」",
+      "description": "南オーストラリア州のフリンダース大にある実験用プール。8月上旬、サマンサ・バランスさん（21）は青い無人機をリモコンで操作して水中での動き方を確かめた。同大が2024年1月に新設した原子力工学のコースで学ぶ2期生だ。将来は「防衛産業で米英との安全保障枠組みAUKUS（オーカス）に関わる仕事がしたい」と話す。豪州は40年代初めに自国で建造した原子力潜水艦を配備する青写真を描く。豪国有潜水艦企業",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:00:00",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3728177015102026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=5d88320ac771cfeda4fb40322a9db6f1",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN245420U6A121C2000000/",
+      "title": "トランプ氏とファン氏、モラルなき特権政治 多重の利益相反疑惑",
+      "description": "「私こそアメリカンドリームの体現者である」。米エヌビディアのジェンスン・ファン最高経営責任者（CEO）は6月、ライス元国務長官との対談でそう誇った。しかし、それが大統領と経営者だけが金銭面や人事面で得をする特権政治を指すならば、米国の夢では全くないだろう。台湾移民であるファン氏を一大経営者に育て上げた米国の「機会の平等」を真正面から打ち砕くことになるからだ。資金支援で結びついた2年弱の蜜月関係",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:00:00",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3927788024112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=259b130e4539961482d11ed46236bc01",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN24BOR0U6A121C2000000/",
+      "title": "投資銀行、アンソロピックIPOで手数料880億円 スペースX上回る",
+      "description": "【ニューヨーク=四方雅之】米アンソロピックの新規株式公開（IPO）で、投資銀行の引き受け手数料が5億5000万ドル（約880億円）と米スペースXを上回った。巨大IPOは競争が激しく、公募・売り出し額に対する手数料比率は0.7%と最低に近い水準だった。19日のアンソロピックのIPOは主幹事の米ゴールドマン・サックスと米モルガン・スタンレーを筆頭に22社の幹事団が担った。総額に占める手数料率は約0",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:31:05",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928173025112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=1a7be390b05f865fdbbcb48d11de03c0",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN24BQ80U6A121C2000000/",
+      "title": "フーシ派、サウジ首都リヤドの金融地区に攻撃 11人負傷",
+      "description": "【カイロ=共同】サウジアラビア当局は24日、首都リヤドの高層ビルが立ち並ぶエリア「キング・アブドラ金融地区」にあるビルがイエメンの親イラン武装組織フーシ派の攻撃を受け、11人が負傷したと発表した。同地区は今月に入り複数回、標的にされており、サウジ経済への悪影響が拡大する恐れがある。サウジ当局によると、24日の攻撃による負傷者にはサウジ、インド、ネパール、エジプトの各国籍の人が含まれている。同地",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:47:13",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928156024112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=92f60938808d4cb23314e75d2b2ba519",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR18BXD0Y6A111C2000000/",
+      "title": "ムハンマド皇太子に試練、サウジ27年予算は軍事優先 成長両立に苦慮",
+      "description": "【ドバイ=浜岳彦】サウジアラビアが安全保障と経済成長を両立させるために難しいかじ取りを迫られている。2027年の国家予算は6年ぶりに歳出を減らす。米イランやイエメンでの衝突で中東情勢が不透明な中、投資を選別し軍事費を優先する。24日に承認した27年の国家予算は歳入が1兆2020億リヤル（約50兆円）、歳出が1兆3920億リヤルだった。26年見込みに対して歳入は1%増え、歳出は3%減る。実際に歳",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 17:07:31",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928002024112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=463&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=2135ec2bfe1ce7cc73df263c01f7ba31",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR212OF0R21C26A1000000/",
+      "title": "ICC判事の資産、英国でも凍結 企業の「過剰な制裁順守」を批判",
+      "description": "トランプ米政権による国際刑事裁判所（ICC）への制裁を巡り、民間企業などがリスク回避のため「過剰な順守」をする懸念が強まっている。制裁対象になったキンバリー・プロスト判事は日本経済新聞などの取材に「過剰な順守はICCへの威嚇・脅迫への加担だ」と批判し、各国の法的介入を求めた。プロスト氏は2025年8月、アフガニスタンにおける米国人要員へのICC捜査を認める判断を下したことを理由に米政府の制裁対",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 20:00:00",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3917856021112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=64b068c19dd42cadf496c4d34c3323cd",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR24B110U6A121C2000000/",
+      "title": "ドイツのウクライナ軍事支援、賛成46%に低下 財団調査",
+      "description": "【ベルリン=杜師康佑】ドイツのケルバー財団は24日、外交安全保障に関するドイツ国内の意識調査を発表した。ウクライナへの軍事支援に「賛成」と答えた人の割合は46%と前年の調査から13ポイント低下し、過半割れとなった。ケルバー財団が独調査機関のフォルサに委託して2026年9月にアンケート調査を実施した。調査対象は約1500人。ロシアの侵略が続くウクライナへの軍事支援については、25年調査では59%",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 17:47:44",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928007024112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=441&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=65ca3fc7243399cc092a2428a859476d",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR24B7A0U6A121C2000000/",
+      "title": "スイス、北朝鮮の撤退勧告「正式通知なし」 平壌で再開の外交事務所",
+      "description": "【ジュネーブ=ムートゥ朋子】スイス外務省は24日、北朝鮮の首都・平壌にあるスイスの外交事務所に対する北朝鮮の撤退勧告に関し「正式な通知はない」と明かした。10月の事務所再開は「対話の窓口を維持する目的だ」と説明した。日本経済新聞の取材に答えた。北朝鮮の金正恩（キム・ジョンウン）総書記の妹、金与正（キム・ヨジョン）朝鮮労働党総務部長は24日、同事務",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 17:44:49",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928013024112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=475&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=9bd76cd0fd64496c03ffad67184de8bb",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR24BBR0U6A121C2000000/",
+      "title": "ウクライナのロシア軍艦撃沈で戦線拡大、反発広がる エジプトなど非難",
+      "description": "【ウィーン=金子夏樹、カイロ=古賀雄大】ウクライナが地中海に面したリビアでロシア軍艦を撃沈したことに周辺国などが反発を強めている。アフリカ連合は24日、非難声明を出した。ウクライナは「自衛権の行使だ」と釈明するが、今後の外交戦略に狂いが生じかねない。戦闘の飛び火に懸念「安定を損なう」アフリカ連合のユスフ委員長は声明で「（地中海での）攻撃が海上安全保障に及ぼす脅威を深く懸念する」と表明した。",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 17:28:13",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928018024112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=aa192b03e052f84e0aef5245f79fe83e",
+      "watch_point": null
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGR24BFC0U6A121C2000000/",
+      "title": "ハンガリー首相がウクライナ初訪問 関係修復へ「歴史的な日」",
+      "description": "【ウィーン=金子夏樹】ハンガリーのマジャル首相は24日、ウクライナ西部ウジゴロドを訪問し、ゼレンスキー大統領と会談した。マジャル氏が5月に就任して以来、ウクライナ訪問は初めて。エネルギーやインフラ部門での協力拡大で合意し、2国間関係の改善を印象づけた。マジャル氏は「今日は歴史的な日であり、両国の歴史と関係に新たな章を開く大きな機会だ」と発言した。ハンガリーのオルバン前首相はロシアへの傾斜を強",
+      "source": "Nikkei Shimbun",
+      "published_at": "2026-11-24 19:49:04",
+      "first_seen": "2026-11-25T08:51:10.014625+00:00",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3928042024112026000000-2.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=9c911c253555b93e0188a05168c80e3d",
+      "watch_point": null
     }
   ],
   "watch_trial": {
@@ -11826,6 +12026,10 @@
       }
     },
     "lookups": {
+      "IPO": {
+        "checked_at": "2026-11-25T08:51:10.034549+00:00",
+        "status": "unresolved"
+      },
       "AI": {
         "checked_at": "2026-11-24T10:06:11.556921+00:00",
         "status": "unresolved"
@@ -11887,6 +12091,6 @@
         "status": "unresolved"
       }
     },
-    "deferred_until": "2026-11-21T08:25:11.743357+00:00"
+    "deferred_until": "2026-11-25T09:51:10.034549+00:00"
   }
 }
