@@ -11001,7 +11001,12 @@
       "published_at": "2026-11-24 18:00:38",
       "first_seen": "2026-11-25T08:51:10.014625+00:00",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-90205153-ann-000-1-view.jpg?exp=10800",
-      "watch_point": null
+      "watch_point": {
+        "text": "今月29日に予定されるスペインの総選挙にも影響を与える可能性があります。",
+        "evidence": "今月29日に予定されるスペインの総選挙にも影響を与える可能性があります。",
+        "generated_at": "2026-11-25T21:50:32.016188+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     },
     {
       "url": "https://topics.smt.docomo.ne.jp/topnews/world/1000/15211b3de694fe16cbb911b238126014",
@@ -11920,21 +11925,21 @@
         "owner": "45707938722-1",
         "fingerprint": "287ccacf734ee4d5ece2501d5f20b019223129604d0c1de02d7964e254868bc5",
         "url": "https://www.nikkei.com/article/DGXZQOGM256KE0V21C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-26",
         "owner": "45707938722-1",
         "fingerprint": "8fe17e8fbe2d398869e2c2e251cd27acde7a1940798ae3bfd28e21182d03c9f1",
         "url": "https://news.yahoo.co.jp/articles/f34253464f5a3a69d298b91aa07c0ecd67446a8b",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-26",
         "owner": "45707938722-1",
         "fingerprint": "bdb728ec094113521660e80ecfeae505964ac3ec71b717cfdf3c38aa372278a2",
         "url": "https://www.nikkei.com/article/DGXZQOGR24BBR0U6A121C2000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
