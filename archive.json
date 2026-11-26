@@ -12346,21 +12346,21 @@
         "owner": "45900068979-1",
         "fingerprint": "a1f7d598ad11d1d2dc5b877bd7a1ce259574b428c54962929935240c8c63380d",
         "url": "https://news.yahoo.co.jp/articles/aeefef973f266ea7397756cae25a4ce2684bf4ca",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-27",
         "owner": "45900068979-1",
         "fingerprint": "b3f154ac37101d5db5e7a1366737db257f4266b11f61e6d6aa6629341ca80d4e",
         "url": "https://www.nikkei.com/article/DGXZQOGN25BRV0V21C26A1000000/",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-27",
         "owner": "45900068979-1",
         "fingerprint": "fb44b18e90b0be1790719dbea47011bbc66c84302a26fc95a7bce6a6eb16e068",
         "url": "https://www.nikkei.com/article/DGXZQOCB2462R0U6A121C2000000/",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
