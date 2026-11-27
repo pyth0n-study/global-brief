@@ -12166,7 +12166,12 @@
       "published_at": "2026-11-27 09:25:39",
       "first_seen": "2026-11-27T21:27:50.375959+00:00",
       "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3945314027112026000000-1.jpg?ixlib=js-3.8.0&w=696&h=434&auto=compress&fit=crop&bg=FFFFFF&fm=jpg&s=5f0d9f8fe5e4b48f919ddf0f85e096ab",
-      "watch_point": null
+      "watch_point": {
+        "text": "ラクソン氏は27日、議席を初獲得した新興政党との連立交渉を進める考えを示した。",
+        "evidence": "ラクソン氏は27日、議席を初獲得した新興政党との連立交渉を進める考えを示した。",
+        "generated_at": "2026-11-27T21:27:55.945445+00:00",
+        "model": "gemini-3.5-flash-lite"
+      }
     }
   ],
   "watch_trial": {
@@ -12767,21 +12772,21 @@
         "owner": "46070448259-1",
         "fingerprint": "9be8e827db631481f4df97499cf8a67d0829eb0a10d2c64a871e0627cf63f70f",
         "url": "https://www.nikkei.com/article/DGXZQOGM274TP0X21C26A1000000/",
-        "status": "reserved"
+        "status": "accepted"
       },
       {
         "day": "2026-11-28",
         "owner": "46070448259-1",
         "fingerprint": "9887f588c3a4b669c4893f928fc060976f87d50892156b499cc5c943a8311ca4",
         "url": "https://news.yahoo.co.jp/articles/ad3f6ebafbc3535cd212cdfefa91514207356ad8",
-        "status": "reserved"
+        "status": "insufficient"
       },
       {
         "day": "2026-11-28",
         "owner": "46070448259-1",
         "fingerprint": "8fff9d0feff111ea16543fa5544fa6ffccbf3904b80d289efbd59d770233d9a4",
         "url": "https://www.cnn.co.jp/usa/35255511.html",
-        "status": "reserved"
+        "status": "insufficient"
       }
     ]
   },
